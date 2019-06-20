@@ -16,13 +16,9 @@ type CourseRequirementRule interface {
 	IsSatisfied(*CompletedCourses) bool
 }
 
-func isCourseReqSatisfied(req *CourseRequirement, completedCourses *CompletedCourses) bool {
+func (req CourseRequirement) IsSatisfied(completedCourses *CompletedCourses) bool {
 	completedCourse, inCompletedCourses := (*completedCourses)[req.Course.Id]
 	return inCompletedCourses && completedCourse.Grade >= req.MinGrade
-}
-
-func (req CourseRequirement) IsSatisfied(completedCourses *CompletedCourses) bool {
-	return isCourseReqSatisfied(&req, completedCourses)
 }
 
 func (set CourseRequirementSet) IsSatisfied(completedCourses *CompletedCourses) bool {
