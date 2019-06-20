@@ -9,11 +9,11 @@ type CourseDescription string
 type CourseGrade float64
 
 type Course struct {
-	Id                CourseId
-	Subject           CourseSubject
-	Catalog           CourseCatalog
-	Description       CourseDescription
-	PrerequisiteRules CourseRequirementRules
+	Id            CourseId
+	Subject       CourseSubject
+	Catalog       CourseCatalog
+	Description   CourseDescription
+	Prerequisites CourseRequirementRule
 }
 
 type CompletedCourse struct {
