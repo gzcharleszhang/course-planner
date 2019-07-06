@@ -5,16 +5,18 @@ import "time"
 type CourseId string
 type CourseSubject string
 type CourseCatalog int
-type CourseDescription string
 type CourseGrade float64
 
 type Course struct {
-	Id            CourseId
-	Subject       CourseSubject
-	Catalog       CourseCatalog
-	Description   CourseDescription
-	Prerequisites CourseRequirementRule
+	Id                CourseId
+	Subject           CourseSubject
+	Catalog           CourseCatalog
+	Description       string
+	PrereqDescription string
+	Prerequisites     CourseRequirementRule
 }
+
+type Courses map[CourseId]Course
 
 type CompletedCourse struct {
 	Course
