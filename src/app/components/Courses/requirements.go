@@ -1,6 +1,6 @@
 package Courses
 
-type CourseRequirementRules []*CourseRequirementRule
+type CourseRequirementRules []CourseRequirementRule
 
 type CourseRequirement struct {
 	Course   *Course
@@ -24,7 +24,7 @@ func (req CourseRequirement) IsSatisfied(completedCourses *CompletedCourses) boo
 func (set CourseRequirementSet) IsSatisfied(completedCourses *CompletedCourses) bool {
 	count := 0
 	for _, req := range set.Requirements {
-		if (*req).IsSatisfied(completedCourses) {
+		if req.IsSatisfied(completedCourses) {
 			count += 1
 		}
 	}

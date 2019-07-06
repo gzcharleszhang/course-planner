@@ -7,4 +7,7 @@ type TermCoursePlan struct {
 	Courses Courses
 }
 
-type CoursePlan []*TermCoursePlan
+type CoursePlan struct {
+	CompletedTermPlans []*TermCoursePlan
+	FutureTermPlans    []*TermCoursePlan
+}
