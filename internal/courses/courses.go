@@ -1,4 +1,4 @@
-package Courses
+package courses
 
 import "time"
 

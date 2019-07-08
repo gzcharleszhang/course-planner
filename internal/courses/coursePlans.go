@@ -1,9 +1,9 @@
-package Courses
+package courses
 
-import "app/components/Terms"
+import "github.com/gzcharleszhang/course-planner/internal/terms"
 
 type TermCoursePlan struct {
-	Term    Terms.Term
+	Term    terms.Term
 	Courses Courses
 }
 

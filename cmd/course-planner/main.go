@@ -1,4 +1,4 @@
-package main
+package course_planner
 
 import "net/http"
 

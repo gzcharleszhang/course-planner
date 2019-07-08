@@ -1,4 +1,4 @@
-package Terms
+package terms
 
 type TermId string
 type TermName string
