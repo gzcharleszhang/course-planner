@@ -27,7 +27,7 @@ jobs: # basic units of work in a run
 
       - run:
           name: Enforce Go Formatted Code
-          command: ! go fmt ./... 2>&1 | read
+          command: "! go fmt ./... 2>&1 | read"
 
       - run:
           name: Run unit tests
