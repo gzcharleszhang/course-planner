@@ -17,7 +17,7 @@ type CourseRequirementRule interface {
 }
 
 func (req CourseRequirement) IsSatisfied(courseRecords *CourseRecords) bool {
-	course, completed := (*courseRecords)[req.Course]
+	course, completed := (*courseRecords)[req.Course.Id]
 	return completed && course.Grade >= req.MinGrade
 }
 

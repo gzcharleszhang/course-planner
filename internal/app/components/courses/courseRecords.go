@@ -1,12 +1,15 @@
 package courses
 
-import "time"
+import (
+	"time"
+)
 
 type CourseGrade float64
 
 type CourseRecord struct {
+	Course
 	Grade          CourseGrade
 	CompletionDate *time.Time
 }
 
-type CourseRecords map[*Course]CourseRecord
+type CourseRecords map[CourseId]*CourseRecord

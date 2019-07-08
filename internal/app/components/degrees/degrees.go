@@ -1,8 +1,8 @@
 package degrees
 
 import (
-	"github.com/gzcharleszhang/course-planner/internal/courses"
-	"github.com/gzcharleszhang/course-planner/internal/students"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/students"
 )
 
 type DegreeName string
