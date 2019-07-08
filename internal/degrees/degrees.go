@@ -25,7 +25,7 @@ func (deg RegularDegree) Plan(plan *courses.CoursePlan) bool {
 
 func (deg RegularDegree) IsCompleted(student *students.Student, plan *courses.CoursePlan) bool {
 	for _, courseRequirement := range deg.Requirements {
-		if !courseRequirement.IsSatisfied(&student.CompletedCourses) {
+		if !courseRequirement.IsSatisfied(&student.CourseRecords) {
 			return false
 		}
 	}

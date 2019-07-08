@@ -1,27 +1,16 @@
 package courses
 
-import "time"
-
+type CourseId int
 type CourseName string
 type CourseSubject string
-type CourseId int
-type CourseGrade float64
+type CourseCatalog int
 
 type Course struct {
-	Name              CourseName
 	Id                CourseId
+	Name              CourseName
 	Subject           CourseSubject
+	Catalog           CourseCatalog
 	Description       string
 	PrereqDescription string
-	Prerequisites     CourseRequirementRule
+	Prereqs           CourseRequirementRule
 }
-
-type Courses map[CourseId]*Course
-
-type CompletedCourse struct {
-	Course
-	Grade          CourseGrade
-	CompletionDate *time.Time
-}
-
-type CompletedCourses map[CourseId]CompletedCourse

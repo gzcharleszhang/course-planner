@@ -1,13 +1,14 @@
 package courses
 
-import "github.com/gzcharleszhang/course-planner/internal/terms"
+import (
+	"github.com/gzcharleszhang/course-planner/internal/terms"
+)
 
-type TermCoursePlan struct {
-	Term    terms.Term
-	Courses Courses
+type TermPlan struct {
+	Term          terms.Term
+	CourseRecords CourseRecords
 }
 
 type CoursePlan struct {
-	CompletedTermPlans []*TermCoursePlan
-	FutureTermPlans    []*TermCoursePlan
+	TermPlans []*TermPlan
 }

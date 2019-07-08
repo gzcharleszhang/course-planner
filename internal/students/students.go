@@ -9,20 +9,20 @@ type StudentName string
 type StudentId int
 
 type Student struct {
-	Name             StudentName
-	Id               StudentId
-	CurrentTerm      terms.Term
-	CoursePlans      []*courses.CoursePlan
-	CompletedCourses courses.CompletedCourses
+	Id            StudentId
+	Name          StudentName
+	CurrentTerm   terms.Term
+	CourseRecords courses.CourseRecords
+	CoursePlans   []*courses.CoursePlan
 }
 
 func NewStudent(name StudentName, startYear terms.TermYear) *Student {
 	startTerm := (int(startYear)-1900)*10 + 9 // assuming student starts in fall
 	return &Student{
-		Name:             name,
-		Id:               0, // TODO: generate unique student id
-		CurrentTerm:      terms.NewTerm("1A", startTerm),
-		CoursePlans:      []*courses.CoursePlan{},
-		CompletedCourses: map[courses.CourseId]courses.CompletedCourse{},
+		Id:            0, // TODO: generate unique student id
+		Name:          name,
+		CurrentTerm:   terms.NewTerm("1A", startTerm),
+		CourseRecords: map[*courses.Course]courses.CourseRecord{},
+		CoursePlans:   []*courses.CoursePlan{},
 	}
 }
