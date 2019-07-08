@@ -31,8 +31,8 @@ func TestRegularDegree_IsCompleted(t *testing.T) {
 
 	currTime := time.Now()
 	// completed
-	coursePlan := courses.CoursePlan{
-		TermPlans: []*courses.TermPlan{
+	courseSelection := courses.CourseSelection{
+		TermSelections: []*courses.TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
 					courses.CourseId(0): &courses.CourseRecord{
@@ -58,10 +58,10 @@ func TestRegularDegree_IsCompleted(t *testing.T) {
 		},
 	}
 
-	assert.Equal(t, true, degree.IsCompleted(&coursePlan))
+	assert.Equal(t, true, degree.IsCompleted(&courseSelection))
 	// incomplete
-	coursePlan = courses.CoursePlan{
-		TermPlans: []*courses.TermPlan{
+	courseSelection = courses.CourseSelection{
+		TermSelections: []*courses.TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
 					courses.CourseId(0): &courses.CourseRecord{
@@ -87,5 +87,5 @@ func TestRegularDegree_IsCompleted(t *testing.T) {
 		},
 	}
 
-	assert.Equal(t, false, degree.IsCompleted(&coursePlan))
+	assert.Equal(t, false, degree.IsCompleted(&courseSelection))
 }

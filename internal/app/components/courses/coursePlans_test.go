@@ -6,10 +6,10 @@ import (
 	"time"
 )
 
-func TestCoursePlan_Aggregate(t *testing.T) {
+func TestCourseSelection_Aggregate(t *testing.T) {
 	currTime := time.Now()
-	coursePlan := CoursePlan{
-		TermPlans: []*TermPlan{
+	courseSelection := CourseSelection{
+		TermSelections: []*TermSelection{
 			{
 				CourseRecords: CourseRecords{
 					CourseId(0): &CourseRecord{
@@ -78,5 +78,5 @@ func TestCoursePlan_Aggregate(t *testing.T) {
 			},
 		},
 	}
-	assert.Equal(t, &expectedRecords, coursePlan.Aggregate())
+	assert.Equal(t, &expectedRecords, courseSelection.Aggregate())
 }
