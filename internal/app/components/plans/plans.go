@@ -5,7 +5,7 @@ import (
 )
 
 type Plan interface {
-	IsCompleted(coursePlan *courses.CoursePlan) bool
+	IsCompleted(courseSelection *courses.CourseSelection) bool
 }
 
 type DegreeName string
@@ -16,7 +16,7 @@ type Degree struct {
 	Requirements DegreeRequirements
 }
 
-func (deg Degree) IsCompleted(coursePlan *courses.CoursePlan) bool {
-	records := coursePlan.Aggregate()
+func (deg Degree) IsCompleted(courseSelection *courses.CourseSelection) bool {
+	records := courseSelection.Aggregate()
 	return deg.Requirements.IsSatisfied(records)
 }

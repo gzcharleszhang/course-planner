@@ -4,25 +4,25 @@ import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
 )
 
-type TermPlan struct {
+type TermSelection struct {
 	Term          terms.Term
 	CourseRecords CourseRecords
 }
 
-type CoursePlanId string
-type CoursePlanName string
+type CourseSelectionId string
+type CourseSelectionName string
 
-type CoursePlan struct {
-	Id        CoursePlanId
-	Name      CoursePlanName
-	TermPlans []*TermPlan
+type CourseSelection struct {
+	Id             CourseSelectionId
+	Name           CourseSelectionName
+	TermSelections []*TermSelection
 }
 
 // Flattens TermPlans and aggregates it into one CourseRecords
-func (cp CoursePlan) Aggregate() *CourseRecords {
+func (cs CourseSelection) Aggregate() *CourseRecords {
 	records := CourseRecords{}
-	for _, tp := range cp.TermPlans {
-		for id, record := range tp.CourseRecords {
+	for _, ts := range cs.TermSelections {
+		for id, record := range ts.CourseRecords {
 			records[id] = record
 		}
 	}

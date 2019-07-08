@@ -10,11 +10,11 @@ type StudentLastName string
 type StudentId string
 
 type Student struct {
-	Id            StudentId
-	FirstName     StudentFirstName
-	LastName      StudentLastName
-	CourseRecords courses.CourseRecords
-	CoursePlans   []*courses.CoursePlan
+	Id               StudentId
+	FirstName        StudentFirstName
+	LastName         StudentLastName
+	CourseHistory    courses.CourseRecords
+	CourseSelections []*courses.CourseSelection
 }
 
 func newStudentId() StudentId {
@@ -23,10 +23,10 @@ func newStudentId() StudentId {
 
 func NewStudent(firstName StudentFirstName, lastName StudentLastName) *Student {
 	return &Student{
-		Id:            newStudentId(),
-		FirstName:     firstName,
-		LastName:      lastName,
-		CourseRecords: courses.CourseRecords{},
-		CoursePlans:   []*courses.CoursePlan{},
+		Id:               newStudentId(),
+		FirstName:        firstName,
+		LastName:         lastName,
+		CourseHistory:    courses.CourseRecords{},
+		CourseSelections: []*courses.CourseSelection{},
 	}
 }
