@@ -1,7 +1,7 @@
 package courses
 
 import (
-	"github.com/gzcharleszhang/course-planner/internal/terms"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
 )
 
 type TermPlan struct {
