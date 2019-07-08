@@ -1,7 +1,6 @@
 package courses
 
-type CourseRequirementRules []CourseRequirementRule
-
+// CourseRequirement(Set) are concrete
 type CourseRequirement struct {
 	Course   *Course
 	MinGrade CourseGrade
@@ -12,9 +11,12 @@ type CourseRequirementSet struct {
 	Requirements        CourseRequirementRules
 }
 
+// CourseRequirementRule(s) are abstract
 type CourseRequirementRule interface {
 	IsSatisfied(*CourseRecords) bool
 }
+
+type CourseRequirementRules []CourseRequirementRule
 
 func (req CourseRequirement) IsSatisfied(courseRecords *CourseRecords) bool {
 	course, completed := (*courseRecords)[req.Course.Id]
