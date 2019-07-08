@@ -26,10 +26,11 @@ jobs: # basic units of work in a run
       - run: go get github.com/jstemmer/go-junit-report
 
       - run:
+          name: Enforce Go Formatted Code
+          command: ! go fmt ./... 2>&1 | read
+
+      - run:
           name: Run unit tests
-          environment: # environment variables for the database url and path to migration files
-            CONTACTS_DB_URL: "postgres://circleci-demo-go@localhost:5432/circle_test?sslmode=disable"
-            CONTACTS_DB_MIGRATIONS: /go/src/github.com/CircleCI-Public/circleci-demo-go/db/migrations
           # Store the results of our tests in the $TEST_RESULTS directory
           command: |
             trap "go-junit-report <${TEST_RESULTS}/go-test.out > ${TEST_RESULTS}/go-test-report.xml" EXIT
