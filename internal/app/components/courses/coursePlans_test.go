@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func TestCourseSelection_Aggregate_Aggregate(t *testing.T) {
+func TestCourseSelection_Aggregate(t *testing.T) {
 	currTime := time.Now()
 	courseSelection := CourseSelection{
 		TermSelections: []*TermSelection{
