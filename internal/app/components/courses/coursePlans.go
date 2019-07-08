@@ -18,6 +18,7 @@ type CoursePlan struct {
 	TermPlans []*TermPlan
 }
 
+// Flattens TermPlans and aggregates it into one CourseRecords
 func (cp CoursePlan) Aggregate() *CourseRecords {
 	records := CourseRecords{}
 	for _, tp := range cp.TermPlans {
