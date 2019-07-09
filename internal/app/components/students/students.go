@@ -1,6 +1,7 @@
 package students
 
 import (
+	"github.com/gzcharleszhang/course-planner/internal/app/components/courseSelections"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/rs/xid"
 )
@@ -14,7 +15,7 @@ type Student struct {
 	FirstName        StudentFirstName
 	LastName         StudentLastName
 	CourseHistory    courses.CourseRecords
-	CourseSelections []*courses.CourseSelection
+	CourseSelections []*courseSelections.CourseSelection
 }
 
 func newStudentId() StudentId {
@@ -27,6 +28,6 @@ func NewStudent(firstName StudentFirstName, lastName StudentLastName) *Student {
 		FirstName:        firstName,
 		LastName:         lastName,
 		CourseHistory:    courses.CourseRecords{},
-		CourseSelections: []*courses.CourseSelection{},
+		CourseSelections: []*courseSelections.CourseSelection{},
 	}
 }

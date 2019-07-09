@@ -28,64 +28,43 @@ func TestRegularDegree_IsCompleted(t *testing.T) {
 			},
 		}),
 	}
-
 	currTime := time.Now()
+
 	// completed
-	courseSelection := courses.CourseSelection{
-		TermSelections: []*courses.TermSelection{
-			{
-				CourseRecords: courses.CourseRecords{
-					courses.CourseId(0): &courses.CourseRecord{
-						Course: courses.Course{
-							Id: 0,
-						},
-						Grade:          50,
-						CompletionDate: &currTime,
-					},
-				},
+	courseRecords := courses.CourseRecords{
+		courses.CourseId(0): &courses.CourseRecord{
+			Course: courses.Course{
+				Id: 0,
 			},
-			{
-				CourseRecords: courses.CourseRecords{
-					courses.CourseId(1): &courses.CourseRecord{
-						Course: courses.Course{
-							Id: 1,
-						},
-						Grade:          60,
-						CompletionDate: &currTime,
-					},
-				},
+			Grade:          50,
+			CompletionDate: &currTime,
+		},
+		courses.CourseId(1): &courses.CourseRecord{
+			Course: courses.Course{
+				Id: 1,
 			},
+			Grade:          60,
+			CompletionDate: &currTime,
 		},
 	}
+	assert.Equal(t, true, degree.IsCompleted(&courseRecords))
 
-	assert.Equal(t, true, degree.IsCompleted(&courseSelection))
 	// incomplete
-	courseSelection = courses.CourseSelection{
-		TermSelections: []*courses.TermSelection{
-			{
-				CourseRecords: courses.CourseRecords{
-					courses.CourseId(0): &courses.CourseRecord{
-						Course: courses.Course{
-							Id: 0,
-						},
-						Grade:          50,
-						CompletionDate: &currTime,
-					},
-				},
+	courseRecords = courses.CourseRecords{
+		courses.CourseId(0): &courses.CourseRecord{
+			Course: courses.Course{
+				Id: 0,
 			},
-			{
-				CourseRecords: courses.CourseRecords{
-					courses.CourseId(1): &courses.CourseRecord{
-						Course: courses.Course{
-							Id: 1,
-						},
-						Grade:          59,
-						CompletionDate: &currTime,
-					},
-				},
+			Grade:          50,
+			CompletionDate: &currTime,
+		},
+		courses.CourseId(1): &courses.CourseRecord{
+			Course: courses.Course{
+				Id: 1,
 			},
+			Grade:          59,
+			CompletionDate: &currTime,
 		},
 	}
-
-	assert.Equal(t, false, degree.IsCompleted(&courseSelection))
+	assert.Equal(t, false, degree.IsCompleted(&courseRecords))
 }
