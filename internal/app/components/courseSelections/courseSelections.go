@@ -12,8 +12,8 @@ type CourseSelectionName string
 type CourseSelection struct {
 	Id             CourseSelectionId
 	Name           CourseSelectionName
-	TermSelections []*courses.TermSelection
-	Plans          []plans.Plan
+	TermSelections []*TermSelection
+	Plans          plans.Plans
 }
 
 func newCourseSelectionId() CourseSelectionId {
@@ -24,12 +24,12 @@ func NewCourseSelection(name CourseSelectionName) *CourseSelection {
 	return &CourseSelection{
 		Id:             newCourseSelectionId(),
 		Name:           name,
-		TermSelections: []*courses.TermSelection{},
-		Plans:          []plans.Plan{},
+		TermSelections: []*TermSelection{},
+		Plans:          plans.Plans{},
 	}
 }
 
-func (cs CourseSelection) AddTermSelection(ts *courses.TermSelection) {
+func (cs CourseSelection) AddTermSelection(ts *TermSelection) {
 	cs.TermSelections = append(cs.TermSelections, ts)
 }
 
@@ -44,14 +44,29 @@ func (cs CourseSelection) Aggregate() *courses.CourseRecords {
 	return &records
 }
 
-// TODO: make it return the plans that are not satisfied
 // Checks if all declared plans in Plans are satisfied
-func (cs CourseSelection) IsSatisfied() bool {
+func (cs CourseSelection) IncompletePlans() plans.Plans {
 	records := cs.Aggregate()
+	var incompletePlans plans.Plans
 	for _, plan := range cs.Plans {
-		if !plan.IsCompleted(records) {
-			return false
+		if !isPlanSatisfied(plan, records) {
+			incompletePlans = append(incompletePlans, plan)
 		}
 	}
-	return true
+	return incompletePlans
+}
+
+func isPlanSatisfied(plan *plans.Plan, records *courses.CourseRecords) bool {
+	return (*plan).IsCompleted(records)
+}
+
+func (cs CourseSelection) InvalidCourses() courses.CourseRecords {
+	pastRecords, invalidRecords := courses.CourseRecords{}, courses.CourseRecords{}
+	for _, ts := range cs.TermSelections {
+		// we keep accumulating invalid courses for each term
+		invalidRecords = invalidRecords.Merge(ts.InvalidCourses(pastRecords))
+		// we keep accumulating past records that are valid
+		pastRecords = pastRecords.Merge(ts.CourseRecords.Exclude(invalidRecords))
+	}
+	return invalidRecords
 }

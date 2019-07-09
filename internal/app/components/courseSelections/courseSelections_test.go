@@ -11,7 +11,7 @@ import (
 func TestCourseSelection_Aggregate(t *testing.T) {
 	currTime := time.Now()
 	courseSelection := CourseSelection{
-		TermSelections: []*courses.TermSelection{
+		TermSelections: []*TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
 					courses.CourseId(0): &courses.CourseRecord{
@@ -83,7 +83,7 @@ func TestCourseSelection_Aggregate(t *testing.T) {
 	assert.Equal(t, &expectedRecords, courseSelection.Aggregate())
 }
 
-func TestCourseSelection_IsSatisfied(t *testing.T) {
+func TestCourseSelection_IncompletePlans(t *testing.T) {
 	currTime := time.Now()
 	csDegree := plans.Degree{
 		Name: "Easy BCS",
@@ -146,16 +146,17 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 		}),
 	}
 
-	csEconPlan := make([]plans.Plan, 2)
-	csEconPlan[0] = plans.Plan(csDegree)
-	csEconPlan[1] = plans.Plan(econMinor)
-	csMathPlan := make([]plans.Plan, 2)
-	csMathPlan[0] = plans.Plan(csDegree)
-	csMathPlan[1] = plans.Plan(mathDegree)
+	csPlan, econMinorPlan, mathPlan := plans.Plan(csDegree), plans.Plan(econMinor), plans.Plan(mathDegree)
+	var csEconPlan plans.Plans
+	csEconPlan = append(csEconPlan, &csPlan)
+	csEconPlan = append(csEconPlan, &econMinorPlan)
+	var csMathPlan plans.Plans
+	csMathPlan = append(csMathPlan, &csPlan)
+	csMathPlan = append(csMathPlan, &mathPlan)
 
 	// satisfied
 	courseSelection := CourseSelection{
-		TermSelections: []*courses.TermSelection{
+		TermSelections: []*TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
 					courses.CourseId(0): &courses.CourseRecord{
@@ -188,11 +189,11 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 		},
 		Plans: csEconPlan,
 	}
-	assert.Equal(t, true, courseSelection.IsSatisfied())
+	assert.Equal(t, 0, len(courseSelection.IncompletePlans()))
 
 	// satisfied overlapping plans
 	courseSelection = CourseSelection{
-		TermSelections: []*courses.TermSelection{
+		TermSelections: []*TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
 					courses.CourseId(0): &courses.CourseRecord{
@@ -225,11 +226,11 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 		},
 		Plans: csMathPlan,
 	}
-	assert.Equal(t, true, courseSelection.IsSatisfied())
+	assert.Equal(t, 0, len(courseSelection.IncompletePlans()))
 
 	// not satisfied
 	courseSelection = CourseSelection{
-		TermSelections: []*courses.TermSelection{
+		TermSelections: []*TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
 					courses.CourseId(0): &courses.CourseRecord{
@@ -255,5 +256,8 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 		},
 		Plans: csEconPlan,
 	}
-	assert.Equal(t, false, courseSelection.IsSatisfied())
+	inCompletePlans := courseSelection.IncompletePlans()
+	assert.Equal(t, 1, len(inCompletePlans))
+	assert.Equal(t, string(csDegree.Name), (*inCompletePlans[0]).GetName())
+
 }
