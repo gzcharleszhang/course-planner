@@ -47,6 +47,25 @@ func TestCourseRequirement_IsSatisfied(t *testing.T) {
 		Course:   &course,
 	}
 	assert.Equal(t, true, req.IsSatisfied(records), "Test grade requirement met")
+
+	// test repeated courses
+	currTime := time.Now()
+	repeatedCourse := CourseRecord{
+		Course: Course{
+			Id: CourseId(456),
+		},
+		Grade:          60,
+		CompletionDate: &currTime,
+	}
+	*records = append(*records, &repeatedCourse)
+	course = Course{
+		Id: CourseId(456),
+	}
+	req = CourseRequirement{
+		MinGrade: 51, // should ignore this requirement
+		Course:   &course,
+	}
+	assert.Equal(t, true, req.IsSatisfied(records), "Test grade requirement met after course repeated")
 }
 
 func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
@@ -173,7 +192,7 @@ func initRecords() *CourseRecords {
 	}
 	courseId2 := CourseId(456)
 	course2 := Course{
-		Id:      courseId1,
+		Id:      courseId2,
 		Name:    "Test 2",
 		Subject: "Test",
 		Catalog: 2,
@@ -194,9 +213,9 @@ func initRecords() *CourseRecords {
 		Course: course3,
 	}
 	records := CourseRecords{
-		courseId1: &record1,
-		courseId2: &record2,
-		courseId3: &record3,
+		&record1,
+		&record2,
+		&record3,
 	}
 
 	return &records

@@ -37,8 +37,8 @@ func (cs CourseSelection) AddTermSelection(ts *TermSelection) {
 func (cs CourseSelection) Aggregate() *courses.CourseRecords {
 	records := courses.CourseRecords{}
 	for _, ts := range cs.TermSelections {
-		for id, record := range ts.CourseRecords {
-			records[id] = record
+		for _, record := range ts.CourseRecords {
+			records = append(records, record)
 		}
 	}
 	return &records

@@ -22,7 +22,7 @@ func (ts TermSelection) InvalidCourses(pastRecords courses.CourseRecords) course
 	invalidRecords := courses.CourseRecords{}
 	for _, record := range ts.CourseRecords {
 		if !isPrereqSatisfied(record, &pastRecords) {
-			invalidRecords[record.Id] = record
+			invalidRecords = append(invalidRecords, record)
 		}
 	}
 	return invalidRecords

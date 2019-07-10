@@ -19,7 +19,8 @@ type CourseRequirementRule interface {
 type CourseRequirementRules []CourseRequirementRule
 
 func (req CourseRequirement) IsSatisfied(courseRecords *CourseRecords) bool {
-	course, completed := (*courseRecords)[req.Course.Id]
+	idMap := courseRecords.ToCourseIdMap()
+	course, completed := idMap[req.Course.Id]
 	return completed && (course.Grade >= req.MinGrade || course.CompletionDate == nil)
 }
 
