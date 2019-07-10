@@ -29,5 +29,10 @@ func (ts TermSelection) InvalidCourses(pastRecords courses.CourseRecords) course
 }
 
 func isPrereqSatisfied(record *courses.CourseRecord, pastRecords *courses.CourseRecords) bool {
+	// if no pre-reqs, then it's satisfied
+	prereqs := record.Prereqs
+	if prereqs == nil {
+		return true
+	}
 	return record.Prereqs.IsSatisfied(pastRecords)
 }

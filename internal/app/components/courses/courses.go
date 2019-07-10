@@ -6,11 +6,11 @@ type CourseSubject string
 type CourseCatalog int
 
 type Course struct {
-	Id                CourseId
-	Name              CourseName
-	Subject           CourseSubject
-	Catalog           CourseCatalog
-	Description       string
-	PrereqDescription string
-	Prereqs           CourseRequirementRule
+	Id                CourseId              `json:"id"`
+	Name              CourseName            `json:"name"`
+	Subject           CourseSubject         `json:"subject"`
+	Catalog           CourseCatalog         `json:"catalog"`
+	Description       string                `json:"description"`
+	PrereqDescription string                `json:"prereq_description"`
+	Prereqs           CourseRequirementRule `json:"prereqs"`
 }

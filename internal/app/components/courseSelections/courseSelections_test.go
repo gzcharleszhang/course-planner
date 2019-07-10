@@ -1,11 +1,13 @@
 package courseSelections
 
 import (
+	"reflect"
+	"testing"
+	"time"
+
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/plans"
 	"github.com/stretchr/testify/assert"
-	"testing"
-	"time"
 )
 
 func TestCourseSelection_Aggregate(t *testing.T) {
@@ -347,4 +349,114 @@ func TestCourseSelection_IncompletePlans(t *testing.T) {
 	}
 	inCompletePlans = courseSelection.IncompletePlans()
 	assert.Equal(t, 0, len(inCompletePlans))
+}
+
+func TestCourseSelection_InvalidCourses(t *testing.T) {
+	course2 := courses.CourseRecord{
+		Course: courses.Course{
+			Id: 1,
+			Prereqs: courses.CourseRequirement{
+				Course: &courses.Course{
+					Id: 0,
+				},
+				MinGrade: 60,
+			},
+		},
+	}
+	course3 := courses.CourseRecord{
+		Course: courses.Course{
+			Id: 2,
+			Prereqs: courses.CourseRequirement{
+				Course: &courses.Course{
+					Id: 1,
+				},
+				MinGrade: 60,
+			},
+		},
+	}
+	currTime := time.Now()
+	type fields struct {
+		Id             CourseSelectionId
+		Name           CourseSelectionName
+		TermSelections []*TermSelection
+		Plans          plans.Plans
+	}
+	tests := []struct {
+		name   string
+		fields fields
+		want   courses.CourseRecords
+	}{
+		{
+			name: "all valid",
+			fields: fields{
+				TermSelections: []*TermSelection{
+					{
+						CourseRecords: courses.CourseRecords{
+							&courses.CourseRecord{
+								Course: courses.Course{
+									Id: 0,
+								},
+							},
+						},
+					},
+					{
+						CourseRecords: courses.CourseRecords{
+							&course2,
+						},
+					},
+					{
+						CourseRecords: courses.CourseRecords{
+							&course3,
+						},
+					},
+				},
+			},
+			want: courses.CourseRecords{},
+		},
+		{
+			name: "second and third term invalid",
+			fields: fields{
+				TermSelections: []*TermSelection{
+					{
+						CourseRecords: courses.CourseRecords{
+							&courses.CourseRecord{
+								Course: courses.Course{
+									Id: 0,
+								},
+								Grade:          59,
+								CompletionDate: &currTime,
+							},
+						},
+					},
+					{
+						CourseRecords: courses.CourseRecords{
+							&course2,
+						},
+					},
+					{
+						CourseRecords: courses.CourseRecords{
+							&course3,
+						},
+					},
+				},
+			},
+			want: courses.CourseRecords{
+				&course2,
+				&course3,
+			},
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			cs := CourseSelection{
+				Id:             tt.fields.Id,
+				Name:           tt.fields.Name,
+				TermSelections: tt.fields.TermSelections,
+				Plans:          tt.fields.Plans,
+			}
+			if got := cs.InvalidCourses(); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("CourseSelection.InvalidCourses() = %v, want %v", got, tt.want)
+			}
+		})
+	}
 }

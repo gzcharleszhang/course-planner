@@ -64,7 +64,8 @@ func (cs CourseSelection) InvalidCourses() courses.CourseRecords {
 	pastRecords, invalidRecords := courses.CourseRecords{}, courses.CourseRecords{}
 	for _, ts := range cs.TermSelections {
 		// we keep accumulating invalid courses for each term
-		invalidRecords = invalidRecords.Merge(ts.InvalidCourses(pastRecords))
+		invalidCourses := ts.InvalidCourses(pastRecords)
+		invalidRecords = invalidRecords.Merge(invalidCourses)
 		// we keep accumulating past records that are valid
 		pastRecords = pastRecords.Merge(ts.CourseRecords.Exclude(invalidRecords))
 	}

@@ -2,13 +2,13 @@ package courses
 
 // CourseRequirement(Set) are concrete
 type CourseRequirement struct {
-	Course   *Course
-	MinGrade CourseGrade
+	Course   *Course     `json:"course"`
+	MinGrade CourseGrade `json:"min_grade"`
 }
 
 type CourseRequirementSet struct {
-	MinCoursesToSatisfy int
-	Requirements        CourseRequirementRules
+	MinCoursesToSatisfy int                    `json:"min_courses_to_satisfy"`
+	Requirements        CourseRequirementRules `json:"requirements"`
 }
 
 // CourseRequirementRule(s) are abstract

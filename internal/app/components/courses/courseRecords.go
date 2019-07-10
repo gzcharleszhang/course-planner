@@ -9,9 +9,9 @@ type CourseRecordId string
 
 type CourseRecord struct {
 	Course
-	Id             CourseRecordId
-	Grade          CourseGrade
-	CompletionDate *time.Time
+	Id             CourseRecordId `json:"id"`
+	Grade          CourseGrade    `json:"grade"`
+	CompletionDate *time.Time     `json:"completion_date"`
 }
 
 type CourseRecords []*CourseRecord
@@ -21,7 +21,9 @@ func (cr CourseRecords) ToCourseIdMap() map[CourseId]*CourseRecord {
 	idMap := map[CourseId]*CourseRecord{}
 	for _, record := range cr {
 		oldRecord, exists := idMap[record.Course.Id]
-		if !exists || oldRecord.Grade < record.Grade {
+		// always take a future course instead of a completed one
+		if !exists || record.CompletionDate == nil ||
+			(oldRecord.CompletionDate != nil && oldRecord.Grade < record.Grade) {
 			idMap[record.Course.Id] = record
 		}
 	}
