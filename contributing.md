@@ -9,12 +9,12 @@ contributors, we can talk about what our next steps are.
 
 ## Development Process
 1. If you have something you would like to work on, or you found a bug, please open an issue
-if there isn't one already. If the issue is releated to a certain project, please
+if there isn't one already. If the issue is related to a certain project, please
 tag the project in the issue.
 1. If you would like to "own" a certain open issue, assign yourself to it.
 1. Do your work on a feature branch (preferably on your own fork), once you are done,
 make a PR! Draft PRs are always welcome so that any of the contributors can give you early
-feedbabck.
+feedback.
 1. Make sure to add appropriate tests for any of the code you write, the reviewers will also
 remind you if you forget.
 1. Make sure to mention any of the issues that this PR will close. For example,
