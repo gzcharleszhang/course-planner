@@ -1,4 +1,4 @@
-package students
+package users
 
 import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
@@ -6,25 +6,25 @@ import (
 	"github.com/rs/xid"
 )
 
-type StudentFirstName string
-type StudentLastName string
-type StudentId string
+type FirstName string
+type LastName string
+type UserId string
 
-type Student struct {
-	Id            StudentId
-	FirstName     StudentFirstName
-	LastName      StudentLastName
+type User struct {
+	Id            UserId
+	FirstName     FirstName
+	LastName      LastName
 	CourseHistory courses.CourseRecords
 	Timelines     []*timelines.Timeline
 }
 
-func newStudentId() StudentId {
-	return StudentId(xid.New().String())
+func newUserId() UserId {
+	return UserId(xid.New().String())
 }
 
-func NewStudent(firstName StudentFirstName, lastName StudentLastName) *Student {
-	return &Student{
-		Id:            newStudentId(),
+func NewUser(firstName FirstName, lastName LastName) *User {
+	return &User{
+		Id:            newUserId(),
 		FirstName:     firstName,
 		LastName:      lastName,
 		CourseHistory: courses.CourseRecords{},
