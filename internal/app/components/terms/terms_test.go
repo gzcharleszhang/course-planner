@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestNewTerm(t *testing.T) {
+func Test_NewTerm(t *testing.T) {
 	var termName TermName
 	var term Term
 

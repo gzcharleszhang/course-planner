@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func TestCourseRecord_ToCourseIdMap(t *testing.T) {
+func TestCourseRecords_ToCourseIdMap(t *testing.T) {
 	currTime := time.Now()
 	tests := []struct {
 		name string
@@ -131,7 +131,7 @@ func TestCourseRecord_ToCourseIdMap(t *testing.T) {
 	}
 }
 
-func TestCourseRecord_Merge(t *testing.T) {
+func TestCourseRecords_Merge(t *testing.T) {
 	type args struct {
 		records CourseRecords
 	}
@@ -278,7 +278,7 @@ func TestCourseRecord_Merge(t *testing.T) {
 	}
 }
 
-func TestCourseRecord_Exclude(t *testing.T) {
+func TestCourseRecords_Exclude(t *testing.T) {
 	type args struct {
 		records CourseRecords
 	}
