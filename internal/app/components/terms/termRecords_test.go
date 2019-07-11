@@ -1,4 +1,4 @@
-package courseSelections
+package terms
 
 import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
@@ -7,10 +7,9 @@ import (
 	"time"
 
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
 )
 
-func TestTermSelection_InvalidCourses(t *testing.T) {
+func TestTermRecord_InvalidCourses(t *testing.T) {
 	course1 := courses.CourseRecord{
 		Course: courses.Course{
 			Id: 0,
@@ -46,7 +45,7 @@ func TestTermSelection_InvalidCourses(t *testing.T) {
 	}
 	currTime := time.Now()
 	type fields struct {
-		Term          terms.Term
+		Term          Term
 		CourseRecords courses.CourseRecords
 	}
 	type args struct {
@@ -142,12 +141,12 @@ func TestTermSelection_InvalidCourses(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			ts := TermSelection{
+			tr := TermRecord{
 				Term:          tt.fields.Term,
 				CourseRecords: tt.fields.CourseRecords,
 			}
-			if got := ts.InvalidCourses(tt.args.pastRecords); !reflect.DeepEqual(got, tt.want) {
-				t.Errorf("TermSelection.InvalidCourses() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			if got := tr.InvalidCourses(tt.args.pastRecords); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("TermRecord.InvalidCourses() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
 			}
 		})
 	}

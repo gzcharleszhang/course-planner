@@ -1,6 +1,7 @@
-package courseSelections
+package timelines
 
 import (
+	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
 	"reflect"
 	"testing"
 	"time"
@@ -10,10 +11,10 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestCourseSelection_Aggregate(t *testing.T) {
+func TestTimeline_Aggregate(t *testing.T) {
 	currTime := time.Now()
-	courseSelection := CourseSelection{
-		TermSelections: []*TermSelection{
+	timeline := Timeline{
+		TermRecords: []*terms.TermRecord{
 			{
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
@@ -82,10 +83,10 @@ func TestCourseSelection_Aggregate(t *testing.T) {
 			},
 		},
 	}
-	assert.Equal(t, &expectedRecords, courseSelection.Aggregate())
+	assert.Equal(t, &expectedRecords, timeline.Aggregate())
 }
 
-func TestCourseSelection_IncompletePlans(t *testing.T) {
+func TestTimeline_IncompletePlans(t *testing.T) {
 	currTime := time.Now()
 	csDegree := plans.Degree{
 		Name: "Easy BCS",
@@ -157,8 +158,8 @@ func TestCourseSelection_IncompletePlans(t *testing.T) {
 	csMathPlan = append(csMathPlan, mathPlan)
 
 	// satisfied
-	courseSelection := CourseSelection{
-		TermSelections: []*TermSelection{
+	timeline := Timeline{
+		TermRecords: []*terms.TermRecord{
 			{
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
@@ -191,11 +192,11 @@ func TestCourseSelection_IncompletePlans(t *testing.T) {
 		},
 		Plans: csEconPlan,
 	}
-	assert.Equal(t, 0, len(courseSelection.IncompletePlans()))
+	assert.Equal(t, 0, len(timeline.IncompletePlans()))
 
 	// satisfied overlapping plans
-	courseSelection = CourseSelection{
-		TermSelections: []*TermSelection{
+	timeline = Timeline{
+		TermRecords: []*terms.TermRecord{
 			{
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
@@ -228,11 +229,11 @@ func TestCourseSelection_IncompletePlans(t *testing.T) {
 		},
 		Plans: csMathPlan,
 	}
-	assert.Equal(t, 0, len(courseSelection.IncompletePlans()))
+	assert.Equal(t, 0, len(timeline.IncompletePlans()))
 
 	// not satisfied
-	courseSelection = CourseSelection{
-		TermSelections: []*TermSelection{
+	timeline = Timeline{
+		TermRecords: []*terms.TermRecord{
 			{
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
@@ -258,13 +259,13 @@ func TestCourseSelection_IncompletePlans(t *testing.T) {
 		},
 		Plans: csEconPlan,
 	}
-	inCompletePlans := courseSelection.IncompletePlans()
+	inCompletePlans := timeline.IncompletePlans()
 	assert.Equal(t, 1, len(inCompletePlans))
 	assert.Equal(t, string(csDegree.Name), inCompletePlans[0].GetName())
 
 	// grade requirement not met
-	courseSelection = CourseSelection{
-		TermSelections: []*TermSelection{
+	timeline = Timeline{
+		TermRecords: []*terms.TermRecord{
 			{
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
@@ -297,13 +298,13 @@ func TestCourseSelection_IncompletePlans(t *testing.T) {
 		},
 		Plans: csEconPlan,
 	}
-	inCompletePlans = courseSelection.IncompletePlans()
+	inCompletePlans = timeline.IncompletePlans()
 	assert.Equal(t, 1, len(inCompletePlans))
 	assert.Equal(t, string(csDegree.Name), inCompletePlans[0].GetName())
 
 	// grade requirement met after repeating course
-	courseSelection = CourseSelection{
-		TermSelections: []*TermSelection{
+	timeline = Timeline{
+		TermRecords: []*terms.TermRecord{
 			{
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
@@ -347,11 +348,11 @@ func TestCourseSelection_IncompletePlans(t *testing.T) {
 		},
 		Plans: csEconPlan,
 	}
-	inCompletePlans = courseSelection.IncompletePlans()
+	inCompletePlans = timeline.IncompletePlans()
 	assert.Equal(t, 0, len(inCompletePlans))
 }
 
-func TestCourseSelection_InvalidCourses(t *testing.T) {
+func TestTimeline_InvalidCourses(t *testing.T) {
 	course2 := courses.CourseRecord{
 		Course: courses.Course{
 			Id: 1,
@@ -376,10 +377,10 @@ func TestCourseSelection_InvalidCourses(t *testing.T) {
 	}
 	currTime := time.Now()
 	type fields struct {
-		Id             CourseSelectionId
-		Name           CourseSelectionName
-		TermSelections []*TermSelection
-		Plans          plans.Plans
+		Id          TimelineId
+		Name        TimelineName
+		TermRecords []*terms.TermRecord
+		Plans       plans.Plans
 	}
 	tests := []struct {
 		name   string
@@ -389,7 +390,7 @@ func TestCourseSelection_InvalidCourses(t *testing.T) {
 		{
 			name: "all valid",
 			fields: fields{
-				TermSelections: []*TermSelection{
+				TermRecords: []*terms.TermRecord{
 					{
 						CourseRecords: courses.CourseRecords{
 							&courses.CourseRecord{
@@ -416,7 +417,7 @@ func TestCourseSelection_InvalidCourses(t *testing.T) {
 		{
 			name: "second and third term invalid",
 			fields: fields{
-				TermSelections: []*TermSelection{
+				TermRecords: []*terms.TermRecord{
 					{
 						CourseRecords: courses.CourseRecords{
 							&courses.CourseRecord{
@@ -448,14 +449,14 @@ func TestCourseSelection_InvalidCourses(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			cs := CourseSelection{
-				Id:             tt.fields.Id,
-				Name:           tt.fields.Name,
-				TermSelections: tt.fields.TermSelections,
-				Plans:          tt.fields.Plans,
+			timeline := Timeline{
+				Id:          tt.fields.Id,
+				Name:        tt.fields.Name,
+				TermRecords: tt.fields.TermRecords,
+				Plans:       tt.fields.Plans,
 			}
-			if got := cs.InvalidCourses(); !reflect.DeepEqual(got, tt.want) {
-				t.Errorf("CourseSelection.InvalidCourses() = %v, want %v", got, tt.want)
+			if got := timeline.InvalidCourses(); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("Timeline.InvalidCourses() = %v, want %v", got, tt.want)
 			}
 		})
 	}
