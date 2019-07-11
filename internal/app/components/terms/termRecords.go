@@ -1,26 +1,25 @@
-package courseSelections
+package terms
 
 import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
 )
 
-type TermSelection struct {
-	Term          terms.Term
+type TermRecord struct {
+	Term          Term
 	CourseRecords courses.CourseRecords
 }
 
-func NewTermSelection(termName terms.TermName, uwTermId int) *TermSelection {
-	return &TermSelection{
-		Term:          terms.NewTerm(termName, uwTermId),
+func NewTermRecord(termName TermName, uwTermId int) *TermRecord {
+	return &TermRecord{
+		Term:          NewTerm(termName, uwTermId),
 		CourseRecords: courses.CourseRecords{},
 	}
 }
 
-// return the courses whose pre-requisites are not satisfied
-func (ts TermSelection) InvalidCourses(pastRecords courses.CourseRecords) courses.CourseRecords {
+// Returns the courses whose pre-requisites are not satisfied
+func (tr TermRecord) InvalidCourses(pastRecords courses.CourseRecords) courses.CourseRecords {
 	invalidRecords := courses.CourseRecords{}
-	for _, record := range ts.CourseRecords {
+	for _, record := range tr.CourseRecords {
 		if !isPrereqSatisfied(record, &pastRecords) {
 			invalidRecords = append(invalidRecords, record)
 		}
