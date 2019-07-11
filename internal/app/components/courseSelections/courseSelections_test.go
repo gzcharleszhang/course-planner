@@ -1,20 +1,22 @@
 package courseSelections
 
 import (
+	"reflect"
+	"testing"
+	"time"
+
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/plans"
 	"github.com/stretchr/testify/assert"
-	"testing"
-	"time"
 )
 
 func TestCourseSelection_Aggregate(t *testing.T) {
 	currTime := time.Now()
 	courseSelection := CourseSelection{
-		TermSelections: []*courses.TermSelection{
+		TermSelections: []*TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
-					courses.CourseId(0): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 0,
 						},
@@ -25,14 +27,14 @@ func TestCourseSelection_Aggregate(t *testing.T) {
 			},
 			{
 				CourseRecords: courses.CourseRecords{
-					courses.CourseId(1): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 1,
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
 					},
-					courses.CourseId(2): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 2,
 						},
@@ -43,7 +45,7 @@ func TestCourseSelection_Aggregate(t *testing.T) {
 			},
 			{
 				CourseRecords: courses.CourseRecords{
-					courses.CourseId(3): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 3,
 						},
@@ -53,28 +55,28 @@ func TestCourseSelection_Aggregate(t *testing.T) {
 		},
 	}
 	expectedRecords := courses.CourseRecords{
-		courses.CourseId(0): &courses.CourseRecord{
+		&courses.CourseRecord{
 			Course: courses.Course{
 				Id: 0,
 			},
 			Grade:          50,
 			CompletionDate: &currTime,
 		},
-		courses.CourseId(1): &courses.CourseRecord{
+		&courses.CourseRecord{
 			Course: courses.Course{
 				Id: 1,
 			},
 			Grade:          60,
 			CompletionDate: &currTime,
 		},
-		courses.CourseId(2): &courses.CourseRecord{
+		&courses.CourseRecord{
 			Course: courses.Course{
 				Id: 2,
 			},
 			Grade:          60,
 			CompletionDate: &currTime,
 		},
-		courses.CourseId(3): &courses.CourseRecord{
+		&courses.CourseRecord{
 			Course: courses.Course{
 				Id: 3,
 			},
@@ -83,7 +85,7 @@ func TestCourseSelection_Aggregate(t *testing.T) {
 	assert.Equal(t, &expectedRecords, courseSelection.Aggregate())
 }
 
-func TestCourseSelection_IsSatisfied(t *testing.T) {
+func TestCourseSelection_IncompletePlans(t *testing.T) {
 	currTime := time.Now()
 	csDegree := plans.Degree{
 		Name: "Easy BCS",
@@ -146,19 +148,20 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 		}),
 	}
 
-	csEconPlan := make([]plans.Plan, 2)
-	csEconPlan[0] = plans.Plan(csDegree)
-	csEconPlan[1] = plans.Plan(econMinor)
-	csMathPlan := make([]plans.Plan, 2)
-	csMathPlan[0] = plans.Plan(csDegree)
-	csMathPlan[1] = plans.Plan(mathDegree)
+	csPlan, econMinorPlan, mathPlan := plans.Plan(csDegree), plans.Plan(econMinor), plans.Plan(mathDegree)
+	var csEconPlan plans.Plans
+	csEconPlan = append(csEconPlan, csPlan)
+	csEconPlan = append(csEconPlan, econMinorPlan)
+	var csMathPlan plans.Plans
+	csMathPlan = append(csMathPlan, csPlan)
+	csMathPlan = append(csMathPlan, mathPlan)
 
 	// satisfied
 	courseSelection := CourseSelection{
-		TermSelections: []*courses.TermSelection{
+		TermSelections: []*TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
-					courses.CourseId(0): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 0,
 						},
@@ -169,14 +172,14 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 			},
 			{
 				CourseRecords: courses.CourseRecords{
-					courses.CourseId(1): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 1,
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
 					},
-					courses.CourseId(3): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 3,
 						},
@@ -188,14 +191,14 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 		},
 		Plans: csEconPlan,
 	}
-	assert.Equal(t, true, courseSelection.IsSatisfied())
+	assert.Equal(t, 0, len(courseSelection.IncompletePlans()))
 
 	// satisfied overlapping plans
 	courseSelection = CourseSelection{
-		TermSelections: []*courses.TermSelection{
+		TermSelections: []*TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
-					courses.CourseId(0): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 0,
 						},
@@ -206,14 +209,14 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 			},
 			{
 				CourseRecords: courses.CourseRecords{
-					courses.CourseId(1): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 1,
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
 					},
-					courses.CourseId(2): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 2,
 						},
@@ -225,14 +228,14 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 		},
 		Plans: csMathPlan,
 	}
-	assert.Equal(t, true, courseSelection.IsSatisfied())
+	assert.Equal(t, 0, len(courseSelection.IncompletePlans()))
 
 	// not satisfied
 	courseSelection = CourseSelection{
-		TermSelections: []*courses.TermSelection{
+		TermSelections: []*TermSelection{
 			{
 				CourseRecords: courses.CourseRecords{
-					courses.CourseId(0): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 0,
 						},
@@ -243,7 +246,7 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 			},
 			{
 				CourseRecords: courses.CourseRecords{
-					courses.CourseId(3): &courses.CourseRecord{
+					&courses.CourseRecord{
 						Course: courses.Course{
 							Id: 3,
 						},
@@ -255,5 +258,205 @@ func TestCourseSelection_IsSatisfied(t *testing.T) {
 		},
 		Plans: csEconPlan,
 	}
-	assert.Equal(t, false, courseSelection.IsSatisfied())
+	inCompletePlans := courseSelection.IncompletePlans()
+	assert.Equal(t, 1, len(inCompletePlans))
+	assert.Equal(t, string(csDegree.Name), inCompletePlans[0].GetName())
+
+	// grade requirement not met
+	courseSelection = CourseSelection{
+		TermSelections: []*TermSelection{
+			{
+				CourseRecords: courses.CourseRecords{
+					&courses.CourseRecord{
+						Course: courses.Course{
+							Id: 0,
+						},
+						Grade:          50,
+						CompletionDate: &currTime,
+					},
+				},
+			},
+			{
+				CourseRecords: courses.CourseRecords{
+					&courses.CourseRecord{
+						Course: courses.Course{
+							Id: 3,
+						},
+						Grade:          60,
+						CompletionDate: &currTime,
+					},
+					&courses.CourseRecord{
+						Course: courses.Course{
+							Id: 1,
+						},
+						Grade:          59,
+						CompletionDate: &currTime,
+					},
+				},
+			},
+		},
+		Plans: csEconPlan,
+	}
+	inCompletePlans = courseSelection.IncompletePlans()
+	assert.Equal(t, 1, len(inCompletePlans))
+	assert.Equal(t, string(csDegree.Name), inCompletePlans[0].GetName())
+
+	// grade requirement met after repeating course
+	courseSelection = CourseSelection{
+		TermSelections: []*TermSelection{
+			{
+				CourseRecords: courses.CourseRecords{
+					&courses.CourseRecord{
+						Course: courses.Course{
+							Id: 0,
+						},
+						Grade:          50,
+						CompletionDate: &currTime,
+					},
+				},
+			},
+			{
+				CourseRecords: courses.CourseRecords{
+					&courses.CourseRecord{
+						Course: courses.Course{
+							Id: 3,
+						},
+						Grade:          60,
+						CompletionDate: &currTime,
+					},
+					&courses.CourseRecord{
+						Course: courses.Course{
+							Id: 1,
+						},
+						Grade:          59,
+						CompletionDate: &currTime,
+					},
+				},
+			},
+			{
+				CourseRecords: courses.CourseRecords{
+					&courses.CourseRecord{
+						Course: courses.Course{
+							Id: 1,
+						},
+						Grade:          60,
+						CompletionDate: &currTime,
+					},
+				},
+			},
+		},
+		Plans: csEconPlan,
+	}
+	inCompletePlans = courseSelection.IncompletePlans()
+	assert.Equal(t, 0, len(inCompletePlans))
+}
+
+func TestCourseSelection_InvalidCourses(t *testing.T) {
+	course2 := courses.CourseRecord{
+		Course: courses.Course{
+			Id: 1,
+			Prereqs: courses.CourseRequirement{
+				Course: &courses.Course{
+					Id: 0,
+				},
+				MinGrade: 60,
+			},
+		},
+	}
+	course3 := courses.CourseRecord{
+		Course: courses.Course{
+			Id: 2,
+			Prereqs: courses.CourseRequirement{
+				Course: &courses.Course{
+					Id: 1,
+				},
+				MinGrade: 60,
+			},
+		},
+	}
+	currTime := time.Now()
+	type fields struct {
+		Id             CourseSelectionId
+		Name           CourseSelectionName
+		TermSelections []*TermSelection
+		Plans          plans.Plans
+	}
+	tests := []struct {
+		name   string
+		fields fields
+		want   courses.CourseRecords
+	}{
+		{
+			name: "all valid",
+			fields: fields{
+				TermSelections: []*TermSelection{
+					{
+						CourseRecords: courses.CourseRecords{
+							&courses.CourseRecord{
+								Course: courses.Course{
+									Id: 0,
+								},
+							},
+						},
+					},
+					{
+						CourseRecords: courses.CourseRecords{
+							&course2,
+						},
+					},
+					{
+						CourseRecords: courses.CourseRecords{
+							&course3,
+						},
+					},
+				},
+			},
+			want: courses.CourseRecords{},
+		},
+		{
+			name: "second and third term invalid",
+			fields: fields{
+				TermSelections: []*TermSelection{
+					{
+						CourseRecords: courses.CourseRecords{
+							&courses.CourseRecord{
+								Course: courses.Course{
+									Id: 0,
+								},
+								Grade:          59,
+								CompletionDate: &currTime,
+							},
+						},
+					},
+					{
+						CourseRecords: courses.CourseRecords{
+							&course2,
+						},
+					},
+					{
+						CourseRecords: courses.CourseRecords{
+							&course3,
+						},
+					},
+				},
+			},
+			want: courses.CourseRecords{
+				&course2,
+				&course3,
+			},
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			cs := CourseSelection{
+				Id:             tt.fields.Id,
+				Name:           tt.fields.Name,
+				TermSelections: tt.fields.TermSelections,
+				Plans:          tt.fields.Plans,
+			}
+			if got := cs.InvalidCourses(); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("CourseSelection.InvalidCourses() = %v, want %v", got, tt.want)
+			}
+		})
+	}
 }
