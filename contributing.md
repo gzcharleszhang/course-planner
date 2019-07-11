@@ -16,7 +16,10 @@ tag the project in the issue.
 make a PR! Draft PRs are always welcome so that any of the contributors can give you early
 feedback.
 1. Make sure to add appropriate tests for any of the code you write, the reviewers will also
-remind you if you forget.
+remind you if you forget. We use the `gotests` package to generate test templates.
+1. We follow the standard Go conventions for naming, formatting, etc. Please run
+`gofmt -s -d .` in the project root directory to make sure your format is good.
+CircleCI will also run a `gofmt` test.
 1. Make sure to mention any of the issues that this PR will close. For example,
 including "this closes #24" or "this fixes #24" in the PR description
 means that issue #24 will be closed once this PR is merged.
