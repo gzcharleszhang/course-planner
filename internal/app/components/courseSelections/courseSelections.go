@@ -49,15 +49,11 @@ func (cs CourseSelection) IncompletePlans() plans.Plans {
 	records := cs.Aggregate()
 	var incompletePlans plans.Plans
 	for _, plan := range cs.Plans {
-		if !isPlanSatisfied(plan, records) {
+		if !plan.IsCompleted(records) {
 			incompletePlans = append(incompletePlans, plan)
 		}
 	}
 	return incompletePlans
-}
-
-func isPlanSatisfied(plan *plans.Plan, records *courses.CourseRecords) bool {
-	return (*plan).IsCompleted(records)
 }
 
 func (cs CourseSelection) InvalidCourses() courses.CourseRecords {

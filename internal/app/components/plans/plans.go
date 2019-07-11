@@ -8,7 +8,7 @@ type Plan interface {
 	IsCompleted(records *courses.CourseRecords) bool
 	GetName() string
 }
-type Plans []*Plan
+type Plans []Plan
 
 type DegreeName string
 type DegreeRequirements courses.CourseRequirementRule
