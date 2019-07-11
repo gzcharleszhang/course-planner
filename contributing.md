@@ -26,4 +26,4 @@ tag the appropriate project in the PR.
 free to merge it.
 1. **Reviewers: once you approved a PR, please don't merge it and let the author merge it
 themselves.**
-1. Rince and repeat :)
+1. Rinse and repeat :)
