@@ -2,7 +2,7 @@ package courses
 
 // CourseRequirement(Set) are concrete
 type CourseRequirement struct {
-	Course   *Course     `json:"course"`
+	CourseId CourseId    `json:"course_id"`
 	MinGrade CourseGrade `json:"min_grade"`
 }
 
@@ -20,7 +20,7 @@ type CourseRequirementRules []CourseRequirementRule
 
 func (req CourseRequirement) IsSatisfied(courseRecords *CourseRecords) bool {
 	idMap := courseRecords.ToCourseIdMap()
-	course, completed := idMap[req.Course.Id]
+	course, completed := idMap[req.CourseId]
 	return completed && (course.Grade >= req.MinGrade || course.CompletionDate == nil)
 }
 
