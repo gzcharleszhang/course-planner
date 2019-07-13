@@ -14,9 +14,7 @@ func TestTermRecord_InvalidCourses(t *testing.T) {
 		Course: courses.Course{
 			Id: 0,
 			Prereqs: courses.CourseRequirement{
-				Course: &courses.Course{
-					Id: 1,
-				},
+				CourseId: 1,
 				MinGrade: 60,
 			},
 		},
@@ -28,15 +26,11 @@ func TestTermRecord_InvalidCourses(t *testing.T) {
 				MinCoursesToSatisfy: 1,
 				Requirements: courses.CourseRequirementRules{
 					courses.CourseRequirement{
-						Course: &courses.Course{
-							Id: 3,
-						},
+						CourseId: 3,
 						MinGrade: 60,
 					},
 					courses.CourseRequirement{
-						Course: &courses.Course{
-							Id: 4,
-						},
+						CourseId: 4,
 						MinGrade: 60,
 					},
 				},
@@ -170,9 +164,7 @@ func Test_isPrereqSatisfied(t *testing.T) {
 					Course: courses.Course{
 						Id: 0,
 						Prereqs: courses.CourseRequirement{
-							Course: &courses.Course{
-								Id: 1,
-							},
+							CourseId: 1,
 							MinGrade: 60,
 						},
 					},
@@ -195,9 +187,7 @@ func Test_isPrereqSatisfied(t *testing.T) {
 					Course: courses.Course{
 						Id: 0,
 						Prereqs: courses.CourseRequirement{
-							Course: &courses.Course{
-								Id: 1,
-							},
+							CourseId: 1,
 							MinGrade: 60,
 						},
 					},

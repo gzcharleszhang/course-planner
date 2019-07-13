@@ -15,15 +15,11 @@ func TestDegree_IsCompleted(t *testing.T) {
 			Requirements: courses.CourseRequirementRules{
 				courses.CourseRequirement{
 					MinGrade: 50,
-					Course: &courses.Course{
-						Id: 0,
-					},
+					CourseId: 0,
 				},
 				courses.CourseRequirement{
 					MinGrade: 60,
-					Course: &courses.Course{
-						Id: 1,
-					},
+					CourseId: 1,
 				},
 			},
 		}),
@@ -78,15 +74,11 @@ func TestDegree_GetName(t *testing.T) {
 			Requirements: courses.CourseRequirementRules{
 				courses.CourseRequirement{
 					MinGrade: 50,
-					Course: &courses.Course{
-						Id: 0,
-					},
+					CourseId: 0,
 				},
 				courses.CourseRequirement{
 					MinGrade: 60,
-					Course: &courses.Course{
-						Id: 1,
-					},
+					CourseId: 1,
 				},
 			},
 		}),
