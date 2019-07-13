@@ -9,42 +9,35 @@ import (
 func TestCourseRequirement_IsSatisfied(t *testing.T) {
 	records := initRecords()
 	// testing using future course record (record3 )
-	course := Course{
-		Id: CourseId(789),
-	}
+	courseId := CourseId(789)
 	req := CourseRequirement{
 		MinGrade: 100, // should ignore this requirement
-		Course:   &course,
+		CourseId: courseId,
 	}
 	assert.Equal(t, true, req.IsSatisfied(records), "Test future record")
 
 	// missing requirement
-	course = Course{
-		Id: CourseId(0),
-	}
+	courseId = CourseId(0)
 	req = CourseRequirement{
 		MinGrade: 0, // should ignore this requirement
-		Course:   &course,
+		CourseId: courseId,
 	}
 	assert.Equal(t, false, req.IsSatisfied(records), "Test missing record")
 
 	// doesn't meet grades requirement
-	course = Course{
-		Id: CourseId(456),
-	}
+	courseId = CourseId(456)
+
 	req = CourseRequirement{
 		MinGrade: 51, // should ignore this requirement
-		Course:   &course,
+		CourseId: courseId,
 	}
 	assert.Equal(t, false, req.IsSatisfied(records), "Test grade requirement not met")
 
 	// meets grades requirement
-	course = Course{
-		Id: CourseId(456),
-	}
+	courseId = CourseId(456)
 	req = CourseRequirement{
 		MinGrade: 50, // should ignore this requirement
-		Course:   &course,
+		CourseId: courseId,
 	}
 	assert.Equal(t, true, req.IsSatisfied(records), "Test grade requirement met")
 
@@ -58,12 +51,10 @@ func TestCourseRequirement_IsSatisfied(t *testing.T) {
 		CompletionDate: &currTime,
 	}
 	*records = append(*records, &repeatedCourse)
-	course = Course{
-		Id: CourseId(456),
-	}
+	courseId = CourseId(456)
 	req = CourseRequirement{
 		MinGrade: 51, // should ignore this requirement
-		Course:   &course,
+		CourseId: courseId,
 	}
 	assert.Equal(t, true, req.IsSatisfied(records), "Test grade requirement met after course repeated")
 }
@@ -76,21 +67,15 @@ func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
 		Requirements: CourseRequirementRules{
 			CourseRequirement{
 				MinGrade: 80,
-				Course: &Course{
-					Id: CourseId(123),
-				},
+				CourseId: CourseId(123),
 			},
 			CourseRequirement{
 				MinGrade: 50,
-				Course: &Course{
-					Id: CourseId(456),
-				},
+				CourseId: CourseId(456),
 			},
 			CourseRequirement{
 				MinGrade: 100,
-				Course: &Course{
-					Id: CourseId(789),
-				},
+				CourseId: CourseId(789),
 			},
 		},
 	}
@@ -102,21 +87,15 @@ func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
 		Requirements: CourseRequirementRules{
 			CourseRequirement{
 				MinGrade: 80,
-				Course: &Course{
-					Id: CourseId(123),
-				},
+				CourseId: CourseId(123),
 			},
 			CourseRequirement{
 				MinGrade: 51,
-				Course: &Course{
-					Id: CourseId(456),
-				},
+				CourseId: CourseId(456),
 			},
 			CourseRequirement{
 				MinGrade: 100,
-				Course: &Course{
-					Id: CourseId(789),
-				},
+				CourseId: CourseId(789),
 			},
 		},
 	}
@@ -128,21 +107,15 @@ func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
 		Requirements: CourseRequirementRules{
 			CourseRequirement{
 				MinGrade: 80,
-				Course: &Course{
-					Id: CourseId(123),
-				},
+				CourseId: CourseId(123),
 			},
 			CourseRequirement{
 				MinGrade: 51,
-				Course: &Course{
-					Id: CourseId(456),
-				},
+				CourseId: CourseId(456),
 			},
 			CourseRequirement{
 				MinGrade: 100,
-				Course: &Course{
-					Id: CourseId(789),
-				},
+				CourseId: CourseId(789),
 			},
 		},
 	}
@@ -154,21 +127,15 @@ func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
 		Requirements: CourseRequirementRules{
 			CourseRequirement{
 				MinGrade: 80,
-				Course: &Course{
-					Id: CourseId(123),
-				},
+				CourseId: CourseId(123),
 			},
 			CourseRequirement{
 				MinGrade: 51,
-				Course: &Course{
-					Id: CourseId(456),
-				},
+				CourseId: CourseId(456),
 			},
 			CourseRequirement{
 				MinGrade: 0,
-				Course: &Course{
-					Id: CourseId(0),
-				},
+				CourseId: CourseId(0),
 			},
 		},
 	}

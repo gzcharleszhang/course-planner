@@ -95,15 +95,11 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 			Requirements: courses.CourseRequirementRules{
 				courses.CourseRequirement{
 					MinGrade: 50,
-					Course: &courses.Course{
-						Id: 0,
-					},
+					CourseId: 0,
 				},
 				courses.CourseRequirement{
 					MinGrade: 60,
-					Course: &courses.Course{
-						Id: 1,
-					},
+					CourseId: 1,
 				},
 			},
 		}),
@@ -115,15 +111,11 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 			Requirements: courses.CourseRequirementRules{
 				courses.CourseRequirement{
 					MinGrade: 50,
-					Course: &courses.Course{
-						Id: 0,
-					},
+					CourseId: 0,
 				},
 				courses.CourseRequirement{
 					MinGrade: 60,
-					Course: &courses.Course{
-						Id: 2,
-					},
+					CourseId: 2,
 				},
 			},
 		}),
@@ -135,15 +127,11 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 			Requirements: courses.CourseRequirementRules{
 				courses.CourseRequirement{
 					MinGrade: 50,
-					Course: &courses.Course{
-						Id: 3,
-					},
+					CourseId: 3,
 				},
 				courses.CourseRequirement{
 					MinGrade: 50,
-					Course: &courses.Course{
-						Id: 4,
-					},
+					CourseId: 4,
 				},
 			},
 		}),
@@ -357,9 +345,7 @@ func TestTimeline_InvalidCourses(t *testing.T) {
 		Course: courses.Course{
 			Id: 1,
 			Prereqs: courses.CourseRequirement{
-				Course: &courses.Course{
-					Id: 0,
-				},
+				CourseId: 0,
 				MinGrade: 60,
 			},
 		},
@@ -368,9 +354,7 @@ func TestTimeline_InvalidCourses(t *testing.T) {
 		Course: courses.Course{
 			Id: 2,
 			Prereqs: courses.CourseRequirement{
-				Course: &courses.Course{
-					Id: 1,
-				},
+				CourseId: 1,
 				MinGrade: 60,
 			},
 		},
