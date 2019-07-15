@@ -23,4 +23,6 @@ func Run(ctx context.Context, req Request) error {
 	if err := users.CreateUser(ctx, req.FirstName, req.LastName, hash); err != nil {
 		return errors.Wrap(err, "Error creating new user")
 	}
+
+	return nil
 }

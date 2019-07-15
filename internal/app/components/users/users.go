@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/timelines"
+	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/rs/xid"
 	"golang.org/x/crypto/bcrypt"
 )
@@ -13,13 +14,17 @@ type LastName string
 type UserId string
 type PasswordHash string
 
+type UserData struct {
+	Id        UserId       `bson:"_id"`
+	FirstName FirstName    `bson:"first_name"`
+	LastName  LastName     `bson:"last_name"`
+	Password  PasswordHash `bson:"password"`
+}
+
 type User struct {
-	Id            UserId
-	FirstName     FirstName
-	LastName      LastName
-	CourseHistory courses.CourseRecords
-	Timelines     []*timelines.Timeline
-	Password      PasswordHash
+	UserData
+	CourseHistory courses.CourseRecords `bson:"course_history"`
+	Timelines     []*timelines.Timeline `bson:"timelines"`
 }
 
 func newUserId() UserId {
@@ -27,14 +32,20 @@ func newUserId() UserId {
 }
 
 func CreateUser(ctx context.Context, firstName FirstName, lastName LastName, password PasswordHash) error {
-	user := User{
-		Id:            newUserId(),
-		FirstName:     firstName,
-		LastName:      lastName,
-		Password:      password,
-		CourseHistory: courses.CourseRecords{},
-		Timelines:     []*timelines.Timeline{},
+	sess, err := db.NewSession(ctx)
+	if err != nil {
+		return err
 	}
+	user := UserData{
+		Id:        newUserId(),
+		FirstName: firstName,
+		LastName:  lastName,
+		Password:  password,
+	}
+	if _, err := sess.Users().InsertOne(ctx, user); err != nil {
+		return err
+	}
+	return nil
 }
 
 func HashPassword(password string) (PasswordHash, error) {
