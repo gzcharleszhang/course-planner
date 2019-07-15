@@ -1,6 +1,7 @@
 package courses
 
 import (
+	"context"
 	"time"
 )
 
@@ -15,6 +16,16 @@ type CourseRecord struct {
 }
 
 type CourseRecords []*CourseRecord
+
+func GetCourseRecordById(ctx context.Context, recordId CourseRecordId) (*CourseRecord, error) {
+	// TODO: implement
+	return nil, nil
+}
+
+func GetCourseRecordsByIds(ctx context.Context, recordIds []CourseRecordId) (CourseRecords, error) {
+	// TODO: implement
+	return nil, nil
+}
 
 // convert course record to a map with course id as key, using the higher grade as tie breaker
 func (cr CourseRecords) ToCourseIdMap() map[CourseId]*CourseRecord {
