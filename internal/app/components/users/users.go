@@ -42,6 +42,7 @@ func CreateUser(ctx context.Context, firstName FirstName, lastName LastName, pas
 	if err != nil {
 		return "", err
 	}
+	defer sess.Close(ctx)
 	newUserId := newUserId()
 	user := UserData{
 		Id:        newUserId,

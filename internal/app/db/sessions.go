@@ -1,9 +1,16 @@
 package db
 
-import "go.mongodb.org/mongo-driver/mongo"
+import (
+	"context"
+	"go.mongodb.org/mongo-driver/mongo"
+)
 
 type Session struct {
 	Client *mongo.Client
+}
+
+func (sess Session) Close(ctx context.Context) {
+	sess.Client.Disconnect(ctx)
 }
 
 func (sess Session) Users() *mongo.Collection {
