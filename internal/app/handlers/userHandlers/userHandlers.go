@@ -3,6 +3,7 @@ package userHandlers
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
 	"github.com/gzcharleszhang/course-planner/internal/app/services/newUserService"
 	"net/http"
 )
@@ -15,7 +16,9 @@ func NewUserHandler(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		panic(err)
 	}
-	if err = newUserService.Run(ctx, req); err != nil {
+	res, err := newUserService.Execute(ctx, req)
+	if err != nil {
 		http.Error(w, fmt.Sprintf("Error: %v", err), 500)
 	}
+	w.Write([]byte(utils.ToJson(res)))
 }

@@ -1,4 +1,4 @@
-package course_planner
+package main
 
 import "github.com/gzcharleszhang/course-planner/internal/app/server"
 

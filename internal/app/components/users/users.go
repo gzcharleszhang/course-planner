@@ -14,15 +14,21 @@ type LastName string
 type UserId string
 type PasswordHash string
 
-type UserData struct {
+type UserBase struct {
 	Id        UserId       `bson:"_id"`
 	FirstName FirstName    `bson:"first_name"`
 	LastName  LastName     `bson:"last_name"`
 	Password  PasswordHash `bson:"password"`
 }
 
+type UserData struct {
+	UserBase      `bson:"user_base"`
+	CourseHistory []courses.CourseRecordId `bson:"course_history"`
+	Timelines     []timelines.TimelineId   `bson:"timelines"`
+}
+
 type User struct {
-	UserData
+	UserBase      `bson:"user_base"`
 	CourseHistory courses.CourseRecords `bson:"course_history"`
 	Timelines     []*timelines.Timeline `bson:"timelines"`
 }
@@ -31,21 +37,24 @@ func newUserId() UserId {
 	return UserId(xid.New().String())
 }
 
-func CreateUser(ctx context.Context, firstName FirstName, lastName LastName, password PasswordHash) error {
+func CreateUser(ctx context.Context, firstName FirstName, lastName LastName, password PasswordHash) (UserId, error) {
 	sess, err := db.NewSession(ctx)
+	newUserId := newUserId()
 	if err != nil {
-		return err
+		return "", err
 	}
 	user := UserData{
-		Id:        newUserId(),
-		FirstName: firstName,
-		LastName:  lastName,
-		Password:  password,
+		UserBase: UserBase{
+			Id:        newUserId,
+			FirstName: firstName,
+			LastName:  lastName,
+			Password:  password,
+		},
 	}
 	if _, err := sess.Users().InsertOne(ctx, user); err != nil {
-		return err
+		return "", err
 	}
-	return nil
+	return newUserId, nil
 }
 
 func HashPassword(password string) (PasswordHash, error) {

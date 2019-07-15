@@ -6,6 +6,7 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
+	"github.com/gzcharleszhang/course-planner/internal/app/routes/userRoutes"
 	"github.com/joho/godotenv"
 	"log"
 	"net/http"
@@ -26,7 +27,9 @@ func StartServer(port int) {
 	r.Use(middleware.Timeout(60 * time.Second))
 	// populate fields in context
 	r.Use(contextMiddleware)
-	if err := http.ListenAndServe(fmt.Sprintf(":%v", port), nil); err != nil {
+	userRoutes.InitUserRoutes(r)
+	fmt.Printf("Listening on port %v\n", port)
+	if err := http.ListenAndServe(fmt.Sprintf(":%v", port), r); err != nil {
 		panic(err)
 	}
 }
