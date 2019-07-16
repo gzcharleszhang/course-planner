@@ -1,11 +1,12 @@
 package server
 
 import (
-	"context"
 	"fmt"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
+	"github.com/go-chi/jwtauth"
+	"github.com/gzcharleszhang/course-planner/internal/app/auth"
+	"github.com/gzcharleszhang/course-planner/internal/app/middlewares"
 	"github.com/gzcharleszhang/course-planner/internal/app/routes/userRoutes"
 	"github.com/joho/godotenv"
 	"log"
@@ -25,23 +26,13 @@ func StartServer(port int) {
 	r.Use(middleware.Recoverer)
 	// timeout in one minute
 	r.Use(middleware.Timeout(60 * time.Second))
-	// populate fields in context
-	r.Use(contextMiddleware)
+	// verify tokens
+	r.Use(jwtauth.Verifier(auth.TokenAuth))
+	// give request default permissions
+	r.Use(middlewares.PermissionMiddleware)
 	userRoutes.InitUserRoutes(r)
 	fmt.Printf("Listening on port %v\n", port)
 	if err := http.ListenAndServe(fmt.Sprintf(":%v", port), r); err != nil {
 		panic(err)
 	}
-}
-
-func contextMiddleware(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		// missing user id
-		if r.Header.Get("user_id") == "" {
-			http.Error(w, "Error: missing user_id", 400)
-			return
-		}
-		ctx := context.WithValue(r.Context(), "userId", users.UserId(r.Header.Get("user_id")))
-		next.ServeHTTP(w, r.WithContext(ctx))
-	})
 }
