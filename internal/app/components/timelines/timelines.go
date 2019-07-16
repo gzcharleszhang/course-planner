@@ -1,6 +1,7 @@
 package timelines
 
 import (
+	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/plans"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
@@ -29,6 +30,16 @@ func NewTimeline(name TimelineName, cr *courses.CourseRecords) *Timeline {
 		TermRecords: []*terms.TermRecord{},
 		Plans:       plans.Plans{},
 	}
+}
+
+func GetTimelineById(ctx context.Context, timelineId TimelineId) (*Timeline, error) {
+	// TODO: implement
+	return nil, nil
+}
+
+func GetTimelinesByIds(ctx context.Context, timelineIds []TimelineId) ([]*Timeline, error) {
+	// TODO: implement
+	return nil, nil
 }
 
 func (t Timeline) AddTermRecord(tr *terms.TermRecord) {
