@@ -5,7 +5,7 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/jwtauth"
-	"github.com/gzcharleszhang/course-planner/internal/app/auth"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/auth"
 	"github.com/gzcharleszhang/course-planner/internal/app/middlewares"
 	"github.com/gzcharleszhang/course-planner/internal/app/routes/userRoutes"
 	"github.com/joho/godotenv"

@@ -39,8 +39,7 @@ func newUserId() UserId {
 	return UserId(xid.New().String())
 }
 
-func CreateUser(ctx context.Context, firstName FirstName, lastName LastName,
-	password PasswordHash, perm permissions.Permission) (UserId, error) {
+func CreateUser(ctx context.Context, firstName FirstName, lastName LastName, password PasswordHash) (UserId, error) {
 	sess, err := db.NewSession(ctx)
 	if err != nil {
 		return "", err
@@ -52,12 +51,17 @@ func CreateUser(ctx context.Context, firstName FirstName, lastName LastName,
 		FirstName:        firstName,
 		LastName:         lastName,
 		Password:         password,
-		PermissionAccess: perm,
+		PermissionAccess: permissions.Authenticated, // default to authenticated
 	}
 	if _, err := sess.Users().InsertOne(ctx, user); err != nil {
 		return "", err
 	}
 	return newUserId, nil
+}
+
+func GetTimelinesByUserId(ctx context.Context, userId UserId) ([]*timelines.Timeline, error) {
+	// TODO: implement
+	return nil, nil
 }
 
 func GetUserById(ctx context.Context, userId UserId) (*User, error) {
@@ -74,7 +78,7 @@ func GetUserById(ctx context.Context, userId UserId) (*User, error) {
 	if err != nil {
 		return nil, err
 	}
-	tls, err := timelines.GetTimelinesByUserId(ctx, result.Id)
+	tls, err := GetTimelinesByUserId(ctx, result.Id)
 	if err != nil {
 		return nil, err
 	}

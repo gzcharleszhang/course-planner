@@ -3,7 +3,7 @@ package middlewares
 import (
 	"context"
 	"github.com/go-chi/jwtauth"
-	"github.com/gzcharleszhang/course-planner/internal/app/auth"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/auth"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/contextKeys"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/permissions"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
@@ -38,6 +38,7 @@ func PermissionMiddleware(next http.Handler) http.Handler {
 	})
 }
 
+// for protecting admin routes
 func VerifyAdminMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		ctx := r.Context()
@@ -50,6 +51,7 @@ func VerifyAdminMiddleware(next http.Handler) http.Handler {
 	})
 }
 
+// for protecting authenticated routes
 func VerifyAuthenticatedMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		ctx := r.Context()

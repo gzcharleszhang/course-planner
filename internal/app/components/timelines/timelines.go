@@ -5,7 +5,6 @@ import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/plans"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"github.com/rs/xid"
 )
 
@@ -34,11 +33,6 @@ func NewTimeline(name TimelineName, cr *courses.CourseRecords) *Timeline {
 }
 
 func GetTimelineById(ctx context.Context, timelineId TimelineId) (*Timeline, error) {
-	// TODO: implement
-	return nil, nil
-}
-
-func GetTimelinesByUserId(ctx context.Context, userId users.UserId) ([]*Timeline, error) {
 	// TODO: implement
 	return nil, nil
 }
