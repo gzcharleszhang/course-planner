@@ -10,6 +10,7 @@ type Request struct {
 	FirstName users.FirstName `json:"first_name"`
 	LastName  users.LastName  `json:"last_name"`
 	Password  string          `json:"password"`
+	Email     users.Email     `json:"email"`
 }
 
 type Response struct {
@@ -21,7 +22,7 @@ func Execute(ctx context.Context, req Request) (*Response, error) {
 	if err != nil {
 		return nil, errors.Wrap(err, "Error hashing user password")
 	}
-	userId, err := users.CreateUser(ctx, req.FirstName, req.LastName, hash)
+	userId, err := users.CreateUser(ctx, req.FirstName, req.LastName, req.Email, hash)
 	if err != nil {
 		return nil, errors.Wrap(err, "Error creating new user")
 	}

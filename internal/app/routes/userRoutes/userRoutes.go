@@ -11,7 +11,7 @@ func InitUserRoutes(r chi.Router) {
 		// unauthenticated routes
 		r.Group(func(r chi.Router) {
 			r.Post("/", userHandlers.NewUserHandler)
-
+			r.Get("/", userHandlers.LoginHandler)
 		})
 
 		// authenticated routes
