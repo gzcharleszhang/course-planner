@@ -101,10 +101,6 @@ func HashPassword(password string) (PasswordHash, error) {
 }
 
 func VerifyPassword(ctx context.Context, email Email, password string) error {
-	sess, err := db.NewSession(ctx)
-	if err != nil {
-		return err
-	}
 	user, err := GetUserByEmail(ctx, email)
 	if err != nil {
 		return err
