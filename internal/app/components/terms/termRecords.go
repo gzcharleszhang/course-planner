@@ -2,16 +2,25 @@ package terms
 
 import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
+	"github.com/rs/xid"
 )
+
+type TermRecordId string
 
 type TermRecord struct {
 	Term          Term
+	Id            TermRecordId
 	CourseRecords courses.CourseRecords
+}
+
+func newTermRecordId() TermRecordId {
+	return TermRecordId(xid.New().String())
 }
 
 func NewTermRecord(termName TermName, uwTermId int) *TermRecord {
 	return &TermRecord{
 		Term:          NewTerm(termName, uwTermId),
+		Id:						 newTermRecordId(),
 		CourseRecords: courses.CourseRecords{},
 	}
 }
@@ -34,4 +43,9 @@ func isPrereqSatisfied(record *courses.CourseRecord, pastRecords *courses.Course
 		return true
 	}
 	return record.Prereqs.IsSatisfied(pastRecords)
+}
+
+// TODO: implement
+func GetTermRecordById(id TermRecordId) TermRecord {
+	return nil
 }

@@ -22,12 +22,11 @@ func newTimelineId() TimelineId {
 	return TimelineId(xid.New().String())
 }
 
-// TODO: use cr parameter when creating Timeline
-func NewTimeline(name TimelineName, cr *courses.CourseRecords) *Timeline {
+func NewTimeline(name TimelineName, tr []*terms.TermRecord) *Timeline {
 	return &Timeline{
 		Id:          newTimelineId(),
 		Name:        name,
-		TermRecords: []*terms.TermRecord{},
+		TermRecords: tr,
 		Plans:       plans.Plans{},
 	}
 }

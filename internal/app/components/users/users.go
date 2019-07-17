@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/timelines"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/rs/xid"
 	"go.mongodb.org/mongo-driver/bson"
@@ -20,7 +21,7 @@ type UserData struct {
 	FirstName     FirstName                `bson:"first_name"`
 	LastName      LastName                 `bson:"last_name"`
 	Password      PasswordHash             `bson:"password"`
-	CourseHistory []courses.CourseRecordId `bson:"course_history"`
+	CourseHistory []terms.TermRecordId     `bson:"course_history"`
 	Timelines     []timelines.TimelineId   `bson:"timelines"`
 }
 
@@ -29,7 +30,7 @@ type User struct {
 	FirstName     FirstName             `bson:"first_name"`
 	LastName      LastName              `bson:"last_name"`
 	Password      PasswordHash          `bson:"password"`
-	CourseHistory courses.CourseRecords `bson:"course_history"`
+	CourseHistory []*terms.TermRecord   `bson:"course_history"`
 	Timelines     []*timelines.Timeline `bson:"timelines"`
 }
 
@@ -88,4 +89,9 @@ func GetUserById(ctx context.Context, userId UserId) (*User, error) {
 func HashPassword(password string) (PasswordHash, error) {
 	bytes, err := bcrypt.GenerateFromPassword([]byte(password), 14)
 	return PasswordHash(bytes), err
+}
+
+// Creates a new timemline with the courses added to the course CourseHistory
+func (usr User) UpdateTimeline(name TimelineName) {
+	usr.Timelines = append(usr.Timelines, NewTimeline(name, usr.CourseHistory));
 }
