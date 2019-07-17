@@ -56,7 +56,7 @@ func VerifyAuthenticatedMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		ctx := r.Context()
 		perm := ctx.Value(contextKeys.PermissionAccessKey)
-		if perm != permissions.Authenticated {
+		if perm == permissions.Unauthenticated {
 			http.Error(w, http.StatusText(401), 401)
 			return
 		}
