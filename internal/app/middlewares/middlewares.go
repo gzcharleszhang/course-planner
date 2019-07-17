@@ -8,6 +8,7 @@ import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/permissions"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"net/http"
+	"time"
 )
 
 func PermissionMiddleware(next http.Handler) http.Handler {
@@ -22,6 +23,12 @@ func PermissionMiddleware(next http.Handler) http.Handler {
 				http.Error(w, http.StatusText(401), 401)
 				return
 			}
+			// check if token is expired
+			expirationTime, ok := claims[auth.ExpirationClaimKey].(time.Time)
+			if !ok || expirationTime.Before(time.Now()) {
+				http.Error(w, http.StatusText(401), 401)
+				return
+			}
 			perm, err := users.GetUserPermissionAccess(ctx, userId)
 			if err != nil {
 				http.Error(w, http.StatusText(401), 401)
@@ -33,6 +40,15 @@ func PermissionMiddleware(next http.Handler) http.Handler {
 			}
 			// set user id field in the context
 			ctx = context.WithValue(ctx, contextKeys.UserIdKey, userId)
+			// refresh token if needed
+			if auth.ShouldRefreshToken(expirationTime) {
+				_, token, err := auth.GenerateTokenForUser(userId)
+				if err != nil {
+					http.Error(w, http.StatusText(401), 401)
+					return
+				}
+				auth.SetJwtCookie(token, w)
+			}
 		}
 		next.ServeHTTP(w, r.WithContext(ctx))
 	})
