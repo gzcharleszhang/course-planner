@@ -6,6 +6,7 @@ import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/auth"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/contextKeys"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/permissions"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"net/http"
 	"time"
@@ -14,7 +15,7 @@ import (
 func PermissionMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		// default to unauthenticated
-		ctx := context.WithValue(r.Context(), contextKeys.PermissionAccessKey, permissions.Unauthenticated)
+		ctx := r.Context()
 		token, claims, err := jwtauth.FromContext(ctx)
 		// extract permission access level from token
 		if err == nil && token != nil && token.Valid {
@@ -29,14 +30,14 @@ func PermissionMiddleware(next http.Handler) http.Handler {
 				http.Error(w, http.StatusText(401), 401)
 				return
 			}
-			perm, err := users.GetUserPermissionAccess(ctx, userId)
+			role, err := users.GetUserRole(ctx, userId)
 			if err != nil {
 				http.Error(w, http.StatusText(401), 401)
 				return
 			}
-			// set permission access field in the context
-			if perm != nil {
-				ctx = context.WithValue(ctx, contextKeys.PermissionAccessKey, *perm)
+			// set role field in the context
+			if role != nil {
+				ctx = context.WithValue(ctx, contextKeys.UserRoleKey, *role)
 			}
 			// set user id field in the context
 			ctx = context.WithValue(ctx, contextKeys.UserIdKey, userId)
@@ -56,26 +57,31 @@ func PermissionMiddleware(next http.Handler) http.Handler {
 
 // for protecting admin routes
 func VerifyAdminMiddleware(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		ctx := r.Context()
-		perm := ctx.Value(contextKeys.PermissionAccessKey)
-		if perm != permissions.Admin {
-			http.Error(w, http.StatusText(401), 401)
-			return
-		}
-		next.ServeHTTP(w, r)
-	})
+	return AuthMiddlewareFactory(permissions.AdminRequired)(next)
 }
 
 // for protecting authenticated routes
 func VerifyAuthenticatedMiddleware(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		ctx := r.Context()
-		perm := ctx.Value(contextKeys.PermissionAccessKey)
-		if perm == permissions.Unauthenticated {
-			http.Error(w, http.StatusText(401), 401)
-			return
-		}
-		next.ServeHTTP(w, r)
-	})
+	return AuthMiddlewareFactory(permissions.AuthRequired)(next)
+}
+
+// returns a middleware that checks if request has the permission level required
+func AuthMiddlewareFactory(permRequired permissions.PermissionLevel) func(next http.Handler) http.Handler {
+	return func(next http.Handler) http.Handler {
+		return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			ctx := r.Context()
+			role, ok := ctx.Value(contextKeys.UserRoleKey).(roles.Role)
+			// reject if no role is defined and permRequired is not unauthenticated
+			if !ok && permRequired != permissions.Unauthenticated {
+				http.Error(w, http.StatusText(401), 401)
+				return
+			}
+			// reject if given role does not have permission level access required
+			if role.CanAccess(permRequired) {
+				http.Error(w, http.StatusText(401), 401)
+				return
+			}
+			next.ServeHTTP(w, r)
+		})
+	}
 }

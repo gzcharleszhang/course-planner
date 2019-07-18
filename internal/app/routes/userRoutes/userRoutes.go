@@ -18,5 +18,10 @@ func InitUserRoutes(r chi.Router) {
 		r.Group(func(r chi.Router) {
 			r.Use(middlewares.VerifyAuthenticatedMiddleware)
 		})
+
+		// admin routes
+		r.Group(func(r chi.Router) {
+			r.Use(middlewares.VerifyAdminMiddleware)
+		})
 	})
 }

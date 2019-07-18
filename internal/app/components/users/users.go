@@ -3,7 +3,7 @@ package users
 import (
 	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/permissions"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/timelines"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/pkg/errors"
@@ -19,24 +19,24 @@ type UserId string
 type PasswordHash string
 
 type UserData struct {
-	Id               UserId                   `bson:"_id"`
-	FirstName        FirstName                `bson:"first_name"`
-	LastName         LastName                 `bson:"last_name"`
-	Email            Email                    `bson:"email"`
-	Password         PasswordHash             `bson:"password"`
-	CourseHistory    []courses.CourseRecordId `bson:"course_history"`
-	PermissionAccess permissions.Permission   `bson:"permission_access"`
+	Id            UserId                   `bson:"_id"`
+	FirstName     FirstName                `bson:"first_name"`
+	LastName      LastName                 `bson:"last_name"`
+	Email         Email                    `bson:"email"`
+	Password      PasswordHash             `bson:"password"`
+	CourseHistory []courses.CourseRecordId `bson:"course_history"`
+	Role          roles.Role               `bson:"role"`
 }
 
 type User struct {
-	Id               UserId                 `json:"_id"`
-	FirstName        FirstName              `json:"first_name"`
-	LastName         LastName               `json:"last_name"`
-	Email            Email                  `json:"email"`
-	Password         PasswordHash           `json:"password"`
-	CourseHistory    courses.CourseRecords  `json:"course_history"`
-	Timelines        []*timelines.Timeline  `json:"timelines"`
-	PermissionAccess permissions.Permission `json:"permission_access"`
+	Id            UserId                `json:"_id"`
+	FirstName     FirstName             `json:"first_name"`
+	LastName      LastName              `json:"last_name"`
+	Email         Email                 `json:"email"`
+	Password      PasswordHash          `json:"password"`
+	CourseHistory courses.CourseRecords `json:"course_history"`
+	Timelines     []*timelines.Timeline `json:"timelines"`
+	Role          roles.Role            `json:"role"`
 }
 
 func newUserId() UserId {
@@ -60,12 +60,12 @@ func CreateUser(ctx context.Context, firstName FirstName, lastName LastName,
 	}
 	newUserId := newUserId()
 	user := UserData{
-		Id:               newUserId,
-		FirstName:        firstName,
-		LastName:         lastName,
-		Password:         password,
-		Email:            email,
-		PermissionAccess: permissions.Authenticated, // default to authenticated
+		Id:        newUserId,
+		FirstName: firstName,
+		LastName:  lastName,
+		Password:  password,
+		Email:     email,
+		Role:      roles.NewConrad(), // default to conrad
 	}
 	if _, err := sess.Users().InsertOne(ctx, user); err != nil {
 		return "", err
@@ -108,12 +108,12 @@ func VerifyPassword(ctx context.Context, email Email, password string) error {
 	return bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(password))
 }
 
-func GetUserPermissionAccess(ctx context.Context, id UserId) (*permissions.Permission, error) {
+func GetUserRole(ctx context.Context, id UserId) (*roles.Role, error) {
 	user, err := GetUserById(ctx, id)
 	if err != nil {
 		return nil, err
 	}
-	return &user.PermissionAccess, nil
+	return &user.Role, nil
 }
 
 func GetUserByEmail(ctx context.Context, email Email) (*User, error) {
@@ -144,14 +144,14 @@ func (u UserData) ToUser(ctx context.Context) (*User, error) {
 		return nil, err
 	}
 	user := User{
-		Id:               u.Id,
-		FirstName:        u.FirstName,
-		LastName:         u.LastName,
-		Password:         u.Password,
-		Email:            u.Email,
-		CourseHistory:    history,
-		Timelines:        tls,
-		PermissionAccess: u.PermissionAccess,
+		Id:            u.Id,
+		FirstName:     u.FirstName,
+		LastName:      u.LastName,
+		Password:      u.Password,
+		Email:         u.Email,
+		CourseHistory: history,
+		Timelines:     tls,
+		Role:          u.Role,
 	}
 	return &user, nil
 }
