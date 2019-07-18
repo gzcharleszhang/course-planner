@@ -32,9 +32,16 @@ func GenerateTokenForUser(id users.UserId) (*jwt.Token, string, error) {
 
 func SetJwtCookie(tokenString string, w http.ResponseWriter) {
 	cookie := http.Cookie{
-		Name:   "jwt",
-		Value:  tokenString,
-		Secure: true,
+		Name:  "jwt",
+		Value: tokenString,
+	}
+	http.SetCookie(w, &cookie)
+}
+
+func ClearJwtCookie(w http.ResponseWriter) {
+	cookie := http.Cookie{
+		Name:  "jwt",
+		Value: "",
 	}
 	http.SetCookie(w, &cookie)
 }

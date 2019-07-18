@@ -10,13 +10,14 @@ func InitUserRoutes(r chi.Router) {
 	r.Route("/users", func(r chi.Router) {
 		// unauthenticated routes
 		r.Group(func(r chi.Router) {
-			r.Post("/", userHandlers.NewUserHandler)
-			r.Get("/", userHandlers.LoginHandler)
+			r.Post("/register", userHandlers.NewUserHandler)
+			r.Post("/login", userHandlers.LoginHandler)
 		})
 
 		// authenticated routes
 		r.Group(func(r chi.Router) {
 			r.Use(middlewares.VerifyAuthenticatedMiddleware)
+			r.Post("/logout", userHandlers.LogoutHandler)
 		})
 
 		// admin routes

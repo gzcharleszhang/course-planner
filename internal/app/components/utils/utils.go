@@ -12,3 +12,5 @@ func ToJson(v interface{}) string {
 	}
 	return string(marshalled)
 }
+
+type M map[string]interface{}
