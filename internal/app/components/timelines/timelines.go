@@ -37,11 +37,6 @@ func GetTimelineById(ctx context.Context, timelineId TimelineId) (*Timeline, err
 	return nil, nil
 }
 
-func GetTimelinesByIds(ctx context.Context, timelineIds []TimelineId) ([]*Timeline, error) {
-	// TODO: implement
-	return nil, nil
-}
-
 func (t Timeline) AddTermRecord(tr *terms.TermRecord) {
 	t.TermRecords = append(t.TermRecords, tr)
 }
