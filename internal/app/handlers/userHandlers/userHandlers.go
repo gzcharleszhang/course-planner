@@ -45,3 +45,8 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 	auth.SetJwtCookie(res.JWTToken, w)
 	w.Write([]byte(utils.ToJson(res)))
 }
+
+func LogoutHandler(w http.ResponseWriter, r *http.Request) {
+	auth.ClearJwtCookie(w)
+	w.Write([]byte(utils.ToJson(utils.M{"message": "Logged out successfully."})))
+}
