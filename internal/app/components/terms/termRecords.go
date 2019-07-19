@@ -1,6 +1,7 @@
 package terms
 
 import (
+	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/rs/xid"
 )
@@ -20,7 +21,7 @@ func newTermRecordId() TermRecordId {
 func NewTermRecord(termName TermName, uwTermId int) *TermRecord {
 	return &TermRecord{
 		Term:          NewTerm(termName, uwTermId),
-		Id:						 newTermRecordId(),
+		Id:            newTermRecordId(),
 		CourseRecords: courses.CourseRecords{},
 	}
 }
@@ -46,6 +47,11 @@ func isPrereqSatisfied(record *courses.CourseRecord, pastRecords *courses.Course
 }
 
 // TODO: implement
-func GetTermRecordById(id TermRecordId) TermRecord {
-	return nil
+func GetTermRecordById(ctx context.Context, id TermRecordId) (*TermRecord, error) {
+	return nil, nil
+}
+
+// TODO: implement
+func GetTermRecordsByIds(ctx context.Context, recordIds []TermRecordId) ([]*TermRecord, error) {
+	return nil, nil
 }

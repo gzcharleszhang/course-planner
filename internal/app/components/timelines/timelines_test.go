@@ -445,3 +445,76 @@ func TestTimeline_InvalidCourses(t *testing.T) {
 		})
 	}
 }
+
+func TestTimeline_NewTimeline(t *testing.T) {
+	currTime := time.Now()
+	timelineName := TimelineName("timelineName")
+	courseHistory := []*terms.TermRecord{
+		{
+			Term: terms.Term{
+				Name:   "1A",
+				Season: 9,
+				Year:   2018,
+			},
+			CourseRecords: courses.CourseRecords{
+				&courses.CourseRecord{
+					Course: courses.Course{
+						Id: 0,
+					},
+					Grade:          85,
+					CompletionDate: &currTime,
+				},
+			},
+		},
+		{
+			Term: terms.Term{
+				Name:   "1B",
+				Season: 1,
+				Year:   2019,
+			},
+			CourseRecords: courses.CourseRecords{
+				&courses.CourseRecord{
+					Course: courses.Course{
+						Id: 1,
+					},
+					Grade:          70,
+					CompletionDate: &currTime,
+				},
+				&courses.CourseRecord{
+					Course: courses.Course{
+						Id: 2,
+					},
+					Grade:          50,
+					CompletionDate: &currTime,
+				},
+			},
+		},
+		{
+			Term: terms.Term{
+				Name:   "2A",
+				Season: 5,
+				Year:   2019,
+			},
+			CourseRecords: courses.CourseRecords{
+				&courses.CourseRecord{
+					Course: courses.Course{
+						Id: 3,
+					},
+				},
+			},
+		},
+	}
+	newTimeline := NewTimeline(timelineName, courseHistory)
+	courseHistory[1].Term.Season = 5
+	courseHistory[1].CourseRecords[1].Course.Id = 10
+	courseHistory[1].CourseRecords[1].Grade = 100
+	courseHistory[1].Term.Name = "3A"
+	courseHistory[1].Term.Year = 3019
+
+	assert.Equal(t, courseHistory[0].Term, newTimeline.TermRecords[0].Term)
+	assert.Equal(t, courseHistory[0].CourseRecords, newTimeline.TermRecords[0].CourseRecords)
+	assert.NotEqual(t, courseHistory[1].Term, newTimeline.TermRecords[1].Term)
+	assert.NotEqual(t, courseHistory[1].CourseRecords, newTimeline.TermRecords[1].CourseRecords)
+	assert.Equal(t, courseHistory[2].Term, newTimeline.TermRecords[2].Term)
+	assert.Equal(t, courseHistory[2].CourseRecords, newTimeline.TermRecords[2].CourseRecords)
+}

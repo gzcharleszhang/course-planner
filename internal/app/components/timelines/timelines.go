@@ -22,11 +22,18 @@ func newTimelineId() TimelineId {
 	return TimelineId(xid.New().String())
 }
 
-func NewTimeline(name TimelineName, tr []*terms.TermRecord) *Timeline {
+func NewTimeline(name TimelineName, courseHistory []*terms.TermRecord) *Timeline {
+	historyCopy := make()[]*terms.TermRecord{}, len(courseHistory))
+	for _, tr := range courseHistory {
+		uwTermId := int(tr.Term.Season) + (int(tr.Term.Year)-1900)*10
+		newRecord := terms.NewTermRecord(tr.Term.Name, uwTermId)
+		copy(newRecord.CourseRecords, tr.CourseRecords)
+		historyCopy = append(historyCopy, newRecord)
+	}
 	return &Timeline{
 		Id:          newTimelineId(),
 		Name:        name,
-		TermRecords: tr,
+		TermRecords: historyCopy,
 		Plans:       plans.Plans{},
 	}
 }

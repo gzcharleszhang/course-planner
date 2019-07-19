@@ -2,9 +2,8 @@ package users
 
 import (
 	"context"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/timelines"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/timelines"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/rs/xid"
 	"go.mongodb.org/mongo-driver/bson"
@@ -17,12 +16,12 @@ type UserId string
 type PasswordHash string
 
 type UserData struct {
-	Id            UserId                   `bson:"_id"`
-	FirstName     FirstName                `bson:"first_name"`
-	LastName      LastName                 `bson:"last_name"`
-	Password      PasswordHash             `bson:"password"`
-	CourseHistory []terms.TermRecordId     `bson:"course_history"`
-	Timelines     []timelines.TimelineId   `bson:"timelines"`
+	Id            UserId                 `bson:"_id"`
+	FirstName     FirstName              `bson:"first_name"`
+	LastName      LastName               `bson:"last_name"`
+	Password      PasswordHash           `bson:"password"`
+	CourseHistory []terms.TermRecordId   `bson:"course_history"`
+	Timelines     []timelines.TimelineId `bson:"timelines"`
 }
 
 type User struct {
@@ -67,7 +66,7 @@ func GetUserById(ctx context.Context, userId UserId) (*User, error) {
 	if err != nil {
 		return nil, err
 	}
-	history, err := courses.GetCourseRecordsByIds(ctx, result.CourseHistory)
+	history, err := terms.GetTermRecordsByIds(ctx, result.CourseHistory)
 	if err != nil {
 		return nil, err
 	}
@@ -92,6 +91,6 @@ func HashPassword(password string) (PasswordHash, error) {
 }
 
 // Creates a new timemline with the courses added to the course CourseHistory
-func (usr User) UpdateTimeline(name TimelineName) {
-	usr.Timelines = append(usr.Timelines, NewTimeline(name, usr.CourseHistory));
+func (usr User) NewTimeline(name timelines.TimelineName) {
+	usr.Timelines = append(usr.Timelines, timelines.NewTimeline(name, usr.CourseHistory))
 }
