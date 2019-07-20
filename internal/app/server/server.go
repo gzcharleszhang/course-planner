@@ -11,14 +11,35 @@ import (
 	"github.com/joho/godotenv"
 	"log"
 	"net/http"
+	"os"
 	"time"
 )
 
 func StartServer(port int) {
-	err := godotenv.Load()
+	err := LoadEnv()
 	if err != nil {
-		log.Fatal("Error loading .env file")
+		log.Fatalf("Error: failed to load environment variables %v", err)
 	}
+	r := SetupRouter()
+	fmt.Printf("Listening on port %v\n", port)
+	y, m, d := time.Now().Date()
+	// create file for error logging
+	errorLog, err := os.OpenFile(fmt.Sprintf("%v-%v-%v_err.log", y, m, d), os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	errLogger := log.New(errorLog, "ERROR: ", log.Ldate|log.Ltime|log.Lshortfile)
+	if err := http.ListenAndServe(fmt.Sprintf(":%v", port), r); err != nil {
+		// log error
+		errLogger.Printf("%v", err)
+		// print to stderr
+		log.Printf("%v", err)
+	}
+	fmt.Print("hello")
+}
+
+func LoadEnv() error {
+	return godotenv.Load()
+}
+
+func SetupRouter() *chi.Mux {
 	r := chi.NewRouter()
 	r.Use(middleware.RequestID)
 	r.Use(middleware.RealIP)
@@ -31,8 +52,5 @@ func StartServer(port int) {
 	// give request default permissions
 	r.Use(middlewares.PermissionMiddleware)
 	userRoutes.InitUserRoutes(r)
-	fmt.Printf("Listening on port %v\n", port)
-	if err := http.ListenAndServe(fmt.Sprintf(":%v", port), r); err != nil {
-		panic(err)
-	}
+	return r
 }
