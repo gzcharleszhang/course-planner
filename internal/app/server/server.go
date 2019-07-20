@@ -18,14 +18,14 @@ import (
 func StartServer(port int) {
 	err := LoadEnv()
 	if err != nil {
-		log.Fatalf("Error: failed to load environment variables %v", err)
+		log.Panicf("Error: failed to load environment variables %v", err)
 	}
 	r := SetupRouter()
 	fmt.Printf("Listening on port %v\n", port)
-	y, m, d := time.Now().Date()
-	// create file for error logging
-	errorLog, err := os.OpenFile(fmt.Sprintf("%v-%v-%v_err.log", y, m, d), os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
-	errLogger := log.New(errorLog, "ERROR: ", log.Ldate|log.Ltime|log.Lshortfile)
+	errLogger, err := newErrorLogger()
+	if err != nil {
+		log.Panicf("Error: failed to create error logger %v", err)
+	}
 	if err := http.ListenAndServe(fmt.Sprintf(":%v", port), r); err != nil {
 		// log error
 		errLogger.Printf("%v", err)
@@ -53,4 +53,15 @@ func SetupRouter() *chi.Mux {
 	r.Use(middlewares.PermissionMiddleware)
 	userRoutes.InitUserRoutes(r)
 	return r
+}
+
+func newErrorLogger() (*log.Logger, error) {
+	y, m, d := time.Now().Date()
+	// create file for error logging
+	errorLog, err := os.OpenFile(fmt.Sprintf("%v-%v-%v_err.log", y, m, d), os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	if err != nil {
+		return nil, err
+	}
+	errLogger := log.New(errorLog, "ERROR: ", log.Ldate|log.Ltime|log.Lshortfile)
+	return errLogger, nil
 }
