@@ -20,18 +20,9 @@ func NewTermRecord(termName TermName, uwTermId int) *TermRecord {
 func (tr TermRecord) InvalidCourses(pastRecords courses.CourseRecords) courses.CourseRecords {
 	invalidRecords := courses.CourseRecords{}
 	for _, record := range tr.CourseRecords {
-		if !isPrereqSatisfied(record, &pastRecords) {
+		if !record.IsPrereqSatisfied(&pastRecords) {
 			invalidRecords = append(invalidRecords, record)
 		}
 	}
 	return invalidRecords
-}
-
-func isPrereqSatisfied(record *courses.CourseRecord, pastRecords *courses.CourseRecords) bool {
-	// if no pre-reqs, then it's satisfied
-	prereqs := record.Prereqs
-	if prereqs == nil {
-		return true
-	}
-	return record.Prereqs.IsSatisfied(pastRecords)
 }
