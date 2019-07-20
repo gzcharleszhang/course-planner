@@ -58,7 +58,11 @@ func SetupRouter() *chi.Mux {
 func newErrorLogger() (*log.Logger, error) {
 	y, m, d := time.Now().Date()
 	// create file for error logging
-	errorLog, err := os.OpenFile(fmt.Sprintf("%v-%v-%v_err.log", y, m, d), os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	errorLog, err := os.OpenFile(
+		fmt.Sprintf("%v-%v-%v_err.log", y, m, d),
+		os.O_CREATE|os.O_WRONLY|os.O_APPEND,
+		0666,
+	)
 	if err != nil {
 		return nil, err
 	}
