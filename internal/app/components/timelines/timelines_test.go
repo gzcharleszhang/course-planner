@@ -453,9 +453,10 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		{
 			Term: terms.Term{
 				Name:   "1A",
-				Season: 9,
+				Season: terms.TermSeason(9),
 				Year:   2018,
 			},
+			Id: "#131ijj2",
 			CourseRecords: courses.CourseRecords{
 				&courses.CourseRecord{
 					Course: courses.Course{
@@ -469,7 +470,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		{
 			Term: terms.Term{
 				Name:   "1B",
-				Season: 1,
+				Season: terms.TermSeason(1),
 				Year:   2019,
 			},
 			CourseRecords: courses.CourseRecords{
@@ -492,7 +493,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		{
 			Term: terms.Term{
 				Name:   "2A",
-				Season: 5,
+				Season: terms.TermSeason(5),
 				Year:   2019,
 			},
 			CourseRecords: courses.CourseRecords{
@@ -505,16 +506,18 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		},
 	}
 	newTimeline := NewTimeline(timelineName, courseHistory)
-	courseHistory[1].Term.Season = 5
+	courseHistory[1].Term.Season = terms.TermSeason(5)
 	courseHistory[1].CourseRecords[1].Course.Id = 10
 	courseHistory[1].CourseRecords[1].Grade = 100
 	courseHistory[1].Term.Name = "3A"
 	courseHistory[1].Term.Year = 3019
 
-	assert.Equal(t, courseHistory[0].Term, newTimeline.TermRecords[0].Term)
-	assert.Equal(t, courseHistory[0].CourseRecords, newTimeline.TermRecords[0].CourseRecords)
-	assert.NotEqual(t, courseHistory[1].Term, newTimeline.TermRecords[1].Term)
-	assert.NotEqual(t, courseHistory[1].CourseRecords, newTimeline.TermRecords[1].CourseRecords)
-	assert.Equal(t, courseHistory[2].Term, newTimeline.TermRecords[2].Term)
-	assert.Equal(t, courseHistory[2].CourseRecords, newTimeline.TermRecords[2].CourseRecords)
+	// have to check that each individual one is not equals
+	assert.Equal(t, courseHistory[0].Term, newTimeline)
+	//assert.NotEqual(t, courseHistory[0].Id, newTimeline.TermRecords[0].Id)
+	//assert.Equal(t, courseHistory[0].CourseRecords, newTimeline.TermRecords[0].CourseRecords)
+	//assert.NotEqual(t, courseHistory[1].Term, newTimeline.TermRecords[1].Term)
+	//assert.NotEqual(t, courseHistory[1].CourseRecords, newTimeline.TermRecords[1].CourseRecords)
+	//assert.Equal(t, courseHistory[2].Term, newTimeline.TermRecords[2].Term)
+	//assert.Equal(t, courseHistory[2].CourseRecords, newTimeline.TermRecords[2].CourseRecords)
 }

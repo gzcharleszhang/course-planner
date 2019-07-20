@@ -23,11 +23,16 @@ func newTimelineId() TimelineId {
 }
 
 func NewTimeline(name TimelineName, courseHistory []*terms.TermRecord) *Timeline {
-	historyCopy := make()[]*terms.TermRecord{}, len(courseHistory))
+	var historyCopy []*terms.TermRecord
 	for _, tr := range courseHistory {
 		uwTermId := int(tr.Term.Season) + (int(tr.Term.Year)-1900)*10
 		newRecord := terms.NewTermRecord(tr.Term.Name, uwTermId)
-		copy(newRecord.CourseRecords, tr.CourseRecords)
+		for _, cr := range tr.CourseRecords {
+			copyTime := *cr.CompletionDate
+			tempCourseRecord := cr
+			tempCourseRecord.CompletionDate = &copyTime
+			newRecord.CourseRecords = append(newRecord.CourseRecords, tempCourseRecord)
+		}
 		historyCopy = append(historyCopy, newRecord)
 	}
 	return &Timeline{
