@@ -11,7 +11,7 @@ func TestDegree_IsCompleted(t *testing.T) {
 	degree := Degree{
 		Name: "Easy BCS",
 		Requirements: DegreeRequirements(courses.CourseRequirementSet{
-			MinCoursesToSatisfy: 2,
+			NumCoursesToSatisfy: 2,
 			Requirements: courses.CourseRequirementRules{
 				courses.CourseRequirement{
 					MinGrade: 50,
@@ -70,7 +70,7 @@ func TestDegree_GetName(t *testing.T) {
 	degree := Degree{
 		Name: DegreeName(name),
 		Requirements: DegreeRequirements(courses.CourseRequirementSet{
-			MinCoursesToSatisfy: 2,
+			NumCoursesToSatisfy: 2,
 			Requirements: courses.CourseRequirementRules{
 				courses.CourseRequirement{
 					MinGrade: 50,

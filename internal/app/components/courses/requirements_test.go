@@ -8,36 +8,31 @@ import (
 
 func TestCourseRequirement_IsSatisfied(t *testing.T) {
 	records := initRecords()
-	// testing using future course record (record3 )
-	courseId := CourseId(789)
+	// testing using future course record
 	req := CourseRequirement{
 		MinGrade: 100, // should ignore this requirement
-		CourseId: courseId,
+		CourseId: CourseId(789),
 	}
 	assert.Equal(t, true, req.IsSatisfied(records), "Test future record")
 
 	// missing requirement
-	courseId = CourseId(0)
 	req = CourseRequirement{
-		MinGrade: 0, // should ignore this requirement
-		CourseId: courseId,
+		MinGrade: 0,
+		CourseId: CourseId(0),
 	}
 	assert.Equal(t, false, req.IsSatisfied(records), "Test missing record")
 
 	// doesn't meet grades requirement
-	courseId = CourseId(456)
-
 	req = CourseRequirement{
-		MinGrade: 51, // should ignore this requirement
-		CourseId: courseId,
+		MinGrade: 51,
+		CourseId: CourseId(456),
 	}
 	assert.Equal(t, false, req.IsSatisfied(records), "Test grade requirement not met")
 
 	// meets grades requirement
-	courseId = CourseId(456)
 	req = CourseRequirement{
-		MinGrade: 50, // should ignore this requirement
-		CourseId: courseId,
+		MinGrade: 50,
+		CourseId: CourseId(456),
 	}
 	assert.Equal(t, true, req.IsSatisfied(records), "Test grade requirement met")
 
@@ -51,19 +46,75 @@ func TestCourseRequirement_IsSatisfied(t *testing.T) {
 		CompletionDate: &currTime,
 	}
 	*records = append(*records, &repeatedCourse)
-	courseId = CourseId(456)
 	req = CourseRequirement{
 		MinGrade: 51, // should ignore this requirement
-		CourseId: courseId,
+		CourseId: CourseId(456),
 	}
 	assert.Equal(t, true, req.IsSatisfied(records), "Test grade requirement met after course repeated")
+}
+
+func TestCourseRequirementRange_IsSatisfied(t *testing.T) {
+	records := initRecords()
+	// wrong subject
+	req := CourseRequirementRange{
+		Subject:    "NotTest",
+		CatalogMin: 1,
+		CatalogMax: 4,
+		MinGrade:   50,
+	}
+	assert.Equal(t, false, req.IsSatisfied(records), "Test wrong subject")
+
+	// right subject, not in range
+	req = CourseRequirementRange{
+		Subject:    "Test",
+		CatalogMin: 4,
+		CatalogMax: 7,
+		MinGrade:   50,
+	}
+	assert.Equal(t, false, req.IsSatisfied(records), "Test catalog not in range")
+
+	// right subject, in range, does not pass grade requirement
+	req = CourseRequirementRange{
+		Subject:    "Test",
+		CatalogMin: 1,
+		CatalogMax: 2,
+		MinGrade:   81,
+	}
+	assert.Equal(t, false, req.IsSatisfied(records), "Test grade requirement not met")
+
+	// right subject, on min boundary
+	req = CourseRequirementRange{
+		Subject:    "Test",
+		CatalogMin: 2,
+		CatalogMax: 3,
+		MinGrade:   50,
+	}
+	assert.Equal(t, true, req.IsSatisfied(records), "Test on min boundary of range")
+
+	// right subject, on max boundary
+	req = CourseRequirementRange{
+		Subject:    "Test",
+		CatalogMin: 0,
+		CatalogMax: 1,
+		MinGrade:   50,
+	}
+	assert.Equal(t, true, req.IsSatisfied(records), "Test on max boundary of range")
+
+	// right subject, in range, future course
+	req = CourseRequirementRange{
+		Subject:    "Test",
+		CatalogMin: 3,
+		CatalogMax: 6,
+		MinGrade:   50,
+	}
+	assert.Equal(t, true, req.IsSatisfied(records), "Test future course")
 }
 
 func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
 	records := initRecords()
 	// meet all requirements
 	req := CourseRequirementSet{
-		MinCoursesToSatisfy: 3,
+		NumCoursesToSatisfy: 3,
 		Requirements: CourseRequirementRules{
 			CourseRequirement{
 				MinGrade: 80,
@@ -83,7 +134,7 @@ func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
 
 	// doesn't meet one course grade requirement
 	req = CourseRequirementSet{
-		MinCoursesToSatisfy: 3,
+		NumCoursesToSatisfy: 3,
 		Requirements: CourseRequirementRules{
 			CourseRequirement{
 				MinGrade: 80,
@@ -103,7 +154,7 @@ func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
 
 	// meet 2 out of the 3 courses
 	req = CourseRequirementSet{
-		MinCoursesToSatisfy: 2,
+		NumCoursesToSatisfy: 2,
 		Requirements: CourseRequirementRules{
 			CourseRequirement{
 				MinGrade: 80,
@@ -123,7 +174,7 @@ func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
 
 	// doesn't satisfy min number of courses
 	req = CourseRequirementSet{
-		MinCoursesToSatisfy: 2,
+		NumCoursesToSatisfy: 2,
 		Requirements: CourseRequirementRules{
 			CourseRequirement{
 				MinGrade: 80,
@@ -145,9 +196,8 @@ func TestCourseRequirementSet_IsSatisfied(t *testing.T) {
 // setting up course records
 func initRecords() *CourseRecords {
 	currTime := time.Now()
-	courseId1 := CourseId(123)
 	course1 := Course{
-		Id:      courseId1,
+		Id:      CourseId(123),
 		Name:    "Test 1",
 		Subject: "Test",
 		Catalog: 1,
@@ -157,9 +207,8 @@ func initRecords() *CourseRecords {
 		Grade:          80,
 		CompletionDate: &currTime,
 	}
-	courseId2 := CourseId(456)
 	course2 := Course{
-		Id:      courseId2,
+		Id:      CourseId(456),
 		Name:    "Test 2",
 		Subject: "Test",
 		Catalog: 2,
@@ -169,9 +218,8 @@ func initRecords() *CourseRecords {
 		Grade:          50,
 		CompletionDate: &currTime,
 	}
-	courseId3 := CourseId(789)
 	course3 := Course{
-		Id:      courseId3,
+		Id:      CourseId(789),
 		Name:    "Test 3",
 		Subject: "Test",
 		Catalog: 3,
@@ -179,11 +227,6 @@ func initRecords() *CourseRecords {
 	record3 := CourseRecord{
 		Course: course3,
 	}
-	records := CourseRecords{
-		&record1,
-		&record2,
-		&record3,
-	}
 
-	return &records
+	return &CourseRecords{&record1, &record2, &record3}
 }
