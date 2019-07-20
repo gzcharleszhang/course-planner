@@ -13,6 +13,8 @@ type CourseRecord struct {
 	Id             CourseRecordId `json:"id"`
 	Grade          CourseGrade    `json:"grade"`
 	CompletionDate *time.Time     `json:"completion_date"`
+	// prerequisites are satisfied if true
+	Override bool `json:"override"`
 }
 
 type CourseRecords []*CourseRecord
@@ -65,4 +67,16 @@ func (cr CourseRecords) Exclude(records CourseRecords) CourseRecords {
 		}
 	}
 	return result
+}
+
+func (cr CourseRecord) IsPrereqSatisfied(pastRecords *CourseRecords) bool {
+	if cr.Override {
+		return true
+	}
+	// if no pre-reqs, then it's satisfied
+	prereqs := cr.Prereqs
+	if prereqs == nil {
+		return true
+	}
+	return cr.Prereqs.IsSatisfied(pastRecords)
 }
