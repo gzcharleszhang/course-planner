@@ -32,7 +32,6 @@ func StartServer(port int) {
 		// print to stderr
 		log.Printf("%v", err)
 	}
-	fmt.Print("hello")
 }
 
 func LoadEnv() error {
