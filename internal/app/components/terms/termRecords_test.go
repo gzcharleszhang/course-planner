@@ -23,7 +23,7 @@ func TestTermRecord_InvalidCourses(t *testing.T) {
 		Course: courses.Course{
 			Id: 2,
 			Prereqs: courses.CourseRequirementSet{
-				MinCoursesToSatisfy: 1,
+				NumCoursesToSatisfy: 1,
 				Requirements: courses.CourseRequirementRules{
 					courses.CourseRequirement{
 						CourseId: 3,
