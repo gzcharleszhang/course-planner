@@ -90,51 +90,58 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 	currTime := time.Now()
 	csDegree := plans.Degree{
 		Name: "Easy BCS",
-		Requirements: plans.DegreeRequirements(courses.CourseRequirementSet{
-			NumCoursesToSatisfy: 2,
-			Requirements: courses.CourseRequirementRules{
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 0,
-				},
-				courses.CourseRequirement{
-					MinGrade: 60,
-					CourseId: 1,
+		Requirements: plans.DegreeRequirements{
+			courses.CourseRequirementSet{
+				NumCoursesToSatisfy: 2,
+				Requirements: courses.CourseRequirementRules{
+					courses.CourseRequirement{
+						MinGrade: 50,
+						CourseId: 0,
+					},
+					courses.CourseRequirement{
+						MinGrade: 60,
+						CourseId: 1,
+					},
 				},
 			},
-		}),
+		},
 	}
+
 	mathDegree := plans.Degree{
 		Name: "Easy BMath",
-		Requirements: plans.DegreeRequirements(courses.CourseRequirementSet{
-			NumCoursesToSatisfy: 2,
-			Requirements: courses.CourseRequirementRules{
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 0,
-				},
-				courses.CourseRequirement{
-					MinGrade: 60,
-					CourseId: 2,
+		Requirements: plans.DegreeRequirements{
+			courses.CourseRequirementSet{
+				NumCoursesToSatisfy: 2,
+				Requirements: courses.CourseRequirementRules{
+					courses.CourseRequirement{
+						MinGrade: 50,
+						CourseId: 0,
+					},
+					courses.CourseRequirement{
+						MinGrade: 60,
+						CourseId: 2,
+					},
 				},
 			},
-		}),
+		},
 	}
 	econMinor := plans.Degree{
 		Name: "Easy Econ Minor",
-		Requirements: plans.DegreeRequirements(courses.CourseRequirementSet{
-			NumCoursesToSatisfy: 1,
-			Requirements: courses.CourseRequirementRules{
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 3,
-				},
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 4,
+		Requirements: plans.DegreeRequirements{
+			courses.CourseRequirementSet{
+				NumCoursesToSatisfy: 1,
+				Requirements: courses.CourseRequirementRules{
+					courses.CourseRequirement{
+						MinGrade: 50,
+						CourseId: 3,
+					},
+					courses.CourseRequirement{
+						MinGrade: 50,
+						CourseId: 4,
+					},
 				},
 			},
-		}),
+		},
 	}
 
 	csPlan, econMinorPlan, mathPlan := plans.Plan(csDegree), plans.Plan(econMinor), plans.Plan(mathDegree)
