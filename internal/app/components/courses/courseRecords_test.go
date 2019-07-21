@@ -1,10 +1,11 @@
 package courses
 
 import (
-	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
 )
 
 func TestCourseRecords_ToCourseIdMap(t *testing.T) {
@@ -395,6 +396,113 @@ func TestCourseRecords_Exclude(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := tt.cr.Exclude(tt.args.records); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("CourseRecords.Exclude() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
+
+func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
+	currTime := time.Now()
+	type fields struct {
+		Course         Course
+		Id             CourseRecordId
+		Grade          CourseGrade
+		CompletionDate *time.Time
+		Override       bool
+	}
+	type args struct {
+		pastRecords *CourseRecords
+	}
+	tests := []struct {
+		name   string
+		fields fields
+		args   args
+		want   bool
+	}{
+		{
+			name: "satisfied",
+			fields: fields{
+				Course: Course{
+					Id: 0,
+					Prereqs: CourseRequirement{
+						CourseId: 1,
+						MinGrade: 60,
+					},
+				},
+			},
+			args: args{
+				pastRecords: &CourseRecords{
+					&CourseRecord{
+						Course: Course{
+							Id: 1,
+						},
+						Grade: 10, // should still be satisfied because it's a future record
+					},
+				},
+			},
+			want: true,
+		},
+		{
+			name: "not satisfied",
+			fields: fields{
+				Course: Course{
+					Id: 0,
+					Prereqs: CourseRequirement{
+						CourseId: 1,
+						MinGrade: 60,
+					},
+				},
+			},
+			args: args{
+				pastRecords: &CourseRecords{
+					&CourseRecord{
+						Course: Course{
+							Id: 1,
+						},
+						Grade:          10,
+						CompletionDate: &currTime,
+					},
+				},
+			},
+			want: false,
+		},
+		{
+			name: "overridden",
+			fields: fields{
+				Course: Course{
+					Id: 0,
+					Prereqs: CourseRequirement{
+						CourseId: 1,
+						MinGrade: 60,
+					},
+				},
+				Override: true,
+			},
+			args: args{
+				pastRecords: &CourseRecords{
+					&CourseRecord{
+						Course: Course{
+							Id: 1,
+						},
+						Grade:          10,
+						CompletionDate: &currTime,
+					},
+				},
+			},
+			want: true,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			cr := CourseRecord{
+				Course:         tt.fields.Course,
+				Id:             tt.fields.Id,
+				Grade:          tt.fields.Grade,
+				CompletionDate: tt.fields.CompletionDate,
+				Override:       tt.fields.Override,
+			}
+			if got := cr.IsPrereqSatisfied(tt.args.pastRecords); got != tt.want {
+				t.Errorf("CourseRecord.IsPrereqSatisfied() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
 			}
 		})
 	}
