@@ -424,9 +424,11 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 			fields: fields{
 				Course: Course{
 					Id: 0,
-					Prereqs: CourseRequirement{
-						CourseId: 1,
-						MinGrade: 60,
+					Prereqs: CourseRequirementRules{
+						CourseRequirement{
+							CourseId: 1,
+							MinGrade: 60,
+						},
 					},
 				},
 			},
@@ -447,9 +449,11 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 			fields: fields{
 				Course: Course{
 					Id: 0,
-					Prereqs: CourseRequirement{
-						CourseId: 1,
-						MinGrade: 60,
+					Prereqs: CourseRequirementRules{
+						CourseRequirement{
+							CourseId: 1,
+							MinGrade: 60,
+						},
 					},
 				},
 			},
@@ -471,9 +475,11 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 			fields: fields{
 				Course: Course{
 					Id: 0,
-					Prereqs: CourseRequirement{
-						CourseId: 1,
-						MinGrade: 60,
+					Prereqs: CourseRequirementRules{
+						CourseRequirement{
+							CourseId: 1,
+							MinGrade: 60,
+						},
 					},
 				},
 				Override: true,

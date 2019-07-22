@@ -351,18 +351,22 @@ func TestTimeline_InvalidCourses(t *testing.T) {
 	course2 := courses.CourseRecord{
 		Course: courses.Course{
 			Id: 1,
-			Prereqs: courses.CourseRequirement{
-				CourseId: 0,
-				MinGrade: 60,
+			Prereqs: courses.CourseRequirementRules{
+				courses.CourseRequirement{
+					CourseId: 0,
+					MinGrade: 60,
+				},
 			},
 		},
 	}
 	course3 := courses.CourseRecord{
 		Course: courses.Course{
 			Id: 2,
-			Prereqs: courses.CourseRequirement{
-				CourseId: 1,
-				MinGrade: 60,
+			Prereqs: courses.CourseRequirementRules{
+				courses.CourseRequirement{
+					CourseId: 1,
+					MinGrade: 60,
+				},
 			},
 		},
 	}
