@@ -11,7 +11,7 @@ type Plan interface {
 type Plans []Plan
 
 type DegreeName string
-type DegreeRequirements courses.CourseRequirementRule
+type DegreeRequirements courses.CourseRequirementRules
 
 type Degree struct {
 	Name         DegreeName
@@ -19,7 +19,12 @@ type Degree struct {
 }
 
 func (deg Degree) IsCompleted(records *courses.CourseRecords) bool {
-	return deg.Requirements.IsSatisfied(records)
+	for _, req := range deg.Requirements {
+		if !req.IsSatisfied(records) {
+			return false
+		}
+	}
+	return true
 }
 
 func (deg Degree) GetName() string {
