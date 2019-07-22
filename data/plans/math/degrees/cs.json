@@ -1,0 +1,290 @@
+{
+	"name": "Bachelor of Computer Science",
+	"requirements": [
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 12765,
+					"min_grade": 50
+				},
+				{
+					"course_id": 12040,
+					"min_grade": 50
+				},
+				{
+					"course_id": 12767,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 12041,
+					"min_grade": 50
+				},
+				{
+					"course_id": 13657,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 6871,
+					"min_grade": 50
+				},
+				{
+					"course_id": 6880,
+					"min_grade": 50
+				},
+				{
+					"course_id": 6888,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 6872,
+					"min_grade": 50
+				},
+				{
+					"course_id": 6881,
+					"min_grade": 50
+				},
+				{
+					"course_id": 6889,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 6878,
+					"min_grade": 50
+				},
+				{
+					"course_id": 6886,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 6879,
+					"min_grade": 50
+				},
+				{
+					"course_id": 6887,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 6915,
+					"min_grade": 50
+				},
+				{
+					"course_id": 6922,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 8864,
+					"min_grade": 50
+				},
+				{
+					"course_id": 8866,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 8865,
+					"min_grade": 50
+				},
+				{
+					"course_id": 8867,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 4377,
+					"min_grade": 50
+				},
+				{
+					"course_id": 15405,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 4378,
+					"min_grade": 50
+				},
+				{
+					"course_id": 15406,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 11405,
+					"min_grade": 50
+				},
+				{
+					"course_id": 15407,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 4380,
+					"min_grade": 50
+				},
+				{
+					"course_id": 15408,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"course_id": 4382,
+			"min_grade": 50
+		},
+		{
+			"course_id": 4392,
+			"min_grade": 50
+		},
+		{
+			"course_id": 11416,
+			"min_grade": 50
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"subject": "CS",
+					"catalog_min": 340,
+					"catalog_max": 398,
+					"min_grade": 50
+				},
+				{
+					"subject": "CS",
+					"catalog_min": 440,
+					"catalog_max": 489,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"subject": "CS",
+					"catalog_min": 340,
+					"catalog_max": 398,
+					"min_grade": 50
+				},
+				{
+					"subject": "CS",
+					"catalog_min": 440,
+					"catalog_max": 489,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"subject": "CS",
+					"catalog_min": 340,
+					"catalog_max": 398,
+					"min_grade": 50
+				},
+				{
+					"subject": "CS",
+					"catalog_min": 440,
+					"catalog_max": 489,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"subject": "CS",
+			"catalog_min": 440,
+			"catalog_max": 489,
+			"min_grade": 50
+		},
+		{
+			"subject": "CS",
+			"catalog_min": 440,
+			"catalog_max": 489,
+			"min_grade": 50
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 10136,
+					"min_grade": 50
+				},
+				{
+					"subject": "CS",
+					"catalog_min": 440,
+					"catalog_max": 498,
+					"min_grade": 50
+				},
+				{
+					"course_id": 12560,
+					"min_grade": 50
+				},
+				{
+					"course_id": 8883,
+					"min_grade": 50
+				},
+				{
+					"subject": "CS",
+					"catalog_min": 600,
+					"catalog_max": 799,
+					"min_grade": 50
+				}
+			]
+		}
+	]
+}
