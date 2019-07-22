@@ -13,9 +13,10 @@ type Plans []Plan
 type DegreeName string
 type DegreeRequirements courses.CourseRequirementRules
 
+// TODO: if no minors or options differ from this structure, we can change Plan to this and remove the interface
 type Degree struct {
-	Name         DegreeName
-	Requirements DegreeRequirements
+	Name         DegreeName         `json:"name"`
+	Requirements DegreeRequirements `json:"requirements"`
 }
 
 func (deg Degree) IsCompleted(records *courses.CourseRecords) bool {

@@ -1,0 +1,54 @@
+{
+	"name": "Economics Minor",
+	"requirements": [
+		{
+			"course_id": 4874,
+			"min_grade": 50
+		},
+		{
+			"course_id": 4877,
+			"min_grade": 50
+		},
+		{
+			"course_id": 4885,
+			"min_grade": 50
+		},
+		{
+			"num_courses_to_satisfy": 1,
+			"requirements": [
+				{
+					"course_id": 15179,
+					"min_grade": 50
+				},
+				{
+					"course_id": 15180,
+					"min_grade": 50
+				}
+			]
+		},
+		{
+			"subject": "ECON",
+			"catalog_min": 200,
+			"catalog_max": 999,
+			"min_grade": 50
+		},
+		{
+			"subject": "ECON",
+			"catalog_min": 200,
+			"catalog_max": 999,
+			"min_grade": 50
+		},
+		{
+			"subject": "ECON",
+			"catalog_min": 200,
+			"catalog_max": 999,
+			"min_grade": 50
+		},
+		{
+			"subject": "ECON",
+			"catalog_min": 200,
+			"catalog_max": 999,
+			"min_grade": 50
+		}
+	]
+}
