@@ -13,25 +13,29 @@ func TestTermRecord_InvalidCourses(t *testing.T) {
 	course1 := courses.CourseRecord{
 		Course: courses.Course{
 			Id: 0,
-			Prereqs: courses.CourseRequirement{
-				CourseId: 1,
-				MinGrade: 60,
+			Prereqs: courses.CourseRequirementRules{
+				courses.CourseRequirement{
+					CourseId: 1,
+					MinGrade: 60,
+				},
 			},
 		},
 	}
 	course2 := courses.CourseRecord{
 		Course: courses.Course{
 			Id: 2,
-			Prereqs: courses.CourseRequirementSet{
-				NumCoursesToSatisfy: 1,
-				Requirements: courses.CourseRequirementRules{
-					courses.CourseRequirement{
-						CourseId: 3,
-						MinGrade: 60,
-					},
-					courses.CourseRequirement{
-						CourseId: 4,
-						MinGrade: 60,
+			Prereqs: courses.CourseRequirementRules{
+				courses.CourseRequirementSet{
+					NumCoursesToSatisfy: 1,
+					Requirements: courses.CourseRequirementRules{
+						courses.CourseRequirement{
+							CourseId: 3,
+							MinGrade: 60,
+						},
+						courses.CourseRequirement{
+							CourseId: 4,
+							MinGrade: 60,
+						},
 					},
 				},
 			},

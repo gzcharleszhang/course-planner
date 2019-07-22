@@ -74,5 +74,10 @@ func (cr CourseRecord) IsPrereqSatisfied(pastRecords *CourseRecords) bool {
 	if cr.Override || prereqs == nil {
 		return true
 	}
-	return cr.Prereqs.IsSatisfied(pastRecords)
+	for _, prereq := range prereqs {
+		if !prereq.IsSatisfied(pastRecords) {
+			return false
+		}
+	}
+	return true
 }
