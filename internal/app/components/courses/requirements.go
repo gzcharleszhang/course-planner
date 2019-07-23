@@ -21,6 +21,11 @@ type CourseRequirementRange struct {
 	MinGrade   CourseGrade   `json:"min_grade"`
 }
 
+// CourseRequirementCAV is a concrete impl for checking if records have the minimum required CAV
+type CAVRequirement struct {
+	MinCAV CourseGrade `json:"min_cav"`
+}
+
 // CourseRequirementSet is a concrete impl for several courses that can satisfy any of the requirements (e.g. one of
 // CS 115, CS 135, CS 145)
 type CourseRequirementSet struct {
@@ -52,6 +57,10 @@ func (set CourseRequirementSet) IsSatisfied(courseRecords *CourseRecords) bool {
 		}
 	}
 	return count >= set.NumCoursesToSatisfy
+}
+
+func (req CAVRequirement) IsSatisfied(courseRecords *CourseRecords) bool {
+	return courseRecords.CurrentCAV() >= req.MinCAV
 }
 
 // grade requirement is met if cr has a higher grade or if cr has a nil completion date (signifying a future course)

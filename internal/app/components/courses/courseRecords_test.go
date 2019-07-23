@@ -513,3 +513,124 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 		})
 	}
 }
+
+func TestCourseRecord_IsCompleted(t *testing.T) {
+	currTime := time.Now()
+	type fields struct {
+		Course         Course
+		Id             CourseRecordId
+		Grade          CourseGrade
+		CompletionDate *time.Time
+		Override       bool
+	}
+	tests := []struct {
+		name   string
+		fields fields
+		want   bool
+	}{
+		{
+			name: "completed without grade",
+			fields: fields{
+				Course: Course{
+					Id: CourseId(0),
+				},
+				CompletionDate: &currTime,
+			},
+			want: true,
+		},
+		{
+			name: "completed with grade",
+			fields: fields{
+				Course: Course{
+					Id: CourseId(0),
+				},
+				Grade:          CourseGrade(10),
+				CompletionDate: &currTime,
+			},
+			want: true,
+		},
+		{
+			name: "incomplete with grade",
+			fields: fields{
+				Course: Course{
+					Id: CourseId(0),
+				},
+				Grade: CourseGrade(100),
+			},
+			want: false,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			cr := CourseRecord{
+				Course:         tt.fields.Course,
+				Id:             tt.fields.Id,
+				Grade:          tt.fields.Grade,
+				CompletionDate: tt.fields.CompletionDate,
+				Override:       tt.fields.Override,
+			}
+			if got := cr.IsCompleted(); got != tt.want {
+				t.Errorf("CourseRecord.IsCompleted() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
+
+func TestCourseRecords_CurrentCAV(t *testing.T) {
+	currTime := time.Now()
+	tests := []struct {
+		name string
+		cr   CourseRecords
+		want CourseGrade
+	}{
+		{
+			name: "all completed",
+			cr: CourseRecords{
+				{
+					Grade:          CourseGrade(10),
+					CompletionDate: &currTime,
+				},
+				{
+					Grade:          CourseGrade(20),
+					CompletionDate: &currTime,
+				},
+				{
+					Grade:          CourseGrade(30),
+					CompletionDate: &currTime,
+				},
+				{
+					Grade:          CourseGrade(40),
+					CompletionDate: &currTime,
+				},
+			},
+			want: CourseGrade(25),
+		},
+		{
+			name: "some incomplete",
+			cr: CourseRecords{
+				{
+					Grade: CourseGrade(10),
+				},
+				{
+					Grade:          CourseGrade(20),
+					CompletionDate: &currTime,
+				},
+				{
+					Grade: CourseGrade(30),
+				},
+				{
+					Grade:          CourseGrade(40),
+					CompletionDate: &currTime,
+				},
+			},
+			want: CourseGrade(30),
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := tt.cr.CurrentCAV(); got != tt.want {
+				t.Errorf("CourseRecords.CurrentCAV() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
