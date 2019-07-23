@@ -78,6 +78,9 @@ func (cr CourseRecords) CurrentCAV() CourseGrade {
 			count += 1
 		}
 	}
+	if count == 0 {
+		return CourseGrade(0)
+	}
 	return CourseGrade(int(total) / count)
 }
 

@@ -625,6 +625,24 @@ func TestCourseRecords_CurrentCAV(t *testing.T) {
 			},
 			want: CourseGrade(30),
 		},
+		{
+			name: "all incomplete",
+			cr: CourseRecords{
+				{
+					Grade: CourseGrade(10),
+				},
+				{
+					Grade: CourseGrade(20),
+				},
+				{
+					Grade: CourseGrade(30),
+				},
+				{
+					Grade: CourseGrade(40),
+				},
+			},
+			want: CourseGrade(0),
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
