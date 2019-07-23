@@ -1,9 +1,11 @@
 package courses
 
 import (
-	"github.com/stretchr/testify/assert"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestCourseRequirement_IsSatisfied(t *testing.T) {
@@ -229,4 +231,110 @@ func initRecords() *CourseRecords {
 	}
 
 	return &CourseRecords{&record1, &record2, &record3}
+}
+
+func TestCAVRequirement_IsSatisfied(t *testing.T) {
+	currTime := time.Now()
+	type fields struct {
+		MinCAV CourseGrade
+	}
+	type args struct {
+		courseRecords *CourseRecords
+	}
+	tests := []struct {
+		name   string
+		fields fields
+		args   args
+		want   bool
+	}{
+		{
+			name: "equals CAV requirement",
+			fields: fields{
+				MinCAV: CourseGrade(25),
+			},
+			args: args{
+				courseRecords: &CourseRecords{
+					{
+						Grade:          CourseGrade(10),
+						CompletionDate: &currTime,
+					},
+					{
+						Grade:          CourseGrade(20),
+						CompletionDate: &currTime,
+					},
+					{
+						Grade:          CourseGrade(30),
+						CompletionDate: &currTime,
+					},
+					{
+						Grade:          CourseGrade(40),
+						CompletionDate: &currTime,
+					},
+				},
+			},
+			want: true,
+		},
+		{
+			name: "above CAV requirement",
+			fields: fields{
+				MinCAV: CourseGrade(25),
+			},
+			args: args{
+				courseRecords: &CourseRecords{
+					{
+						Grade:          CourseGrade(10),
+						CompletionDate: &currTime,
+					},
+					{
+						Grade: CourseGrade(20),
+					},
+					{
+						Grade:          CourseGrade(30),
+						CompletionDate: &currTime,
+					},
+					{
+						Grade:          CourseGrade(40),
+						CompletionDate: &currTime,
+					},
+				},
+			},
+			want: true,
+		},
+		{
+			name: "below CAV requirement",
+			fields: fields{
+				MinCAV: CourseGrade(25),
+			},
+			args: args{
+				courseRecords: &CourseRecords{
+					{
+						Grade:          CourseGrade(10),
+						CompletionDate: &currTime,
+					},
+					{
+						Grade:          CourseGrade(20),
+						CompletionDate: &currTime,
+					},
+					{
+						Grade:          CourseGrade(30),
+						CompletionDate: &currTime,
+					},
+					{
+						Grade: CourseGrade(40),
+					},
+				},
+			},
+			want: false,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			req := CAVRequirement{
+				MinCAV: tt.fields.MinCAV,
+			}
+			if got := req.IsSatisfied(tt.args.courseRecords); got != tt.want {
+				t.Errorf("CAVRequirement.IsSatisfied() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
 }

@@ -68,6 +68,22 @@ func (cr CourseRecords) Exclude(records CourseRecords) CourseRecords {
 	return result
 }
 
+// calculates the cumulative average of completed courses
+func (cr CourseRecords) CurrentCAV() CourseGrade {
+	total, count := CourseGrade(0), 0
+	for _, record := range cr {
+		// only accumulate if course is completed
+		if record.IsCompleted() {
+			total += record.Grade
+			count += 1
+		}
+	}
+	if count == 0 {
+		return CourseGrade(0)
+	}
+	return CourseGrade(int(total) / count)
+}
+
 func (cr CourseRecord) IsPrereqSatisfied(pastRecords *CourseRecords) bool {
 	// if it's overridden or course has no pre-reqs, then it's satisfied
 	prereqs := cr.Prereqs
@@ -80,4 +96,9 @@ func (cr CourseRecord) IsPrereqSatisfied(pastRecords *CourseRecords) bool {
 		}
 	}
 	return true
+}
+
+// whether or not the user has completed this course
+func (cr CourseRecord) IsCompleted() bool {
+	return cr.CompletionDate != nil
 }
