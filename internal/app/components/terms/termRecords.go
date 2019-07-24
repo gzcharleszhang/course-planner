@@ -26,6 +26,18 @@ func NewTermRecord(termName TermName, uwTermId int) *TermRecord {
 	}
 }
 
+func CopyRecords(records []*TermRecord) []*TermRecord {
+	var newTermRecords []*TermRecord
+	for _, tr := range records {
+		termName, termId := tr.Term.Name, int(tr.Term.Id)
+		newRecord := NewTermRecord(termName, termId)
+		newCourseRecords := courses.CopyRecords(tr.CourseRecords)
+		newRecord.CourseRecords = newCourseRecords
+		newTermRecords = append(newTermRecords, newRecord)
+	}
+	return newTermRecords
+}
+
 // Returns the courses whose pre-requisites are not satisfied
 func (tr TermRecord) InvalidCourses(pastRecords courses.CourseRecords) courses.CourseRecords {
 	invalidRecords := courses.CourseRecords{}

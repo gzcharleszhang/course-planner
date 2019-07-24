@@ -17,6 +17,20 @@ type CourseRecord struct {
 
 type CourseRecords []*CourseRecord
 
+func CopyRecords(records CourseRecords) CourseRecords {
+	var newCourseRecords []*CourseRecord
+	for _, cr := range records {
+		newCompletionDate := cr.CompletionDate
+		if cr.CompletionDate != nil {
+			copyTime := *cr.CompletionDate
+			newCompletionDate = &copyTime
+		}
+		newRecord := CourseRecord{cr.Course, cr.Id, cr.Grade, newCompletionDate}
+		newCourseRecords = append(newCourseRecords, &newRecord)
+	}
+	return CourseRecords(newCourseRecords)
+}
+
 func GetCourseRecordById(ctx context.Context, recordId CourseRecordId) (*CourseRecord, error) {
 	// TODO: implement
 	return nil, nil

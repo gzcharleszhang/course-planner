@@ -1,13 +1,15 @@
 package courses
 
 import (
-	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
 )
 
 func TestCourseRecords_ToCourseIdMap(t *testing.T) {
+
 	currTime := time.Now()
 	tests := []struct {
 		name string
@@ -395,6 +397,26 @@ func TestCourseRecords_Exclude(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := tt.cr.Exclude(tt.args.records); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("CourseRecords.Exclude() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
+
+func TestCourseRecords_CopyRecords(t *testing.T) {
+	type args struct {
+		records CourseRecords
+	}
+	tests := []struct {
+		name string
+		args args
+		want CourseRecords
+	}{
+		// TODO: Add test cases.
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := CopyRecords(tt.args.records); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("CopyCourseRecords() = %v, want %v", got, tt.want)
 			}
 		})
 	}

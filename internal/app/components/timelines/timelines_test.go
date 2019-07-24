@@ -453,6 +453,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		{
 			Term: terms.Term{
 				Name:   "1A",
+				Id: 	1189,
 				Season: terms.TermSeason(9),
 				Year:   2018,
 			},
@@ -470,6 +471,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		{
 			Term: terms.Term{
 				Name:   "1B",
+				Id:		1191,
 				Season: terms.TermSeason(1),
 				Year:   2019,
 			},
@@ -493,6 +495,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		{
 			Term: terms.Term{
 				Name:   "2A",
+				Id:		1195,
 				Season: terms.TermSeason(5),
 				Year:   2019,
 			},
@@ -501,23 +504,39 @@ func TestTimeline_NewTimeline(t *testing.T) {
 					Course: courses.Course{
 						Id: 3,
 					},
+					Grade:          50,
+					CompletionDate: &currTime,
 				},
 			},
 		},
 	}
+	id := newTimelineId()
+	originTimeline := Timeline{id, timelineName, courseHistory, plans.Plans{}}
 	newTimeline := NewTimeline(timelineName, courseHistory)
-	courseHistory[1].Term.Season = terms.TermSeason(5)
-	courseHistory[1].CourseRecords[1].Course.Id = 10
-	courseHistory[1].CourseRecords[1].Grade = 100
-	courseHistory[1].Term.Name = "3A"
-	courseHistory[1].Term.Year = 3019
 
-	// have to check that each individual one is not equals
-	assert.Equal(t, courseHistory[0].Term, newTimeline)
-	//assert.NotEqual(t, courseHistory[0].Id, newTimeline.TermRecords[0].Id)
-	//assert.Equal(t, courseHistory[0].CourseRecords, newTimeline.TermRecords[0].CourseRecords)
-	//assert.NotEqual(t, courseHistory[1].Term, newTimeline.TermRecords[1].Term)
-	//assert.NotEqual(t, courseHistory[1].CourseRecords, newTimeline.TermRecords[1].CourseRecords)
-	//assert.Equal(t, courseHistory[2].Term, newTimeline.TermRecords[2].Term)
-	//assert.Equal(t, courseHistory[2].CourseRecords, newTimeline.TermRecords[2].CourseRecords)
+	// checks if the second term record is the same
+	assert.Equal(t, originTimeline.TermRecords[1].Term, newTimeline.TermRecords[1].Term)
+	assert.Equal(t, originTimeline.TermRecords[1].CourseRecords, newTimeline.TermRecords[1].CourseRecords)
+
+	originTimeline.TermRecords[1].Term.Season = terms.TermSeason(5)
+	originTimeline.TermRecords[1].CourseRecords[1].Course.Id = 10
+	originTimeline.TermRecords[1].CourseRecords[1].Grade = 100
+	originTimeline.TermRecords[1].Term.Name = "3A"
+	originTimeline.TermRecords[1].Term.Year = 3019
+
+	// check if the other fields are the same
+	assert.Equal(t, originTimeline.Name, newTimeline.Name)
+	assert.NotEqual(t, originTimeline.Id, newTimeline.Id)
+	// check if the first term is the same
+	assert.Equal(t, originTimeline.TermRecords[0].Term, newTimeline.TermRecords[0].Term)
+	assert.NotEqual(t, originTimeline.TermRecords[0].Id, newTimeline.TermRecords[0].Id)
+	assert.Equal(t, originTimeline.TermRecords[0].CourseRecords, newTimeline.TermRecords[0].CourseRecords)
+	// check if second term record changed
+	assert.NotEqual(t, originTimeline.TermRecords[1].Term, newTimeline.TermRecords[1].Term)
+	assert.NotEqual(t, originTimeline.TermRecords[1].CourseRecords, newTimeline.TermRecords[1].CourseRecords)
+	assert.NotEqual(t, originTimeline.TermRecords[1].Id, newTimeline.TermRecords[1].Id)
+	// check if the third term record is the same
+	assert.NotEqual(t, originTimeline.TermRecords[2].Id, newTimeline.TermRecords[2].Id)
+	assert.Equal(t, originTimeline.TermRecords[2].Term, newTimeline.TermRecords[2].Term)
+	assert.Equal(t, originTimeline.TermRecords[2].CourseRecords, newTimeline.TermRecords[2].CourseRecords)
 }
