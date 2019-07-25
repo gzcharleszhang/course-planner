@@ -457,7 +457,7 @@ func TestTimeline_InvalidCourses(t *testing.T) {
 	}
 }
 
-func TestTimeline_NewTimeline(t *testing.T) {
+func TestNewTimeline(t *testing.T) {
 	currTime := time.Now()
 	timelineName := TimelineName("timelineName")
 	courseHistory := []*terms.TermRecord{
