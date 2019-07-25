@@ -2,6 +2,7 @@ package courses
 
 import (
 	"context"
+	"github.com/rs/xid"
 	"time"
 )
 
@@ -13,23 +14,35 @@ type CourseRecord struct {
 	Id             CourseRecordId `json:"id"`
 	Grade          CourseGrade    `json:"grade"`
 	CompletionDate *time.Time     `json:"completion_date"`
+	Override       bool           `json:"override"` // user specified this course was overridden so no need to check pre-requisites
 }
 
 type CourseRecords []*CourseRecord
 
-func CopyRecords(records CourseRecords) CourseRecords {
-	var newCourseRecords []*CourseRecord
+func newCourseRecordId() CourseRecordId {
+	return CourseRecordId(xid.New().String())
+}
+
+func (records CourseRecords) Copy() CourseRecords {
+	var newCourseRecords CourseRecords
 	for _, cr := range records {
-		newCompletionDate := cr.CompletionDate
-		if cr.CompletionDate != nil {
-			copyTime := *cr.CompletionDate
-			newCompletionDate = &copyTime
-		}
-		newRecord := CourseRecord{cr.Course, cr.Id, cr.Grade, newCompletionDate}
+		newRecord := cr.Copy()
 		newCourseRecords = append(newCourseRecords, &newRecord)
 	}
-	return CourseRecords(newCourseRecords)
+	return newCourseRecords
 }
+
+func (cr CourseRecord) Copy() CourseRecord {
+	newCompletionDate := cr.CompletionDate
+	if cr.CompletionDate != nil {
+		copyTime := *cr.CompletionDate
+		newCompletionDate = &copyTime
+	}
+	id := newCourseRecordId()
+	newRecord := CourseRecord{cr.Course, id, cr.Grade, newCompletionDate, cr.Override}
+	return newRecord
+}
+
 
 func GetCourseRecordById(ctx context.Context, recordId CourseRecordId) (*CourseRecord, error) {
 	// TODO: implement
@@ -79,4 +92,39 @@ func (cr CourseRecords) Exclude(records CourseRecords) CourseRecords {
 		}
 	}
 	return result
+}
+
+// calculates the cumulative average of completed courses
+func (cr CourseRecords) CurrentCAV() CourseGrade {
+	total, count := CourseGrade(0), 0
+	for _, record := range cr {
+		// only accumulate if course is completed
+		if record.IsCompleted() {
+			total += record.Grade
+			count += 1
+		}
+	}
+	if count == 0 {
+		return CourseGrade(0)
+	}
+	return CourseGrade(int(total) / count)
+}
+
+func (cr CourseRecord) IsPrereqSatisfied(pastRecords *CourseRecords) bool {
+	// if it's overridden or course has no pre-reqs, then it's satisfied
+	prereqs := cr.Prereqs
+	if cr.Override || prereqs == nil {
+		return true
+	}
+	for _, prereq := range prereqs {
+		if !prereq.IsSatisfied(pastRecords) {
+			return false
+		}
+	}
+	return true
+}
+
+// whether or not the user has completed this course
+func (cr CourseRecord) IsCompleted() bool {
+	return cr.CompletionDate != nil
 }

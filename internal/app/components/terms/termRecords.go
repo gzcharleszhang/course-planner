@@ -14,6 +14,8 @@ type TermRecord struct {
 	CourseRecords courses.CourseRecords
 }
 
+type TermRecords []*TermRecord
+
 func newTermRecordId() TermRecordId {
 	return TermRecordId(xid.New().String())
 }
@@ -26,36 +28,32 @@ func NewTermRecord(termName TermName, uwTermId int) *TermRecord {
 	}
 }
 
-func CopyRecords(records []*TermRecord) []*TermRecord {
-	var newTermRecords []*TermRecord
+func (records TermRecords) Copy() TermRecords {
+	var newTermRecords TermRecords
 	for _, tr := range records {
-		termName, termId := tr.Term.Name, int(tr.Term.Id)
-		newRecord := NewTermRecord(termName, termId)
-		newCourseRecords := courses.CopyRecords(tr.CourseRecords)
-		newRecord.CourseRecords = newCourseRecords
-		newTermRecords = append(newTermRecords, newRecord)
+		newRecord := tr.Copy()
+		newTermRecords = append(newTermRecords, &newRecord)
 	}
 	return newTermRecords
+}
+
+func (tr TermRecord) Copy() TermRecord {
+	termName, termId := tr.Term.Name, int(tr.Term.Id)
+	newRecord := NewTermRecord(termName, termId)
+	newCourseRecords := tr.CourseRecords.Copy()
+	newRecord.CourseRecords = newCourseRecords
+	return *newRecord
 }
 
 // Returns the courses whose pre-requisites are not satisfied
 func (tr TermRecord) InvalidCourses(pastRecords courses.CourseRecords) courses.CourseRecords {
 	invalidRecords := courses.CourseRecords{}
 	for _, record := range tr.CourseRecords {
-		if !isPrereqSatisfied(record, &pastRecords) {
+		if !record.IsPrereqSatisfied(&pastRecords) {
 			invalidRecords = append(invalidRecords, record)
 		}
 	}
 	return invalidRecords
-}
-
-func isPrereqSatisfied(record *courses.CourseRecord, pastRecords *courses.CourseRecords) bool {
-	// if no pre-reqs, then it's satisfied
-	prereqs := record.Prereqs
-	if prereqs == nil {
-		return true
-	}
-	return record.Prereqs.IsSatisfied(pastRecords)
 }
 
 // TODO: implement

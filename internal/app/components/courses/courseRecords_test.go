@@ -402,21 +402,413 @@ func TestCourseRecords_Exclude(t *testing.T) {
 	}
 }
 
-func TestCourseRecords_CopyRecords(t *testing.T) {
+func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
+	currTime := time.Now()
+	type fields struct {
+		Course         Course
+		Id             CourseRecordId
+		Grade          CourseGrade
+		CompletionDate *time.Time
+		Override       bool
+	}
 	type args struct {
-		records CourseRecords
+		pastRecords *CourseRecords
 	}
 	tests := []struct {
-		name string
-		args args
-		want CourseRecords
+		name   string
+		fields fields
+		args   args
+		want   bool
 	}{
-		// TODO: Add test cases.
+		{
+			name: "satisfied",
+			fields: fields{
+				Course: Course{
+					Id: 0,
+					Prereqs: CourseRequirementRules{
+						CourseRequirement{
+							CourseId: 1,
+							MinGrade: 60,
+						},
+					},
+				},
+			},
+			args: args{
+				pastRecords: &CourseRecords{
+					&CourseRecord{
+						Course: Course{
+							Id: 1,
+						},
+						Grade: 10, // should still be satisfied because it's a future record
+					},
+				},
+			},
+			want: true,
+		},
+		{
+			name: "not satisfied",
+			fields: fields{
+				Course: Course{
+					Id: 0,
+					Prereqs: CourseRequirementRules{
+						CourseRequirement{
+							CourseId: 1,
+							MinGrade: 60,
+						},
+					},
+				},
+			},
+			args: args{
+				pastRecords: &CourseRecords{
+					&CourseRecord{
+						Course: Course{
+							Id: 1,
+						},
+						Grade:          10,
+						CompletionDate: &currTime,
+					},
+				},
+			},
+			want: false,
+		},
+		{
+			name: "overridden",
+			fields: fields{
+				Course: Course{
+					Id: 0,
+					Prereqs: CourseRequirementRules{
+						CourseRequirement{
+							CourseId: 1,
+							MinGrade: 60,
+						},
+					},
+				},
+				Override: true,
+			},
+			args: args{
+				pastRecords: &CourseRecords{
+					&CourseRecord{
+						Course: Course{
+							Id: 1,
+						},
+						Grade:          10,
+						CompletionDate: &currTime,
+					},
+				},
+			},
+			want: true,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := CopyRecords(tt.args.records); !reflect.DeepEqual(got, tt.want) {
-				t.Errorf("CopyCourseRecords() = %v, want %v", got, tt.want)
+			cr := CourseRecord{
+				Course:         tt.fields.Course,
+				Id:             tt.fields.Id,
+				Grade:          tt.fields.Grade,
+				CompletionDate: tt.fields.CompletionDate,
+				Override:       tt.fields.Override,
+			}
+			if got := cr.IsPrereqSatisfied(tt.args.pastRecords); got != tt.want {
+				t.Errorf("CourseRecord.IsPrereqSatisfied() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
+
+func TestCourseRecord_IsCompleted(t *testing.T) {
+	currTime := time.Now()
+	type fields struct {
+		Course         Course
+		Id             CourseRecordId
+		Grade          CourseGrade
+		CompletionDate *time.Time
+		Override       bool
+	}
+	tests := []struct {
+		name   string
+		fields fields
+		want   bool
+	}{
+		{
+			name: "completed without grade",
+			fields: fields{
+				Course: Course{
+					Id: CourseId(0),
+				},
+				CompletionDate: &currTime,
+			},
+			want: true,
+		},
+		{
+			name: "completed with grade",
+			fields: fields{
+				Course: Course{
+					Id: CourseId(0),
+				},
+				Grade:          CourseGrade(10),
+				CompletionDate: &currTime,
+			},
+			want: true,
+		},
+		{
+			name: "incomplete with grade",
+			fields: fields{
+				Course: Course{
+					Id: CourseId(0),
+				},
+				Grade: CourseGrade(100),
+			},
+			want: false,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			cr := CourseRecord{
+				Course:         tt.fields.Course,
+				Id:             tt.fields.Id,
+				Grade:          tt.fields.Grade,
+				CompletionDate: tt.fields.CompletionDate,
+				Override:       tt.fields.Override,
+			}
+			if got := cr.IsCompleted(); got != tt.want {
+				t.Errorf("CourseRecord.IsCompleted() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
+
+func TestCourseRecords_CurrentCAV(t *testing.T) {
+	currTime := time.Now()
+	tests := []struct {
+		name string
+		cr   CourseRecords
+		want CourseGrade
+	}{
+		{
+			name: "all completed",
+			cr: CourseRecords{
+				{
+					Grade:          CourseGrade(10),
+					CompletionDate: &currTime,
+				},
+				{
+					Grade:          CourseGrade(20),
+					CompletionDate: &currTime,
+				},
+				{
+					Grade:          CourseGrade(30),
+					CompletionDate: &currTime,
+				},
+				{
+					Grade:          CourseGrade(40),
+					CompletionDate: &currTime,
+				},
+			},
+			want: CourseGrade(25),
+		},
+		{
+			name: "some incomplete",
+			cr: CourseRecords{
+				{
+					Grade: CourseGrade(10),
+				},
+				{
+					Grade:          CourseGrade(20),
+					CompletionDate: &currTime,
+				},
+				{
+					Grade: CourseGrade(30),
+				},
+				{
+					Grade:          CourseGrade(40),
+					CompletionDate: &currTime,
+				},
+			},
+			want: CourseGrade(30),
+		},
+		{
+			name: "all incomplete",
+			cr: CourseRecords{
+				{
+					Grade: CourseGrade(10),
+				},
+				{
+					Grade: CourseGrade(20),
+				},
+				{
+					Grade: CourseGrade(30),
+				},
+				{
+					Grade: CourseGrade(40),
+				},
+			},
+			want: CourseGrade(0),
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := tt.cr.CurrentCAV(); got != tt.want {
+				t.Errorf("CourseRecords.CurrentCAV() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
+
+func TestCourseRecords_Copy(t *testing.T) {
+	currTime := time.Now()
+	courseRecord1 := CourseRecord{
+		Course: Course{
+			Id: 3,
+		},
+		Id:             CourseRecordId("random"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord1Expect := CourseRecord{
+		Course: Course{
+			Id: 3,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord2 := CourseRecord{
+		Course: Course{
+			Id: 2,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord3 := CourseRecord{
+		Course: Course{
+			Id: 1,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          70,
+		CompletionDate: &currTime,
+	}
+	tests := []struct {
+		name    string
+		records CourseRecords
+		want    CourseRecords
+	}{
+		{
+			name: 	 "empty",
+			records: CourseRecords{},
+			want:	 nil,
+		},
+		{
+			name: 	"single",
+			records: CourseRecords{
+				&courseRecord1,
+			},
+			want:	CourseRecords{
+				&courseRecord1Expect,
+			},
+		},
+		{
+			name: 	"mutli",
+			records: CourseRecords{
+				&courseRecord1,
+				&courseRecord2,
+				&courseRecord3,
+			},
+			want:	CourseRecords{
+				&courseRecord1Expect,
+				&courseRecord2,
+				&courseRecord3,
+			},
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got := tt.records.Copy()
+			for i := range got {
+				if got[i].Id == tt.want[i].Id {
+					t.Errorf("Expected different id for recieved %v and expected %v", got[i].Id, tt.want[i].Id)
+				}
+				got[i].Id = CourseRecordId("asdfghjkl")
+			}
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("CourseRecords.Copy() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
+
+func TestCourseRecord_Copy(t *testing.T) {
+	currTime := time.Now()
+	courseRecord1 := CourseRecord{
+		Course: Course{
+			Id: 3,
+		},
+		Id:             CourseRecordId("random"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord1Expect := CourseRecord{
+		Course: Course{
+			Id: 3,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord2 := CourseRecord{
+		Course: Course{
+			Id: 2,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	type fields struct {
+		Course         Course
+		Id             CourseRecordId
+		Grade          CourseGrade
+		CompletionDate *time.Time
+		Override       bool
+	}
+	tests := []struct {
+		name   string
+		fields CourseRecord
+		want   CourseRecord
+	}{
+		{
+			name: 	"empty",
+			fields: CourseRecord{},
+			want:	CourseRecord{
+				Id: CourseRecordId("asdfghjkl"),
+			},
+		},
+		{
+			name: 	"single1",
+			fields: courseRecord1,
+			want:   courseRecord1Expect,
+		},
+		{
+			name: 	"single2",
+			fields: courseRecord2,
+			want:   courseRecord2,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			cr := CourseRecord{
+				Course:         tt.fields.Course,
+				Id:             tt.fields.Id,
+				Grade:          tt.fields.Grade,
+				CompletionDate: tt.fields.CompletionDate,
+				Override:       tt.fields.Override,
+			}
+			got := cr.Copy()
+			if got.Id == cr.Id {
+				t.Errorf("Expected different id for recieved %v and expected %v", got.Id, cr.Id )
+			}
+			got.Id = CourseRecordId("asdfghjkl")
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("CourseRecord.Copy() = %v, want %v", got, tt.want)
 			}
 		})
 	}

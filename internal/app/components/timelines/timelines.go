@@ -14,7 +14,7 @@ type TimelineName string
 type Timeline struct {
 	Id          TimelineId
 	Name        TimelineName
-	TermRecords []*terms.TermRecord
+	TermRecords terms.TermRecords
 	Plans       plans.Plans
 }
 
@@ -22,8 +22,8 @@ func newTimelineId() TimelineId {
 	return TimelineId(xid.New().String())
 }
 
-func NewTimeline(name TimelineName, courseHistory []*terms.TermRecord) *Timeline {
-	historyCopy := terms.CopyRecords(courseHistory)
+func NewTimeline(name TimelineName, courseHistory terms.TermRecords) *Timeline {
+	historyCopy := courseHistory.Copy()
 	return &Timeline{
 		Id:          newTimelineId(),
 		Name:        name,
@@ -33,11 +33,6 @@ func NewTimeline(name TimelineName, courseHistory []*terms.TermRecord) *Timeline
 }
 
 func GetTimelineById(ctx context.Context, timelineId TimelineId) (*Timeline, error) {
-	// TODO: implement
-	return nil, nil
-}
-
-func GetTimelinesByIds(ctx context.Context, timelineIds []TimelineId) ([]*Timeline, error) {
 	// TODO: implement
 	return nil, nil
 }

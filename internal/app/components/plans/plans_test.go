@@ -8,23 +8,8 @@ import (
 )
 
 func TestDegree_IsCompleted(t *testing.T) {
-	degree := Degree{
-		Name: "Easy BCS",
-		Requirements: DegreeRequirements(courses.CourseRequirementSet{
-			MinCoursesToSatisfy: 2,
-			Requirements: courses.CourseRequirementRules{
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 0,
-				},
-				courses.CourseRequirement{
-					MinGrade: 60,
-					CourseId: 1,
-				},
-			},
-		}),
-	}
 	currTime := time.Now()
+	degree := initDegree()
 
 	// completed
 	courseRecords := courses.CourseRecords{
@@ -45,7 +30,19 @@ func TestDegree_IsCompleted(t *testing.T) {
 	}
 	assert.Equal(t, true, degree.IsCompleted(&courseRecords))
 
-	// incomplete
+	// incomplete, one course missing
+	courseRecords = courses.CourseRecords{
+		courses.CourseId(0): &courses.CourseRecord{
+			Course: courses.Course{
+				Id: 0,
+			},
+			Grade:          50,
+			CompletionDate: &currTime,
+		},
+	}
+	assert.Equal(t, false, degree.IsCompleted(&courseRecords))
+
+	// incomplete, one course did not meet grade requirement
 	courseRecords = courses.CourseRecords{
 		courses.CourseId(0): &courses.CourseRecord{
 			Course: courses.Course{
@@ -66,22 +63,27 @@ func TestDegree_IsCompleted(t *testing.T) {
 }
 
 func TestDegree_GetName(t *testing.T) {
-	name := "Easy BCS"
-	degree := Degree{
-		Name: DegreeName(name),
-		Requirements: DegreeRequirements(courses.CourseRequirementSet{
-			MinCoursesToSatisfy: 2,
-			Requirements: courses.CourseRequirementRules{
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 0,
-				},
-				courses.CourseRequirement{
-					MinGrade: 60,
-					CourseId: 1,
+	degree := initDegree()
+	assert.Equal(t, "Easy BCS", degree.GetName())
+}
+
+func initDegree() *Degree {
+	return &Degree{
+		Name: "Easy BCS",
+		Requirements: DegreeRequirements{
+			courses.CourseRequirementSet{
+				NumCoursesToSatisfy: 2,
+				Requirements: courses.CourseRequirementRules{
+					courses.CourseRequirement{
+						MinGrade: 50,
+						CourseId: 0,
+					},
+					courses.CourseRequirement{
+						MinGrade: 60,
+						CourseId: 1,
+					},
 				},
 			},
-		}),
+		},
 	}
-	assert.Equal(t, name, degree.GetName())
 }

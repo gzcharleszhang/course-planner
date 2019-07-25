@@ -13,7 +13,7 @@ const (
 
 type Term struct {
 	Name   TermName
-	Id 	   TermId
+	Id     TermId
 	Season TermSeason
 	Year   TermYear
 }

@@ -90,51 +90,58 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 	currTime := time.Now()
 	csDegree := plans.Degree{
 		Name: "Easy BCS",
-		Requirements: plans.DegreeRequirements(courses.CourseRequirementSet{
-			MinCoursesToSatisfy: 2,
-			Requirements: courses.CourseRequirementRules{
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 0,
-				},
-				courses.CourseRequirement{
-					MinGrade: 60,
-					CourseId: 1,
+		Requirements: plans.DegreeRequirements{
+			courses.CourseRequirementSet{
+				NumCoursesToSatisfy: 2,
+				Requirements: courses.CourseRequirementRules{
+					courses.CourseRequirement{
+						MinGrade: 50,
+						CourseId: 0,
+					},
+					courses.CourseRequirement{
+						MinGrade: 60,
+						CourseId: 1,
+					},
 				},
 			},
-		}),
+		},
 	}
+
 	mathDegree := plans.Degree{
 		Name: "Easy BMath",
-		Requirements: plans.DegreeRequirements(courses.CourseRequirementSet{
-			MinCoursesToSatisfy: 2,
-			Requirements: courses.CourseRequirementRules{
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 0,
-				},
-				courses.CourseRequirement{
-					MinGrade: 60,
-					CourseId: 2,
+		Requirements: plans.DegreeRequirements{
+			courses.CourseRequirementSet{
+				NumCoursesToSatisfy: 2,
+				Requirements: courses.CourseRequirementRules{
+					courses.CourseRequirement{
+						MinGrade: 50,
+						CourseId: 0,
+					},
+					courses.CourseRequirement{
+						MinGrade: 60,
+						CourseId: 2,
+					},
 				},
 			},
-		}),
+		},
 	}
 	econMinor := plans.Degree{
 		Name: "Easy Econ Minor",
-		Requirements: plans.DegreeRequirements(courses.CourseRequirementSet{
-			MinCoursesToSatisfy: 1,
-			Requirements: courses.CourseRequirementRules{
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 3,
-				},
-				courses.CourseRequirement{
-					MinGrade: 50,
-					CourseId: 4,
+		Requirements: plans.DegreeRequirements{
+			courses.CourseRequirementSet{
+				NumCoursesToSatisfy: 1,
+				Requirements: courses.CourseRequirementRules{
+					courses.CourseRequirement{
+						MinGrade: 50,
+						CourseId: 3,
+					},
+					courses.CourseRequirement{
+						MinGrade: 50,
+						CourseId: 4,
+					},
 				},
 			},
-		}),
+		},
 	}
 
 	csPlan, econMinorPlan, mathPlan := plans.Plan(csDegree), plans.Plan(econMinor), plans.Plan(mathDegree)
@@ -344,18 +351,22 @@ func TestTimeline_InvalidCourses(t *testing.T) {
 	course2 := courses.CourseRecord{
 		Course: courses.Course{
 			Id: 1,
-			Prereqs: courses.CourseRequirement{
-				CourseId: 0,
-				MinGrade: 60,
+			Prereqs: courses.CourseRequirementRules{
+				courses.CourseRequirement{
+					CourseId: 0,
+					MinGrade: 60,
+				},
 			},
 		},
 	}
 	course3 := courses.CourseRecord{
 		Course: courses.Course{
 			Id: 2,
-			Prereqs: courses.CourseRequirement{
-				CourseId: 1,
-				MinGrade: 60,
+			Prereqs: courses.CourseRequirementRules{
+				courses.CourseRequirement{
+					CourseId: 1,
+					MinGrade: 60,
+				},
 			},
 		},
 	}
@@ -453,7 +464,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		{
 			Term: terms.Term{
 				Name:   "1A",
-				Id: 	1189,
+				Id:     1189,
 				Season: terms.TermSeason(9),
 				Year:   2018,
 			},
@@ -463,6 +474,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 					Course: courses.Course{
 						Id: 0,
 					},
+					Id:             courses.CourseRecordId("asdfghjkl"),
 					Grade:          85,
 					CompletionDate: &currTime,
 				},
@@ -471,7 +483,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		{
 			Term: terms.Term{
 				Name:   "1B",
-				Id:		1191,
+				Id:     1191,
 				Season: terms.TermSeason(1),
 				Year:   2019,
 			},
@@ -480,6 +492,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 					Course: courses.Course{
 						Id: 1,
 					},
+					Id:             courses.CourseRecordId("asdfghjkl"),
 					Grade:          70,
 					CompletionDate: &currTime,
 				},
@@ -487,6 +500,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 					Course: courses.Course{
 						Id: 2,
 					},
+					Id:             courses.CourseRecordId("asdfghjkl"),
 					Grade:          50,
 					CompletionDate: &currTime,
 				},
@@ -495,7 +509,7 @@ func TestTimeline_NewTimeline(t *testing.T) {
 		{
 			Term: terms.Term{
 				Name:   "2A",
-				Id:		1195,
+				Id:     1195,
 				Season: terms.TermSeason(5),
 				Year:   2019,
 			},
@@ -504,19 +518,25 @@ func TestTimeline_NewTimeline(t *testing.T) {
 					Course: courses.Course{
 						Id: 3,
 					},
+					Id:             courses.CourseRecordId("asdfghjkl"),
 					Grade:          50,
 					CompletionDate: &currTime,
 				},
 			},
 		},
 	}
+
+	// testing empty case
+	emptyTimeline := Timeline{Name: timelineName}
+	newEmptyTimeLine := NewTimeline(timelineName, terms.TermRecords{})
+	assert.Equal(t, emptyTimeline.TermRecords, newEmptyTimeLine.TermRecords)
+
 	id := newTimelineId()
 	originTimeline := Timeline{id, timelineName, courseHistory, plans.Plans{}}
 	newTimeline := NewTimeline(timelineName, courseHistory)
 
 	// checks if the second term record is the same
 	assert.Equal(t, originTimeline.TermRecords[1].Term, newTimeline.TermRecords[1].Term)
-	assert.Equal(t, originTimeline.TermRecords[1].CourseRecords, newTimeline.TermRecords[1].CourseRecords)
 
 	originTimeline.TermRecords[1].Term.Season = terms.TermSeason(5)
 	originTimeline.TermRecords[1].CourseRecords[1].Course.Id = 10
@@ -524,6 +544,16 @@ func TestTimeline_NewTimeline(t *testing.T) {
 	originTimeline.TermRecords[1].Term.Name = "3A"
 	originTimeline.TermRecords[1].Term.Year = 3019
 
+	for j, tr := range newTimeline.TermRecords {
+		for i := range tr.CourseRecords {
+			newId := newTimeline.TermRecords[j].CourseRecords[i].Id
+			ogId := originTimeline.TermRecords[j].CourseRecords[i].Id
+			if newId == ogId {
+				t.Errorf("Expected course record id %v, received %v", newId, ogId)
+			}
+			newTimeline.TermRecords[j].CourseRecords[i].Id = courses.CourseRecordId("asdfghjkl")
+		}
+	}
 	// check if the other fields are the same
 	assert.Equal(t, originTimeline.Name, newTimeline.Name)
 	assert.NotEqual(t, originTimeline.Id, newTimeline.Id)
