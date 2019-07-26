@@ -2,8 +2,9 @@ package users
 
 import (
 	"context"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
+
 	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/timelines"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/pkg/errors"
@@ -19,13 +20,14 @@ type UserId string
 type PasswordHash string
 
 type UserData struct {
-	Id            UserId                   `bson:"_id"`
-	FirstName     FirstName                `bson:"first_name"`
-	LastName      LastName                 `bson:"last_name"`
-	Email         Email                    `bson:"email"`
-	Password      PasswordHash             `bson:"password"`
-	CourseHistory []courses.CourseRecordId `bson:"course_history"`
-	Role          roles.Role               `bson:"role"`
+	Id            UserId                 `bson:"_id"`
+	FirstName     FirstName              `bson:"first_name"`
+	LastName      LastName               `bson:"last_name"`
+	Email         Email                  `bson:"email"`
+	Password      PasswordHash           `bson:"password"`
+	CourseHistory []terms.TermRecordId   `bson:"course_history"`
+	Timelines     []timelines.TimelineId `bson:"timelines"`
+	Role          roles.Role             `bson:"role"`
 }
 
 type User struct {
@@ -34,7 +36,7 @@ type User struct {
 	LastName      LastName              `json:"last_name"`
 	Email         Email                 `json:"email"`
 	Password      PasswordHash          `json:"password"`
-	CourseHistory courses.CourseRecords `json:"course_history"`
+	CourseHistory terms.TermRecords     `json:"course_history"`
 	Timelines     []*timelines.Timeline `json:"timelines"`
 	Role          roles.Role            `json:"role"`
 }
@@ -135,7 +137,7 @@ func GetUserByEmail(ctx context.Context, email Email) (*User, error) {
 }
 
 func (u UserData) ToUser(ctx context.Context) (*User, error) {
-	history, err := courses.GetCourseRecordsByIds(ctx, u.CourseHistory)
+	history, err := terms.GetTermRecordsByIds(ctx, u.CourseHistory)
 	if err != nil {
 		return nil, err
 	}
@@ -154,4 +156,9 @@ func (u UserData) ToUser(ctx context.Context) (*User, error) {
 		Role:          u.Role,
 	}
 	return &user, nil
+}
+
+// Creates a new timemline with the courses added to the course CourseHistory
+func (usr User) NewTimeline(name timelines.TimelineName) {
+	usr.Timelines = append(usr.Timelines, timelines.NewTimeline(name, usr.CourseHistory))
 }

@@ -14,7 +14,7 @@ type TimelineName string
 type Timeline struct {
 	Id          TimelineId
 	Name        TimelineName
-	TermRecords []*terms.TermRecord
+	TermRecords terms.TermRecords
 	Plans       plans.Plans
 }
 
@@ -22,12 +22,12 @@ func newTimelineId() TimelineId {
 	return TimelineId(xid.New().String())
 }
 
-// TODO: use cr parameter when creating Timeline
-func NewTimeline(name TimelineName, cr *courses.CourseRecords) *Timeline {
+func NewTimeline(name TimelineName, courseHistory terms.TermRecords) *Timeline {
+	historyCopy := courseHistory.Copy()
 	return &Timeline{
 		Id:          newTimelineId(),
 		Name:        name,
-		TermRecords: []*terms.TermRecord{},
+		TermRecords: historyCopy,
 		Plans:       plans.Plans{},
 	}
 }

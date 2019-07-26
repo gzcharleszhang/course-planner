@@ -9,6 +9,7 @@ import (
 )
 
 func TestCourseRecords_ToCourseIdMap(t *testing.T) {
+
 	currTime := time.Now()
 	tests := []struct {
 		name string
@@ -648,6 +649,166 @@ func TestCourseRecords_CurrentCAV(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			if got := tt.cr.CurrentCAV(); got != tt.want {
 				t.Errorf("CourseRecords.CurrentCAV() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
+
+func TestCourseRecords_Copy(t *testing.T) {
+	currTime := time.Now()
+	courseRecord1 := CourseRecord{
+		Course: Course{
+			Id: 3,
+		},
+		Id:             CourseRecordId("random"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord1Expect := CourseRecord{
+		Course: Course{
+			Id: 3,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord2 := CourseRecord{
+		Course: Course{
+			Id: 2,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord3 := CourseRecord{
+		Course: Course{
+			Id: 1,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          70,
+		CompletionDate: &currTime,
+	}
+	tests := []struct {
+		name    string
+		records CourseRecords
+		want    CourseRecords
+	}{
+		{
+			name: 	 "empty",
+			records: CourseRecords{},
+			want:	 nil,
+		},
+		{
+			name: 	"single",
+			records: CourseRecords{
+				&courseRecord1,
+			},
+			want:	CourseRecords{
+				&courseRecord1Expect,
+			},
+		},
+		{
+			name: 	"mutli",
+			records: CourseRecords{
+				&courseRecord1,
+				&courseRecord2,
+				&courseRecord3,
+			},
+			want:	CourseRecords{
+				&courseRecord1Expect,
+				&courseRecord2,
+				&courseRecord3,
+			},
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got := tt.records.Copy()
+			for i := range got {
+				if got[i].Id == tt.want[i].Id {
+					t.Errorf("Expected different id for recieved %v and expected %v", got[i].Id, tt.want[i].Id)
+				}
+				got[i].Id = CourseRecordId("asdfghjkl")
+			}
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("CourseRecords.Copy() = %v, want %v", utils.ToJson(got), utils.ToJson(tt.want))
+			}
+		})
+	}
+}
+
+func TestCourseRecord_Copy(t *testing.T) {
+	currTime := time.Now()
+	courseRecord1 := CourseRecord{
+		Course: Course{
+			Id: 3,
+		},
+		Id:             CourseRecordId("random"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord1Expect := CourseRecord{
+		Course: Course{
+			Id: 3,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	courseRecord2 := CourseRecord{
+		Course: Course{
+			Id: 2,
+		},
+		Id:             CourseRecordId("asdfghjkl"),
+		Grade:          50,
+		CompletionDate: &currTime,
+	}
+	type fields struct {
+		Course         Course
+		Id             CourseRecordId
+		Grade          CourseGrade
+		CompletionDate *time.Time
+		Override       bool
+	}
+	tests := []struct {
+		name   string
+		fields CourseRecord
+		want   CourseRecord
+	}{
+		{
+			name: 	"empty",
+			fields: CourseRecord{},
+			want:	CourseRecord{
+				Id: CourseRecordId("asdfghjkl"),
+			},
+		},
+		{
+			name: 	"single1",
+			fields: courseRecord1,
+			want:   courseRecord1Expect,
+		},
+		{
+			name: 	"single2",
+			fields: courseRecord2,
+			want:   courseRecord2,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			cr := CourseRecord{
+				Course:         tt.fields.Course,
+				Id:             tt.fields.Id,
+				Grade:          tt.fields.Grade,
+				CompletionDate: tt.fields.CompletionDate,
+				Override:       tt.fields.Override,
+			}
+			got := cr.Copy()
+			if got.Id == cr.Id {
+				t.Errorf("Expected different id for recieved %v and expected %v", got.Id, cr.Id )
+			}
+			got.Id = CourseRecordId("asdfghjkl")
+			if !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("CourseRecord.Copy() = %v, want %v", got, tt.want)
 			}
 		})
 	}

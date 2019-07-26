@@ -2,6 +2,7 @@ package courses
 
 import (
 	"context"
+	"github.com/rs/xid"
 	"time"
 )
 
@@ -17,6 +18,31 @@ type CourseRecord struct {
 }
 
 type CourseRecords []*CourseRecord
+
+func newCourseRecordId() CourseRecordId {
+	return CourseRecordId(xid.New().String())
+}
+
+func (records CourseRecords) Copy() CourseRecords {
+	var newCourseRecords CourseRecords
+	for _, cr := range records {
+		newRecord := cr.Copy()
+		newCourseRecords = append(newCourseRecords, &newRecord)
+	}
+	return newCourseRecords
+}
+
+func (cr CourseRecord) Copy() CourseRecord {
+	newCompletionDate := cr.CompletionDate
+	if cr.CompletionDate != nil {
+		copyTime := *cr.CompletionDate
+		newCompletionDate = &copyTime
+	}
+	id := newCourseRecordId()
+	newRecord := CourseRecord{cr.Course, id, cr.Grade, newCompletionDate, cr.Override}
+	return newRecord
+}
+
 
 func GetCourseRecordById(ctx context.Context, recordId CourseRecordId) (*CourseRecord, error) {
 	// TODO: implement
