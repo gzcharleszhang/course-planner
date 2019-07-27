@@ -6,6 +6,8 @@ import (
 	"net/http"
 )
 
+const RouteURL string = "/logout"
+
 func Handler(w http.ResponseWriter, r *http.Request) {
 	auth.ClearJwtCookie(w)
 	w.Write([]byte(utils.ToJson(utils.M{"message": "Logged out successfully."})))
