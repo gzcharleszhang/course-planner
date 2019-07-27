@@ -5,7 +5,7 @@ import "github.com/gzcharleszhang/course-planner/internal/app/components/permiss
 const DaveDisplayName = "admin"
 const DaveId = "admin"
 
-// regular user
+// admin
 type Dave struct {
 	Id          RoleId                       `json:"_id",bson:"_id"`
 	DisplayName string                       `json:"display_name",bson:"display_name"`

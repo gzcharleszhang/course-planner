@@ -5,7 +5,7 @@ import "github.com/gzcharleszhang/course-planner/internal/app/components/permiss
 const SnewDisplayName = "super_admin"
 const SnewId = "super_admin"
 
-// regular user
+// super admin
 type Snew struct {
 	Id          RoleId                       `json:"_id",bson:"_id"`
 	DisplayName string                       `json:"display_name",bson:"display_name"`
