@@ -22,8 +22,8 @@ jobs: # basic units of work in a run
 
       # Normally, this step would be in a custom primary image;
       # we've added it here for the sake of explanation.
-      - run: go get -t -d -v ./...
-      - run: go get github.com/joho/godotenv/cmd/godotenv
+      - run: sudo apt-get install go-dep
+      - run: dep ensure
       - run: go get github.com/jstemmer/go-junit-report
 
       - run:
@@ -35,7 +35,7 @@ jobs: # basic units of work in a run
           # Store the results of our tests in the $TEST_RESULTS directory
           command: |
             trap "go-junit-report <${TEST_RESULTS}/go-test.out > ${TEST_RESULTS}/go-test-report.xml" EXIT
-            godotenv go test -tags=init -v -cover ./... | tee ${TEST_RESULTS}/go-test.out
+            godotenv go test -tags=unit -v -cover ./... | tee ${TEST_RESULTS}/go-test.out
 
       - run:
           name: Waiting for Mongo to be ready
