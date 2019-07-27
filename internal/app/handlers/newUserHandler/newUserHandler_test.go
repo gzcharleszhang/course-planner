@@ -3,41 +3,76 @@
 package newUserHandler
 
 import (
-	"bytes"
+	"encoding/json"
 	"fmt"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
+	"github.com/gzcharleszhang/course-planner/internal/app/db"
+	"github.com/gzcharleszhang/course-planner/internal/app/services/newUserService"
+	"go.mongodb.org/mongo-driver/bson"
 	"net/http"
-	"net/http/httptest"
 	"testing"
 )
 
-func TestExecute(t *testing.T) {
-	_, err := utils.InitTest()
+func TestHandler(t *testing.T) {
+	ctx, err := utils.InitTest()
 	if err != nil {
 		t.Errorf("Failed to initialize test: %v\n", err)
 	}
-	jsonStr := utils.M{
+	req := utils.M{
 		"first_name": "Steven",
 		"last_name":  "Xu",
 		"password":   "course_planner>inflight",
 		"email":      "hello@stevenxu.me",
 	}
-	req, err := http.NewRequest("POST", "/login", bytes.NewBuffer(utils.ToRawJson(jsonStr)))
+	jsonStr := utils.ToRawJson(req)
+	rr, err := utils.NewTestRequest("POST", RouteURL, jsonStr, Handler)
 	if err != nil {
-		t.Error(err)
+		t.Errorf("%v", err)
 	}
-	req.Header.Set("Content-Type", "application/json")
-	rr := httptest.NewRecorder()
-	handler := http.HandlerFunc(Handler)
-	handler.ServeHTTP(rr, req)
 	if status := rr.Code; status != http.StatusOK {
 		t.Errorf("handler returned wrong status code: got %v want %v",
 			status, http.StatusOK)
 	}
-	expected := `{"id":4,"first_name":"xyz change","last_name":"pqr","email_address":"xyz@pqr.com","phone_number":"1234567890"}`
-	fmt.Print(expected)
-	if rr.Body.String() != expected {
-		t.Errorf("handler returned unexpected body: got %v want %v",
-			rr.Body.String(), expected)
+	var res newUserService.Response
+	decoder := json.NewDecoder(rr.Body)
+	decoder.Decode(&res)
+	userId := res.UserId
+
+	// check if we can find the new user in the database
+	sess, err := db.NewSession(ctx)
+	if err != nil {
+		t.Errorf("%v\n", err)
+	}
+	defer sess.Close(ctx)
+	var userData users.UserData
+	err = sess.Users().FindOne(ctx, bson.M{"_id": userId}).Decode(&userData)
+	if err != nil {
+		t.Errorf("Cannot find the newly created user: %v", err)
+	}
+
+	// check important fields
+	if !utils.StrCmp(string(userData.FirstName), req["first_name"]) ||
+		!utils.StrCmp(string(userData.LastName), req["last_name"]) ||
+		!utils.StrCmp(string(userData.Email), req["email"]) {
+		t.Errorf("Expected %v to contain %v", utils.ToJson(userData), utils.ToJson(req))
+	}
+
+	// Test creating user with duplicate emails
+	req = utils.M{
+		"first_name": "Jenny",
+		"last_name":  "Xu",
+		"password":   "donthatemesteven",
+		"email":      "hello@stevenxu.me",
+	}
+	jsonStr = utils.ToRawJson(req)
+	rr, err = utils.NewTestRequest("POST", RouteURL, jsonStr, Handler)
+	if err != nil {
+		t.Errorf("%v", err)
+	}
+	fmt.Printf("%v", rr.Body.String())
+	if status := rr.Code; status != http.StatusInternalServerError {
+		t.Errorf("handler returned wrong status code: got %v want %v",
+			status, http.StatusInternalServerError)
 	}
 }

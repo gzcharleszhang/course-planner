@@ -8,6 +8,8 @@ import (
 	"net/http"
 )
 
+const RouteURL string = "/register"
+
 func Handler(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
 	decoder := json.NewDecoder(r.Body)

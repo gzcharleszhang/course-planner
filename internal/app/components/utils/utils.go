@@ -22,3 +22,7 @@ func ToRawJson(v interface{}) []byte {
 	}
 	return marshalled
 }
+
+func StrCmp(v1 interface{}, v2 interface{}) bool {
+	return v1.(string) == v2.(string)
+}

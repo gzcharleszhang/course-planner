@@ -27,7 +27,7 @@ type UserData struct {
 	Password      PasswordHash           `bson:"password"`
 	CourseHistory []terms.TermRecordId   `bson:"course_history"`
 	Timelines     []timelines.TimelineId `bson:"timelines"`
-	Role          roles.Role             `bson:"role"`
+	RoleId        roles.RoleId           `bson:"role_id"`
 }
 
 type User struct {
@@ -64,7 +64,7 @@ func CreateUser(ctx context.Context, firstName FirstName, lastName LastName,
 		LastName:  lastName,
 		Password:  password,
 		Email:     email,
-		Role:      roles.NewConrad(), // default to conrad
+		RoleId:    roles.ConradId, // default to conrad
 	}
 	if _, err := sess.Users().InsertOne(ctx, user); err != nil {
 		return "", err
@@ -150,7 +150,7 @@ func (u UserData) ToUser(ctx context.Context) (*User, error) {
 		Email:         u.Email,
 		CourseHistory: history,
 		Timelines:     tls,
-		Role:          u.Role,
+		Role:          roles.GetRoleFromId(u.RoleId),
 	}
 	return &user, nil
 }
