@@ -4,7 +4,6 @@ package newUserHandler
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
@@ -70,7 +69,6 @@ func TestHandler(t *testing.T) {
 	if err != nil {
 		t.Errorf("%v", err)
 	}
-	fmt.Printf("%v", rr.Body.String())
 	if status := rr.Code; status != http.StatusInternalServerError {
 		t.Errorf("handler returned wrong status code: got %v want %v",
 			status, http.StatusInternalServerError)
