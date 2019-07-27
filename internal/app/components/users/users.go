@@ -2,7 +2,6 @@ package users
 
 import (
 	"context"
-
 	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/timelines"
@@ -10,6 +9,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rs/xid"
 	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/mongo"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -27,7 +27,7 @@ type UserData struct {
 	Password      PasswordHash           `bson:"password"`
 	CourseHistory []terms.TermRecordId   `bson:"course_history"`
 	Timelines     []timelines.TimelineId `bson:"timelines"`
-	Role          roles.Role             `bson:"role"`
+	RoleId        roles.RoleId           `bson:"role_id"`
 }
 
 type User struct {
@@ -53,11 +53,11 @@ func CreateUser(ctx context.Context, firstName FirstName, lastName LastName,
 	}
 	defer sess.Close(ctx)
 	// check for duplicate emails
-	existingUser, err := GetUserByEmail(ctx, email)
+	userExists, err := checkDuplicateEmail(ctx, email)
 	if err != nil {
 		return "", err
 	}
-	if existingUser != nil {
+	if userExists {
 		return "", errors.New("Email already exists")
 	}
 	newUserId := newUserId()
@@ -67,7 +67,7 @@ func CreateUser(ctx context.Context, firstName FirstName, lastName LastName,
 		LastName:  lastName,
 		Password:  password,
 		Email:     email,
-		Role:      roles.NewConrad(), // default to conrad
+		RoleId:    roles.ConradId, // default to conrad
 	}
 	if _, err := sess.Users().InsertOne(ctx, user); err != nil {
 		return "", err
@@ -136,6 +136,19 @@ func GetUserByEmail(ctx context.Context, email Email) (*User, error) {
 	return user, nil
 }
 
+// return true if there already exists an user with the given email
+func checkDuplicateEmail(ctx context.Context, email Email) (bool, error) {
+	_, err := GetUserByEmail(ctx, email)
+	if err != nil {
+		// no result found means no duplicates
+		if err == mongo.ErrNoDocuments {
+			return false, nil
+		}
+		return false, err
+	}
+	return true, nil
+}
+
 func (u UserData) ToUser(ctx context.Context) (*User, error) {
 	history, err := terms.GetTermRecordsByIds(ctx, u.CourseHistory)
 	if err != nil {
@@ -153,7 +166,7 @@ func (u UserData) ToUser(ctx context.Context) (*User, error) {
 		Email:         u.Email,
 		CourseHistory: history,
 		Timelines:     tls,
-		Role:          u.Role,
+		Role:          roles.GetRoleFromId(u.RoleId),
 	}
 	return &user, nil
 }

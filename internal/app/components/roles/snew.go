@@ -2,15 +2,20 @@ package roles
 
 import "github.com/gzcharleszhang/course-planner/internal/app/components/permissions"
 
-// regular user
+const SnewDisplayName = "super_admin"
+const SnewId = "super_admin"
+
+// super admin
 type Snew struct {
-	DisplayName string
-	Permissions permissions.PermissionLevels
+	Id          RoleId                       `json:"_id",bson:"_id"`
+	DisplayName string                       `json:"display_name",bson:"display_name"`
+	Permissions permissions.PermissionLevels `json:"permissions",bson:"permissions"`
 }
 
 func NewSnew() Role {
 	return Snew{
-		DisplayName: "admin",
+		Id:          SnewId,
+		DisplayName: SnewDisplayName,
 		Permissions: permissions.PermissionLevels{
 			permissions.Unauthenticated,
 			permissions.AuthRequired,
@@ -22,4 +27,8 @@ func NewSnew() Role {
 
 func (s Snew) CanAccess(permission permissions.PermissionLevel) bool {
 	return s.Permissions.Contains(permission)
+}
+
+func (s Snew) GetRoleId() RoleId {
+	return s.Id
 }

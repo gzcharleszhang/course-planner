@@ -4,6 +4,7 @@ jobs: # basic units of work in a run
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: circleci/golang:1.11.2
+      - image: circleci/mongo:4.0.10-xenial
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/gzcharleszhang/course-planner
 
@@ -24,6 +25,7 @@ jobs: # basic units of work in a run
       - run: go get -t -d -v ./...
       - run: go get github.com/joho/godotenv/cmd/godotenv
       - run: go get github.com/jstemmer/go-junit-report
+      - run: go get github.com/stretchr/testify/assert
 
       - run:
           name: Enforce Go Formatted Code
@@ -34,7 +36,25 @@ jobs: # basic units of work in a run
           # Store the results of our tests in the $TEST_RESULTS directory
           command: |
             trap "go-junit-report <${TEST_RESULTS}/go-test.out > ${TEST_RESULTS}/go-test-report.xml" EXIT
-            godotenv go test -v -cover ./... | tee ${TEST_RESULTS}/go-test.out
+            godotenv go test -tags=unit -v -cover ./... | tee ${TEST_RESULTS}/go-test.out
+
+      - run:
+          name: Waiting for Mongo to be ready
+          command: |
+            for i in `seq 1 10`;
+            do
+              nc -z localhost 27017 && echo Success && exit 0
+              echo -n .
+              sleep 1
+            done
+            echo Failed waiting for Mongo && exit 1
+
+      - run:
+          name: Run integration tests
+          # Store the results of our tests in the $TEST_RESULTS directory
+          command: |
+            trap "go-junit-report <${TEST_RESULTS}/go-test.out > ${TEST_RESULTS}/go-test-report.xml" EXIT
+            godotenv go test -tags=integration -v -cover ./... | tee ${TEST_RESULTS}/go-test.out
 
       - run: go build ./cmd/course-planner # pull and build dependencies for the project
 
