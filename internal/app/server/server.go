@@ -6,9 +6,9 @@ import (
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/jwtauth"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/auth"
+	"github.com/gzcharleszhang/course-planner/internal/app/env"
 	"github.com/gzcharleszhang/course-planner/internal/app/middlewares"
 	"github.com/gzcharleszhang/course-planner/internal/app/routes/userRoutes"
-	"github.com/joho/godotenv"
 	"log"
 	"net/http"
 	"os"
@@ -16,26 +16,23 @@ import (
 )
 
 func StartServer(port int) {
-	err := LoadEnv()
-	if err != nil {
-		log.Panicf("Error: failed to load environment variables %v", err)
-	}
-	r := SetupRouter()
-	fmt.Printf("Listening on port %v\n", port)
 	errLogger, err := newErrorLogger()
 	if err != nil {
 		log.Panicf("Error: failed to create error logger %v", err)
 	}
+	err = env.LoadEnv()
+	if err != nil {
+		errLogger.Printf("Error: failed to load environment variables %v", err)
+		log.Printf("Error: failed to load environment variables %v", err)
+	}
+	r := SetupRouter()
+	fmt.Printf("Listening on port %v\n", port)
 	if err := http.ListenAndServe(fmt.Sprintf(":%v", port), r); err != nil {
 		// log error
 		errLogger.Printf("%v", err)
 		// print to stderr
 		log.Printf("%v", err)
 	}
-}
-
-func LoadEnv() error {
-	return godotenv.Load()
 }
 
 func SetupRouter() *chi.Mux {

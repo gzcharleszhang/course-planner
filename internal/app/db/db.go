@@ -2,7 +2,6 @@ package db
 
 import (
 	"context"
-	"fmt"
 	"github.com/pkg/errors"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -20,9 +19,6 @@ func NewSession(ctx context.Context) (*Session, error) {
 }
 
 func getMongoURI() string {
-	mongoUsername := os.Getenv("MONGO_USERNAME")
-	mongoPassword := os.Getenv("MONGO_PASSWORD")
-	mongoHost := os.Getenv("MONGO_HOST")
-	mongoURI := fmt.Sprintf("mongodb+srv://%s:%s@%s", mongoUsername, mongoPassword, mongoHost)
+	mongoURI := os.Getenv("MONGO_URI")
 	return mongoURI
 }

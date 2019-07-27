@@ -54,10 +54,7 @@ func CreateUser(ctx context.Context, firstName FirstName, lastName LastName,
 	defer sess.Close(ctx)
 	// check for duplicate emails
 	existingUser, err := GetUserByEmail(ctx, email)
-	if err != nil {
-		return "", err
-	}
-	if existingUser != nil {
+	if err == nil && existingUser != nil {
 		return "", errors.New("Email already exists")
 	}
 	newUserId := newUserId()
