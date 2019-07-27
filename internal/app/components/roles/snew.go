@@ -3,7 +3,7 @@ package roles
 import "github.com/gzcharleszhang/course-planner/internal/app/components/permissions"
 
 const SnewDisplayName = "super_admin"
-const SnewId = "suer_admin"
+const SnewId = "super_admin"
 
 // regular user
 type Snew struct {
