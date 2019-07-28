@@ -1,0 +1,760 @@
+{
+    "data": [
+        {
+            "course_id": "010030",
+            "subject": "SE",
+            "catalog_number": "101",
+            "title": "Introduction to Methods of Software Engineering",
+            "units": 0.25,
+            "description": "An introduction to some of the basic methods and principles used by\nsoftware engineers, including fundamentals of technical communication,\nmeasurement, analysis, and design. Some aspects of the software\nengineering profession, including standards, safety and intellectual\nproperty. Professional development including r\u00e9sum\u00e9 skills, interview\nskills, and preparation for co-op terms. Safety-orientation training,\nincluding WHMIS assessment, is included in this course. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "SEM"
+            ],
+            "prerequisites": "Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE101",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011339",
+            "subject": "SE",
+            "catalog_number": "102",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar [Offered: W]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE102",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011341",
+            "subject": "SE",
+            "catalog_number": "201",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE201",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011330",
+            "subject": "SE",
+            "catalog_number": "202",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar [Offered: S]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE202",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010031",
+            "subject": "SE",
+            "catalog_number": "212",
+            "title": "Logic and Computation",
+            "units": 0.5,
+            "description": "Formal logic. Proof systems and styles. Rudimentary model theory. Formal models of computation. Logic-based specification. Correctness proofs. Applications in software engineering. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "MATH 135; Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE212",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011335",
+            "subject": "SE",
+            "catalog_number": "301",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar [Offered: W]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE301",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011336",
+            "subject": "SE",
+            "catalog_number": "302",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE302",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013372",
+            "subject": "SE",
+            "catalog_number": "350",
+            "title": "Operating Systems",
+            "units": 0.5,
+            "description": "An introduction to the fundamentals of operating system function, and implementation. Topics include concurrency, synchronization, processes, threads, scheduling, memory management, file systems, device management, and security. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "CS 240, (CS 246 or 247), ECE 222; Software Engineering students only.",
+            "antirequisites": "CS 350, ECE 254, 354, MTE 241",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE350",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013373",
+            "subject": "SE",
+            "catalog_number": "380",
+            "title": "Introduction to Feedback Control",
+            "units": 0.5,
+            "description": "Introduction to control systems. Advantages of closed-loop feedback systems. The role of the system mathematical model. Block diagrams and signal flow graphs. The basic control system design problem, stability in control systems. Frequency response analysis techniques. Root-locus analysis. Elementary lead-lag compensation. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "MATH 213; Software Engineering students only.",
+            "antirequisites": "ECE 380, ME 360, MTE 360, SYDE 352",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE380",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010131",
+            "subject": "SE",
+            "catalog_number": "382",
+            "title": "Human-computer Interaction",
+            "units": 0.5,
+            "description": "The purpose of this course is to introduce students to the design, implementation, and evaluation of contemporary human-computer interfaces. Topics include user-centered design, psychological considerations, and usability. Emphasis is on practical systems, such as PC-based window/mouse/keyboard systems. Labs alternate weeks. [Offered W]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "CS 246, (SE 240 or CS 240); Software Engineering students only.",
+            "antirequisites": "CS 349",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-SE.html#SE382",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012940",
+            "subject": "SE",
+            "catalog_number": "390",
+            "title": "Design Project Planning",
+            "units": 0.5,
+            "description": "Students undertake a substantial customer-driven group project as part of the SE 390/490/491 design-project sequence covering all major phases of the software-engineering lifecycle. Lectures describe expectations and project-planning fundamentals. Students form groups, decide on a project concept, complete a project-approval process, develop high-level requirements for the project, perform a risk assessment, develop a test plan, and complete a first-iteration prototype. Social, legal, and economic factors are considered. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "PRJ"
+            ],
+            "prerequisites": "CS 240, (CS 246 or 247);PD 10; Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE390",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011337",
+            "subject": "SE",
+            "catalog_number": "401",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar [Offered: S]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE401",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011338",
+            "subject": "SE",
+            "catalog_number": "402",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar. [Offered: W]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE402",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010034",
+            "subject": "SE",
+            "catalog_number": "463",
+            "title": "Software Requirements Specification and Analysis",
+            "units": 0.5,
+            "description": "Introduces students to the requirements definition phase of software development: Models, notations, and processes for software requirements identification, representation, analysis, and validation. Cost estimation from early documents and specifications.",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "CS 246 or 247; Software Engineering students only.",
+            "antirequisites": "CS 445, ECE 451.",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": "[Note: Lab is not scheduled and students are expected to find time in open hours to complete their work. Offered: S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE463",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010035",
+            "subject": "SE",
+            "catalog_number": "464",
+            "title": "Software Design and Architectures",
+            "units": 0.5,
+            "description": "Introduces students to the design, implementation, and evolution phases of software development. Software design processes, methods, and notation. Implementation of designs. Evolution of designs and implementations. Management of design activities.",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "CS 246 or 247; Software Engineering students only.",
+            "antirequisites": "CS 446, ECE 452",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: Lab is not scheduled and students are expected to find time in open hours to complete their work. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE464",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010036",
+            "subject": "SE",
+            "catalog_number": "465",
+            "title": "Software Testing and Quality Assurance",
+            "units": 0.5,
+            "description": "Introduces students to systematic testing of software systems. Software verification, reviews, metrics, quality assurance, and prediction of software reliability and availability. Related management issues.",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "CS 246 or 247; Software Engineering students only.",
+            "antirequisites": "CS 447, ECE 453",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: Lab is not scheduled and students are expected to find time in open hours to complete their work. Offered: W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE465",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012941",
+            "subject": "SE",
+            "catalog_number": "490",
+            "title": "Design Project 1",
+            "units": 0.5,
+            "description": "Continuing from SE 390, students undertake a substantial customer-driven group project. Project groups establish and maintain project control processes, delivering a series of iterations on their initial SE 390 prototype. Adaptive methodologies are encouraged and supported. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "PRJ"
+            ],
+            "prerequisites": "SE 390; Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE490",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012942",
+            "subject": "SE",
+            "catalog_number": "491",
+            "title": "Design Project 2",
+            "units": 0.5,
+            "description": "Final implementation, testing, and communication of the design project started in SE 390. Technical presentations by groups. Analysis of social, legal, and economic impacts. Final release of the project. Project retrospective. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "PRJ"
+            ],
+            "prerequisites": "SE 490; Software Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE491",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012292",
+            "subject": "SE",
+            "catalog_number": "498",
+            "title": "Advanced Topics in Software Engineering",
+            "units": 0.5,
+            "description": "See the Course Offerings List for topics available. [Offered: As available]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Software Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "As available"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE498",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012293",
+            "subject": "SE",
+            "catalog_number": "499",
+            "title": "Project",
+            "units": 0.5,
+            "description": "A software engineering project requiring the student to demonstrate initiative an assume responsibility. The student normally proposes his or her own project, which must involve substantial engineering science or engineering design. The student must find a faculty supervisor. A project report is required at the end of the term. Program consent required. [Offered: F, W, S]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "Level at least 4A Software Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SE.html#SE499",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010033",
+            "subject": "SE",
+            "catalog_number": "240",
+            "title": "Algorithms and Data Structures",
+            "units": 0.5,
+            "description": "Design and analysis of data structures and algorithms. Comparison of algorithms on data structures, including operations on sets (balanced search trees, hashing), sorting and priority queues, and graphs. Algorithmic paradigms including greedy algorithms, divide and conquer, dynamic programming, graph exploration, backtracking, and branch and bound. Mathematical analysis of space and time complexity. Overview of NP-completeness. [Offered: S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "SE 112, STAT 206; Software Engineering students only.",
+            "antirequisites": "CS 240, CS 341/CM 339, ECE 250",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-SE.html#SE240",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

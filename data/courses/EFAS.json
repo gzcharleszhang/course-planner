@@ -1,0 +1,202 @@
+{
+    "data": [
+        {
+            "course_id": "014667",
+            "subject": "EFAS",
+            "catalog_number": "32",
+            "title": "Academic Skills",
+            "units": 0,
+            "description": "This course helps students improve their accuracy and fluency in English by working on all four language skill areas: reading, writing, listening and speaking. Throughout the course, students focus on the skills necessary for success in an academic environment including summary writing, paraphrasing, and documentation skills.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EFAS.html#EFAS32",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014668",
+            "subject": "EFAS",
+            "catalog_number": "34",
+            "title": "Writing Skills",
+            "units": 0,
+            "description": "This course helps students develop strategies to produce well structured, well-supported academic short essays. Students apply basic research \nand academic discourse skills to produce text. The focus is on creating sentence variety, self-editing and revising for clarity and succinctness, and developing unity and cohesion. Students write multiple drafts as well as one-time pieces.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EFAS.html#EFAS34",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014669",
+            "subject": "EFAS",
+            "catalog_number": "36",
+            "title": "Oral Skills",
+            "units": 0,
+            "description": "This course helps improve speaking, pronunciation, listening, vocabulary, and presentation skills. The student becomes a more effective participant in conversations, discussions, and presentations by engaging in a variety of in-class communicative activities, and assignments.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EFAS.html#EFAS36",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013850",
+            "subject": "EFAS",
+            "catalog_number": "42",
+            "title": "Academic Skills",
+            "units": 0,
+            "description": "This course helps students improve their language and academic skills including vocabulary development, note-taking and summarizing. As such, it prepares students for university studies as well as for success in tests of English proficiency like the iBT TOEFL, CAEL, and ELPE.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EFAS.html#EFAS42",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013851",
+            "subject": "EFAS",
+            "catalog_number": "44",
+            "title": "Writing Skills",
+            "units": 0,
+            "description": "This course focuses on the most frequent grammar problems in the writing of advanced ESL students, who will be practising organizational patterns that suit both academic and professional contexts. Topics include sentence structure, idioms, style, and parallelism, as well as effective quotation, paraphrase, and reference systems.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EFAS.html#EFAS44",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013852",
+            "subject": "EFAS",
+            "catalog_number": "46",
+            "title": "Oral Skills",
+            "units": 0,
+            "description": "This integrated course helps students improve their listening, speaking, pronunciation, and presentation skills. With regular practice, students learn to become effective participants in seminars, lectures, and small groups through student-led discussions and public speaking exercises. Students practise a variety of expressions that perform different communicative functions.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EFAS.html#EFAS46",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "data": [
+        {
+            "course_id": "010099",
+            "subject": "PORT",
+            "catalog_number": "101",
+            "title": "Introduction to Portuguese 1",
+            "units": 0.5,
+            "description": "Intensive drill in the fundamentals of grammar, comprehension, and speaking. Some reading, translation, and composition. The language laboratory is used as an integral part of the course.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "4U Portuguese",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Open to students with no prior knowledge of the Portuguese language.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PORT.html#PORT101",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010097",
+            "subject": "PORT",
+            "catalog_number": "102",
+            "title": "Introduction to Portuguese 2",
+            "units": 0.5,
+            "description": "A continuation of PORT 101.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "PORT 101.",
+            "antirequisites": "4U Portuguese",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PORT.html#PORT102",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

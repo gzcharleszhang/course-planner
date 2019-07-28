@@ -1,0 +1,202 @@
+{
+    "data": [
+        {
+            "course_id": "014762",
+            "subject": "BASE",
+            "catalog_number": "32",
+            "title": "Academic Skills",
+            "units": 0.5,
+            "description": "This course provides both language and study skills support for a concurrent credit course. The integrated learning approach to this support course is informed and shaped by the content, requirements, and assessment instruments of the related credit course.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BASE.html#BASE32",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014763",
+            "subject": "BASE",
+            "catalog_number": "34",
+            "title": "Writing Skills",
+            "units": 0.5,
+            "description": "This process writing course helps students develop strategies to produce well-structured, well-supported academic text of high intermediate level. Students apply basic research and academic discourse skills and focus on creating sentence variety for stylistic purposes, self-editing and revising for clarity and succinctness, and developing unity and cohesion.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BASE.html#BASE34",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014764",
+            "subject": "BASE",
+            "catalog_number": "36",
+            "title": "Oral Skills",
+            "units": 0.5,
+            "description": "This course familiarizes students with a variety of academic speaking environments and helps students improve their confidence, pronunciation, listening, academic vocabulary, and academic presentation skills so that they become more effective participants in conversations, discussions, and presentations, both in and out of the classroom.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BASE.html#BASE36",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014765",
+            "subject": "BASE",
+            "catalog_number": "42",
+            "title": "Academic Skills",
+            "units": 0.5,
+            "description": "This course provides language and study skills support for a concurrent credit course. Test-taking strategies, assignment support, email as a supporting genre, and essential aspects of academic discourse socialization are also addressed. Students demonstrate their understanding of important credit course content through regular written and spoken assignments.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BASE.html#BASE42",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014766",
+            "subject": "BASE",
+            "catalog_number": "44",
+            "title": "Writing Skills",
+            "units": 0.5,
+            "description": "This process/product writing course helps students develop strategies to produce well-structured, comprehensively supported academic text of advanced level and encourages students to develop an independent approach to extended writing and research. Various rhetorical structures are studied, and students practise academic discourse through various writing tasks.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BASE.html#BASE44",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014767",
+            "subject": "BASE",
+            "catalog_number": "46",
+            "title": "Oral Skills",
+            "units": 0.5,
+            "description": "This advanced oral skills course expands upon students' confidence in speaking and their academic vocabulary, while refining pronunciation and presentation skills. Major tasks include leading discussion groups, practising the art and language of persuasion, and honing interviewing skills to complete a group project.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BASE.html#BASE46",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

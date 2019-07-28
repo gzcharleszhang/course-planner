@@ -1,0 +1,286 @@
+{
+    "data": [
+        {
+            "course_id": "009264",
+            "subject": "GEOE",
+            "catalog_number": "298",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General seminar course covering current topics in Geological Engineering. [Offered: S]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "2A Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-GEOE.html#GEOE298",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009265",
+            "subject": "GEOE",
+            "catalog_number": "299",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General seminar course covering current topics in Geological Engineering. [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "2B Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-GEOE.html#GEOE299",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009266",
+            "subject": "GEOE",
+            "catalog_number": "398",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General seminar course covering current topics in Geological Engineering. [Offered: S]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "3A Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-GEOE.html#GEOE398",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009267",
+            "subject": "GEOE",
+            "catalog_number": "399",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General seminar course covering current topics in Geological Engineering. [Offered: W]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "3B Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-GEOE.html#GEOE399",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005820",
+            "subject": "GEOE",
+            "catalog_number": "400",
+            "title": "Geological Engineering Design Project 1",
+            "units": 0.5,
+            "description": "Students are expected to carry out a design project to demonstrate their capability to engage in the practice of engineering as a profession. A topic must be identified and resolved by the student in consultation with the supervising professor and course coordinator. The topic may be analytical, numerical, experimental, or field-oriented, utilizing knowledge gained from academic and employment experiences. A written proposal, literature search and an oral presentation are required. Professional engineering standards and a design approach are required for the GEOE 400-401 Design Project. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "PRJ"
+            ],
+            "prerequisites": "4A Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-GEOE.html#GEOE400",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005821",
+            "subject": "GEOE",
+            "catalog_number": "401",
+            "title": "Geological Engineering Design Project 2",
+            "units": 0.5,
+            "description": "A continuation of GEOE 400 Geological Engineering Design Project 1, and the same standards and requirements apply. A progress report, a final report in thesis format and an oral presentation are required. All other courses in the Geological Engineering Program are listed under the course descriptions in Earth Sciences or Civil Engineering. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "PRJ"
+            ],
+            "prerequisites": "4B Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-GEOE.html#GEOE401",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009268",
+            "subject": "GEOE",
+            "catalog_number": "498",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General seminar course covering current topics in Geological Engineering. [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "4A Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-GEOE.html#GEOE498",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009269",
+            "subject": "GEOE",
+            "catalog_number": "499",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General seminar course covering current topics in Geological Engineering. [Offered: W]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "4B Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-GEOE.html#GEOE499",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

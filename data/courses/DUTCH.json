@@ -1,0 +1,171 @@
+{
+    "data": [
+        {
+            "course_id": "004742",
+            "subject": "DUTCH",
+            "catalog_number": "101",
+            "title": "Elementary Dutch I",
+            "units": 0.5,
+            "description": "The basic elements of Dutch grammar with emphasis on oral practice and pronunciation. Introduction to aspects of Dutch culture.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: DUTCH 101 is not open to students with native, near-native, or similar advanced ability.]",
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-DUTCH.html#DUTCH101",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004743",
+            "subject": "DUTCH",
+            "catalog_number": "102",
+            "title": "Elementary Dutch II",
+            "units": 0.5,
+            "description": "A continuation of DUTCH 101.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "DUTCH 101",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: DUTCH 102 is not open to students with native, near-native, or similar advanced ability.]",
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-DUTCH.html#DUTCH102",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004744",
+            "subject": "DUTCH",
+            "catalog_number": "201",
+            "title": "Intermediate Dutch I",
+            "units": 0.5,
+            "description": "This course will be conducted partly in Dutch and offers advanced study in grammar, composition, and conversation. Special emphasis will be given to comprehension and practice in the spoken language.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "DUTCH 102",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: DUTCH 201 is not open to students with native, near-native, or similar advanced ability.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-DUTCH.html#DUTCH201",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004746",
+            "subject": "DUTCH",
+            "catalog_number": "202",
+            "title": "Intermediate Dutch II",
+            "units": 0.5,
+            "description": "A continuation of DUTCH 201.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "DUTCH 201",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: DUTCH 202 is not open to students with native, near-native, or similar advanced ability.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-DUTCH.html#DUTCH202",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015757",
+            "subject": "DUTCH",
+            "catalog_number": "271",
+            "title": "Dutch Culture and Society",
+            "units": 0.5,
+            "description": "An introduction to Dutch society and culture, as it is and has been expressed in art, literature, religion, and philosophy. Political-historical, economic, and urban planning discourses will be discussed. The course explores key concepts informing Dutch cultural identities. Students will gain skills in transcultural analysis and research.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Taught in English.]",
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-DUTCH.html#DUTCH271",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

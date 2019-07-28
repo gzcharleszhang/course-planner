@@ -1,0 +1,107 @@
+{
+    "data": [
+        {
+            "course_id": "014565",
+            "subject": "WATER",
+            "catalog_number": "601",
+            "title": "Integrated Water Management",
+            "units": 0.5,
+            "description": "This course will provide an overview of various water related disciplines, including fields within water science and engineering, water technology, aquatic and terrestrial systems and water planning and management. Lectures will cover key concepts, methods, tools and terminology from a wide variety of perspectives providing students with a multidisciplinary foundation for communicating and problem solving in the water resources sector. A variety of water related interactions within, and between, natural and human systems will be discussed.",
+            "instructions": [
+                "LEC",
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "WATER Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-WATER.html#WATER601",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014566",
+            "subject": "WATER",
+            "catalog_number": "602",
+            "title": "Integrated Water Management Project",
+            "units": 0.5,
+            "description": "This course will address current local, national or international water issues from an integrated, inter-disciplinary perspective. Building on WATER 601 (Introduction to Integrated Water Management), students will work in multidisciplinary teams under the supervision of a faculty member to identify issues, challenges and opportunities to effectively address current water problems integrating knowledge from a variety of perspectives.",
+            "instructions": [
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-WATER.html#WATER602",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014567",
+            "subject": "WATER",
+            "catalog_number": "620",
+            "title": "Sustainable Operations",
+            "units": 0.5,
+            "description": "This course explores the foundations of operations management in the context of sustainability. Through the use of both peer-reviewed and practitioner articles, this course will provide students with a comprehensive understanding of the core concepts in the field of operations management while integrating emergent social and environmental issues. Theoretical and empirical exploration of core operations concepts such as supply chain management, process configuration, quality and process improvement, and lean systems will be undertaken. Once a strong foundational understanding of these core concepts is achieved, students will then explore the opportunities and threats posed by emergent social and environmental issues to organizations, and how those issues can be integrated into the strategy underlying operations and process management. Concepts such as eco-efficiency, sustainable supply chain management, environmental management systems (e.g., ISO 14000), and life cycle assessment will be explored.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1516",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1516/GRDcourse-WATER.html#WATER620",
+            "academic_level": "graduate"
+        }
+    ]
+}
