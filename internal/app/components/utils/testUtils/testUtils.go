@@ -50,12 +50,13 @@ func InitWithUser() (context.Context, *users.User, error) {
 	return ctx, &getRes.User, nil
 }
 
-func NewRequest(method, url string, requestBody []byte, handler http.HandlerFunc) (*httptest.ResponseRecorder, error) {
+func NewRequest(ctx context.Context, method, url string, requestBody []byte, handler http.HandlerFunc) (*httptest.ResponseRecorder, error) {
 	req, err := http.NewRequest(method, url, bytes.NewBuffer(requestBody))
 	if err != nil {
 		return nil, err
 	}
 	req.Header.Set("Content-Type", "application/json")
+	req = req.WithContext(ctx)
 	rr := httptest.NewRecorder()
 	handler.ServeHTTP(rr, req)
 	return rr, nil

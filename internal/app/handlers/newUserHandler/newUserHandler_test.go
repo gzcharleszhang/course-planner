@@ -26,7 +26,7 @@ func TestHandler(t *testing.T) {
 		"email":      "hello@stevenxu.me",
 	}
 	jsonStr := utils.ToRawJson(req)
-	rr, err := testUtils.NewRequest("POST", RouteURL, jsonStr, Handler)
+	rr, err := testUtils.NewRequest(ctx, "POST", RouteURL, jsonStr, Handler)
 	if err != nil {
 		t.Error(err)
 	}
@@ -66,7 +66,7 @@ func TestHandler(t *testing.T) {
 		"email":      "hello@stevenxu.me",
 	}
 	jsonStr = utils.ToRawJson(req)
-	rr, err = testUtils.NewRequest("POST", RouteURL, jsonStr, Handler)
+	rr, err = testUtils.NewRequest(ctx, "POST", RouteURL, jsonStr, Handler)
 	if err != nil {
 		t.Errorf("%v", err)
 	}

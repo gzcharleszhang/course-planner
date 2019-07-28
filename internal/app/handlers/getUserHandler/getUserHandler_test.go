@@ -36,7 +36,7 @@ func TestHandler(t *testing.T) {
 		"user_id": res.UserId,
 	}
 	jsonStr := utils.ToRawJson(getReq)
-	rr, err := testUtils.NewRequest("GET", RouteURL, jsonStr, Handler)
+	rr, err := testUtils.NewRequest(ctx, "GET", RouteURL, jsonStr, Handler)
 	if err != nil {
 		t.Error(err)
 	}
@@ -63,7 +63,7 @@ func TestHandler(t *testing.T) {
 		"user_id": "abc123",
 	}
 	jsonStr = utils.ToRawJson(getReq)
-	rr, err = testUtils.NewRequest("GET", RouteURL, jsonStr, Handler)
+	rr, err = testUtils.NewRequest(ctx, "GET", RouteURL, jsonStr, Handler)
 	if err == nil {
 		if status := rr.Code; status != http.StatusInternalServerError {
 			t.Errorf("handler returned wrong status code: got %v want %v",
