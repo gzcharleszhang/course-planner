@@ -15,8 +15,8 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
 	userId := users.UserId(chi.URLParam(r, "user_id"))
 	// for regular users, they can only access their own user data
-	if utils.GetRoleFromContext(ctx).GetRoleId() == roles.ConradId &&
-		utils.GetUserIdFromContext(ctx) != userId {
+	if roles.GetRoleFromContext(ctx).GetRoleId() == roles.ConradId &&
+		users.GetUserIdFromContext(ctx) != userId {
 		http.Error(w, http.StatusText(401), 401)
 		return
 	}

@@ -1,6 +1,8 @@
 package roles
 
 import (
+	"context"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/contextKeys"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/permissions"
 )
 
@@ -23,4 +25,8 @@ func GetRoleFromId(id RoleId) Role {
 		return Role(NewSnew())
 	}
 	return Role(NewConrad())
+}
+
+func GetRoleFromContext(ctx context.Context) Role {
+	return ctx.Value(contextKeys.UserRoleKey).(Role)
 }

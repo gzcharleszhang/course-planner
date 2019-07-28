@@ -2,6 +2,7 @@ package users
 
 import (
 	"context"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/contextKeys"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/timelines"
@@ -174,4 +175,8 @@ func (u UserData) ToUser(ctx context.Context) (*User, error) {
 // Creates a new timemline with the courses added to the course CourseHistory
 func (usr User) NewTimeline(name timelines.TimelineName) {
 	usr.Timelines = append(usr.Timelines, timelines.NewTimeline(name, usr.CourseHistory))
+}
+
+func GetUserIdFromContext(ctx context.Context) UserId {
+	return ctx.Value(contextKeys.UserIdKey).(UserId)
 }
