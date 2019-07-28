@@ -1,15 +1,14 @@
-// +build all integration
-
 package getUserHandler
 
 import (
 	"context"
 	"encoding/json"
+	"github.com/go-chi/chi"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/contextKeys"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils/testUtils"
-	"github.com/gzcharleszhang/course-planner/internal/app/services/getUserService"
 	"github.com/gzcharleszhang/course-planner/internal/app/services/newUserService"
 	"net/http"
 	"testing"
@@ -30,13 +29,13 @@ func TestHandler(t *testing.T) {
 	if err != nil {
 		t.Errorf("Failed to create new user: %v\n", err)
 	}
+	// adding url param
+	rctx := chi.NewRouteContext()
+	rctx.URLParams.Add("user_id", string(res.UserId))
 	ctx = context.WithValue(ctx, contextKeys.UserIdKey, res.UserId)
 	ctx = context.WithValue(ctx, contextKeys.UserRoleKey, roles.NewConrad())
-	getReq := utils.M{
-		"user_id": res.UserId,
-	}
-	jsonStr := utils.ToRawJson(getReq)
-	rr, err := testUtils.NewRequest(ctx, "GET", RouteURL, jsonStr, Handler)
+	ctx = context.WithValue(ctx, chi.RouteCtxKey, rctx)
+	rr, err := testUtils.NewRequest(ctx, "GET", RouteURL, []byte{}, Handler)
 	if err != nil {
 		t.Error(err)
 	}
@@ -44,26 +43,28 @@ func TestHandler(t *testing.T) {
 		t.Errorf("handler returned wrong status code: got %v want %v",
 			status, http.StatusOK)
 	}
-	var getRes getUserService.Response
+	var getRes utils.M
 	decoder := json.NewDecoder(rr.Body)
 	err = decoder.Decode(&getRes)
 	if err != nil {
 		t.Error(err)
 	}
-	userRes := getRes.User
+	userRes := getRes["user"].(map[string]interface{})
 	// check important fields
-	if userRes.FirstName != req.FirstName ||
-		userRes.LastName != req.LastName ||
-		userRes.Email != req.Email {
-		t.Errorf("Expected %v to contain %v", utils.ToJson(userRes), utils.ToJson(req))
+	if !utils.StrCmp(string(req.FirstName), userRes["first_name"]) ||
+		!utils.StrCmp(string(req.LastName), userRes["last_name"]) ||
+		!utils.StrCmp(string(req.Email), userRes["email"]) {
+		t.Errorf("Expected %v to contain %v", utils.ToJson(getRes), utils.ToJson(req))
 	}
 
 	// getting an user that doesn't exist
-	getReq = utils.M{
-		"user_id": "abc123",
-	}
-	jsonStr = utils.ToRawJson(getReq)
-	rr, err = testUtils.NewRequest(ctx, "GET", RouteURL, jsonStr, Handler)
+	// adding url param
+	rctx = chi.NewRouteContext()
+	rctx.URLParams.Add("user_id", "abc123")
+	ctx = context.WithValue(ctx, contextKeys.UserIdKey, users.UserId("abc123"))
+	ctx = context.WithValue(ctx, contextKeys.UserRoleKey, roles.NewConrad())
+	ctx = context.WithValue(ctx, chi.RouteCtxKey, rctx)
+	rr, err = testUtils.NewRequest(ctx, "GET", RouteURL, []byte{}, Handler)
 	if err == nil {
 		if status := rr.Code; status != http.StatusInternalServerError {
 			t.Errorf("handler returned wrong status code: got %v want %v",
