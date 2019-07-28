@@ -54,7 +54,7 @@ jobs: # basic units of work in a run
           # Store the results of our tests in the $TEST_RESULTS directory
           command: |
             trap "go-junit-report <${TEST_RESULTS}/go-test.out > ${TEST_RESULTS}/go-test-report.xml" EXIT
-            godotenv go test -tags=integration -v -cover ./... | tee ${TEST_RESULTS}/go-test.out
+            godotenv go test -p 1 -tags=integration -v -cover ./... | tee ${TEST_RESULTS}/go-test.out
 
       - run: go build ./cmd/course-planner # pull and build dependencies for the project
 

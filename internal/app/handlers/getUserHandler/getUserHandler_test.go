@@ -75,5 +75,4 @@ func TestHandler(t *testing.T) {
 	} else {
 		t.Error("Expected error")
 	}
-
 }
