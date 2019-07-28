@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/utils/testUtils"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/gzcharleszhang/course-planner/internal/app/services/newUserService"
 	"go.mongodb.org/mongo-driver/bson"
@@ -14,7 +15,7 @@ import (
 )
 
 func TestHandler(t *testing.T) {
-	ctx, err := utils.InitTest()
+	ctx, err := testUtils.Init()
 	if err != nil {
 		t.Errorf("Failed to initialize test: %v\n", err)
 	}
@@ -25,9 +26,9 @@ func TestHandler(t *testing.T) {
 		"email":      "hello@stevenxu.me",
 	}
 	jsonStr := utils.ToRawJson(req)
-	rr, err := utils.NewTestRequest("POST", RouteURL, jsonStr, Handler)
+	rr, err := testUtils.NewRequest("POST", RouteURL, jsonStr, Handler)
 	if err != nil {
-		t.Errorf("%v", err)
+		t.Error(err)
 	}
 	if status := rr.Code; status != http.StatusOK {
 		t.Errorf("handler returned wrong status code: got %v want %v",
@@ -65,7 +66,7 @@ func TestHandler(t *testing.T) {
 		"email":      "hello@stevenxu.me",
 	}
 	jsonStr = utils.ToRawJson(req)
-	rr, err = utils.NewTestRequest("POST", RouteURL, jsonStr, Handler)
+	rr, err = testUtils.NewRequest("POST", RouteURL, jsonStr, Handler)
 	if err != nil {
 		t.Errorf("%v", err)
 	}

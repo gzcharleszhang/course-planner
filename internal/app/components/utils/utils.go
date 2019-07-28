@@ -1,7 +1,11 @@
 package utils
 
 import (
+	"context"
 	"encoding/json"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/contextKeys"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"log"
 )
 
@@ -25,4 +29,12 @@ func ToRawJson(v interface{}) []byte {
 
 func StrCmp(v1 interface{}, v2 interface{}) bool {
 	return v1.(string) == v2.(string)
+}
+
+func GetRoleFromContext(ctx context.Context) roles.Role {
+	return ctx.Value(contextKeys.UserRoleKey).(roles.Role)
+}
+
+func GetUserIdFromContext(ctx context.Context) users.UserId {
+	return ctx.Value(contextKeys.UserIdKey).(users.UserId)
 }
