@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/auth"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
+	"github.com/gzcharleszhang/course-planner/internal/app/models/userModel"
 )
 
 type Request struct {
@@ -16,11 +17,11 @@ type Response struct {
 }
 
 func Execute(ctx context.Context, req Request) (*Response, error) {
-	err := users.VerifyPassword(ctx, req.Email, req.Password)
+	err := userModel.VerifyPassword(ctx, req.Email, req.Password)
 	if err != nil {
 		return nil, err
 	}
-	user, err := users.GetUserByEmail(ctx, req.Email)
+	user, err := userModel.GetUserByEmail(ctx, req.Email)
 	if err != nil {
 		return nil, err
 	}

@@ -3,6 +3,7 @@ package getUserService
 import (
 	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
+	"github.com/gzcharleszhang/course-planner/internal/app/models/userModel"
 )
 
 type Request struct {
@@ -14,7 +15,7 @@ type Response struct {
 }
 
 func Execute(ctx context.Context, req Request) (*Response, error) {
-	user, err := users.GetUserById(ctx, req.UserId)
+	user, err := userModel.GetUserById(ctx, req.UserId)
 	if err != nil {
 		return nil, err
 	}

@@ -92,7 +92,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 	currTime := time.Now()
 	csDegree := plans.Degree{
 		Name: "Easy BCS",
-		Requirements: plans.DegreeRequirements{
+		Requirements: plans.PlanRequirements{
 			courses.CourseRequirementSet{
 				NumCoursesToSatisfy: 2,
 				Requirements: courses.CourseRequirementRules{
@@ -111,7 +111,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 
 	mathDegree := plans.Degree{
 		Name: "Easy BMath",
-		Requirements: plans.DegreeRequirements{
+		Requirements: plans.PlanRequirements{
 			courses.CourseRequirementSet{
 				NumCoursesToSatisfy: 2,
 				Requirements: courses.CourseRequirementRules{
@@ -129,7 +129,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 	}
 	econMinor := plans.Degree{
 		Name: "Easy Econ Minor",
-		Requirements: plans.DegreeRequirements{
+		Requirements: plans.PlanRequirements{
 			courses.CourseRequirementSet{
 				NumCoursesToSatisfy: 1,
 				Requirements: courses.CourseRequirementRules{

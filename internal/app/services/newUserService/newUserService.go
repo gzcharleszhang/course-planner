@@ -3,6 +3,7 @@ package newUserService
 import (
 	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
+	"github.com/gzcharleszhang/course-planner/internal/app/models/userModel"
 	"github.com/pkg/errors"
 )
 
@@ -22,7 +23,7 @@ func Execute(ctx context.Context, req Request) (*Response, error) {
 	if err != nil {
 		return nil, errors.Wrap(err, "Error hashing user password")
 	}
-	userId, err := users.CreateUser(ctx, req.FirstName, req.LastName, req.Email, hash)
+	userId, err := userModel.CreateUser(ctx, req.FirstName, req.LastName, req.Email, hash)
 	if err != nil {
 		return nil, errors.Wrap(err, "Error creating new user")
 	}

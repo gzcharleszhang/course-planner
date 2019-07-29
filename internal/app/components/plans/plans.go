@@ -9,14 +9,19 @@ type Plan interface {
 	GetName() string
 }
 type Plans []Plan
+type PlanId string
+type PlanType string
+type PlanName string
+type PlanRequirements courses.CourseRequirementRules
 
-type DegreeName string
-type DegreeRequirements courses.CourseRequirementRules
+const PlanTypeDegree PlanType = "degree"
 
 // TODO: if no minors or options differ from this structure, we can change Plan to this and remove the interface
 type Degree struct {
-	Name         DegreeName         `json:"name"`
-	Requirements DegreeRequirements `json:"requirements"`
+	Id           PlanId           `json:"_id"`
+	PlanType     PlanType         `json:"plan_type"`
+	Name         PlanName         `json:"name"`
+	Requirements PlanRequirements `json:"requirements"`
 }
 
 func (deg Degree) IsCompleted(records *courses.CourseRecords) bool {

@@ -8,6 +8,7 @@ import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/permissions"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
+	"github.com/gzcharleszhang/course-planner/internal/app/models/userModel"
 	"net/http"
 	"time"
 )
@@ -30,7 +31,7 @@ func PermissionMiddleware(next http.Handler) http.Handler {
 				http.Error(w, http.StatusText(401), 401)
 				return
 			}
-			role, err := users.GetUserRole(ctx, userId)
+			role, err := userModel.GetUserRole(ctx, userId)
 			if err != nil {
 				http.Error(w, http.StatusText(401), 401)
 				return

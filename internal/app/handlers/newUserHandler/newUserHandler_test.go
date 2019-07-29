@@ -4,10 +4,10 @@ package newUserHandler
 
 import (
 	"encoding/json"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils/testUtils"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
+	"github.com/gzcharleszhang/course-planner/internal/app/models/userModel"
 	"github.com/gzcharleszhang/course-planner/internal/app/services/newUserService"
 	"go.mongodb.org/mongo-driver/bson"
 	"net/http"
@@ -45,7 +45,7 @@ func TestHandler(t *testing.T) {
 		t.Errorf("%v\n", err)
 	}
 	defer sess.Close(ctx)
-	var userData users.UserData
+	var userData userModel.UserModel
 	err = sess.Users().FindOne(ctx, bson.M{"_id": userId}).Decode(&userData)
 	if err != nil {
 		t.Errorf("Cannot find the newly created user: %v", err)
