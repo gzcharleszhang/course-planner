@@ -32,5 +32,5 @@ for courseId in courseIds:
 for key in subjects.keys():
     jsonDict = {'data': subjects[key]}
     filePath = '../../../data/courses/' + key + '.json'
-    with open(filePath, 'x') as file:
+    with open(filePath, 'w') as file:
         json.dump(jsonDict, file)
