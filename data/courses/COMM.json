@@ -1,0 +1,461 @@
+{
+    "data": [
+        {
+            "course_id": "013541",
+            "subject": "COMM",
+            "catalog_number": "101",
+            "title": "Introduction to Financial Markets",
+            "units": 0.5,
+            "description": "The course introduces students to the role of finance in the global economy and aims to develop students' understanding of the basic principles of financial decision-making.",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Mathematics/Financial Analysis and Risk Management students only.",
+            "antirequisites": "AFM 121, BUS 121W",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "Offered at UAE campus"
+            ],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM101",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013542",
+            "subject": "COMM",
+            "catalog_number": "102",
+            "title": "Introduction to Business 2",
+            "units": 0.5,
+            "description": "This course is a continuation of COMM 101, introducing students to the functional areas of business including: marketing, finance, production, and human resources. Students will also be introduced to major themes in international business.",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "COMM 101.",
+            "antirequisites": "BUS 121W",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "Offered at UAE campus"
+            ],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM102",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014062",
+            "subject": "COMM",
+            "catalog_number": "103",
+            "title": "Principles of Economics",
+            "units": 0.5,
+            "description": "This course provides an introduction to the basic concepts and tools of micro and macro economic analysis of individuals, businesses, and government in the global world. Topics may include consumers, producers, market structures, national income accounting, unemployment, and inflation.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Mathematics/CPA students only.",
+            "antirequisites": "ECON 101, 102",
+            "corequisites": "MATH 137, 147.",
+            "crosslistings": "ECON 100",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM103",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006938",
+            "subject": "COMM",
+            "catalog_number": "231",
+            "title": "Commercial and Business Law for Mathematics Students",
+            "units": 0.5,
+            "description": "The Judicial Process, Contract Law, Agency, Bankruptcy, Negotiable Instruments, Law of Banking, Insurance Law, Partnership Law, Company Law, Torts, Real Estate Law.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "AFM 231/LS 283, ECE 290; (For Mathematics students only) BUS 231W, CIVE 491, ENVS 201, GENE 411, ME 401, MTHEL 100",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM231",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012745",
+            "subject": "COMM",
+            "catalog_number": "321",
+            "title": "Intermediate Accounting for Finance",
+            "units": 0.5,
+            "description": "This intermediate level accounting course will focus on the usage of financial information from a management perspective.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "AFM 101 or BUS 127W/227W; Mathematics/Financial Analysis and Risk Management students only.",
+            "antirequisites": "AFM 291, BUS 387W",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM321",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006943",
+            "subject": "COMM",
+            "catalog_number": "400",
+            "title": "Entrepreneurship, Technology and the Emerging Information Economy",
+            "units": 0.5,
+            "description": "A study of the spirit of entrepreneurship in the technology industry, opportunities emerging in the new information economy, and the implementation issues associated with starting an entrepreneurial venture in today's rapidly changing environment. Many of the concepts covered will also be applicable to careers in the technology industry or in information-based companies, where \"intrapreneurship\" is an emerging theme. Approximately one-half of the class time will involve guest lectures by entrepreneurs actively involved in the business community.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3A.",
+            "antirequisites": "BUS 440W, MTHEL 400",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: COMM 400 would serve as an excellent sequel to ECON 220 which focuses on identifying markets for viable entrepreneurial ideas, but ECON 220 is not a prerequisite.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM400",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012747",
+            "subject": "COMM",
+            "catalog_number": "421",
+            "title": "Financial Statement Analysis",
+            "units": 0.5,
+            "description": "This advanced course in financial statement analysis provides a framework for using financial statement data in a variety of business analysis and valuation contexts.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "COMM 321 or BUS 387W; Mathematics/Financial Analysis and Risk Management students only.",
+            "antirequisites": "AFM 492, BUS 417W",
+            "corequisites": "ACTSC 372.",
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM421",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012954",
+            "subject": "COMM",
+            "catalog_number": "431",
+            "title": "Project Management",
+            "units": 0.5,
+            "description": "This course will introduce students to approaches, techniques and terminology used in project management. In particular, students will learn project planning principles, product and process metrics, people and organizational issues, task allocation and scheduling, monitoring and control, change management, and methods for cost estimation and risk assessment. Students will also be introduced to current project management tools, and will manage their own term project.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "AFM 102, MSCI 211; Level at least 3A",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM431",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012955",
+            "subject": "COMM",
+            "catalog_number": "432",
+            "title": "Electronic Business",
+            "units": 0.5,
+            "description": "This course will introduce students to approaches, techniques and terminology used in electronic business. Students will also study issues in disciplines related to electronic business. They will review a number of sites and identify efficient e-commerce analysis, design and development techniques. Students will be introduced to current electronic business tools and standards, and will construct their own simple electronic business site.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "BUS 352W, CS 330 or 490; Level at least 3A.",
+            "antirequisites": "AFM 443",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM432",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006938",
+            "subject": "COMM",
+            "catalog_number": "231",
+            "title": "Commercial and Business Law for Mathematics Students",
+            "units": 0.5,
+            "description": "The Judicial Process, Contract Law, Agency, Bankruptcy, Negotiable Instruments, Law of Banking, Insurance Law, Partnership Law, Company Law, Torts, Real Estate Law.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "AFM 231/LS 283, ECE 290; (For Mathematics students only) BUS 231W, CIVE 491, ENVS 201, GENE 411, ME 401, MTHEL 100",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM231",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006943",
+            "subject": "COMM",
+            "catalog_number": "400",
+            "title": "Entrepreneurship, Technology and the Emerging Information Economy",
+            "units": 0.5,
+            "description": "A study of the spirit of entrepreneurship in the technology industry, opportunities emerging in the new information economy, and the implementation issues associated with starting an entrepreneurial venture in today's rapidly changing environment. Many of the concepts covered will also be applicable to careers in the technology industry or in information-based companies, where \"intrapreneurship\" is an emerging theme. Approximately one-half of the class time will involve guest lectures by entrepreneurs actively involved in the business community.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3A.",
+            "antirequisites": "BUS 440W, MTHEL 400",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: COMM 400 would serve as an excellent sequel to ECON 220 which focuses on identifying markets for viable entrepreneurial ideas, but ECON 220 is not a prerequisite.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM400",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014062",
+            "subject": "COMM",
+            "catalog_number": "103",
+            "title": "Principles of Economics",
+            "units": 0.5,
+            "description": "This course provides an introduction to the basic concepts and tools of micro and macro economic analysis of individuals, businesses, and government in the global world. Topics may include consumers, producers, market structures, national income accounting, unemployment, and inflation.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Mathematics/CPA students only.",
+            "antirequisites": "ECON 101, 102",
+            "corequisites": "MATH 137, 147.",
+            "crosslistings": "ECON 100",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM103",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015389",
+            "subject": "COMM",
+            "catalog_number": "433",
+            "title": "Income Tax for Finance students",
+            "units": 0.5,
+            "description": "The course is designed to provide the student with broad overview of the Canadian income tax system as it relates to corporations and individuals. [Offered: F,S]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "COMM 321; Not open to Mathematics/CPA students.",
+            "antirequisites": "AFM 361, BUS 357W",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-COMM.html#COMM433",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

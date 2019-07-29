@@ -1,0 +1,1194 @@
+{
+    "data": [
+        {
+            "course_id": "012523",
+            "subject": "PHS",
+            "catalog_number": "601",
+            "title": "Foundations of Public Health",
+            "units": 0,
+            "description": "An introduction to the philosophical, historical, ecological, legislative, and ethical foundations for understanding the practice of public health in Canada. The course is delivered in a 2-week block at the beginning of the MPH program sequence on the UW main campus.  For MPH student only.  The course must be successfully completed by MPH students before proceeding to other courses in the MPH program sequence.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Master of Public Health students only.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS601",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012524",
+            "subject": "PHS",
+            "catalog_number": "602",
+            "title": "Capstone Integrative Seminar for Public Health",
+            "units": 0.5,
+            "description": "The culminating experience in the UW MPH program, the Capstone provides an opportunity for students to demonstrate two very important dimensions of readiness to practice in public health:  the ability to work in a diverse and multidisciplinary team and the ability to integrate lessons learned from a variety of sources (including, but not limited to, course work and practicum) and bring them to bear on a concrete public health problem.  Graded on a Credit/Non-Credit basis.  (The course is delivered in a two-week block at the end of the MPH program sequence, on the UW main campus).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 641",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "MPH students only; Prereq: PHS 641"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS602",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012525",
+            "subject": "PHS",
+            "catalog_number": "603",
+            "title": "Health Policy in Public Health",
+            "units": 0.5,
+            "description": "A critical analysis of policy formulation, implementation and evaluation related to public health policy.  This course will provide an introduction to contemporary issues in public health policy, as well as an overview of the public health system in Canada.  The course will emphasize applied examples of public health within the Canadian context.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 601, PHS 606.\r\nMaster of Public Health students only.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS603",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012526",
+            "subject": "PHS",
+            "catalog_number": "604",
+            "title": "Public Health and the Environment",
+            "units": 0.5,
+            "description": "This course will explore the major sources of environmental stressors and types of environmental processes posing a risk to public health, and the mechanisms through which these interact with biological systems to exert adverse effects on human health.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Prerequisite: Master of Public Health Students only. Co-requisite: PHS 605",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS604",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012527",
+            "subject": "PHS",
+            "catalog_number": "605",
+            "title": "Quantitative Methods and Analysis",
+            "units": 0.5,
+            "description": "This course is an introduction to biostatistics for those planning a career in public health.  Students will learn various biostatistical techniques, how to apply those techniques in the analysis of data from health studies, and how to interpret the results from those analyses.  Topics include types of data, descriptive statistics, probability, distributions of data, exploratory data analysis, confidence intervals, hypothesis testing, regression analysis, analysis of variance, and brief exposure to categorical data analysis and survival analysis.  Emphasis will be on conceptual understanding of topics as well as carrying out various data analysis applications.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Master of Public Health Students only.",
+            "antirequisites": "HSG 605",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only,"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS605",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012528",
+            "subject": "PHS",
+            "catalog_number": "606",
+            "title": "Principles of Epidemiology for Public Health",
+            "units": 0.5,
+            "description": "This course introduces the principles, methods, and uses of epidemiology in the practice of public health.  After completion of this course, students will be able to critically read and interpret epidemiologic research and clearly communicate epidemiologic findings.  They will be familiar with health status measurement, data sources, screening, surveillance, outbreak investigation, and metholds to support program planning and evaluation.  Students will have a sound understanding of basic epidemiologic concepts, including prevalence, incidence, study designs, measures of association, bias, confounding and causal inference.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 605. Master of Public Health Students only.",
+            "antirequisites": "HSG 606",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 605;"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS606",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012529",
+            "subject": "PHS",
+            "catalog_number": "607",
+            "title": "Social, Cultural and Behavioural Aspects of Public Health I",
+            "units": 0.5,
+            "description": "An introduction to the social, cultural and behavioural foundations of public health and outline the contributions of the social sciences to the planning and implementation of public health interventions.  Prerequisite PHS 601.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Master of Public Health Students only.",
+            "antirequisites": null,
+            "corequisites": "PHS 605",
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS607",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012530",
+            "subject": "PHS",
+            "catalog_number": "608",
+            "title": "Health and Risk Communication in Public Health",
+            "units": 0.5,
+            "description": "An overview of theories, research findings, and applications of health communication and risk communication in public health.  The course examines theories of group interaction and mass communication related to community perceptions of public health problems and practices, the impact of new technologies on public health communication, intercultural issues in health communication, health literacy, social marketing, and links between health communication and public health policy.  Prerequisite PHS 601.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Master of Public Health student's only.\r\nCo-req: PHS 606",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS608",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012531",
+            "subject": "PHS",
+            "catalog_number": "609",
+            "title": "Management and Administration of Public Health Services",
+            "units": 0.5,
+            "description": "Approaches to strategic planning and organizational design, key concepts of human resource management in achieving the strategic objectives of public health organizations, and the fundamentals of operation planning, budgeting, financial management and project management.  Prerequisite PHS 601.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Master of Public Health student's only.\r\nCo-req: PHS 606",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS609",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014291",
+            "subject": "PHS",
+            "catalog_number": "613",
+            "title": "Information Technology for the Health Professional",
+            "units": 0.5,
+            "description": "This course introduces health professionals to the conceptual and physical building blocks of large scale distributed health information system.  Network architectures, web architectures, distributed processing, securing information, database structures, and other technical topics are covered with a specific focus on the concepts that need to be understood by health professionals to facilitate interaction with technical system specialists.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 611, PHS 612, PHS 615",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS613",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012532",
+            "subject": "PHS",
+            "catalog_number": "614",
+            "title": "Foundations of Program Evaluation",
+            "units": 0.5,
+            "description": "Methods and applications of intervention evaluation in public health, as a means to ensure the effectiveness, accountability and continuous improvement of public health interventions. Basic evaluation models and concepts of evaluation design are provided as an introduction, including the relationship between intervention planning (organization and program planning) and evaluation. Case examples are used to illustrate methodological, political and ethical challenges of program evaluation in the public health context.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Prerequisite: Master of Public Health student's only and PHS 607\r\nAntirequisite: HSG 604",
+            "antirequisites": "HSG 604",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only;"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS614",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014292",
+            "subject": "PHS",
+            "catalog_number": "615",
+            "title": "Requirements Specification and Analysis in Health Systems",
+            "units": 0.5,
+            "description": "This course introduces students to the requirements of definition phase of software development.  Models, notations, and processes for software requirements identification, representation, validation, and analysis are discussed, as are mechanisms to evaluate the efficacy and efficiency of health information systems.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CS 645",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only;"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS615",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014293",
+            "subject": "PHS",
+            "catalog_number": "616",
+            "title": "Decision Making and Systems Thinking in Health Informatics",
+            "units": 0.5,
+            "description": "This course focuses on the process by which decisions are made and how decision-making processes can be codified and machine supported.  It will include topics such as reasoning and inference, techniques for managing uncertainty and information representation.  The course is anchored in a systems thinking approach to problem solving.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MHI.",
+            "antirequisites": "HSG 652",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only;"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS616",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012533",
+            "subject": "PHS",
+            "catalog_number": "617",
+            "title": "Population Intervention for Disease Prevention and Health Promotion",
+            "units": 0.5,
+            "description": "This course introduces the principals and methods for the effective design, selection and implementation of public health interventions to address socio-behavioural risk factors.  At completion, students will be able to: determine when interventions are justified; differentiate between individual and population level interventions; describe various types of interventions; use theory and evidence to select and design interventions including the appropriate mixes of intervention types, sites, and delivery systems.  Emphasis is placed on self learning through reading and problem-based learning.  Lectures highlight and link important  constructs, theories, perspectives, and bodies of evidence.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 607. Master of Public Health students only.",
+            "antirequisites": "HSG 609",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only;"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS617",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012534",
+            "subject": "PHS",
+            "catalog_number": "623",
+            "title": "Risk and Exposure Assessment in Public Health",
+            "units": 0.5,
+            "description": "Methods used to assess human health risks associated with biological, chemical and physical exposures in the environment, focusing on hazard identification, dose-response assessment, exposure assessment, and risk characterization.  The course examines the strengths and weaknesses of various types of risk assessment approaches, the inherent uncertainties in each stage of risk assessment, and the interactive role of risk assessment and risk management in public health decision-making.  Course open to MPH students.  Others may be admitted with consent of instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 604.\r\nMaster of Public Health students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 604"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS623",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012535",
+            "subject": "PHS",
+            "catalog_number": "624",
+            "title": "Environmental Toxicology in Public Health",
+            "units": 0.5,
+            "description": "Introduction to the underlying principles governing the interactions of foreign chemicals with biological systems, including a description of the human health effects that can occur as a result of chemico-biological interactions in the environment.  Course open to MPH students.  Others may be admitted with consent of instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 604.\r\nMaster of Public Health students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 604"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS624",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012536",
+            "subject": "PHS",
+            "catalog_number": "631",
+            "title": "Public Health Surveillance",
+            "units": 0.5,
+            "description": "Fundamental principles of public health surveillance and monitoring, describe the source of public health data in Canada and other countries.  Topics covered include forecasting, information management and organization, and technological innovations for assessment, evaluation and program delivery.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 606 or HSG 606",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 606 or HSG 606"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS631",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012537",
+            "subject": "PHS",
+            "catalog_number": "632",
+            "title": "Health Economics and Public Health",
+            "units": 0.5,
+            "description": "An exploration of the socioeconomic determinants of health, the role of economics in public health policy, and the uses of economic evaluation methods in public health decision-making.  Course open to MPH students.  Others may be admitted with consent of instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Master of Public Health students only.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS632",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012538",
+            "subject": "PHS",
+            "catalog_number": "633",
+            "title": "Water Quality and Public Health",
+            "units": 0.5,
+            "description": "This course covers the principles and methods of water quality management, major water contaminants (including infectious agents) affecting public health, prevention strategies and regulatory monitoring and reporting activities in Canada.\r\nCourse open to MPH students.  Others may be admitted with consent of instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 604.\r\nMaster of Public Health students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS633",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012539",
+            "subject": "PHS",
+            "catalog_number": "634",
+            "title": "Environmental Epidemiology for Public Health",
+            "units": 0.5,
+            "description": "This course will cover epidemiological theories, methods, and applications used to address major environmental risks to public health, through a focus on the design, conduct, and interpretation of results from epidemiological studies of various designs. Public health risks will include the major pathways for exposure to microbial, chemical and physical hazards (e.g. ambient and indoor air, drinking and recreational water, food, physical contact).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 606 or HSG 606",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 606 or HSG 606"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS634",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012540",
+            "subject": "PHS",
+            "catalog_number": "635",
+            "title": "Public Health, Environment and Planning",
+            "units": 0.5,
+            "description": "An exploration of the complex set of relationships among public health, environment and planning at the community and global levels.  Topics covered include the concept of sustainable development and how it relates to public health.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 604.\r\nMaster of Public Health students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 604"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS635",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012541",
+            "subject": "PHS",
+            "catalog_number": "636",
+            "title": "Applied Epidemiology: Advanced Concepts and Applications for Public Health",
+            "units": 0.5,
+            "description": "This course employs a case-study approach to demonstrate methods for investigation and control of communicable disease outbreaks and clusters of chronic diseases and injuries.  Course open to MPH students.  Others may be admitted with consent of instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 606 or HSG 606.\r\nMaster of Public Health students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 606 or HSG 606"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS636",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012542",
+            "subject": "PHS",
+            "catalog_number": "637",
+            "title": "Public Health Informatics",
+            "units": 0.5,
+            "description": "This course examines the application of information technologies and information systems in public health practice.  Selected topics include managing information to deliver value; data standards in public health; privacy, confidentiality and security in public health; surveillance systems, informatics of toxicology and environmental public health.  Course open to MPH students.  Others may be admitted with consent of instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 605.\r\nMaster of Public Health students only.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 613"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS637",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012543",
+            "subject": "PHS",
+            "catalog_number": "638",
+            "title": "Selected Topics in Public Health",
+            "units": 0.5,
+            "description": "Fall/Winter/Spring specific topics in public health.  Course open to MPH students.  Others may be admitted with consent of instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "PHS 605.\r\nMaster of Public Health students only.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only",
+                "3   Environment and Phys Activity",
+                "4   Public Hlth and Social Justice",
+                "7   Community Health Strategies",
+                "9   Public Health Practicum",
+                "10  Population Health Intervention",
+                "11  Population Mental Health"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS638",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012544",
+            "subject": "PHS",
+            "catalog_number": "641",
+            "title": "Professional Experience Practicum",
+            "units": 1.5,
+            "description": "The supervised practicum is intended to provide the student with an opportunity to apply course learning in a health or health system setting.  The placement may involve any of the activities or functions of students' field of study: public health, informatics, evaluation, etc.  A contract stipulating practicum objectives, and work to be completed and evaluated to meet these objectives, must be jointly approved by the student, the student's field supervisor, the academic supervisor, and the practicum coordinator.  A written report by the student, together with a letter from the field supervisor, are used by the practicum coordinator to evaluate student performance at midterm and completion of the practicum.  Graded on a Credit/Non-credit basis.  Course open to School of Public Health and Health Systems students only.  Completion of all prerequisite coursework is required before commencing the practicum.",
+            "instructions": [
+                "PRA"
+            ],
+            "prerequisites": "Prerequisite: Master of Public Health students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS641",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013386",
+            "subject": "PHS",
+            "catalog_number": "661",
+            "title": "Geographic Information  Systems and Public Health",
+            "units": 0.5,
+            "description": "The course introduces the concepts, methods, and applications of Geographic Information System (GIS), with a focus on spatial analysis in public health.  The strong emphasis on assignments that require application of concepts and methods provides students with hands-on experience of important GIS applications in public health, including disease surveillance and control, disease risk estimation, health service planning, mapping disease, disease cluster detection, and analyzing environmental hazards at the neighbourhood, municipal, regional, and international level.  Students will learn the fundamentals of GIS, methodologies for analysing spatial data, study design, spatial data issues and interpretation of the results of analyses for GIS applications in public health.  There is no prerequisite for this course.  However, basic knowledge of statistics with an interest in information technology, public health, and mapping is highly desirable.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MPH and HSG Graduate Plans - All others require the permission of the instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS661",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013387",
+            "subject": "PHS",
+            "catalog_number": "662",
+            "title": "Global Health",
+            "units": 0.5,
+            "description": "\"Global Health\" refers to health issues and concerns that transcend national borders, class, race ethnicity, and culture.   This course will examine Global Health issues and challenges in the 21st century from a Public Health perspective.   Issues range from socioeconomic factors, health systems, culture, human rights, ecological sustainability, humanitarian assistance, and war and peace.  Group work is emphasized.  There may be opportunities for service learning or interviews with frontline providers to explore Global Health in a local context.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MPH and HSG Graduate Plans - All others require the permission of the instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS662",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013388",
+            "subject": "PHS",
+            "catalog_number": "663",
+            "title": "Human Development  and Health",
+            "units": 0.5,
+            "description": "Course content includes normative and non-normative development across the lifespan as it is relevant to individual and population health and public health programming.  The human is treated as an independent system nested within an environmental system.  Consideration will be given to the interaction of the commonly recognized developmental domains, the individual's context, and wellness.  Topics of discussion may include the impact on health and wellness of developmental continuity, resilience, transitions, and milestones.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MPH and HSG Graduate Plans - All others require the permission of the instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS663",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015072",
+            "subject": "PHS",
+            "catalog_number": "651",
+            "title": "Theory and Applications in Program Evaluation",
+            "units": 0.5,
+            "description": "An advanced program and policy evaluation course that provides theoretical knowledge, skills, and application of program evaluation approaches, including organizational and program planning. A more in-depth coverage of topics will be presented, including case studies and the understanding and use of program and policy intervention theory. This includes the creation of logic models, the identification of the purpose of the evaluation, the development of an appropriate evaluation design, and consideration of factors associated with knowledge use.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 614, or HSG 604"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS651",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015073",
+            "subject": "PHS",
+            "catalog_number": "652",
+            "title": "Qualitative and Mixed Methods and Analysis",
+            "units": 0.5,
+            "description": "This course applies qualitative and mixed method approaches to program evaluation and public health practice. A critical analysis will inform health policy and practice based on methodological approaches most appropriate tot he type of evaluation being conducted. Data collection tools, such as focus groups or interviews will be taught, as well as useful techniques for data analysis, interpretation of results, and presentation of findings.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS652",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015074",
+            "subject": "PHS",
+            "catalog_number": "653",
+            "title": "Evaluation Practice and Management",
+            "units": 0.5,
+            "description": "Key concepts necessary for successful evaluation practice and management are discussed and applied using case examples. Evaluation practice examples that are discussed include learning to understand and incorporate consideration of diversity, societal, organizational and environmental context in the conduct of evaluations. Key project management concepts relevant to each step of the evaluation of intervention will be covered, including (but not limited to) selecting research questions and focusing design considerations, budgets, timelines, politics, and contingency plans as well as creating and working in teams.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 614"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS653",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015075",
+            "subject": "PHS",
+            "catalog_number": "654",
+            "title": "Systems Thinking and Analysis in Health Program Planning and Evaluation",
+            "units": 0.5,
+            "description": "This course provides the theory and tools needed to apply systems thinking and a systems approach to health program evaluation. An in-depth understanding of various forms of evaluation --process, utilization-focused, stake-holder, formative, developmental, and comprehensive evaluation -- will be acquired.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "SPHHS Grad Students Only.",
+            "antirequisites": "PHS 611, HLTH 611",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS654",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015076",
+            "subject": "PHS",
+            "catalog_number": "655",
+            "title": "Survey Methods",
+            "units": 0.5,
+            "description": "This course provides in-depth coverage of measurement development and data gathering methods needed for evaluation data collection. Various measurement approaches will be studied, including questionnaire and survey design. Students will develop a measure (e.g. psycho/socio-metric scale) and test its reliability and validity, and understand precision and bias in questionnaire design and survey data. Students will acquire critical skills needed to determine if an existing measure is applicable to a particular evaluation design.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS students only; Prereq: PHS 605"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS655",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015358",
+            "subject": "PHS",
+            "catalog_number": "656",
+            "title": "Quantitative Methods and Analysis for Program",
+            "units": 0.5,
+            "description": "This course will provide an introduction to quantitative methods for use in program evaluation practice. Students will learn the importance of quantitative  methods and analysis, appropriate analytic techniques to address certain evaluation questions, and how to interpret and report the results from those analyses. Study designs as well as descriptive and inferential statistics will be reviewed. Specific topics will include measures of central tendency and dispersion, probability, analysis of variance, categorical data analysis, correlation and regression, and data visualization. Emphasis will be on the theoretical and conceptual understanding and application of quantitative analysis relevant to program evaluation.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SPHHS Grad Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-PHS.html#PHS656",
+            "academic_level": "graduate"
+        }
+    ]
+}

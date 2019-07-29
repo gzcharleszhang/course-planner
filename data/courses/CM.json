@@ -1,0 +1,641 @@
+{
+    "data": [
+        {
+            "course_id": "011431",
+            "subject": "CM",
+            "catalog_number": "361",
+            "title": "Computational Statistics and Data Analysis",
+            "units": 0.5,
+            "description": "Approximation and optimization of noisy functions. Simulation from univariate and multivariate distributions, multivariate normal distribution, mixture distributions and introduction to Markov Monte Carlo. Introduction to supervised statistical learning including discrimination methods. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MATH 237 or 247, (STAT 230 with a grade of at least 60% or STAT 240), STAT 231 or 241; Not open to General Mathematics students.",
+            "antirequisites": "CS 437/STAT 340",
+            "corequisites": null,
+            "crosslistings": "STAT 341",
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-CM.html#CM361",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011444",
+            "subject": "CM",
+            "catalog_number": "375",
+            "title": "Computational Linear Algebra",
+            "units": 0.5,
+            "description": "Basic concepts and implementation of numerical linear algebra techniques and their use in solving application problems. Special methods for solving linear systems having special features. Direct methods: symmetric, positive definite, band, general sparse structures, ordering methods.\r\nIterative methods: Jacobi, Gauss-Seidel, SOR, conjugate gradient. Computing and using orthogonal factorizations of matrices. QR and SVD methods for solving least squares problems. Eigenvalue and singular value decompositions. Computation and uses of these decompositions in practice.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "AMATH 242/341/CM 271/CS 371 or CS 370; Not open to General Mathematics students.",
+            "antirequisites": "CM/CS 372, 472",
+            "corequisites": null,
+            "crosslistings": "CS 475",
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: Lab is not scheduled and students are expected to find time in open hours to complete their work. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1112",
+            "url": "http://www.ucalendar.uwaterloo.ca/1112/COURSE/course-CM.html#CM375",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "000626",
+            "subject": "CM",
+            "catalog_number": "730",
+            "title": "Introduction to Symbolic Computation",
+            "units": 0.5,
+            "description": "An introduction to the use of computers for symbolic mathematical computation, involving traditional mathematical computations such as solving linear equations (exactly), analytic differentiation and integration of functions, and analytic solution of differential equations.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "CS 687",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM730",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012176",
+            "subject": "CM",
+            "catalog_number": "740",
+            "title": "Fundamentals of Optimization",
+            "units": 0.5,
+            "description": "Linear Optimization: Farkas' Lemma, Duality, Simplex Method,Geometry Of Polyhedra. Combinatorial Optimization: lntegrality Of Polyheqra, Total Unimodularity, Flow Problems, Weighted Bipartite Matching. Continuous Optimization: Convex Sets, Separation Theorem, Convex Functions, Analytic Characterizations Of Convexity, Karush-Kuhn-Tucker Theorem.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "CO 602",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM740",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003090",
+            "subject": "CM",
+            "catalog_number": "761",
+            "title": "Computational Inference",
+            "units": 0.5,
+            "description": "Introduction to and application of computational methods in statistical inference.  Monte Carlo evaluation of statistical procedures, exploration of the likelihood function through graphical and optimization techniques including EM.  Bootstrapping, Markov Chain Monte Carlo, and other computationally intensive methods.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CM 461; STAT 440",
+            "corequisites": null,
+            "crosslistings": "STAT 840",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM761",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012612",
+            "subject": "CM",
+            "catalog_number": "762",
+            "title": "Data Visualization",
+            "units": 0.5,
+            "description": "Visualization of high dimensional data including interactive methods directed at exploration and assessment of structure and dependencies in data.  Methods for finding groups in data including traditional and modern methods of cluster analysis.  Dimension reduction methods including multi-dimensional scaling, nonlinear and other methods.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CM 462; STAT 442",
+            "corequisites": null,
+            "crosslistings": "STAT 842",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM762",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003091",
+            "subject": "CM",
+            "catalog_number": "763",
+            "title": "Statistical Learning - Classification",
+            "units": 0.5,
+            "description": "Given known group membership, methods which learn from data how to classify objects into the groups are treated.  Review of likelihood and posterior based discrimination.  Main topics include logistic regression, neural networks, tree-based methods and nearest neighbour methods.  Model assessment, training and tuning.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CM 463; STAT 441",
+            "corequisites": null,
+            "crosslistings": "STAT 841",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM763",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003092",
+            "subject": "CM",
+            "catalog_number": "764",
+            "title": "Statistical Learning - Function Estimation",
+            "units": 0.5,
+            "description": "Methods for finding surfaces in high dimensions from incomplete or noisy functional information.  Both data adaptive and methods based on fixed parametric structure will be treated.  Model assessment, training and tuning.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CM 464; STAT 444",
+            "corequisites": null,
+            "crosslistings": "STAT 844",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM764",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012176",
+            "subject": "CM",
+            "catalog_number": "740",
+            "title": "Fundamentals of Optimization",
+            "units": 0.5,
+            "description": "Linear Optimization: Farkas' Lemma, Duality, Simplex Method,Geometry Of Polyhedra. Combinatorial Optimization: lntegrality Of Polyheqra, Total Unimodularity, Flow Problems, Weighted Bipartite Matching. Continuous Optimization: Convex Sets, Separation Theorem, Convex Functions, Analytic Characterizations Of Convexity, Karush-Kuhn-Tucker Theorem.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "CO 602",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM740",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "011444",
+            "subject": "CM",
+            "catalog_number": "375",
+            "title": "Computational Linear Algebra",
+            "units": 0.5,
+            "description": "Basic concepts and implementation of numerical linear algebra techniques and their use in solving application problems. Special methods for solving linear systems having special features. Direct methods: symmetric, positive definite, band, general sparse structures, ordering methods.\r\nIterative methods: Jacobi, Gauss-Seidel, SOR, conjugate gradient. Computing and using orthogonal factorizations of matrices. QR and SVD methods for solving least squares problems. Eigenvalue and singular value decompositions. Computation and uses of these decompositions in practice.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "AMATH 242/341/CM 271/CS 371 or CS 370; Not open to General Mathematics students.",
+            "antirequisites": "CM/CS 372, 472",
+            "corequisites": null,
+            "crosslistings": "CS 475",
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: Lab is not scheduled and students are expected to find time in open hours to complete their work. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1112",
+            "url": "http://www.ucalendar.uwaterloo.ca/1112/COURSE/course-CM.html#CM375",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "000626",
+            "subject": "CM",
+            "catalog_number": "730",
+            "title": "Introduction to Symbolic Computation",
+            "units": 0.5,
+            "description": "An introduction to the use of computers for symbolic mathematical computation, involving traditional mathematical computations such as solving linear equations (exactly), analytic differentiation and integration of functions, and analytic solution of differential equations.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "CS 687",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM730",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "011431",
+            "subject": "CM",
+            "catalog_number": "361",
+            "title": "Computational Statistics and Data Analysis",
+            "units": 0.5,
+            "description": "Approximation and optimization of noisy functions. Simulation from univariate and multivariate distributions, multivariate normal distribution, mixture distributions and introduction to Markov Monte Carlo. Introduction to supervised statistical learning including discrimination methods. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MATH 237 or 247, (STAT 230 with a grade of at least 60% or STAT 240), STAT 231 or 241; Not open to General Mathematics students.",
+            "antirequisites": "CS 437/STAT 340",
+            "corequisites": null,
+            "crosslistings": "STAT 341",
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-CM.html#CM361",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003090",
+            "subject": "CM",
+            "catalog_number": "761",
+            "title": "Computational Inference",
+            "units": 0.5,
+            "description": "Introduction to and application of computational methods in statistical inference.  Monte Carlo evaluation of statistical procedures, exploration of the likelihood function through graphical and optimization techniques including EM.  Bootstrapping, Markov Chain Monte Carlo, and other computationally intensive methods.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CM 461; STAT 440",
+            "corequisites": null,
+            "crosslistings": "STAT 840",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM761",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003091",
+            "subject": "CM",
+            "catalog_number": "763",
+            "title": "Statistical Learning - Classification",
+            "units": 0.5,
+            "description": "Given known group membership, methods which learn from data how to classify objects into the groups are treated.  Review of likelihood and posterior based discrimination.  Main topics include logistic regression, neural networks, tree-based methods and nearest neighbour methods.  Model assessment, training and tuning.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CM 463; STAT 441",
+            "corequisites": null,
+            "crosslistings": "STAT 841",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM763",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012612",
+            "subject": "CM",
+            "catalog_number": "762",
+            "title": "Data Visualization",
+            "units": 0.5,
+            "description": "Visualization of high dimensional data including interactive methods directed at exploration and assessment of structure and dependencies in data.  Methods for finding groups in data including traditional and modern methods of cluster analysis.  Dimension reduction methods including multi-dimensional scaling, nonlinear and other methods.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CM 462; STAT 442",
+            "corequisites": null,
+            "crosslistings": "STAT 842",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM762",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003092",
+            "subject": "CM",
+            "catalog_number": "764",
+            "title": "Statistical Learning - Function Estimation",
+            "units": 0.5,
+            "description": "Methods for finding surfaces in high dimensions from incomplete or noisy functional information.  Both data adaptive and methods based on fixed parametric structure will be treated.  Model assessment, training and tuning.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CM 464; STAT 444",
+            "corequisites": null,
+            "crosslistings": "STAT 844",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CM.html#CM764",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012236",
+            "subject": "CM",
+            "catalog_number": "434",
+            "title": "Techniques in Computational Number Theory",
+            "units": 0.5,
+            "description": "An introduction to: integer factorization, elliptic curves methods, primality testing, fast integer arithmetic, fast Fourier transforms and quantum computing. This course is taught with a philosophy that encourages experimentation.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "One of CM 339/CS 341, PMATH 334, 336, 345, 346; Not open to General Mathematics students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "PMATH 434",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-CM.html#CM434",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012761",
+            "subject": "CM",
+            "catalog_number": "498",
+            "title": "Advanced Topics in Computational Mathematics",
+            "units": 0.5,
+            "description": "See the course offerings list on the Computational Mathematics website for topics available.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Computational Mathematics students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: This course can be used to replace a fourth year Computational Mathematics course in any Computational Mathematics plan, with the approval of a Computational Mathematics undergraduate advisor.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-CM.html#CM498",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012236",
+            "subject": "CM",
+            "catalog_number": "434",
+            "title": "Techniques in Computational Number Theory",
+            "units": 0.5,
+            "description": "An introduction to: integer factorization, elliptic curves methods, primality testing, fast integer arithmetic, fast Fourier transforms and quantum computing. This course is taught with a philosophy that encourages experimentation.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "One of CM 339/CS 341, PMATH 334, 336, 345, 346; Not open to General Mathematics students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "PMATH 434",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-CM.html#CM434",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

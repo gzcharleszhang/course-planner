@@ -1,0 +1,2760 @@
+{
+    "data": [
+        {
+            "course_id": "011923",
+            "subject": "NE",
+            "catalog_number": "100",
+            "title": "Introduction to Nanotechnology Engineering",
+            "units": 0.5,
+            "description": "An introduction to nanotechnology engineering and its applications. Basic engineering principles and methodology, including the roles of standards, safety, and intellectual property. The purpose, structure, format, and essential components of engineering technical reports. Introduction to the areas of nanomedicine, nanomaterials, and nanoelectronics. Professional development, including r\u00e9sum\u00e9 skills, interview skills, and preparation for co-op terms. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "1A Nanotechnology Engineering students.",
+            "antirequisites": "CHE 100, CIVE 125, ECE 100, ME 100, SYDE 101",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE100",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011915",
+            "subject": "NE",
+            "catalog_number": "101",
+            "title": "Nanotechnology Engineering Practice",
+            "units": 0,
+            "description": "Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 1A academic term. [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Level 1A Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE101",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011916",
+            "subject": "NE",
+            "catalog_number": "102",
+            "title": "Introduction to Nanomaterials Health Risk; Nanotechnology Engineering Practice",
+            "units": 0.15,
+            "description": "Introduction to types of nanomaterials hazards: their identification, toxicity, and characterization; exposure health-risk assessment; cancer and non-cancer risks. Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 1B academic term, including aspects of co-operative education and professional or career development.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 1B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: This course is graded as CR/NCR and is considered as DRNC. Offered: W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE102",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011924",
+            "subject": "NE",
+            "catalog_number": "112",
+            "title": "Linear Algebra for Nanotechnology Engineers",
+            "units": 0.5,
+            "description": "Matrices, operations on matrices. Determinants. Adjoints and inverses. Solution of linear equations: elimination and iterative methods. Eigenvalues and eigenvectors with engineering applications. Complex numbers. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "1A Nanotechnology Engineering.",
+            "antirequisites": "MATH 114, 115, 125/106, 136, 146, SYDE 114",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE112",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011925",
+            "subject": "NE",
+            "catalog_number": "113",
+            "title": "Introduction to Computational Methods",
+            "units": 0.5,
+            "description": "Spreadsheets for problem solving, plotting, fitting data. Problem solution plotting, and creating complex programs in an engineering prototypical programming environment. Elementary numerical methods: Taylor-series summations, roots of equations, roots of polynomials, direct and indirect solution methods for systems of linear, and nonlinear algebraic equations, integration. Applications in nanotechnology engineering. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 1B Nanotechnology Engineering students.",
+            "antirequisites": "CHE 121, CIVE 121, CS 115, 123, 134, 135, 145, ECE 150, GENE 121, PHYS 139, SYDE 121",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE113",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011926",
+            "subject": "NE",
+            "catalog_number": "115",
+            "title": "Probability and Statistics",
+            "units": 0.5,
+            "description": "Elementary probability theory. Random variables and distributions. Binomial, Poisson, and normal distributions. Elementary sampling. Statistical estimation. Tests of hypotheses and significance. Regression. Goodness-of-fit tests. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "1A Nanotechnology Engineering students.",
+            "antirequisites": "CHE 220, CIVE 224, ME 202, STAT 202, 206, 220, 230, SYDE 213",
+            "corequisites": "MATH 119.",
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-NE.html#NE115",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011928",
+            "subject": "NE",
+            "catalog_number": "121",
+            "title": "Chemical Principles",
+            "units": 0.5,
+            "description": "Chemical reactions. Mass and charge balance. Introduction to the first, second, and third laws of thermodynamics. Chemical equilibrium. Applications of chemical equilibrium principles to proton-transfer reactions. Electronic structure of atoms and molecules. Periodicity and chemical bonding. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Level 1A Nanotechnology Engineering.",
+            "antirequisites": "CHE 102, CHEM 120, 123",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE121",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015631",
+            "subject": "NE",
+            "catalog_number": "140",
+            "title": "Linear Circuits",
+            "units": 0.5,
+            "description": "Charge, current and voltage. Resistance, Ohm's Law, Kirchhoff's voltage and current laws. Nodal, mesh analysis and source transformation. Superposition, Th\u00e9venin and Norton equivalents. Capacitance, inductance, electrical energy dissipation and first-order transient response circuits. Phasors, impedances and alternating current (AC) steady state analysis. Signals, amplifier concepts and nonlinear circuit analysis. Diodes circuit applications. Ideal operational amplifier circuits. Frequency filter types and active filter circuits' configuration. [Offered: W, first offered Winter 2019]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 1B Nanotechnology Engineering.",
+            "antirequisites": "BME 392, ECE 140, 240, GENE 123, MTE 120, SYDE 292",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "first offered Winter 2019"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE140",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012237",
+            "subject": "NE",
+            "catalog_number": "122",
+            "title": "Organic Chemistry for Nanotechnology Engineers",
+            "units": 0.5,
+            "description": "Nomenclature, stereochemistry and reactions of important classes of organic compounds. Reaction mechanisms and energetics. Aromaticity and simple molecular orbital theory of conjugated systems. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "NE 121; Level at least 1B Nanotechnology Engineering students.",
+            "antirequisites": "CHEM 262/262L, 264, 266/266L",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1718",
+            "url": "http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-NE.html#NE122",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012238",
+            "subject": "NE",
+            "catalog_number": "125",
+            "title": "Introduction to Materials Science and Engineering",
+            "units": 0.5,
+            "description": "Fundamentals of crystalline structure, crystal defects, and noncrystallinity. Structure and properties of metals, ceramics, glasses, amorphous materials, polymers, and composites. Processing and concepts of engineering design of materials. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "NE 121; Level at least 1B Nanotechnology Engineering students",
+            "antirequisites": "CHE 241, CIVE 265, ME 135/235",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE125",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011930",
+            "subject": "NE",
+            "catalog_number": "131",
+            "title": "Physics for Nanotechnology Engineering",
+            "units": 0.5,
+            "description": "A first course in physics that introduces basic topics in classical mechanics, wave mechanics, and physical optics. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "MATH 117; Level at least 1B Nanotechnology Engineering students.",
+            "antirequisites": "PHYS 111, 115, 121, SYDE 182",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE131",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011917",
+            "subject": "NE",
+            "catalog_number": "201",
+            "title": "Nanotoxicology; Nanotechnology Engineering Practice",
+            "units": 0.15,
+            "description": "Nanotoxicology, including inhalation and dermal exposure effects; translocation, cytotoxicity, mutagenicity, and neurotoxicity; carbon nanotubes as cancer hazards. Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 2A academic term, including aspects of co-operative education and professional or career development.",
+            "instructions": [
+                "LEC",
+                "TST"
+            ],
+            "prerequisites": "2A Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: This course is graded as CR/NCR and is considered as DRNC. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE201",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011918",
+            "subject": "NE",
+            "catalog_number": "202",
+            "title": "Nanomaterials and Environmental Impact; Nanotechnology Engineering Practice",
+            "units": 0.15,
+            "description": "Environmental fate and behaviour, bio-availability, consumer exposure, environmental exposure-assessment, aquatic toxicology, bio-accumulation and biomagnification. Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 2B academic term, including aspects of co-operative education and professional or career development.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 2B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": "[Note: This course is graded as CR/NCR and is considered as DRNC. Offered: S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE202",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013158",
+            "subject": "NE",
+            "catalog_number": "216",
+            "title": "Advanced Calculus 1 for Nanotechnology Engineering",
+            "units": 0.5,
+            "description": "Ordinary differential equations with constant coefficients. Boundary value problems and applications to quantum mechanics. Laplace and Fourier transforms, Fourier series and applications. Numerical solution of ordinary differential equations. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "MATH 119; 2A Nanotechnology Engineering students.",
+            "antirequisites": "AMATH 350, MATH 218, 228",
+            "corequisites": null,
+            "crosslistings": "MATH 211N",
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE216",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013160",
+            "subject": "NE",
+            "catalog_number": "217",
+            "title": "Advanced Calculus 2 for Nanotechnology Engineering",
+            "units": 0.5,
+            "description": "Gradient, Divergence and Curl: Applications. Line and Surface Integrals. Green's, Gauss', and Stokes' Theorems: Applications to electromagnetism and fluid mechanics. Numerical solution of partial differential equations. [Offered: S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "NE 216; 2B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "MATH 212N",
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE217",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012582",
+            "subject": "NE",
+            "catalog_number": "220L",
+            "title": "Materials Science and Engineering Laboratory",
+            "units": 0.25,
+            "description": "Labs following the NE 125 Introduction to Materials Science and Engineering course. This laboratory course introduces students to techniques for the characterization of various materials, such as metals, polymers, ceramics, and composites. Experimental exercises will study the physical properties and characteristics of materials, including mechanical, thermal, electrical, and structural/morphological properties at different length scales. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 125; 2A Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE220L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011933",
+            "subject": "NE",
+            "catalog_number": "224",
+            "title": "Biochemistry for Nanotechnology Engineers",
+            "units": 0.5,
+            "description": "An introduction to the chemistry of amino acids, carbohydrates, lipids and nucleic acids. Structure and properties of proteins and enzymes. An introduction to cell biochemistry. Applications to nanobiotechnology. [Offered: S, first offered Spring 2020]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 2B Nanotechnology Engineering.",
+            "antirequisites": "CHEM 233, 237",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S",
+                "first offered Spring 2020"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE224",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012239",
+            "subject": "NE",
+            "catalog_number": "225",
+            "title": "Structure and Properties of Nanomaterials",
+            "units": 0.5,
+            "description": "Electronic orbitals in atoms, molecules and the solid state. Structures and properties of covalent and ionic solid nanoparticles including their catalytic, electrochemical, electrical, optical and magnetic properties. Semiconductors and carbon/silicon-based nanoparticles. Examples discussed include carbon nanoparticles, dendrimers, micelles and quantum dots. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 2B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE225",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011934",
+            "subject": "NE",
+            "catalog_number": "226",
+            "title": "Characterization of Materials",
+            "units": 0.5,
+            "description": "Materials structure analysis. Materials composition and chemical bonding analysis. In-situ analysis and monitoring of fabrication process parameters. Materials properties characterization. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 2B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": "NE 232",
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE226",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014070",
+            "subject": "NE",
+            "catalog_number": "226L",
+            "title": "Laboratory Characterization Methods",
+            "units": 0.25,
+            "description": "This laboratory course introduces students to six materials characterization techniques employed routinely by nanotechnology engineers in their practices. Specifically, the six techniques are: Fourier-Transform Infrared (FTIR), Raman light-scattering, and ultra-violet and visible (UV-Vis) spectroscopies, ellipsometry, X-ray diffraction (XRD), and scanning electron microscopy (SEM). This course is intended to familiarize students with the instrumentation involved, prior to its application to nanomaterials in a follow-up laboratory course, NE 320L. [Offered: S]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "2B Nanotechnology Engineering students.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE226L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011935",
+            "subject": "NE",
+            "catalog_number": "232",
+            "title": "Quantum Mechanics",
+            "units": 0.5,
+            "description": "Historical background; the differential equation approach to quantum mechanics; treatments of solvable problems such as the particle-in-a-box, harmonic oscillator, rigid rotor, and the hydrogen atom; introduction to approximation methods for more complex systems; application to solid state problems, including band theory. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "NE 121, 125, 131; Level at least 2A Nanotechnology Engineering students.",
+            "antirequisites": "CHEM 356, ECE 405, PHYS 233, 234",
+            "corequisites": "NE 216.",
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE232",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011931",
+            "subject": "NE",
+            "catalog_number": "241",
+            "title": "Electromagnetism",
+            "units": 0.5,
+            "description": "Coulomb's law, electric field and electric flux, Gauss's law, electric potential, potential and field, magnetic field, Ampere's law, solenoid, electromagnetic induction, magnetic flux, Lenz' law, Faraday's law, capacitors and capacitance, inductors and inductance, Maxwell's equations, electromagnetic fields and waves, polarization. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 2A Nanotechnology Engineering.",
+            "antirequisites": "ECE 106, GENE 123, MTE 120, SYDE 283",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE241",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011937",
+            "subject": "NE",
+            "catalog_number": "242",
+            "title": "Semiconductor Physics and Devices",
+            "units": 0.5,
+            "description": "Introduction to the physical principles and electrical behavior of semiconductor materials and devices: electronic band structure, charge carriers, doping, carrier transport, pn-junctions, metal-oxide-semiconductor capacitors, transistors, and related optoelectronic devices (photodetectors, light emitting diodes, solar cells). [Offered: S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 2B Nanotechnology Engineering.",
+            "antirequisites": "ECE 331",
+            "corequisites": "NE 232",
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE242",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011919",
+            "subject": "NE",
+            "catalog_number": "301",
+            "title": "Nanomaterials and Human Risks, Benefits; Nanotechnology Engineering Practice",
+            "units": 0.15,
+            "description": "Detoxification and bioactivation pathways; surface modification; biopersistence; quantum dots and cellular imagining; biomedical applications of nanomaterials. Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 3A academic term, including aspects of co-operative education and professional or career development.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3A Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": "[Note: This course is graded as CR/NCR and is considered as DRNC. Offered: S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE301",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011920",
+            "subject": "NE",
+            "catalog_number": "302",
+            "title": "Nanotechnology Engineering Practice",
+            "units": 0,
+            "description": "Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 3B academic term, including aspects of co-operative education and professional or career development. [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Level at least 3B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: This course is graded as CR/NCR and is considered as DRNC. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE302",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015391",
+            "subject": "NE",
+            "catalog_number": "453",
+            "title": "Special Topics in Nanotechnology Engineering",
+            "units": 0.5,
+            "description": "Special topics that significantly span two (or more) areas of concentration in or that provide methodologies relevant to nanotechnology engineering will be offered from time to time when resources are available. [Offered: F,W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE453",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011963",
+            "subject": "NE",
+            "catalog_number": "307",
+            "title": "Introduction to Nanosystems Design",
+            "units": 0.25,
+            "description": "Introduction to the engineering design process: problem definition and needs analysis; process synthesis, analysis, optimization and troubleshooting; safety and environmental protection in design; written and oral communication for design reports. Students form four-person design teams and start a team-oriented project based on the knowledge and skills acquired in previous courses and on co-operative work terms, culminating in a design proposal presentation. [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "3B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE307",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011938",
+            "subject": "NE",
+            "catalog_number": "318",
+            "title": "Continuum Mechanics for Nanotechnology Engineering",
+            "units": 0.5,
+            "description": "Scaling analysis of differential equations. Tensor operations and tensor calculus. Kinematics of a continuum: material and spatial frames, strain and displacement, conservation of mass. Stress, conservation of momentum and energy. Linear elastic solids: Hooke's Law, infinitesimal elasticity theory and the Navier-Cauchy equation. Newtonian viscous fluids: hydrostatics, Navier-Stokes equations, flow regimes, and the Reynolds number. Engineering applications: plane elastic waves and vibrations, buoyancy forces, Couette, Poiseuille, and Stokes flows. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "NE 216, 217; 3A Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE318",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012874",
+            "subject": "NE",
+            "catalog_number": "320L",
+            "title": "Characterization of Materials Laboratory",
+            "units": 0.25,
+            "description": "Follow-up labs associated with the NE 226 (Characterization of Materials) course. The laboratory exercises focus upon the synthesis and characterization of nano-based materials. Specifically, the synthesis of carbon nanotubes, quantum dots, magnetic ceramics, or other common nanomaterials will be investigated, and sample preparations for various characterization tools will be carried out. Characterization techniques such as infrared and Raman spectroscopy, x-ray diffraction, scanning electron microscope (SEM), and magnetic inductive heating will be utilized. [Offered: S]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 226; 3A Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE320L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013323",
+            "subject": "NE",
+            "catalog_number": "330L",
+            "title": "Macromolecular Science Laboratory",
+            "units": 0.25,
+            "description": "Labs associated with NE 333 (Macromolecular Science 1) course. Lab exercises exploring the kinetics of radical co-polymerization, the analysis of copolymer composition, concepts in the determination and control of polymer molecular weight distribution, and the kinetics and particle size development in emulsion polymerization. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 333; 3B Nanotechnology Engineering students.",
+            "antirequisites": "CHEM 471L",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE330L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011936",
+            "subject": "NE",
+            "catalog_number": "333",
+            "title": "Macromolecular Science",
+            "units": 0.5,
+            "description": "Basic definitions and polymer nomenclature, molecular weight averages and distributions, constitutional and configurational isomerism, rubber elasticity, step-growth and free-radical chain-growth polymerizations, emulsion polymerization. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "NE 225; 3A Nanotechnology Engineering students only.",
+            "antirequisites": "CHE 541, CHEM 370, MNS 322",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE333",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011939",
+            "subject": "NE",
+            "catalog_number": "334",
+            "title": "Statistical Thermodynamics",
+            "units": 0.5,
+            "description": "Statistical mechanics vs. thermodynamics. Review of statistical concepts. Canonical and grand canonical ensembles. Entropy. General formulation of statistical thermodynamics. Fermi-Dirac, Bose-Einstein and Boltzmann statistics. Quantum ideal gases. Specific heat of solids. Electrons in metals and semiconductors. Radiation: the photon gas. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "NE 115/215, 225, 232; 3A Nanotechnology Engineering students only.",
+            "antirequisites": "CHEM 450 (topic: Statistical Mechanics), PHYS 359",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE334",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011940",
+            "subject": "NE",
+            "catalog_number": "335",
+            "title": "Soft Nanomaterials",
+            "units": 0.5,
+            "description": "Introduction to the applications of macromolecules in nanotechnology. Block copolymers and self-assembled polymerization. Micelles and colloids. Dendrimers and molecular brushes. Supramolecular polymers, polymeric blends and macromolecular nanocomposites. Polymer templates. Applications in the manufacturing of nanostructured materials and nanoscale devices. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "NE 333; Level at least 3B Nanotechnology Engineering students.",
+            "antirequisites": "CHE 541, CHEM 471",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE335",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011941",
+            "subject": "NE",
+            "catalog_number": "336",
+            "title": "Micro and Nanosystem Computer-aided Design",
+            "units": 0.5,
+            "description": "Modeling and simulation. Lumped versus distributed approaches. Review of differential-equation systems, constitutive relations, boundary conditions, and solvers for complex, coupled transport problems pertinent to micro and nanosystems. Coupling strategies. Numerical schemes for nonlinear systems. Basic modeling and simulation of micro and nanosystems, and fluidic systems. Relevant nanotechnology applications: optical, thermal, mechanical, and fluidic microstructures, and nanoscale devices. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE336",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012875",
+            "subject": "NE",
+            "catalog_number": "340L",
+            "title": "Microfabrication and Thin-film Technology Laboratory",
+            "units": 0.25,
+            "description": "Labs associated with the NE 343 (Microfabrication and Thin-film Technology) course. Lab topics may include: thin film deposition by PECVD and PVD (sputtering); photolithography; dry and wet etching; and C-V and I-V analysis of MIS structures. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 343; 3B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE340L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011942",
+            "subject": "NE",
+            "catalog_number": "343",
+            "title": "Microfabrication and Thin-film Technology",
+            "units": 0.5,
+            "description": "Key processes for electronic device fabrication. Single crystal growth. Substrate preparation. Homoepitaxy, heteroepitaxy, and molecular-beam epitaxy. Ion implantation. Oxidation and diffusion. Physical and chemical vapor deposition. Sputtering and evaporation. Etching. Micromachining. Spin coating and printing. Photolithography. Effects of device scaling on chip performance. Process integration. Yield and reliability. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "NE 121, 125, 242; 3A Nanotechnology Engineering students only.",
+            "antirequisites": "ECE 433",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE343",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011943",
+            "subject": "NE",
+            "catalog_number": "344",
+            "title": "Electronic Circuits",
+            "units": 0.5,
+            "description": "Metal-oxide-semiconductor field-effect transistor (MOSFET), circuit biasing and load-line analysis. Small-signal equivalent circuits and single stage amplifier configurations. Differential and multistage MOSFET amplifiers. The cascode configuration, current mirror and active loads. Feedback circuit configurations and stability. Oscillators, waveform shaping circuits and delay analysis. Introduction to digital circuits, the transistor switch, inverter circuits and complementary metal-oxide-semiconductor (CMOS) logic circuits. [Offered: F, first offered Fall 2021]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Nanotechnology Engineering.",
+            "antirequisites": "ECE 240, 242, 340, SYDE 292",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "first offered Fall 2021"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE344",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011945",
+            "subject": "NE",
+            "catalog_number": "352",
+            "title": "Surfaces and Interfaces",
+            "units": 0.5,
+            "description": "Surfaces and interfaces in microelectronics and nanofabrication. Physicochemistry of interfaces. Capillary phenomena and molecular self-assembly. Structure and properties of clean and adsorbate covered surfaces (metals, semiconductors, oxides). Reactions at surfaces and catalysis. Surface electrochemistry, growth and diffusion, nanoscale structure formation/surface patterning, biological interfaces. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Nanotechnology Engineering",
+            "antirequisites": "CHEM 450 (topic: Surface Science and Nanotechnology)",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE352",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011946",
+            "subject": "NE",
+            "catalog_number": "353",
+            "title": "Nanoprobing and Lithography",
+            "units": 0.5,
+            "description": "Theory and application of nanoprobing based on scanning probe microscopy (scanning tunneling microscopy, atomic force microscopy, scanning near-field optical microscopy). Nanolithographic techniques (extreme-UV lithography, X-ray lithography, e-beam lithography, focused ion beam lithography, nano-imprint lithography and soft lithography). [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "NE 343; Level at least 3B Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": "NE 335",
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE353",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011921",
+            "subject": "NE",
+            "catalog_number": "401",
+            "title": "Nanotechnology Engineering Practice",
+            "units": 0,
+            "description": "Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 4A academic term, including aspects of professional or career development. [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Level at least 4A Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1516",
+            "url": "http://www.ucalendar.uwaterloo.ca/1516/COURSE/course-NE.html#NE401",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011922",
+            "subject": "NE",
+            "catalog_number": "402",
+            "title": "Nanotechnology Engineering Practice",
+            "units": 0,
+            "description": "Areas of research and professional practice in Nanotechnology Engineering; exposure to concepts from other Engineering disciplines; support material for the 4B academic term, including aspects of professional or career development.. [Offered: W]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "4B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1516",
+            "url": "http://www.ucalendar.uwaterloo.ca/1516/COURSE/course-NE.html#NE402",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011964",
+            "subject": "NE",
+            "catalog_number": "408",
+            "title": "Nanosystems Design Project",
+            "units": 0.5,
+            "description": "Design work for the project proposed in NE 307, culminating in a progress report presentation. [Offered: F]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "NE 307; 4A Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE408",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011965",
+            "subject": "NE",
+            "catalog_number": "409",
+            "title": "Nanosystems Design Project and Symposium",
+            "units": 0.5,
+            "description": "Completion and presentation of the design project from NE 307 and NE 408. Teams communicate their design in the form of a final report, a poster, and a seminar presentation. [Offered: W]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "NE 408; 4B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE409",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011944",
+            "subject": "NE",
+            "catalog_number": "445",
+            "title": "Photonic Materials and Devices",
+            "units": 0.5,
+            "description": "Review of geometrical and wave optics. Optical measurements and instrumentation. Coherent radiation and lasers. Optical communications and optical networks. Optical detectors. Photonic devices. Displays. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "NE 121, 131, 232, 141/241, 242; 4A Nanotechnology Engineering students only.",
+            "antirequisites": "PHYS 356",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1516",
+            "url": "http://www.ucalendar.uwaterloo.ca/1516/COURSE/course-NE.html#NE445",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012876",
+            "subject": "NE",
+            "catalog_number": "450L",
+            "title": "Nanoprobing and Lithography Laboratory",
+            "units": 0.25,
+            "description": "Labs associated with the NE 353 (Nanoprobing and Lithography) course. Lab topics may include: Scanning probe microscopic characterization of polymer and bio-polymer surfaces; scanning tunneling characterization of semiconductors and thin films; fluorescence and laser microscopic testing of proteins; micro-contact printing using molecular self-assembly, nano-soft lithography by AFM. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 224, 335, 353; 4A Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE450L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014071",
+            "subject": "NE",
+            "catalog_number": "451",
+            "title": "Simulation Methods",
+            "units": 0.5,
+            "description": "This course provides an introduction to and an overview of computational methods that are currently employed for the simulation of structural and bulk properties of matter, particularly as applied to physical and biological systems at the nanometer scale. Topics to be covered in this course include energy functions and force fields, geometry optimization, normal mode analysis, and reaction--path techniques at the molecular level, and an introduction to the simulation of static and dynamic properties of substances via both Monte Carlo and molecular dynamics (MD) methodologies. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE451",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014072",
+            "subject": "NE",
+            "catalog_number": "452",
+            "title": "Special Topics in Nanoscale Simulations",
+            "units": 0.5,
+            "description": "Topics in this theme area may include: an overview of modern computational methods and algorithms in nanoscale materials, such as steered molecular dynamics, ab initio molecular dynamics, multiscale modelling, dissipative particle dynamics, transition path sampling, phase-field modelling, quantum simulations using Feynman path integral techniques, condensed-phase spectroscopy, linking of simulations to experiment, simulations and their practical applications. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "NE 451; 4B Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE452",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012877",
+            "subject": "NE",
+            "catalog_number": "454L",
+            "title": "Nanotechnology Engineering Advanced Laboratory 1",
+            "units": 0.5,
+            "description": "Application of experimental tools and techniques in the areas of nano-instrumentation, nano-electronics, nano-biotechnology, nanomedicine, and nanomaterials. Experimental exercises may involve lithography, film desposition, etching, simulation and design, optimization, micro-electro-mechanical-system (MEMS) fabrication, nano particle formulation reactions, encapsulation, synthetic chemistry protocols, cell culture protocols, and the use of various characterization instrumentation. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 320L, 340L; 4A Nanotechnology Engineering students only.",
+            "antirequisites": null,
+            "corequisites": "NE 450L",
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1516",
+            "url": "http://www.ucalendar.uwaterloo.ca/1516/COURSE/course-NE.html#NE454L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012878",
+            "subject": "NE",
+            "catalog_number": "455L",
+            "title": "Nanotechnology Engineering Advanced Laboratory 2",
+            "units": 0.5,
+            "description": "A continuation and/or extension of NE 454L. [Offered: W]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 454L; 4B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1516",
+            "url": "http://www.ucalendar.uwaterloo.ca/1516/COURSE/course-NE.html#NE455L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012240",
+            "subject": "NE",
+            "catalog_number": "459",
+            "title": "Nanotechnology Engineering Research Project",
+            "units": 0.5,
+            "description": "A nanotechnology engineering research project that requires students to demonstrate initiative and to assume responsibility. Students will select projects at the end of the 4A term. Although students may propose their own projects, a faculty member will provide supervision. A project report is required at the end of the 4B term. [Offered: W]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "4B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE459",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011947",
+            "subject": "NE",
+            "catalog_number": "461",
+            "title": "Micro and Nano-instrumentation",
+            "units": 0.5,
+            "description": "Fabrication technology for development of micro and nanosensors, actuators, and modules (e.g., micro or, nano-electromechanical systems, micro or nanofluidics channels). Integration using examples drawn from chemical analysis micro and nano-instrumentation. An overview of current micro and nano-instrumentation. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "NE 352, 353; 4A Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE461",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012241",
+            "subject": "NE",
+            "catalog_number": "469",
+            "title": "Special Topics in Micro and Nano-instrumentation",
+            "units": 0.5,
+            "description": "Topics in this theme area may include: micro and nanosensors, micro and nano-actuators, micro and nanofluidics, micro and nanoscale fabrication, emerging and unconventional nanofabrication technologies. (Note: Each year, at least one elective course will be offered in this theme area. For a current list of offerings, see the Associate Director for Nanotechnology Engineering.) [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "4B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE469",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011951",
+            "subject": "NE",
+            "catalog_number": "471",
+            "title": "Nano-electronics",
+            "units": 0.5,
+            "description": "Transport phenomena. Quantum confinement. Single molecule transistors. Resonant tunnelling devices. Large area and mechanically flexible electronics. Deposition and patterning techniques. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "4A Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE471",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012242",
+            "subject": "NE",
+            "catalog_number": "479",
+            "title": "Special Topics in Nanoelectronics",
+            "units": 0.5,
+            "description": "Topics in this theme area may include: quantum effects in electronic devices, molecular electronics, solid state nanoelectronics, organic electronics, advanced nanofabrication technologies such as vacuum deposition, electron beam patterning and nanolithography. (Note: Each year, at least one elective course will be offered in this theme area. For a current list of offerings, see the Associate Director for Nanotechnology Engineering.) [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "4B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE479",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011955",
+            "subject": "NE",
+            "catalog_number": "481",
+            "title": "Nanomedicine and Nanobiotechnology",
+            "units": 0.5,
+            "description": "Overview of biomedical engineering principles, and their utilization in understanding how our bodies interact with nano- and biomaterials: topics related to innate and acquired inflammatory response, cellular and humoral immunity, complement systems and thrombosis, biocompatibility, and toxicity will be covered. Route of administered nanoparticles will be introduced. This course will also study the formulation and manufacturing process for producing nanoparticles in the biotechnology and pharmaceutical industries. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "NE 381; 4A Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE481",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012243",
+            "subject": "NE",
+            "catalog_number": "489",
+            "title": "Special Topics in Nanoscale Biosystems",
+            "units": 0.5,
+            "description": "Topics in this theme area may include: nanoscale biomaterials for medical and drug delivery devices, biointerfaces, biomembranes, nanoscale patterning on biological interfaces, biomicroelectromechanical systems (BioMEMS), biomimetics, biochips, self-assembly of peptides and proteins, bioseparation, biosensors. (Note: Each year, at least one elective course will be offered in this theme area. For a current list of offerings, see the Associate Director for Nanotechnology Engineering.) [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "4B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE489",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011959",
+            "subject": "NE",
+            "catalog_number": "491",
+            "title": "Nanostructured Materials",
+            "units": 0.5,
+            "description": "Application of inorganic nanostructured materials and nanocomposites. Synthesis and processing techniques for inorganic nanomaterials and the devices that use them. Students will be required to provide critical analyses and seminar presentations of patents utilizing nanomaterials.[Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "NE 335, 352; 4A Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE491",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012244",
+            "subject": "NE",
+            "catalog_number": "499",
+            "title": "Special Topics in Nanostructured Materials",
+            "units": 0.5,
+            "description": "Topics in this theme area may include: membrane nanotechnology, nanoengineered catalysts, nanoengineered polymers, and nanocomposites; manufacturing of nanotubes, nanoparticles, quantum dots, nanowires and other nanomaterials (Note: Each year, at least one elective course will be offered in this theme area. For a current list of offerings, see the Associate Director for Nanotechnology Engineering.) [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "4B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE499",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013158",
+            "subject": "NE",
+            "catalog_number": "216",
+            "title": "Advanced Calculus 1 for Nanotechnology Engineering",
+            "units": 0.5,
+            "description": "Ordinary differential equations with constant coefficients. Boundary value problems and applications to quantum mechanics. Laplace and Fourier transforms, Fourier series and applications. Numerical solution of ordinary differential equations. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "MATH 119; 2A Nanotechnology Engineering students.",
+            "antirequisites": "AMATH 350, MATH 218, 228",
+            "corequisites": null,
+            "crosslistings": "MATH 211N",
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE216",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013160",
+            "subject": "NE",
+            "catalog_number": "217",
+            "title": "Advanced Calculus 2 for Nanotechnology Engineering",
+            "units": 0.5,
+            "description": "Gradient, Divergence and Curl: Applications. Line and Surface Integrals. Green's, Gauss', and Stokes' Theorems: Applications to electromagnetism and fluid mechanics. Numerical solution of partial differential equations. [Offered: S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "NE 216; 2B Nanotechnology Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "MATH 212N",
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE217",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014677",
+            "subject": "NE",
+            "catalog_number": "111",
+            "title": "Introduction to Programming for Engineers",
+            "units": 0.25,
+            "description": "Introduction to programming and numerical computing using a high-level interpreted programming language. Programming fundamentals, computer architecture, design and use of functions, strings and text input/output, relational operators, conditionals, lists, loops, designing algorithms, numerical computing, plotting, and file input/output.",
+            "instructions": [
+                "LEC",
+                "TST"
+            ],
+            "prerequisites": "Level 1A Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: This course includes online components. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE111",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014982",
+            "subject": "NE",
+            "catalog_number": "109",
+            "title": "Societal and Environmental Impacts of Nanotechnology",
+            "units": 0.5,
+            "description": "An introduction to the field of nanotechnology and its ability to impact society and affect sustainability. How utilization of nanotechnology has simultaneously improved societal standards of living and introduced new ethical, health, and environmental concerns will be examined. Topics covered will include: the history of changing perceptions of and attention devoted to developments in nanotechnology; special health and environmental concerns associated with nanomaterials; the development and means of implementation of regulations to deal with the use of nanomaterials; ethical issues associated with nanotechnology and its applications. Intellectual property issues in general, and those pertaining to nanotechnology specifically, will also be discussed briefly. Relevant case studies will be presented and discussed. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level 1A Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE109",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011926",
+            "subject": "NE",
+            "catalog_number": "115",
+            "title": "Probability and Statistics",
+            "units": 0.5,
+            "description": "Elementary probability theory. Random variables and distributions. Binomial, Poisson, and normal distributions. Elementary sampling. Statistical estimation. Tests of hypotheses and significance. Regression. Goodness-of-fit tests. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "1A Nanotechnology Engineering students.",
+            "antirequisites": "CHE 220, CIVE 224, ME 202, STAT 202, 206, 220, 230, SYDE 213",
+            "corequisites": "MATH 119.",
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-NE.html#NE115",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015209",
+            "subject": "NE",
+            "catalog_number": "250",
+            "title": "Work-term Report 1",
+            "units": 0.13,
+            "description": "An engineering report based upon a technical project, activity, or analysis carried out by the student, normally during work-term employment following the 2A academic term. Evaluation is based upon a level of written communication, technical proficiency, and engineering analysis appropriate to a second-year engineering student. [Offered: S]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "Level at least 2B Nanotechnology Engineering.",
+            "antirequisites": "MSCI 391, WKRPT 200, 201",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE250",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011944",
+            "subject": "NE",
+            "catalog_number": "445",
+            "title": "Photonic Materials and Devices",
+            "units": 0.5,
+            "description": "Review of geometrical and wave optics. Optical measurements and instrumentation. Coherent radiation and lasers. Optical communications and optical networks. Optical detectors. Photonic devices. Displays. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "NE 121, 131, 232, 141/241, 242; 4A Nanotechnology Engineering students only.",
+            "antirequisites": "PHYS 356",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1516",
+            "url": "http://www.ucalendar.uwaterloo.ca/1516/COURSE/course-NE.html#NE445",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015210",
+            "subject": "NE",
+            "catalog_number": "350",
+            "title": "Work-term Report 2",
+            "units": 0.13,
+            "description": "An engineering report based upon a technical project, activity, or analysis carried out by the student, normally during work-term employment following the 2B academic term. Evaluation is based upon a level of written communication, technical proficiency, and engineering analysis appropriate to a third-year engineering student. [Offered: F]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "Level at least 3B Nanotechnology Engineering.",
+            "antirequisites": "MSCI 392, WKRPT 300, 301",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE350",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015220",
+            "subject": "NE",
+            "catalog_number": "381",
+            "title": "Introduction to Nanoscale Biosystems",
+            "units": 0.5,
+            "description": "Specific aspects of biosystems required for the engineering of nanobiotechnological applications: topics to be covered may include surface and bulk science concepts needed for the development of lab-on-chip systems and those aspects of molecular biology of the cell necessary for application to medical diagnostics. Elements of design required for the development of modern instrumentation may also be covered, thereby providing a solid foundation for more advanced topics and applications. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE381",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015211",
+            "subject": "NE",
+            "catalog_number": "450",
+            "title": "Work-term Report 3",
+            "units": 0.13,
+            "description": "An engineering report based upon a technical project, activity, or analysis carried out by the student, normally during work-term employment following the 3B academic term. Evaluation is based upon a level of written communication, technical proficiency, and engineering analysis appropriate to a fourth-year engineering student. [Offered: W, first offered Winter 2019]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "Level at least 4B Nanotechnology Engineering.",
+            "antirequisites": "MSCI 491, WKRPT 400, 401",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "first offered Winter 2019"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE450",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015212",
+            "subject": "NE",
+            "catalog_number": "454A",
+            "title": "Nano-instrumentation Laboratory 1",
+            "units": 0.25,
+            "description": "Application of experimental tools and techniques in nano-instrumentation. Experimental exercises involve circuit simulation and design, circuit prototyping, design of a driver circuit for a quartz crystal microbalance (QCM), printed circuit board (PCB) design and layout optimization, and the use of various characterization instrumentation. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "4A Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE454A",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015213",
+            "subject": "NE",
+            "catalog_number": "454B",
+            "title": "Nano-electronics Laboratory 1",
+            "units": 0.25,
+            "description": "Application of experimental tools and techniques involved in nanotechnology. Experimental exercises may involve simulation, design, optimization of micro-electro-mechanical-system (MEMS) devices, and the generation of a mask layout. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "4A Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE454B",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015214",
+            "subject": "NE",
+            "catalog_number": "454C",
+            "title": "Nanobiosystems Laboratory 1",
+            "units": 0.25,
+            "description": "Application of experimental tools and techniques in nanobiotechnology. Experimental exercises may involve simulation and design, optimization, nanoparticle formulation reactions, microfluidics, and the use of various characterization instrumentation. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "4A Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE454C",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015215",
+            "subject": "NE",
+            "catalog_number": "454D",
+            "title": "Nanostructured Materials Laboratory 1",
+            "units": 0.25,
+            "description": "Application of experimental tools and techniques in nanomaterials. Experimental exercises may involve design, use of image analysis software, optimization, electrodeposition, encapsulation and templating, synthetic chemistry protocols, and the use of selected characterization instrumentation. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "4A Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE454D",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015216",
+            "subject": "NE",
+            "catalog_number": "455A",
+            "title": "Nano-instrumentation Laboratory 2",
+            "units": 0.25,
+            "description": "Application of experimental tools and techniques in nano-instrumentation. Experimental exercises involve printed circuit board (PCB) assembly and soldering, measurement of the formation of a nonanethiol self- assembled monolayer, determination of the partition coefficient for a solvent vapour into a monolayer-protected-cluster film deposited on a quartz crystal microbalance (QCM), and the use of various characterization methods. [Offered: W]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 454A; 4B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE455A",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015217",
+            "subject": "NE",
+            "catalog_number": "455B",
+            "title": "Nano-electronics Laboratory 2",
+            "units": 0.25,
+            "description": "Application of experimental tools and techniques employed in nanotechnology. Experimental exercises may involve microfabrication (photolithography, film deposition, and etching) and testing of micro-electro-mechanical-system (MEMS) devices. [Offered: W]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 454B; 4B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE455B",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015218",
+            "subject": "NE",
+            "catalog_number": "455C",
+            "title": "Nanobiosystems Laboratory 2",
+            "units": 0.25,
+            "description": "Application of experimental tools and techniques employed in Nanobiotechnology. Experimental exercises may involve investigation of microbial culture protocols, biosensor applications, and the use of various characterization techniques. These exercises also stress the need for safe handling of micro-organisms and biomaterials. [Offered: W]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 454C; 4B Nanotechnology Engineering students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE455C",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015219",
+            "subject": "NE",
+            "catalog_number": "455D",
+            "title": "Nanostructured Materials Laboratory 2",
+            "units": 0.25,
+            "description": "Application of experimental tools and techniques employed in nanomaterials. Experimental exercises investigate catalytic activity enhancement by nanoparticles in fuel cell reactions. This includes the use of synthetic chemistry protocols to prepare nanoparticles on multi-walled carbon nanotubes. The exercise also stresses safe handling of nanomaterials and the use of various characterization methods. [Offered: W]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "NE 454D; 4B Nanotechnology Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-NE.html#NE455D",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012237",
+            "subject": "NE",
+            "catalog_number": "122",
+            "title": "Organic Chemistry for Nanotechnology Engineers",
+            "units": 0.5,
+            "description": "Nomenclature, stereochemistry and reactions of important classes of organic compounds. Reaction mechanisms and energetics. Aromaticity and simple molecular orbital theory of conjugated systems. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "NE 121; Level at least 1B Nanotechnology Engineering students.",
+            "antirequisites": "CHEM 262/262L, 264, 266/266L",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1718",
+            "url": "http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-NE.html#NE122",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

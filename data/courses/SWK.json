@@ -1,0 +1,605 @@
+{
+    "data": [
+        {
+            "course_id": "014192",
+            "subject": "SWK",
+            "catalog_number": "600R",
+            "title": "Diversity and Health",
+            "units": 0.5,
+            "description": "This course studies the impact of diversity on health in Canada and across nations.  It provides an understanding of the complex interaction among aspects of diversity.  The course examines and critiques the methods used in the study of these concepts and issues related to the measurement of health among diverse groups.  The ultimate goal of this examination is to help students develop an appreciation of the impact diversity has on assessments and study of health, health status, and health promotion in Canada and other nations.  The course is designed to integrate different sources of information about diversity by utilizing critical thinking skills for the consumption of health information.  (Note:  This is an intensive on campus course with an online component).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK600R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014191",
+            "subject": "SWK",
+            "catalog_number": "601R",
+            "title": "Health Policy",
+            "units": 0.5,
+            "description": "This course offers critical analysis of health policy formulation, implementation, and evaluation related to population health initiatives and health care delivery.  The course includes discussion of the role of various regional, provincial, and national agencies in health care policy formation.  It examines various health care systems, and their funding as well as investigates how the Canadian healthcare system compares with systems in other countries.  (Note:  This is an intensive on campus course with an online component).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK601R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014193",
+            "subject": "SWK",
+            "catalog_number": "602R",
+            "title": "Social Work Practice in Health",
+            "units": 0.5,
+            "description": "This course examines practice models and multi-level methods of intervention for effective social work practice in health care, including health promotion, disease prevention, assessment, treatment, rehabilitation, continuing care, and discharge planning within the context of social, economic, environmental, and cultural variations.  The distribution, determinants, as well as psychological and behavioural aspects of health and disease across the life span are addressed.  Practice models incorporate competence and empowerment as central themes.  New models of care are considered, including primary health care, the impact of socio-cultural factors on health and well being, the significance of family relationships and resources in the management of chronic and complex health conditions, and interventions that support individual and family capacity to adapt to acute health crises or chronic health conditions.  (Note:  This is an online course).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK602R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014194",
+            "subject": "SWK",
+            "catalog_number": "603R",
+            "title": "Critical Exploration of Supervision and Leadership Roles for Social Worker",
+            "units": 0.5,
+            "description": "This course examines effective leadership in a tumultuous health care environment characterized by changing patient populations, health care technologies, professional practices, community needs/expectations, and rapid shifts in service delivery modalities.  In this environment, health care professions are increasingly challenged to develop and oversee staff capable of delivering contemporary benchmark professional practice.  Competent supervision requires practice knowledge, keen perspective, and the ability to support, guide, educate and direct practitioners of varying skill and experience.  This course provides inquiry-based opportunities for students to critically examine their leadership styles, developing foundational knowledge and skills for effective involvement in organizational change, staff management, coaching and supervision, coordination of inter-professional teams and development of policies to address the social determinants of health.  (Note:  This is an online course).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK603R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014195",
+            "subject": "SWK",
+            "catalog_number": "604R",
+            "title": "Evaluation of Health and Human Service Programs",
+            "units": 0.5,
+            "description": "This course introduces students to theoretical and practical aspects of program evaluation.  Students learn about the application of data collection skills to all phases of developing a health or human services program or service innovation, from needs assessment to analysis of findings to implementation of changes based on results.  Students learn to appreciate how these skills can be used as practical tools for identifying health and human services problems, for developing and implementing programs including taking a reflective practice approach, ensuring equity and fairness in program delivery (i.e., combating disparities), and generally promoting health and human services through effective and efficient programming.  (Note:  This is an online course).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK604R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014196",
+            "subject": "SWK",
+            "catalog_number": "605R",
+            "title": "Knowledge Mobilization and Evidence-Based Practice",
+            "units": 0.5,
+            "description": "The goal of knowledge mobilization is to make research in health and social science more useful to policy, practice, and the public.  In this course students can learn how to gather, evaluate, synthesize and summarize scholarly knowledge in ways that meet the needs, timeframes, cultures, and realities of stakeholders. Activities include framing academic research in the context of public issues and creating knowledge products for practitioners and policy-makers in the students' areas of interest.  (Note:  This is an online course).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK605R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014210",
+            "subject": "SWK",
+            "catalog_number": "608R",
+            "title": "Health Issues and Ethics",
+            "units": 0.5,
+            "description": "This course considers the nature of health itself, and explores the complexities of a health care system that corresponds with our values and ethics while being effective and financially stable.  Three related themes serve as substrates for the semester: the nature of health, delivery of health care, and populations at risk.  Issues such as how health and illness are defined, the roles of preventive and curative approaches, and the impacts and ethics of new technologies will be addressed.  The course compares public and private models, focuses on community health care as a developing new paradigm, and examines the particular challenges of marginalized and vulnerable committees.  (Note:  This is an online course).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK608R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014190",
+            "subject": "SWK",
+            "catalog_number": "609R",
+            "title": "Social Work Practice in Mental Health",
+            "units": 0.5,
+            "description": "This course aims to equip students to provide sensitive and effective help to clients by presenting material concerning a range of mental health problems and their treatment.  The course considers social work practice across the continuum of mental health care services.  Attention is focused on how social workers assess, support and intervene with consideration of both the client and his or her environment. (Note:  This is an online course).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK609R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014653",
+            "subject": "SWK",
+            "catalog_number": "650R",
+            "title": "Interprofessional Psychosocial Oncology: Introduction to Theory and Practice",
+            "units": 0.5,
+            "description": "This elective course provides graduate students with an introduction to the field of psychosocial oncology.  Emphasis will be placed on understanding and interpreting the experience of cancer informed by theory, evidence and illness narratives. Case based learning in small interprofessional groups will allow students to explore a variety of key learning themes relevant to psychosocial oncology including distress assessment, depression, anxiety, adjustment and coping, sexuality, loss and grief. Small group work will allow students to develop a rich understanding of the cancer experience and competency in psychosocial oncology assessment, interprofessional collaboration, and cultural safety. Attention to diversity will be integrated throughout the course.",
+            "instructions": [
+                "LEC",
+                "SEM",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK650R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014654",
+            "subject": "SWK",
+            "catalog_number": "651R",
+            "title": "Relational Practice with Families",
+            "units": 0.5,
+            "description": "Using case based learning in small interprofessional groups, students will explore a variety of key learning themes relevant to the interprofessional care of families. Themes that will be addressed include: family theory, models of family & couple counseling (particularly from a systemic and strengths based perspective), family assessment, therapeutic conversations and interventions. Case examples will be drawn from the experience of families across the cancer illness trajectory, from diagnosis through to death and dying, bereavement and long term survivorship. Small group work will allow student to develop a rich understanding of the cancer experience from the perspective of families, as well as competency in family assessment, intervention, interprofessional collaboration, and cultural safety. Attention to diversity will be integrated throughout the course.",
+            "instructions": [
+                "LEC",
+                "SEM",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK651R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014655",
+            "subject": "SWK",
+            "catalog_number": "652R",
+            "title": "Sexual Health & Counseling in Cancer",
+            "units": 0.5,
+            "description": "Cancer causes wide-ranging impacts on sexual health and well-being and numerous studies have identified that people affected by cancer want support, education and counseling in this area. While health professionals consistently acknowledge that sexuality is within their scope of practice, few health professionals consistently assess or intervene in sexual health problems in cancer settings. This course is designed to provide graduate students in the health professions with the knowledge and skills to intervene with the sexual problems that arise in cancer.",
+            "instructions": [
+                "LEC",
+                "SEM",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Master's Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK652R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014238",
+            "subject": "SWK",
+            "catalog_number": "606R",
+            "title": "Practicum 1",
+            "units": 0.5,
+            "description": "Students are assigned a community-based field practicum in an agency or organization.  It is expected that the student will:  demonstrate a growing capacity for professional development and assessment of his or her own practice;  develop and demonstrate a meaningful relationship with the field setting, including both an understanding of policies and procedures and an ability to use these policies and procedures as well as the physical and human resources to benefit clients; demonstrate an ability to use field instruction appropriately; demonstrate an ability to identify and describe the client population; organize and interpret information/data for assessment and to prepare for treatment or action, including the ability to organize the data gathered and communicate it to the client population/group; demonstrate through discussion and action that he or she understands and has a commitment to the social work profession and its basic values of human dignity and personal worth.  An online Integration Seminar runs concurrently with the practicum.  (Note: SWK 606R is a prerequisite for SWK 607R).",
+            "instructions": [
+                "PRA"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1112",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1112/GRDcourse-SWK.html#SWK606R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014239",
+            "subject": "SWK",
+            "catalog_number": "607R",
+            "title": "Practicum 2",
+            "units": 0.5,
+            "description": "It is expected that the student will:  develop a meaningful relationship with the field setting and will be willing to be open and constructively critical of social service conditions affecting clients; demonstrate an ability to use field instruction appropriately; demonstrate an ability to establish appropriate professional relationships with the client and relevant others and recognizing and dealing appropriately with the client's and the student's own feelings; demonstrate an ability to prepare and execute a plan for treatment and/or action including working with a client to develop short and long-term goals as well as strategies, where appropriate, and follow-up; and in non-clinical settings demonstrate an ability to interpret program needs as well as relevant policies and to take on a project and follow steps to bring it to interested and invested parties.  An online Integration Seminar runs concurrently with the practicum.  (Note: Prerequisite 606R)",
+            "instructions": [
+                "PRA"
+            ],
+            "prerequisites": "SWK 606R",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1112",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1112/GRDcourse-SWK.html#SWK607R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014725",
+            "subject": "SWK",
+            "catalog_number": "672R",
+            "title": "International Context of Practice (Mexico); Experimental Learning",
+            "units": 0.5,
+            "description": "This course provides a framework for understanding a developing country through a comparative study with Canada. The collective responses of citizens in meeting community needs in the context of colonial legacies and contemporary global influences are highlighted in both settings.  The international learning experience usually takes place during Reading Week and is complemented by two days of pre-trip learning focusing on Canadian realities and on post-trip day to reflect upon the comparative analysis.  (Note: this is international experience with an on campus component)",
+            "instructions": [
+                "LEC",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK672R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014724",
+            "subject": "SWK",
+            "catalog_number": "690R",
+            "title": "Special Topics in Social Work",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Substance Abuse & Chem Depend"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK690R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015357",
+            "subject": "SWK",
+            "catalog_number": "610R",
+            "title": "Substance Abuse & Chemical Dependency",
+            "units": 0.5,
+            "description": "This course serves as an overview of addiction, chemical abuse and chemical dependency and how social workers and pharmacists can independently or as a member of an interpersonal health team impact those affected. Topics include prevention, identification, treatment options, clinical aspects of treatment, and an understanding of support systems available for those in recovery. (Note: This is an online course).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "Antireq:SWK 609R",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "SWK Masters Students Only;"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK610R",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015169",
+            "subject": "SWK",
+            "catalog_number": "653R",
+            "title": "Palliative Care",
+            "units": 0.5,
+            "description": "Palliative care is a model of health care that cares for people with terminal illnesses, along with their families, in order to relieve suffering and improve quality of life. Care is provided from early diagnosis through to bereavement care of the family. Palliative care is delivered by an interprofessional team which is most often comprised of medicine, nursing, social work and chaplaincy; other professions are often involved such as pharmacy, occupational therapy and others. (Note: this is an online course).",
+            "instructions": [
+                "LEC",
+                "SEM",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [
+                "SWK Masters Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SWK.html#SWK653R",
+            "academic_level": "graduate"
+        }
+    ]
+}

@@ -1,0 +1,296 @@
+{
+    "data": [
+        {
+            "course_id": "013412",
+            "subject": "PDPHRM",
+            "catalog_number": "1",
+            "title": "Co-op Fundamentals",
+            "units": 0.25,
+            "description": "This course explores aspects of career development related to preparing for and being successful in co-op work terms, such as preparing resumes, and interviewing effectively.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": "PHARM 120. Pharmacy students only",
+            "antirequisites": null,
+            "corequisites": "PHARM 120B",
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: Course will be graded on a CR/NCR basis. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PDPHRM.html#PDPHRM1",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013413",
+            "subject": "PDPHRM",
+            "catalog_number": "2",
+            "title": "Communication for Pharmacy",
+            "units": 0.5,
+            "description": "Students will have received strong grounding in key communication concepts during the first two academic semesters in the pharmacy program. This course requires that the student apply these concepts to their co-op work term and assess their own performance. Students are required to reflect on the development of their communication skills and formulate objectives to further develop their communication skills.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": "Pharmacy students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S",
+                "F"
+            ],
+            "notes": "[Note: Course will be graded on a CR/NCR basis. Offered: W, S, F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PDPHRM.html#PDPHRM2",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013414",
+            "subject": "PDPHRM",
+            "catalog_number": "3",
+            "title": "Drug Distribution for Pharmacy",
+            "units": 0.5,
+            "description": "This course asks students to apply concepts from the pharmacy professional practice courses including: medication dispensing, jurisprudence, drug information, self care, patient safety and human resources. Students are required to reflect on the development of their technical and interpersonal skills and formulate objectives to further develop these skills. Pharmacy students must complete this PDPHRM course in their first or second work term.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": "Pharmacy students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "F"
+            ],
+            "notes": "[Note: Course will be graded on a CR/NCR basis. Offered: W, F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PDPHRM.html#PDPHRM3",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013415",
+            "subject": "PDPHRM",
+            "catalog_number": "4",
+            "title": "Patient Safety for Pharmacy",
+            "units": 0.5,
+            "description": "Patient safety has been integrated throughout the four year pharmacy curriculum. This course requires the student to apply patient safety concepts to their co-op work term environment.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": "Pharmacy students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S",
+                "F"
+            ],
+            "notes": "[Note: Course will be graded on a CR/NCR basis. Offered: W, S, F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PDPHRM.html#PDPHRM4",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013416",
+            "subject": "PDPHRM",
+            "catalog_number": "5",
+            "title": "Patient Care for Pharmacy",
+            "units": 0.5,
+            "description": "Pharmacy students have had extensive classroom opportunities to develop their skills in providing direct patient care. This course asks students to apply their critical appraisal, patient assessment, and clinical problem-solving skills in the co-op work term to real-life scenarios. Students are expected to successfully provide pharmaceutical care to select patients in their work environment. Pharmacy students must complete this PDPHRM course in their second or third work term.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": "Level at least 2B Pharmacy students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S",
+                "F"
+            ],
+            "notes": "[Note: Course will be graded on a CR/NCR basis. Offered: S, F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PDPHRM.html#PDPHRM5",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013417",
+            "subject": "PDPHRM",
+            "catalog_number": "6",
+            "title": "Drug Information for Pharmacy",
+            "units": 0.5,
+            "description": "Students are required to apply critical appraisal concepts learned in the classroom to demonstrate their ability to effectively provide drug information and education.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": "Pharmacy students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S",
+                "F"
+            ],
+            "notes": "[Note: Course will be graded on a CR/NCR basis. Offered: W, S, F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PDPHRM.html#PDPHRM6",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013418",
+            "subject": "PDPHRM",
+            "catalog_number": "7",
+            "title": "Interprofessional Relations",
+            "units": 0.5,
+            "description": "Students are required to demonstrate their ability to work collaboratively with other health care providers to optimize patient safety and improve health outcomes. Students will apply teamwork skills to decision making, conflict resolution and leadership. Personal reflection is integrated with observations of interprofessional relations in the co-op work environment.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": "Pharmacy students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S",
+                "F"
+            ],
+            "notes": "[Note: Course will be graded on a CR/NCR basis. Offered: W, S, F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PDPHRM.html#PDPHRM7",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013419",
+            "subject": "PDPHRM",
+            "catalog_number": "8",
+            "title": "Pharmacy Practice - Management and Leadership",
+            "units": 0.5,
+            "description": "This course requires the student to apply the business/management concepts learned in the classroom to the workplace.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": "Pharmacy students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S",
+                "F"
+            ],
+            "notes": "[Note: Course will be graded on a CR/NCR basis. Offered: W, S, F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-PDPHRM.html#PDPHRM8",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

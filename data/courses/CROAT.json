@@ -1,0 +1,173 @@
+{
+    "data": [
+        {
+            "course_id": "004344",
+            "subject": "CROAT",
+            "catalog_number": "101",
+            "title": "Elementary Croatian 1",
+            "units": 0.5,
+            "description": "For students with little or no knowledge of Croatian. The basic elements of Croatian grammar with emphasis on oral practice and pronunciation.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: CROAT 101 is not open to students with native, near-native, or similar advanced ability.]",
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CROAT.html#CROAT101",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004346",
+            "subject": "CROAT",
+            "catalog_number": "102",
+            "title": "Elementary Croatian II",
+            "units": 0.5,
+            "description": "A continuation of CROAT 101.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "CROAT 101",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: CROAT 102 is not open to students with native, near-native, or similar advanced ability.]",
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CROAT.html#CROAT102",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004347",
+            "subject": "CROAT",
+            "catalog_number": "201",
+            "title": "Intermediate Croatian I",
+            "units": 0.5,
+            "description": "This course is a continuation of Elementary Croatian. It offers extensive practice in both the spoken and written language. Vocabulary building, comprehension, and pronunciation are stressed.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "CROAT 102",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CROAT.html#CROAT201",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004348",
+            "subject": "CROAT",
+            "catalog_number": "202",
+            "title": "Intermediate Croatian II",
+            "units": 0.5,
+            "description": "A continuation of CROAT 201.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "CROAT 201",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CROAT.html#CROAT202",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004356",
+            "subject": "CROAT",
+            "catalog_number": "496",
+            "title": "Special Topics in Croatian Studies",
+            "units": 0.5,
+            "description": "Selected topics in Croatian Studies.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CROAT.html#CROAT496",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

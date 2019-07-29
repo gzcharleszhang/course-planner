@@ -1,0 +1,3627 @@
+{
+    "data": [
+        {
+            "course_id": "003144",
+            "subject": "SYDE",
+            "catalog_number": "622",
+            "title": "Machine Intelligence",
+            "units": 0.5,
+            "description": "Overview of machine intelligence, underlying assumptions and ill-structured problems. Programming language paradigms, logical and functional programming, object-oriented paradigm, machine intelligence tools and development systems. Knowledge representation hypothesis, logic-based, associational, analogical, procedural, and probabilistic representations. Reasoning, planning, machine learning, and applications.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1112",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1112/GRDcourse-SYDE.html#SYDE622",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "009341",
+            "subject": "SYDE",
+            "catalog_number": "101",
+            "title": "Communications in Systems Design Engineering-Written and Oral",
+            "units": 0.25,
+            "description": "This course introduces first-year students to Systems Design Engineering with a focus on the engineering profession and technical communication skills. Through in-class and independent activities leading to formative and summative assessments, students will consider and reflect on communication intention, audience, content, medium, format, and tone to demonstrate and improve upon their listening, written and oral communication skills for academic, engineering, and professional context. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "1A Systems Design Engineering.",
+            "antirequisites": "BME 101",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE101",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012857",
+            "subject": "SYDE",
+            "catalog_number": "101L",
+            "title": "Communications in Systems Design Engineering-Visualization",
+            "units": 0.25,
+            "description": "This laboratory course introduces students to visual communication methods relevant to engineering analysis and design. Through in-class and independent activities leading to formative and summative assessments, students will consider and reflect on communication intention, audience, content, medium, format, and level of detail to demonstrate and improve upon their skills in graphing, freehand sketching, technical drawing, and computer-aided design (CAD). [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "1A Systems Design Engineering.",
+            "antirequisites": "BME 101L",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE101L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009342",
+            "subject": "SYDE",
+            "catalog_number": "102",
+            "title": "Seminar",
+            "units": 0,
+            "description": "Systems Design first year students will meet with a faculty member designated as their class professor. Performance in assignments, conceptual difficulties with courses, interrelation of coursework, later work and engineering practice will be discussed. Non-credit course. [Offered: S]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "1B Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE102",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008925",
+            "subject": "SYDE",
+            "catalog_number": "111",
+            "title": "Fundamental Engineering Math 1",
+            "units": 0.5,
+            "description": "Functions: trigonometric, exponential, log, inverse functions. Differential calculus: limits, continuity, derivatives, differentials, applications. Sequences and series: convergence, power series, Taylor expansions. Simple numerical methods. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "1A Systems Design Engineering or 1A Biomedical Engineering.",
+            "antirequisites": "MATH 116, 117, 127, 137, 147",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE111",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008926",
+            "subject": "SYDE",
+            "catalog_number": "112",
+            "title": "Fundamental Engineering Math 2",
+            "units": 0.5,
+            "description": "Integration: Indefinite and definite integral; techniques of integration; improper integrals, numerical methods, applications. Vector differential calculus: Partial, total, and directional derivative; Gradient divergence and curl; Jacobian. Applications. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "1B Systems Design Engineering or 1B Biomedical Engineering.",
+            "antirequisites": "MATH 118, 119, 128, 138, 148",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE112",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013144",
+            "subject": "SYDE",
+            "catalog_number": "113",
+            "title": "Matrices and Linear Systems",
+            "units": 0.25,
+            "description": "Geometry and algebra: root-finding, vectors, coordinate systems, lines and planes, conic sections, complex numbers. Introduction to numerical computation. Floating point arithmetic, accuracy and sources of error. Matrix algebra, inverses. Analytical and numerical techniques for systems of linear equations. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "1A Systems Design Engineering or 1A Biomedical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE113",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008948",
+            "subject": "SYDE",
+            "catalog_number": "281",
+            "title": "Mechanics of Deformable Solids",
+            "units": 0.5,
+            "description": "Introduction to mechanical response of materials and stress-strain relationship. Behaviour of prismatic members in tension, compression, shear, bending and torsion. Shear-force and bending-moment diagrams. Introduction to instability. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Systems Design Engineering.",
+            "antirequisites": "CIVE 204, ME 219",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-SYDE.html#SYDE281",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008928",
+            "subject": "SYDE",
+            "catalog_number": "114",
+            "title": "Numerical and Applied Calculus",
+            "units": 0.25,
+            "description": "Matrices and linear systems: determinants, eigenvalues and eigenvectors, LU decomposition, conditioning, numerical methods. First order ordinary differential equations: analytical techniques, applications, elementary numerical methods, convergence. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "1B Systems Design Engineering or 1B Biomedical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE114",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008929",
+            "subject": "SYDE",
+            "catalog_number": "121",
+            "title": "Digital Computation",
+            "units": 0.5,
+            "description": "Computer systems, problem solving, data and programs, structured programming, arrays, matrices and pointers, correct and efficient algorithms, data structures. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "1A Systems Design Engineering.",
+            "antirequisites": "BME 121, CHE 121, CIVE 121, ECE 150, GENE 121",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE121",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008933",
+            "subject": "SYDE",
+            "catalog_number": "161",
+            "title": "Introduction to Design",
+            "units": 0.5,
+            "description": "Multidisciplinary system design, the design process, problem definition, life-cycle design, design specification, concept/design generation and evaluation, design for manufacturing and assembly, system modelling and analysis, introduction to mechanical design, prototyping, safety and responsibility in engineering design, design documentation. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "1A Systems Design Engineering.",
+            "antirequisites": "BME 161",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE161",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008932",
+            "subject": "SYDE",
+            "catalog_number": "162",
+            "title": "Human Factors in Design",
+            "units": 0.5,
+            "description": "Design of human-machine environments, design to reduce human error. Analytical methods of determining user needs in systems with humans. Information processing and human sensory processes and consideration of these elements in the design of systems with humans. Human physical capabilities and consideration of these in ergonomic design. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "1B Systems Design Engineering.",
+            "antirequisites": "BME 162",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE162",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008934",
+            "subject": "SYDE",
+            "catalog_number": "181",
+            "title": "Physics 1 (Statics)",
+            "units": 0.5,
+            "description": "Basic concepts of mechanics, vectors. Statics of particles. Rigid bodies and force systems, equilibrium of rigid bodies. Analysis of trusses and frames. Distributed forces, centroids and moments of inertia. Friction. Virtual work. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "1A Systems Design Engineering.",
+            "antirequisites": "BME 181",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE181",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008935",
+            "subject": "SYDE",
+            "catalog_number": "182",
+            "title": "Physics 2 (Dynamics)",
+            "units": 0.5,
+            "description": "Kinematics of particles, rectilinear and curvilinear motion. Kinetics of particles, application to space mechanics. Energy and momentum methods. Systems of particles. Kinematics and kinetics of rigid bodies; planar motion. Vibrations. [Offered: F, W, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 1B Systems Design Engineering or 2A Mechatronics Engineering .",
+            "antirequisites": "BME 182",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE182",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008938",
+            "subject": "SYDE",
+            "catalog_number": "192",
+            "title": "Digital Systems",
+            "units": 0.5,
+            "description": "Digital technology, combinatorial logic, binary arithmetic, synchronous sequential circuits, design methodology, algorithmic state machines, microcomputer interfacing. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "1B Systems Design Engineering.",
+            "antirequisites": "BME 292",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE192",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012858",
+            "subject": "SYDE",
+            "catalog_number": "192L",
+            "title": "Digital Systems Laboratory",
+            "units": 0.25,
+            "description": "Laboratory experiments for students taking SYDE 192. [Offered: S]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "1B Systems Design Engineering. Anitreq: BME 292L",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE192L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009343",
+            "subject": "SYDE",
+            "catalog_number": "201",
+            "title": "Seminar",
+            "units": 0,
+            "description": "Systems Design second-year students will meet a faculty member designated as their class professor. Performance in assignments, conceptual difficulties with courses, interrelation of coursework, later work and engineering practice will be discussed. Non-credit course. [Offered: W]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "2A Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE201",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009344",
+            "subject": "SYDE",
+            "catalog_number": "202",
+            "title": "Seminar",
+            "units": 0,
+            "description": "Systems Design second-year students will meet a faculty member designated as their class professor. Performance in assignments, conceptual difficulties with courses, interrelation of coursework, later work and engineering practice will be discussed. Non-credit course. [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "2B Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE202",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008939",
+            "subject": "SYDE",
+            "catalog_number": "211",
+            "title": "Advanced Engineering Math 1",
+            "units": 0.5,
+            "description": "Vector calculus: double and triple integrals, line and surface integrals, fundamental theorems, applications. Difference methods: root-finding, finite and divided differences, numerical differentiation, interpolation. Second order linear ordinary differential equations and systems. Applications in vibration. [Offered: F,W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Systems Designs Engineering or 2A Biomedical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE211",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013145",
+            "subject": "SYDE",
+            "catalog_number": "212",
+            "title": "Probability and Statistics",
+            "units": 0.5,
+            "description": "Elementary probability theory. Random variables and distributions. Binomial, Poisson, and normal distributions. Elementary sampling. Statistical estimation. Tests of hypotheses and significance. Regression. Goodness-of-fit tests. Analysis of experimental measurements. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 2B Systems Design Engineering.",
+            "antirequisites": "BME 213, CIVE 224, ECE 316, NE 115",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE212",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008957",
+            "subject": "SYDE",
+            "catalog_number": "223",
+            "title": "Data Structures and Algorithms",
+            "units": 0.5,
+            "description": "Algorithms and Data Structures emphasizes the following topics: structured software design, data structures, abstract data types, recursive algorithms, algorithm analysis and design, sorting and searching, hashing, problem-solving strategies and NP-completeness. [Offered: W,S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 1B Systems Design Engineering or Computer Engineering Option.",
+            "antirequisites": "BME 122, CS 240, ECE 250, MTE 140",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE223",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008945",
+            "subject": "SYDE",
+            "catalog_number": "252",
+            "title": "Linear Systems and Signals",
+            "units": 0.5,
+            "description": "Models and analysis of linear systems. Discrete time systems, continuous time systems; difference and differential equations; impulse and frequency response. Complex frequency, functions of complex variables, transform domain techniques: Z transforms; Fourier analysis, Laplace transform. Transfer functions and frequency response, frequency domain analysis of linear systems; sampling theory, stability, and linear filters. [Offered: F, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 2B Systems Design Engineering or 2B Mechanical Engineering or 2B Mechatronics Engineering.",
+            "antirequisites": "BME 252",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE252",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012861",
+            "subject": "SYDE",
+            "catalog_number": "261",
+            "title": "Design, Systems, and Society",
+            "units": 0.5,
+            "description": "This non-technical course will help students understand how others think about technology and then use this knowledge to make better choices when designing, specifying, choosing and implementing technology. The course includes topics such as: meanings of design and their implications; designed in/designed out analysis; reductionism and integration in design; the limits of objective thinking; alternate ways to define function; content and context; \"we/me/them/it\" analysis; redefining what constitutes acceptable technology; learning from the margins; reading design and understanding system boundaries as being defined by what we do rather than what we say. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Systems Design Engineering.",
+            "antirequisites": "STV 202",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE261",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008958",
+            "subject": "SYDE",
+            "catalog_number": "262",
+            "title": "Engineering Economics of Design",
+            "units": 0.5,
+            "description": "This course examines a variety of economic factors in Engineering and how they impact design. Topics include business plans, price and output decisions, choosing among alternative inputs, production processes, evaluating alternative investments, equipment service life and depreciation, new products. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2B Systems Design Engineering.",
+            "antirequisites": "BME 364, MSCI 261",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE262",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008950",
+            "subject": "SYDE",
+            "catalog_number": "283",
+            "title": "Physics 3 (Electricity, Magnetism and Optics)",
+            "units": 0.5,
+            "description": "Introduction to the fundamental laws of electricity, magnetism and optics; electric fields, voltage, resistance, current, properties of conductors and semiconductors, capacitance, properties of dielectrics, magnetic fields, Faraday's Law and inductance, properties of magnetic materials; electromagnetic waves and the nature of light, geometrical optics: reflection and refraction, physical optics: interference and diffraction. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Systems Design Engineering.",
+            "antirequisites": "BME 386",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE283",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008936",
+            "subject": "SYDE",
+            "catalog_number": "285",
+            "title": "Materials Chemistry",
+            "units": 0.5,
+            "description": "The course will present how the fundamentals of chemistry are applied to materials science and engineering. Concepts such as chemical bonding, crystal structure, phase diagram, redox reaction, and electrochemistry will be introduced in the context of materials science. Properties, processing and structure of metals, semiconductors, polymers, ceramic, nanomaterials and biomaterials will be presented. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Systems Designs Engineering.",
+            "antirequisites": "BME 282",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE285",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008948",
+            "subject": "SYDE",
+            "catalog_number": "281",
+            "title": "Mechanics of Deformable Solids",
+            "units": 0.5,
+            "description": "Introduction to mechanical response of materials and stress-strain relationship. Behaviour of prismatic members in tension, compression, shear, bending and torsion. Shear-force and bending-moment diagrams. Introduction to instability. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Systems Design Engineering.",
+            "antirequisites": "CIVE 204, ME 219",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-SYDE.html#SYDE281",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008952",
+            "subject": "SYDE",
+            "catalog_number": "292",
+            "title": "Circuits, Instrumentation, and Measurements",
+            "units": 0.5,
+            "description": "Active and passive circuit elements, Kirchhoff's laws, mesh and nodal circuit analysis, principle of superposition; step response of first and second order networks; sinusoidal steady state analysis using complex impedance phasors; input-output relationships, transfer functions and frequency response of linear systems; operational amplifiers, operational amplifier circuits using negative or positive feedback; diodes, operational amplifier circuits using diodes; analog signal detection, conditioning and conversion systems; transducers, difference and instrumentation amplifiers, active filters, A/D and D/A conversion. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "(2B Systems Design Engineering) or Mechatronics Option.",
+            "antirequisites": "BME 392",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE292",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012859",
+            "subject": "SYDE",
+            "catalog_number": "292L",
+            "title": "Circuits, Instrumentation, and Measurements Laboratory",
+            "units": 0.25,
+            "description": "Laboratory experiments for students taking SYDE 292. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "2B Systems Design Engineering.",
+            "antirequisites": "BME 392L",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE292L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009345",
+            "subject": "SYDE",
+            "catalog_number": "301",
+            "title": "Seminar",
+            "units": 0,
+            "description": "Systems Design third year students will meet with a faculty member designated as their class professor. Performance in assignments, conceptual difficulties with courses, interrelation of coursework, later work and engineering practice will be discussed. Non-credit course. [Offered: S]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "3A Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE301",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009346",
+            "subject": "SYDE",
+            "catalog_number": "302",
+            "title": "Seminar",
+            "units": 0,
+            "description": "Systems Design third year students will meet with a faculty member designated as their class professor. Performance in assignments, conceptual difficulties with courses, interrelation of coursework, later work and engineering practice will be discussed. Non-credit course. [Offered: W]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "3B Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE302",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008953",
+            "subject": "SYDE",
+            "catalog_number": "311",
+            "title": "Advanced Engineering Math 2",
+            "units": 0.5,
+            "description": "Series solutions of ordinary differential equations: Bessel functions, orthogonal functions, Fourier expansions and integral, Legendre polynomials, Sturm-Liouville systems. Partial differential equations: parabolic, hyperbolic and elliptic equations, numerical methods. Numerical integration: Gaussian quadrature, Runge-Kutta methods. Nonlinear systems: qualitative analysis, phase plane, Newton-Raphson method. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3A Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE311",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008954",
+            "subject": "SYDE",
+            "catalog_number": "312",
+            "title": "Applied Linear Algebra",
+            "units": 0.5,
+            "description": "Vector spaces, linear independence, linear maps and matrix representations. Inner product spaces and orthogonality. Gramm-Schmidt algorithm and orthogonal projection. Interpolation and curve-fitting. Eigenvalues and eigenvectors, diagonalization, singular value decomposition. Applications and numerical methods. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3B Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE312",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008943",
+            "subject": "SYDE",
+            "catalog_number": "322",
+            "title": "Software Design",
+            "units": 0.5,
+            "description": "Software requirements specification; software architecture; design patterns; software testing and quality assurance; software maintenance; design of efficient algorithms and methods for their analysis, mathematical algorithms, string processing algorithms, geometrical algorithms, exhaustive search and traversal techniques, introduction to lower bound theory and NP-completeness. Case studies and engineering examples. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "BME 122 or CS 240 or ECE 250 or MTE 140 or SYDE 223; Level at least 3A Biomedical Engineering or Level at least 3B Systems Design Engineering",
+            "antirequisites": "ECE 355",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE322",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013382",
+            "subject": "SYDE",
+            "catalog_number": "332",
+            "title": "Introduction to Complex Systems",
+            "units": 0.5,
+            "description": "The overwhelming majority of societal and ecological issues of pressing importance are complex systems: nonlinear interacting systems poorly characterized by linear analyses and Gaussian statistics. This course introduces the mathematics needed to understand such interactions, including nonlinear dynamics, critical and bifurcation behaviours, large-scale systems, power-law distributions, and statistical inference. The mathematical methods will be motivated by a set of case studies comprised of pressing large-scale interconnected problems such as global warming, energy shortages, desertification, overpopulation, poverty and economic instability, to be investigated from a systems engineering perspective that will connect the mathematical analyses to real-world examples. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3A Biomedical Engineering or Level at least 3B Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE332",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008961",
+            "subject": "SYDE",
+            "catalog_number": "334",
+            "title": "Applied Statistics",
+            "units": 0.5,
+            "description": "Review of basic Normal theory, t, chi-squared, and F distributions. Simple linear regression. Lack of fit. Analysis of variance. Multiple linear regression, variable selection techniques, indicator variables, diagnostics. Brief introduction to non-linear regression, factorial experimentation. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "BME 213 or SYDE 212 (with minimum grade of 70%); Level at least 3A Biomedical Engineering or Level at least 3B Systems Design Engineering.",
+            "antirequisites": "STAT 331, 371.",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE334",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010066",
+            "subject": "SYDE",
+            "catalog_number": "348",
+            "title": "User Centred Design Methods",
+            "units": 0.5,
+            "description": "This course approaches the design of tasks, tools, products and systems from a user-centered design perspective. Emphasis is on the human factors and usability methods and techniques that can and should be applied throughout the iterative design process. While design issues pertaining to human-computer interaction are discussed, the methods presented can be applied to the design of almost any user interface. Major topics include: user research methods for usability and user experience, inspection methods, user testing, applied statistical analysis. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "(Level at least 3A Biomedical Engineering) or (Level at least 3B Systems Design Engineering) or (Level at least 4A Mechatronics Engineering or Biomechanics Option or Ergonomics and Injury Prevention Minor).",
+            "antirequisites": "CS 449, MSCI 343",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE348",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008981",
+            "subject": "SYDE",
+            "catalog_number": "422",
+            "title": "Machine Intelligence",
+            "units": 0.5,
+            "description": "The objective of this course is to introduce the students to current intelligent system concepts. An overview of different learning schemes will be provided, including: Decision Tree, Bayesian, Inductive, Analytical and Rule-based Learning. The main focus of the course will be on Neural Nets, Genetic Algorithms and Reinforcement Learning. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "One of SYDE 223, MTE 140, ECE 250, CS 240 and Systems Design Engineering or level at least 4A Mechatronics Engineering or Mechatronics Option or Computer Engineering Option.",
+            "antirequisites": "ECE 457A",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1213",
+            "url": "http://www.ucalendar.uwaterloo.ca/1213/COURSE/course-SYDE.html#SYDE422",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008964",
+            "subject": "SYDE",
+            "catalog_number": "351",
+            "title": "Systems Models 1",
+            "units": 0.5,
+            "description": "Introduction to systems modelling and analysis. Graph theoretic models and formulation of system equations. State space formulation and solution. Time and frequency domain solutions. Application to engineering systems. [Offered: W, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3A Systems Design Engineering or (MATH 115 and MTE 202 and level at least 3A Mechatronics Engineering)",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE351",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008965",
+            "subject": "SYDE",
+            "catalog_number": "352",
+            "title": "Introduction to Control Systems",
+            "units": 0.5,
+            "description": "Classical and state space representations of control systems. Stability, controllability, observability and sensitivity. Routh-Hurwitz and root-locus methods. Frequency domain behaviour, Bode plots, Nyquist stability criteria. Pole placement, PID, phase-lead and phase-lag controllers.(labs alt. weeks) [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3B Systems Design Engineering.",
+            "antirequisites": "BME 353",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE352",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012860",
+            "subject": "SYDE",
+            "catalog_number": "352L",
+            "title": "Control Systems Laboratory",
+            "units": 0.25,
+            "description": "Laboratory experiments for students taking SYDE 352. [Offered: W]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "3B Systems Design Engineering.",
+            "antirequisites": "BME 353L",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE352L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008968",
+            "subject": "SYDE",
+            "catalog_number": "361",
+            "title": "Engineering Design",
+            "units": 0.5,
+            "description": "The methodology of design: defects, needs and the problem definition; criteria and generation of alternative solutions; feasibility analysis; optimization; selection, implementation and solution. The lecture material is supplemented by a term long design project done in small groups. [Offered: S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3A Systems Design Engineering.",
+            "antirequisites": "BME 361",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE361",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008969",
+            "subject": "SYDE",
+            "catalog_number": "362",
+            "title": "Systems Design Workshop 1",
+            "units": 0.5,
+            "description": "Engineering design project course where students work in small groups applying the principles of engineering problem solving, systems analysis, simulation, optimization and design to a problem of their own choosing. Students have individual project supervisors as well as an overall coordinator who provides the framework for the term projects. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "3B Systems Design Engineering.",
+            "antirequisites": "BME 362",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE362",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008972",
+            "subject": "SYDE",
+            "catalog_number": "372",
+            "title": "Introduction to Pattern Recognition",
+            "units": 0.5,
+            "description": "Pattern recognition as a process of data analysis. Pattern features as components in a random vector representation. Classification techniques: distance measures in feature space, probabilistic (Bayesian) decision theory, linear discriminants. Clustering and feature extraction. Applications: optical character recognition, speech recognition, industrial robot vision, medical diagnosis, remote sensing and satellite image analysis, fault detection and diagnosis in complex systems such as nuclear reactors. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "(Level at least 3A Biomedical Engineering) or (Level at least 3B Systems Design Engineering) or (Level at least 4A Mechatronics Engineering) or Mechatronics Option or Biomechanics Option",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE372",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008973",
+            "subject": "SYDE",
+            "catalog_number": "381",
+            "title": "Thermodynamics",
+            "units": 0.5,
+            "description": "An introductory course in engineering thermodynamics structured for students in Systems Design. Classical thermodynamics is presented as the systematic study of energy; its use, degradation, and waste. Introduction to heat transfer by conduction, convection, and radiation. Applications focus on problems of energy and environment. The concepts of statistical thermodynamics are introduced. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3A Systems Design Engineering.",
+            "antirequisites": "BME 384, ECE/MTE 309, ME 250",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE381",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008949",
+            "subject": "SYDE",
+            "catalog_number": "383",
+            "title": "Fluid Mechanics",
+            "units": 0.5,
+            "description": "Fundamental concepts in systems involving fluid flow. Basic treatment of statics, kinematics and dynamics of fluids. Conservation of mass, momentum and energy for a control volume. Dimensional analysis and similarity. Flow in pipes and channels. Brief introduction to boundary layers, lift and drag, ideal and compressible flow. [Offered: S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3A Systems Design Engineering.",
+            "antirequisites": "BME 384, ME 351",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE383",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013384",
+            "subject": "SYDE",
+            "catalog_number": "384",
+            "title": "Biological and Human Systems",
+            "units": 0.5,
+            "description": "In this course, students will become familiar with the physiology and anatomical structures of the human body. The structure, functions and properties of the major biological systems (musculoskeletal, nervous, and cardiovascular) will be presented in relation to modeling biological systems and the design of biomedical devices (imaging, assistive and diagnostic). Various aspects of pathology and how they influence measurements will also be introduced. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "(Level at least 3B Engineering) or (Level at least 3B Honours Physics (Biophysics specialization) and permission of instructor).",
+            "antirequisites": "BIOL 273, BME 284",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE384",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009347",
+            "subject": "SYDE",
+            "catalog_number": "401",
+            "title": "Seminar",
+            "units": 0,
+            "description": "Systems Design fourth-year students will meet with a faculty member designated as their class professor. Conceptual difficulties, the interrelation of course work and engineering practice will be discussed. Non-credit course. [Offered: F]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "4A Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE401",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009348",
+            "subject": "SYDE",
+            "catalog_number": "402",
+            "title": "Seminar",
+            "units": 0,
+            "description": "Systems Design fourth-year students will meet with a faculty member designated as their class professor. Conceptual difficulties, the interrelation of course work and engineering practice will be discussed. Non-credit course. [Offered: W]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "4B Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE402",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013146",
+            "subject": "SYDE",
+            "catalog_number": "411",
+            "title": "Optimization and Numerical Methods",
+            "units": 0.5,
+            "description": "Root-finding methods. Linear programming, simplex and interior-point methods. Local and global optimization methods. Constrained optimization. Multiobjective and multidisciplinary design optimization.[Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "4A Systems Design Engineering.",
+            "antirequisites": "BME 411",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE411",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008993",
+            "subject": "SYDE",
+            "catalog_number": "461",
+            "title": "Systems Design Workshop 2",
+            "units": 0.5,
+            "description": "The first half of a two term engineering design project continuing the systems design workshop sequence. An interim progress report is presented at the end of the first term. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "4A Systems Design Engineering.",
+            "antirequisites": "BME 461",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE461",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008994",
+            "subject": "SYDE",
+            "catalog_number": "462",
+            "title": "Systems Design Workshop 3",
+            "units": 0.5,
+            "description": "The concluding half of the fourth year Systems Design Workshop. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "4B Systems Design Engineering.",
+            "antirequisites": "BME 462",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE462",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008981",
+            "subject": "SYDE",
+            "catalog_number": "422",
+            "title": "Machine Intelligence",
+            "units": 0.5,
+            "description": "The objective of this course is to introduce the students to current intelligent system concepts. An overview of different learning schemes will be provided, including: Decision Tree, Bayesian, Inductive, Analytical and Rule-based Learning. The main focus of the course will be on Neural Nets, Genetic Algorithms and Reinforcement Learning. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "One of SYDE 223, MTE 140, ECE 250, CS 240 and Systems Design Engineering or level at least 4A Mechatronics Engineering or Mechatronics Option or Computer Engineering Option.",
+            "antirequisites": "ECE 457A",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1213",
+            "url": "http://www.ucalendar.uwaterloo.ca/1213/COURSE/course-SYDE.html#SYDE422",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013383",
+            "subject": "SYDE",
+            "catalog_number": "531",
+            "title": "Design Optimization Under Probabilistic Uncertainty",
+            "units": 0.5,
+            "description": "Optimization methods for real world problems have to deal with probabilistic uncertainty either due to data uncertainty or manufacturing uncertainty or both. Maximizing the expected value of the objective function subject to reliability (or risk) constraints is commonly used in such design or decision-making problems. Common methods used are stochastic programming, stochastic dynamic programming, chance-constraints, yield optimization and tolerance design. Example applications are selected from water management, energy systems, financial engineering, and manufacturing. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE531",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009003",
+            "subject": "SYDE",
+            "catalog_number": "533",
+            "title": "Conflict Resolution",
+            "units": 0.5,
+            "description": "Formal methods for studying engineering decision making problems involving multiple participants and multiple objectives. Topics include the graph model for conflict resolution, normal game form, metagame analysis, games with misperceptions, preference elicitation, human behaviour under conflict, evolution of a conflict, decision making under uncertainty, sensitivity analyses, multiple criteria decision analysis, group decision and negotiation, coalition analysis, decision support systems, and real-world applications of the foregoing concepts. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE533",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010067",
+            "subject": "SYDE",
+            "catalog_number": "542",
+            "title": "Interface Design",
+            "units": 0.5,
+            "description": "This course focuses on the design of computer interfaces for simple to complex systems. Examples of applications are used to illustrate theoretical approaches. Main topics include: forms of visual display; auditory display and soft controls; context, navigation and layout; development techniques; design for engagement. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "One of BME 162 or SYDE 162 or 348 or 543; Biomedical Engineering or Systems Design Engineering or (level at least 4A Mechatronics Engineering) or Ergonomics and Injury Prevention Minor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE542",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009006",
+            "subject": "SYDE",
+            "catalog_number": "543",
+            "title": "Cognitive Ergonomics",
+            "units": 0.5,
+            "description": "This course focuses on the role engineering psychology research plays in design of the information displays and devices associated with simple and complex cognitive tasks. Main topics include: signal detection and target location tasks, navigation tasks, training tasks, communication tasks, human error, stress and mental workload, supervisory control, and situational awareness. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Biomedical Engineering or Systems Design Engineering or (Level at least 4A Mechatronics Engineering) or Biomechanics Option or Ergonomics and Injury Prevention Minor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE543",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008988",
+            "subject": "SYDE",
+            "catalog_number": "544",
+            "title": "Biomedical Measurement and Signal Processing",
+            "units": 0.5,
+            "description": "This course develops an understanding of biomedical measurements through the examination of electromyographic (EMG), and electroencephalographic (EEG), electrocardiographic (ECG) signals. Measurement of human-body position, force, and pressure, and related instrumentation will also be presented. Signal processing techniques will be discussed in the context of extraction and application of useful biomedical signals. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "BIOL 273 or BME 284 or SYDE 384; Level at least 3A Biomedical Engineering or Level at least 3B Systems Design Engineering or Level at least 3B Honours Life Physics (Biophysics Specialization) and permission of the instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE544",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009010",
+            "subject": "SYDE",
+            "catalog_number": "553",
+            "title": "Advanced Dynamics",
+            "units": 0.5,
+            "description": "Newtonian and Eulerian formulation of particle and rigid body kinematics and dynamics. Energy (Lagrangian and Hamiltonian) formulations of particle and rigid body dynamics; generalized co-ordinates, generalized forces, holonomic constraints, Lagrange multipliers. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "(Level at least 3A Biomedical Engineering) or (Level at least 3B Systems Design Engineering) or (Level at least 4A Mechatronics Engineering) or Mechatronics Option or Biomechanics Option",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE553",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012084",
+            "subject": "SYDE",
+            "catalog_number": "556",
+            "title": "Simulating Neurobiological Systems",
+            "units": 0.5,
+            "description": "This course develops and applies a general framework for understanding neural computation in the context of recent advances in theoretical and experimental neuroscience. Particular emphasis is placed on understanding representation, nonlinear computation, and dynamics in real neurobiological systems. Students will apply signal processing, control theory, linear algebra, probability theory, and similar quantitative tools for the purpose of modelling sensory, motor, and cognitive systems. Topics covered include single neuron function, neural coding, neural dynamics, attractor networks, learning, statistical inference, locomotion, working memory, etc. Familiarity with neural systems is helpful but not essential. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "BME 252 or SYDE 252",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE556",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009016",
+            "subject": "SYDE",
+            "catalog_number": "575",
+            "title": "Image Processing",
+            "units": 0.5,
+            "description": "Beginning with a discussion of quantitative models of imaging systems, this course moves on to apply methods of linear systems theory and signal processing to image processing. Simple spatial domain techniques as well as spatial frequency domain methods and digital filter design for image enhancement and restoration are discussed. The key methods and problems are surveyed: edge detection, image denoising, image segmentation, image enhancement, image compression, image registration, and feature detection. Applications to machine vision, remote sensing, and medical imaging will be emphasized. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "BME 252 or SYDE 252; (Level at least 3A Biomedical Engineering) or (Level at least 3B Systems Design Engineering) or (Level at least 4A Mechatronics Engineering) or Mechatronics Option or Biomechanics Option",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE575",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003143",
+            "subject": "SYDE",
+            "catalog_number": "621",
+            "title": "Mathematics of Computation",
+            "units": 0.5,
+            "description": "Review of mathematical and computational preliminaries; sources of error in floating-point arithmetic; solution of linear equations, eigen value problems, singular value decomposition, non-linear equations, ordinary differential equations and issues in designing mathematical software. The emphasis in this course will be on solution techniques rather than modelling and equation formulation.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE621",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003146",
+            "subject": "SYDE",
+            "catalog_number": "625",
+            "title": "Tools of Intelligent Systems Design",
+            "units": 0.5,
+            "description": "The course outlines fundamentals of intelligent systems design using tools of computational intelligence and soft computing. These include fuzzy logic, neural networks, genetic algorithms and other hybrid techniques such as neuro fuzzy systems and fuzzy-generated algorithms.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE625",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003147",
+            "subject": "SYDE",
+            "catalog_number": "631",
+            "title": "Time Series Modelling",
+            "units": 0.5,
+            "description": "The theory and application of time-series modelling are presented for describing phenomena measured at discrete points in time. The types of time-series models include stationary auto regressive moving average (ARMA), nonstationary, special families of seasonal, transfer function-noise (multiple inputs-single output), intervention, and multivariate (multiple inputs-multiple output) models. Applications are used for explaining how the foregoing models are fitted to both natural and socio-economic time series by following the identification, estimation and diagnostic check stages of model construction. Other topics include simulation in engineering design, forecasting in the operation of large-scale projects, and environmental impact assessment.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE631",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003148",
+            "subject": "SYDE",
+            "catalog_number": "632",
+            "title": "Optimization Methods",
+            "units": 0.5,
+            "description": "This course is intended to give a broad treatment of the subject of practical optimization. Emphasis will be given to understanding the motivation and scope of various optimization techniques for constrained and unconstrained problems. The methods discussed include, but are not limited to: Newton's method and its variants, secant methods and conjugate gradient methods for unconstrained problems; active set methods, penalty methods and Lagrangian methods for constrained problems. In order to use, adapt and modify these methods, details that affect their performance will be discussed.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE632",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014482",
+            "subject": "SYDE",
+            "catalog_number": "633",
+            "title": "Remote Sensing Systems",
+            "units": 0.5,
+            "description": "A survey of modern quantitative remote sensing using optical, infrared, and microwave radiation.  The principles and technologies for acquiring and understanding remotely sensed image data are discussed.  Physical principles of EM propagation and interaction between the radiation and terrestrial and atmospheric materials.  Principles and operation of sensor systems.  Principles of pattern recognition and image processing techniques unique to remote sensing.  Applications of remote sensing to monitoring vegetation, soil, oceans, and inland waters, and snow and ice.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 730 Topic 2 - Remote Sensing Systems",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE633",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003149",
+            "subject": "SYDE",
+            "catalog_number": "642",
+            "title": "Cognitive Engineering Methods",
+            "units": 0.5,
+            "description": "This course examines the fundamentals of modern perspectives on interface design for complex systems using current methods in cognitive engineering.  We discuss Cognitive Work Analysis, Brunswick's' Lens Model, Goal Directed Task Analysis, Situation Awareness Oriented Design, Naturalistic Decision Making, Contextual Inquiry, Macro-cognitive Methods, Activity Theory, Concept Mapping, Cognitive Task Analysis, Social Network Analysis and their application to different types of human engineering problems.  Students in this course will learn multiple methods in cognitive engineering with an emphasis on knowing the differences in foundation, assumptions and appropriate application of the methods.  Students will be expected to apply the methods in a realistic research context, applying for ethics clearance and working with actual participants.  Examples of appropriate topics may include understanding how people work with complex or automated systems models. Finally this course discusses aspects of the current research environment in cognitive engineering, with the objective of developing successful future researchers in this area.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE642",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003155",
+            "subject": "SYDE",
+            "catalog_number": "676",
+            "title": "Information Theory in Pattern Synthesis and Analysis",
+            "units": 0.5,
+            "description": "Fundamental concepts and properties of various information measures are introduced with applications to pattern synthesis and analysis. Applications include (but are not restricted to): pattern recognition and discovery in general event sequences, mixed-mode data and relational structures; inductive learning; random graphs and their application to structural pattern recognition and search strategy in rule networks under uncertainty to class characterization, class discriminations and pattern enhancement of random data and processes. Emphasis is placed on systems and signal pattern analysis.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1112",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1112/GRDcourse-SYDE.html#SYDE676",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014495",
+            "subject": "SYDE",
+            "catalog_number": "643",
+            "title": "Collaborative Systems Design",
+            "units": 0.5,
+            "description": "Interaction of humans with technological systems often takes place within the broader context of a collaborative setting.  Therefore, there is an increasing trend for the design of these systems to incorporate and support group interactions.  This course will emphasize the study of collaboration from an interdisciplinary perspective and the derivation of system design criteria.  Topics will include group theories, collaboration requirements (including communication, coordination, team awareness), quantitative and qualitative research methods (including laboratory studies, surveys, ethnographic research methods), data analysis, and collaboration technologies.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 740 Topic 9 - Collaborative Systems Design",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE643",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014497",
+            "subject": "SYDE",
+            "catalog_number": "644",
+            "title": "Human Factors Testing",
+            "units": 0.5,
+            "description": "The focus of the course is on in-depth explorations of primary methods of data collection used in human factors engineering research and product design.  We will begin with various philosophical positions regarding human factors for testing and evaluation as they relate to both industrial and research applications.  We will discuss the applications and implications of data collection involving human participants; the limitations of statistical analyses; and the potential application of human factors research as guidelines for product or system design.  Students will be encouraged to explore human factors methods related to their own area of research.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 740 Topic 2 - Human Factors Testing",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE644",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003151",
+            "subject": "SYDE",
+            "catalog_number": "652",
+            "title": "Dynamics of Multibody  Systems",
+            "units": 0.5,
+            "description": "In this course, linear graph theory is used to model the topology of 2-d and 3-d systems of rigid bodies connected by mechanical joints, springs, dampers, and actuators. Graph-theoretic methods are then used to systematically derive the kinematic and dynamic equations; the numeric solution of these equations provides a simulation of the system's motion. Topics include: review of kinematics, dynamics and graph theoretic (GT) methods; application to one-dimensional mechanical systems; GT representation of two-dimensional components and systems; formulation and solution of governing system equations; extension to three dimensional mechanical systems with flexible bodies and mechatronic components; application to kinematic and dynamic analysis of mechanisms, robotic manipulators, vehicles and satellites.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE652",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003153",
+            "subject": "SYDE",
+            "catalog_number": "654",
+            "title": "Graphic Theoretic Models for Complex Systems",
+            "units": 0.5,
+            "description": "This course extends material in SY DE 551 to include complex systems, systems with uncertainty and systems design issues. Material covered includes: non-linear systems models, their formulations and solutions; higher-order sensitivity models and solutions; second moment analysis and robust design methods for systems with probabilistic components. Examples are taken from electro-mechanical disciplines.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE654",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014498",
+            "subject": "SYDE",
+            "catalog_number": "655",
+            "title": "Optimal Control",
+            "units": 0.5,
+            "description": "This course is intended to provide an understanding of the principles of optimal control and how they are used in various engineering applications.  Dynamic programming, variational approach and Pontryagin's Minimum Principle, linear quadratic optimal control, discrete-time optimal control, constrained optimal control systems and model predictive control are introduced.  Numerical methods for optimal control problems are also discussed briefly.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 750 Topic 22 - Optimal Control",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE655",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014490",
+            "subject": "SYDE",
+            "catalog_number": "661",
+            "title": "Model-Based Robust Design",
+            "units": 0.5,
+            "description": "Robust design encompasses the theories and methodologies that make performance measures (responses, critical times, energy, etc.) invariant to uncertainties in design variables (environmental conditions, manufacturing processes, material dimensions and properties, etc.).  In this course you will learn how robust design methods and mathematical models of engineering systems help find improved designs at a lower cost.  Topics include: the building of simple, efficient, meta-models through computer experiments to replace traditional mechanistic models.  Performance measures and their design specifications.  Sensitivity and importance analysis to select design variables.  Second moment methods using Taylor series to provide parameter (mean) design.  Probabilistic methods combined with manufacturing and scrap costs to perform simultaneous parameter design and tolerance allocation.  Desirability functions and loss functions to deal with multiple competing performance measures.  Integrated design by constrained optimization.  Examples come from industrial processes, as well as hydraulic, electrical and mechatronic systems.  Mathematics required: Total derivatives, Matrix calculus, Kronecker product, singular value decomposition.  Matlab serves as the computing tool.  Course notes are available.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 750 Topic 21 - Model-based Robust Design",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE661",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014499",
+            "subject": "SYDE",
+            "catalog_number": "671",
+            "title": "Advanced Image Processing",
+            "units": 0.5,
+            "description": "This course is intended to provide insights into advanced topics in image processing.  The topics discussed include but are not limited to:  multi-scale and probabilistic image respresentation and analysis, image restoration, invariant image representation, image reconstruction, image fusion, otical flow, image segmentation, and image registration.  Recent research papers and review papers from the field will be sued as complimentary material to weekly lectures.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 770 Topic 14 - Adv. Topics in Image Proc.",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE671",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014491",
+            "subject": "SYDE",
+            "catalog_number": "672",
+            "title": "Statistical Image Processing",
+            "units": 0.5,
+            "description": "Images are all around us!  The proliferation of low-cost, high-quality imaging devices has led to an explosion in acquired images.  Where these images are acquired from a microscope, telescope, satellite, or medical imaging device there is a statistical image processing task:  the interference of something - an artery, a road, a DNA marker, an oil spill - from imagery, possibly noisy, blurry, or incomplete.  The goal of this course is to address methods for solving multidimensional statistical problems, emphasizing theory, mathematical modeling, and algorithms.  Specific topics of interest include inverse problems, multidimensional modeling, random fields, and hierarchical methods.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 770 Topic 4 - Statistical Image Processing",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE672",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014492",
+            "subject": "SYDE",
+            "catalog_number": "673",
+            "title": "Video Processing and Analysis",
+            "units": 0.5,
+            "description": "This course introduces methods to acquire state (both spatial and temporal) estimations from video streams.  Video streams are analyzed as dynamic systems, linear and non-linear.  If the system can be approximated as linear and Gaussian in terms of the dynamic noise in the process and measurement, then Kalman filter techniques are used.  This refers to sequential state estimation.  For nonlinear dynamical systems, the EFK (Extended Kalman filter) can be used by a liberalization of the stat space model.  Particle filters are used to address state estimation problems where the systems are non-linear and non-Gaussian.  Particle Filters are rooted in Bayesian estimation and Monte Carlo procedures.  The course builds upon these techniques in studying visual tracking and the components of Visual SLAM (Simultaneous Localization and Mapping) procedures.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 770 Topic 7 - Topics in Particle Filtering",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE673",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014493",
+            "subject": "SYDE",
+            "catalog_number": "674",
+            "title": "3D Computer Vision",
+            "units": 0.5,
+            "description": "This course focuses on 3D computer-vision and camera/optical-based 3D shape-measurement techniques.  Topics include stereo-camera 3D measurement, structures-light techniques, laser-camera range-sensing, fringe-projection phase shifting methods, curve and surface representation, surface fitting, and range-image registration.  The measurement methods will include setup of measurement systems and calibration of instrumentation.  Techniques will be demonstrated and practical exercises will be given.  Biomedical applications will be discussed.  Students will complete an individual course project with written report and oral presentation in class.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 770 Topic 9 - 3D Computer Vision and Imaging",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE674",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003154",
+            "subject": "SYDE",
+            "catalog_number": "675",
+            "title": "Pattern Recognition",
+            "units": 0.5,
+            "description": "Pattern recognition addresses the problem of detecting and classifying patterns in data, a process of machine perception in which objects are assigned to classes to which they are most similar. This course introduces the three modern approaches to pattern recognition: statistical, structural and neural. Specific topics include distance and probability based approaches in multidimensional feature spaces, feature extraction, clustering and performance measures; pattern grammars, syntax analysis and grammatical inference; connectionist models, pattern associators, back propagation and self-organizing networks.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE675",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003156",
+            "subject": "SYDE",
+            "catalog_number": "677",
+            "title": "Medical Imaging",
+            "units": 0.5,
+            "description": "This course introduces the fundamental concepts for medical imaging which include medical image formation (X-ray, CT, MRI, sonography); storage and formats (DICOM, DICOM RT, PACS); visualization, detection and analysis (enhancement, segmentation, registration, compression); safety and regulations for imaging devices & software (IEEE standards, Health Canada Licensing, FDA Clearance).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE677",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012235",
+            "subject": "SYDE",
+            "catalog_number": "682",
+            "title": "Advanced MicroElectroMechanical Systems:  Principles, Design & Fabrication",
+            "units": 0.5,
+            "description": "This course provides specific knowledge in microelectromechanical systems (MEMS) and devices including microactuators, microsensors, micro-domain forces, microfabrication, and their actuation principles.  Application domains of MEMS in RF, optics, and biosensing will be discussed.  Specific topics include MEMS actuation mechanisms such as electrostatic, electromagnetic, thermal, and piezoelectric; and sensing mechanisms such a peizoresistive, capacitve, optical, and bio-transducer.  Topics such as lithography, thin-film deposition methods, etching techniques will be taught.  The course covers practical examples, device architecture, fabrication design rules and fabrication procedures.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE682",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014494",
+            "subject": "SYDE",
+            "catalog_number": "683",
+            "title": "Modeling, Simulation and Design of MEMS and NEMS",
+            "units": 0.5,
+            "description": "This course involves the rigorous grounding in the theory and practice of MEMS design as well as ways of extending MEMS (micro-electro-mechanical systems) to apply to the design of NEMS (nano-electro-mechanical systems).  Modeling and simulation processes as they apply to MEMS and NEMS are presented.  Concepts covered include basics of statics and dynamics necessary to construct lumped-mass models, an introduction to the use of reduced-order models in MEMS/NEMS design, the use of these modeling techniques with the use of commercial FEM software (COMSOL, ANSYS, and Coventor) in the simulation and design of MEMS/NEMS, and discussing the most effective uses and limitations of each of these approaches.  The course involves building effective MEMS by design not by trial and error.  Analytical tools for exploring the possibilities of nano-electro-mechanical systems (NEMS) are introduced.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 750 Tpc 24",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE683",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014500",
+            "subject": "SYDE",
+            "catalog_number": "684",
+            "title": "Materials Biocompatibility",
+            "units": 0.5,
+            "description": "The course covers fundamental topics of biocompatibility of materials in medicine (polymers, ceramics, metals, composites, bioengineered materials).  Fundamental principles of materials science (bonding, atomic/molecular structure) as well as interfacial engineering of materials will be reviewed.  Materials response to biological systems such as corrosion, degradation, leaching and fracture will be studied in the context of specific biomedical applications.  The host response to materials (immune, inflammatory response and coagulation) will also be treated.  Specific examples of material interactions with biological systems such as bone, blood, skin and the eye will be studied.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "SYDE 780 Topic 2 - Biomaterials Science",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE684",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003163",
+            "subject": "SYDE",
+            "catalog_number": "710",
+            "title": "Topics in Mathematics",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE710",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003173",
+            "subject": "SYDE",
+            "catalog_number": "720",
+            "title": "Selected Topics in Computation",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Software Composition"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE720",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003183",
+            "subject": "SYDE",
+            "catalog_number": "730",
+            "title": "Selected Topics in Societal-Environmental Systems",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Conflict Analysis Systems",
+                "2   Remote Sensing Systems",
+                "3   Engineering Decision Making",
+                "4   Conflict Resolution",
+                "5   Mltpl Criteria Decision Anyls",
+                "6   System of Systems Engineering",
+                "7   Financial Forensics",
+                "8   Energy System of Systems",
+                "9   Analysis&Design-Natural System",
+                "10  Time Series Modelling",
+                "11  Intro. Data Assimilation",
+                "12  GPS Reflectometry",
+                "13  Mtd to Prdct Sptl-Exp Dta",
+                "14  Complex Systems",
+                "15  Sea Ice Remote Sensing",
+                "16  Adv Water Treatment & Quality"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE730",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010502",
+            "subject": "SYDE",
+            "catalog_number": "740",
+            "title": "Selected Topics in Human Systems",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Ecological Interface Design",
+                "2   Human Factors Testing",
+                "3   Psych Issues in Product Design",
+                "4   Adv Appl of Ecol Interface Des",
+                "5   Situation Awareness",
+                "6   Human Performance in VEs",
+                "7   Cognitive Ergonomics Advanced",
+                "8   Interruptions",
+                "9   Collaborative Systems Design",
+                "10  Mtvtn Through User-Centrd Dsgn",
+                "11  Multi-modal Interface Design",
+                "12  Biomaterials Science",
+                "13  Design for Engagement",
+                "14  Surface Computing Systems",
+                "15  Surface Computing Design",
+                "16  Exp Design and Stat Methods"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE740",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003199",
+            "subject": "SYDE",
+            "catalog_number": "750",
+            "title": "Topics in Systems Modelling",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "SEM",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Advanced Dynamics II",
+                "2   System Modelling & Design",
+                "3   Fuzzy Logic & Neural Networks",
+                "4   Topics in Bond Graph Anaylsis",
+                "5   Advanced Graph Theoretic Mthds",
+                "6   Kin&Dynmc Smltn:Multibody Syst",
+                "7   Solution of Large Systems",
+                "8   Simulating Neurobiol Systems",
+                "9   Phys:Acoustic Musical Instrmnt",
+                "10  Symbolic Comp in Multibody Dyn",
+                "11  Nanotech for Radiat Oncology",
+                "12  Opp-Based Learn in Mach Intel",
+                "13  Modeling and Design of MEMS",
+                "14  Mech of Comp Mat",
+                "15  Modelling of Continuum Systems",
+                "16  Sol Techniques of DAE Systems",
+                "17  Applied Nonlinear Dynamics",
+                "18  Image and Video Compression",
+                "19  Cognitive Robotics",
+                "20  Mdlng of Biomechanical Systems",
+                "21  Model-based Robust Design",
+                "22  Optimal Control",
+                "23  Dyn Mod Biomech Sys",
+                "24  Modlg, Simultn & Design - MEMS",
+                "25  Biomed Image Proc. Analysis",
+                "26  Nanotech for Radiat Oncology",
+                "27  Computational Neuroscience",
+                "28  Advd Tpcs Grphcl Data Analysis",
+                "29  Nonlinear Systems",
+                "30  Vision Networks",
+                "31  Model Predictive Control",
+                "32  Adv. Probabilistic Grphcl Mdls",
+                "33  Inverse Methods for EM Waves",
+                "34  Multibody Biomechanics"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE750",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003209",
+            "subject": "SYDE",
+            "catalog_number": "760",
+            "title": "Topics in Engineering Design",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Probabilistic Design",
+                "2   Systems Thinking Epistemology",
+                "3   Topics of Systems",
+                "4   Integrated Medical Info Mgmt",
+                "5   Design of Large Nonlinear Syst",
+                "6   Numerical stochastic solutions"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE760",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003214",
+            "subject": "SYDE",
+            "catalog_number": "770",
+            "title": "Selected Topics in Communication and Information Systems",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Image Processing App",
+                "2   Image Processing",
+                "3   Nonlinear Image Processing",
+                "4   Statistical Image Processing",
+                "5   Adv Top in Pattern Recognition",
+                "6   Info,Pat,PatAnlys,Synth&Dscvry",
+                "7   Topics in Particle Filtering",
+                "8   Texture in Computer Vision",
+                "9   3D Computer Vision and Imaging",
+                "11  Clstrng & Class of Time Series",
+                "12  Haptic Systems",
+                "13  3D Reconstruction",
+                "14  Adv. Topics in Image Proc.",
+                "15  Social Media Analysis",
+                "16  Structure From Motion",
+                "17  Advanced 3D Imaging",
+                "18  Topics in Compressive Sensing",
+                "19  Info,Pat,PatAnlys,Synth&Dscvry",
+                "20  Cpu Vsn for Augmtd Rlty Appl",
+                "21  Adv. Multiscale Image Analysis",
+                "22  Models for 4D Comp Vision",
+                "23  Mathematics of Computation",
+                "24  Deep Learning for Vision",
+                "25  Computational Imaging",
+                "26  Vis SFM&SLAM: Str. & Gbl Ftrs",
+                "27  RGBD Vision"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE770",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003224",
+            "subject": "SYDE",
+            "catalog_number": "780",
+            "title": "Selected Topics in Engineering Sciences",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Composite Materials Mechanics",
+                "2   Biomaterials Science",
+                "3   Shear Rate and Thrombosis",
+                "4   Eng Des Opt Interferometry",
+                "5   MATL Biocompat  in the ANT Eye",
+                "6   Adv. Hemodynamics Meas. Sys",
+                "7   Ocular biocompatibility models",
+                "8   Neutral and Rehab. Eng.",
+                "9   Graphical Deep Learning"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-SYDE.html#SYDE780",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "008949",
+            "subject": "SYDE",
+            "catalog_number": "383",
+            "title": "Fluid Mechanics",
+            "units": 0.5,
+            "description": "Fundamental concepts in systems involving fluid flow. Basic treatment of statics, kinematics and dynamics of fluids. Conservation of mass, momentum and energy for a control volume. Dimensional analysis and similarity. Flow in pipes and channels. Brief introduction to boundary layers, lift and drag, ideal and compressible flow. [Offered: S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3A Systems Design Engineering.",
+            "antirequisites": "BME 384, ME 351",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE383",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008936",
+            "subject": "SYDE",
+            "catalog_number": "285",
+            "title": "Materials Chemistry",
+            "units": 0.5,
+            "description": "The course will present how the fundamentals of chemistry are applied to materials science and engineering. Concepts such as chemical bonding, crystal structure, phase diagram, redox reaction, and electrochemistry will be introduced in the context of materials science. Properties, processing and structure of metals, semiconductors, polymers, ceramic, nanomaterials and biomaterials will be presented. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Systems Designs Engineering.",
+            "antirequisites": "BME 282",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE285",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013383",
+            "subject": "SYDE",
+            "catalog_number": "531",
+            "title": "Design Optimization Under Probabilistic Uncertainty",
+            "units": 0.5,
+            "description": "Optimization methods for real world problems have to deal with probabilistic uncertainty either due to data uncertainty or manufacturing uncertainty or both. Maximizing the expected value of the objective function subject to reliability (or risk) constraints is commonly used in such design or decision-making problems. Common methods used are stochastic programming, stochastic dynamic programming, chance-constraints, yield optimization and tolerance design. Example applications are selected from water management, energy systems, financial engineering, and manufacturing. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Systems Design Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE531",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009003",
+            "subject": "SYDE",
+            "catalog_number": "533",
+            "title": "Conflict Resolution",
+            "units": 0.5,
+            "description": "Formal methods for studying engineering decision making problems involving multiple participants and multiple objectives. Topics include the graph model for conflict resolution, normal game form, metagame analysis, games with misperceptions, preference elicitation, human behaviour under conflict, evolution of a conflict, decision making under uncertainty, sensitivity analyses, multiple criteria decision analysis, group decision and negotiation, coalition analysis, decision support systems, and real-world applications of the foregoing concepts. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE533",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "008988",
+            "subject": "SYDE",
+            "catalog_number": "544",
+            "title": "Biomedical Measurement and Signal Processing",
+            "units": 0.5,
+            "description": "This course develops an understanding of biomedical measurements through the examination of electromyographic (EMG), and electroencephalographic (EEG), electrocardiographic (ECG) signals. Measurement of human-body position, force, and pressure, and related instrumentation will also be presented. Signal processing techniques will be discussed in the context of extraction and application of useful biomedical signals. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "BIOL 273 or BME 284 or SYDE 384; Level at least 3A Biomedical Engineering or Level at least 3B Systems Design Engineering or Level at least 3B Honours Life Physics (Biophysics Specialization) and permission of the instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE544",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009016",
+            "subject": "SYDE",
+            "catalog_number": "575",
+            "title": "Image Processing",
+            "units": 0.5,
+            "description": "Beginning with a discussion of quantitative models of imaging systems, this course moves on to apply methods of linear systems theory and signal processing to image processing. Simple spatial domain techniques as well as spatial frequency domain methods and digital filter design for image enhancement and restoration are discussed. The key methods and problems are surveyed: edge detection, image denoising, image segmentation, image enhancement, image compression, image registration, and feature detection. Applications to machine vision, remote sensing, and medical imaging will be emphasized. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "BME 252 or SYDE 252; (Level at least 3A Biomedical Engineering) or (Level at least 3B Systems Design Engineering) or (Level at least 4A Mechatronics Engineering) or Mechatronics Option or Biomechanics Option",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-SYDE.html#SYDE575",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013385",
+            "subject": "SYDE",
+            "catalog_number": "482",
+            "title": "Dynamic Modelling of Biomechanical Systems",
+            "units": 0.5,
+            "description": "This course combines techniques of kinematic and dynamics analysis of mechanical systems and understanding of biological and human systems to provide advanced skills in the modelling of musculoskeletal and biomechanical systems. Topics include kinematics, dynamics, inverse and forward dynamics, modelling and analysis of biomechanical and musculoskeletal systems, mathematical models, physical models, model assumptions, model validation, biomechanical system simulation, and clinical relevance of studies. Resolution of redundant forces by indeterminate methods using optimization approaches will be introduced. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "SYDE 182, 384",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1213",
+            "url": "http://www.ucalendar.uwaterloo.ca/1213/COURSE/course-SYDE.html#SYDE482",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009013",
+            "subject": "SYDE",
+            "catalog_number": "558",
+            "title": "Fuzzy Logic and Neural Networks",
+            "units": 0.5,
+            "description": "Fuzzy systems and neural networks have recently become widely applied to various areas including consumer products, mechatronics systems, industrial process control, information systems, pattern and speech recognition, and prediction of future stock prices to name a few. Fuzzy logic and neural networks share the common ability to improve the decision making process for systems characterized by ill-defined dynamics and working in an imprecise environment. For fuzzy systems this is done through linguistic description of the system by combining fuzzy sets with fuzzy rules following a well-structured numerical estimation procedure. For neural networks, this is done through detecting patterns and relationships from a set of training input-output data gathered from the system, while learning from relationships and adapting to change. The course is mainly intended as introductory material for fuzzy logic and neural networks and outlines the most recent developments in these areas and their applications for intelligent systems design. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "(Level at least 3B Systems Design Engineering) or (Level at least 4A Mechatronics Engineering) or Mechatronics Option",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1314",
+            "url": "http://www.ucalendar.uwaterloo.ca/1314/COURSE/course-SYDE.html#SYDE558",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003145",
+            "subject": "SYDE",
+            "catalog_number": "624",
+            "title": "System Simulation: Advanced Topics",
+            "units": 0.5,
+            "description": "Review of continuous (time driven) and discrete (event driven) system simulation methods using digital computers. Simulation languages and their design; man-machine interface considerations; object-oriented methods; visual data representations; front-end and back-end processors; computer animation of simulation output. Developments in systems simulation due to parallel and high-speed computer architectures. Applications of systems simulation in engineering analysis and design.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1112",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1112/GRDcourse-SYDE.html#SYDE624",
+            "academic_level": "graduate"
+        }
+    ]
+}

@@ -1,0 +1,3159 @@
+{
+    "data": [
+        {
+            "course_id": "003971",
+            "subject": "CHE",
+            "catalog_number": "100",
+            "title": "Chemical Engineering Concepts 1",
+            "units": 0.75,
+            "description": "Introduction to basic methods and principles in Chemical Engineering. The fundamentals of engineering calculations (units and dimensions), behaviour of fluids, mass balances, processes and process variables. Laboratory on visual communication: engineering graphics, computer software including spread sheets, computer aided design. Technical communication: word processing software, elements of technical report writing. Aspects of the engineering profession including ethics, safety, and intellectual property. Professional development including r\u00e9sum\u00e9 skills, interview skills, and preparation for co-op terms.",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "1A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: 42 hours of Laboratory work during the term. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE100",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003972",
+            "subject": "CHE",
+            "catalog_number": "101",
+            "title": "Chemical Engineering Concepts 2",
+            "units": 0.5,
+            "description": "An extension of the topics covered in CHE 100. Energy balances. Laboratory experiments illustrate the physical principles discussed. (In the Winter term only: brief review of co-op fundamentals.) [Offered: W, S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "CHE 100; Level at least 1B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE101",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003973",
+            "subject": "CHE",
+            "catalog_number": "102",
+            "title": "Chemistry for Engineers",
+            "units": 0.5,
+            "description": "Chemical principles with applications in engineering. Stoichiometric calculations, properties of gases, properties of liquids and solutions, gas phase chemical equilibrium, ionic equilibrium in aqueous solution, oxidation-reduction reactions, chemical kinetics. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Open only to students in Chemical, Civil, Computer, Electrical, Environmental, Geological, Management, Mechanical, Mechatronics and Software Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE102",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011990",
+            "subject": "CHE",
+            "catalog_number": "121",
+            "title": "Engineering Computation",
+            "units": 0.5,
+            "description": "Introduction to digital computers, hardware and software organization. Programming fundamentals. Algorithms and control structures. Computer communication. Spreadsheets for problem solving, plotting, fitting data, building new functions, and making iterations and loops. Problem solution, plotting, and creating complex programs in a programming environment. Elementary numerical methods (e.g. Taylor series summations, roots of equations, roots of polynomials, system of linear and nonlinear algebraic equations, integration). Applications in Chemical Engineering. [Offered: W, S]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 1B Chemical Engineering.",
+            "antirequisites": "CIVE 121, ECE 150, GENE 121, SYDE 121",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE121",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011991",
+            "subject": "CHE",
+            "catalog_number": "161",
+            "title": "Engineering Biology",
+            "units": 0.5,
+            "description": "Introduction to basic concepts of biochemistry and cell biology. Overview of the chemistry of amino acids, carbohydrates, lipids and nucleic acids. Properties and functions of biopolymers. Elements of cell structure and diversity, and relationship of biochemistry with cell metabolism. A focus on biotechnologically relevant examples such as biomimetic engineering design, proteomics, system biology and high throughput biology. [Offered: W, S]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 1B Engineering or Software Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE161",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003949",
+            "subject": "CHE",
+            "catalog_number": "200",
+            "title": "Equilibrium Stage Operations",
+            "units": 0.5,
+            "description": "Equilibrium between phases; the equilibrium stage concept. Cascades of stages with and without reflux; group methods and stage-by-stage approaches; graphical solutions. Applications in the separation of components by distillation, absorption, stripping, extraction and leaching. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE200",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009212",
+            "subject": "CHE",
+            "catalog_number": "201",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "2A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE201",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009213",
+            "subject": "CHE",
+            "catalog_number": "202",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "2B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE202",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003952",
+            "subject": "CHE",
+            "catalog_number": "211",
+            "title": "Fluid Mechanics",
+            "units": 0.5,
+            "description": "Fundamentals of fluid flow. Conservation laws for mass, momentum and mechanical energy. Flow of fluids in conduits. Flow past immersed bodies. Flow through beds of solids, fluidization. Transportation and metering of fluids. Dimensional analysis. [Offered: F, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE211",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003950",
+            "subject": "CHE",
+            "catalog_number": "220",
+            "title": "Process Data Analysis",
+            "units": 0.5,
+            "description": "Introduction to statistical methods for analyzing and interpreting process data. Introduction to statistical ideas, probability theory, distribution theory, sampling theory, confidence intervals and significance tests. Introduction to regression analysis. Introduction to design of experiments and statistical quality control. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE220",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003951",
+            "subject": "CHE",
+            "catalog_number": "230",
+            "title": "Physical Chemistry 1",
+            "units": 0.5,
+            "description": "Thermodynamics: work and heat as forms of energy. First law, internal energy and enthalpy. Heats of chemical and physical changes. Cycles and the second law, entropy. Spontaneity and equilibrium, free energies. Systems of variable composition, chemical equilibrium. Phase equilibrium and the phase rule. Ideal solutions, colligative properties. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE230",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003953",
+            "subject": "CHE",
+            "catalog_number": "231",
+            "title": "Physical Chemistry 2",
+            "units": 0.5,
+            "description": "Thermodynamics: ideal solutions; non-ideal solutions, non-electrolytic and electrolytic solutions, phase equilibrium and phase diagrams, reaction equilibrium. Surface phenomena: surface tension, capillarity, properties of small particles, adsorption. Chemical kinetics: rate laws, reaction rates, mechanisms, catalysis, heterogeneous reactions. [Offered: F, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE231",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012020",
+            "subject": "CHE",
+            "catalog_number": "241",
+            "title": "Materials Science and Engineering",
+            "units": 0.5,
+            "description": "Fundamentals; atomic bonding, crystalline structure, crystal defects, non-crystalline materials; structure and properties of metals, ceramics, glasses, semi-conductors. Amorphous materials, polymers, composites. Processing and concepts of engineering design of materials. [Offered: F, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "2B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE241",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011992",
+            "subject": "CHE",
+            "catalog_number": "290",
+            "title": "Chemical Engineering Lab 1",
+            "units": 0.25,
+            "description": "A selection of computer and laboratory exercises refreshing and reinforcing material covered in the previous term. Topics may include: basic microbiology and biotechnology, introductory physical chemistry, mass and energy balances. [Offered: F, W]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "2A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE290",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011993",
+            "subject": "CHE",
+            "catalog_number": "291",
+            "title": "Chemical Engineering Lab 2",
+            "units": 0.25,
+            "description": "A selection of computer and laboratory exercises refreshing and reinforcing material covered in the previous term. Topics may include: physical chemistry, design of experiments and statistics, and equilibrium stage operations. [Offered: F, S]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "2B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE291",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012004",
+            "subject": "CHE",
+            "catalog_number": "298",
+            "title": "Directed Research Project",
+            "units": 0.25,
+            "description": "Directed research project under the supervision of faculty members. Participation will give students experience in advanced research techniques, with valuable training for those potentially interested in graduate school or industrial research careers. Taken over and above normal course load. Good standing and permission of department required for registration.",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": "[Note: This course graded as CR/NCR. Offered: F, W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE298",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012005",
+            "subject": "CHE",
+            "catalog_number": "299",
+            "title": "Directed Research Project",
+            "units": 0.25,
+            "description": "Directed research project under the supervision of faculty members. Participation will give students experience in advanced research techniques, with valuable training for those potentially interested in graduate school or industrial research careers. Taken over and above normal course load. Good standing and permission of department required for registration.",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": "[Note: This course graded as CR/NCR. Offered: F, S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE299",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009214",
+            "subject": "CHE",
+            "catalog_number": "301",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "3A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE301",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009215",
+            "subject": "CHE",
+            "catalog_number": "302",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE302",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003960",
+            "subject": "CHE",
+            "catalog_number": "311",
+            "title": "Chemical Reaction Engineering",
+            "units": 0.5,
+            "description": "Review of stoichiometry and chemical kinetics. Homogeneous reactors: isothermal operation; batch; semi-batch; continuous tank; plug flow reactor design. CSTRs in series; plug flow reactor with recycle. Multiple reactions in reactor networks. Temperature effects in adiabatic and non-isothermal reactors. Yield, selectivity and optimal operation of reactors. Heterogeneous catalysis and effectiveness factors in two-phase reactors. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-CHE.html#CHE311",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013357",
+            "subject": "CHE",
+            "catalog_number": "312",
+            "title": "Mathematics of Heat and Mass Transfer",
+            "units": 0.5,
+            "description": "Fundamentals of mass transfer: species and mixture velocities, diffusive and convective fluxes, Fick's law and the diffusion coefficient. Vector form of the microscopic (differential) mass balance. Fundamentals of heat transfer: conduction, convection and radiation, Fourier's law and thermal conductivity. Vector form of the microscopic thermal energy balance for solids and incompressible fluids. Mass and heat transfer models leading to ordinary differential equation problems in Cartesian, cylindrical and spherical geometries; types of boundary conditions. Bessel functions. Analytical solution of linear partial differential equations: combination of variables, separation of variables and Sturm-Liouville theory, Laplace transform. Mass and heat transfer models leading to linear partial differential equations: 1D transient diffusion and conduction in Cartesian, cylindrical and spherical geometries; steady-state 2D conduction and diffusion. Heat-mass transfer analogies and dimensionless numbers. [Offered: W,S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE312",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013358",
+            "subject": "CHE",
+            "catalog_number": "313",
+            "title": "Applications of Heat and Mass Transfer",
+            "units": 0.5,
+            "description": "Convective heat transfer. Analysis of convective heat transfer in external flows using the boundary layer approach. Analysis of convective heat transfer in internal flows. Empirical correlations for convective heat transfer. Heat transfer with phase change: condensation and boiling. Heat exchanger design. Convective mass transfer. Empirical correlations for convective mass transfer. Mass transfer at fluid-fluid interfaces. Design of continuous differential contactors for absorption/stripping, distillation and liquid-liquid extraction. Analogy between heat, mass and momentum transfer. Dimensional analysis. Simultaneous heat and mass transfer operations. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE313",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011995",
+            "subject": "CHE",
+            "catalog_number": "322",
+            "title": "Numerical Methods for Process Analysis and Design",
+            "units": 0.5,
+            "description": "Systems of linear and non-linear algebraic equations; polynomial and spline interpolation; numerical differentiation and integration; numerical solution of initial value and boundary value ordinary differential equation problems: accuracy and stability, step size control and stiffness; finite differences for the numerical solution of elliptic and parabolic partial differential equations: method of lines, explicit vs. implicit finite-difference methods; introduction to the finite element method (optional). The course extends material on numerical methods and their implementation in Matlab, covered in CHE 121, to address a variety of models of chemical engineering processes. [Offered: W, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE322",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011994",
+            "subject": "CHE",
+            "catalog_number": "325",
+            "title": "Strategies for Process Improvement and Product Development",
+            "units": 0.5,
+            "description": "Examines the role of the statistical design of experiments and data analysis in continuous process improvement and product development. The application of screening designs, single and multifactor including two-level factorial designs, response surface designs such as central composite and Box-Behnken, and designs for the study of mixture variables for recipe optimization. Use of statistical analysis software to apply these techniques. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-CHE.html#CHE325",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003957",
+            "subject": "CHE",
+            "catalog_number": "330",
+            "title": "Chemical Engineering Thermodynamics",
+            "units": 0.5,
+            "description": "Review of fundamentals, including 2nd law and concepts of equilibrium, phase and reaction equilibria, fugacity, exergy. Thermodynamics applied to practical situations. Examples chosen from: fluid flow; power generation; refrigeration; air conditioning and water cooling; liquefaction of gases; equilibria in complex chemical reactions and separation processes; surface phenomena; electrochemical reactions; biological processes. [Offered: W, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE330",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003962",
+            "subject": "CHE",
+            "catalog_number": "331",
+            "title": "Electrochemical Engineering",
+            "units": 0.5,
+            "description": "Topics and applications of electrochemistry and electrochemical engineering. Industrial process examples. Environmental aspects. Ionic equilibria. Laws of electrolysis. Theory of electrolytes. Transport properties of electrolytes. Reversible cell potentials. Irreversible electrode processes. Thermodynamic and kinetic aspects of corrosion. Common examples of corrosion. Electrochemical energy conversion and storage. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE331",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003956",
+            "subject": "CHE",
+            "catalog_number": "360",
+            "title": "Bioprocess Engineering",
+            "units": 0.5,
+            "description": "Review of elementary aspects of molecular biology, genetic engineering, biochemistry, microbiology. Biological systems for the production of commercial goods and services: foods, pharmaceuticals, chemicals, fuels, equipment, diagnostics, waste treatment, and biomaterials. Properties of microbial, plant and animal cells, and of enzymes used in bioprocess applications. Classification and characterization of biological agents and materials; quantification of metabolism, biokinetics, bioenergetics. Introduction to design of bioprocess systems, including biosafety and good manufacturing practices. [Offered: W, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3A Chemical or Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-CHE.html#CHE360",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011996",
+            "subject": "CHE",
+            "catalog_number": "390",
+            "title": "Chemical Engineering Lab 3",
+            "units": 0.5,
+            "description": "A selection of computer and laboratory exercises and project-based investigations refreshing and reinforcing material covered in the previous term. Topics may include: fluid mechanics, physical chemistry and kinetics, materials properties and testing. [Offered: W, S, first offered Winter 2019]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "3A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S",
+                "first offered Winter 2019"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE390",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011997",
+            "subject": "CHE",
+            "catalog_number": "391",
+            "title": "Chemical Engineering Lab 4",
+            "units": 0.25,
+            "description": "A selection of computer and laboratory exercises refreshing and reinforcing material covered in the previous term. Topics may include: electrochemistry, heat transfer, mass transfer, fermentation and bioseparations. [Offered: F, W, last offered Winter 2020]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "last offered Winter 2020"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE391",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012006",
+            "subject": "CHE",
+            "catalog_number": "398",
+            "title": "Directed Research Project",
+            "units": 0.25,
+            "description": "Directed research project under the supervision of faculty members. Participation will give students experience in advanced research techniques, with valuable training for those potentially interested in graduate school or industrial research careers. Taken over and above normal course load. Good standing and permission of department required for registration.",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": "[Note: This course graded as CR/NCR. Offered: W, S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE398",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012007",
+            "subject": "CHE",
+            "catalog_number": "399",
+            "title": "Directed Research Project",
+            "units": 0.25,
+            "description": "Directed research project under the supervision of faculty members. Participation will give students experience in advanced research techniques, with valuable training for those potentially interested in graduate school or industrial research careers. Taken over and above normal course load. Good standing and permission of department required for registration.",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": "[Note: This course graded as CR/NCR. Offered: F, W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE399",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009216",
+            "subject": "CHE",
+            "catalog_number": "401",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "4A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE401",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009217",
+            "subject": "CHE",
+            "catalog_number": "402",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "4B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE402",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003964",
+            "subject": "CHE",
+            "catalog_number": "420",
+            "title": "Introduction to Process Control",
+            "units": 0.5,
+            "description": "Laplace transform techniques. Proportional-integral-derivative control. Frequency response methods. Stability analysis. Controller tuning. Process control simulation and computer control systems. Process identification. [Offered: F, S, last offered Fall 2020]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "4A Chemical Engineering or Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S",
+                "last offered Fall 2020"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE420",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011999",
+            "subject": "CHE",
+            "catalog_number": "480",
+            "title": "Process Analysis and Design",
+            "units": 0.5,
+            "description": "Development and analysis of process flowsheets and chemical product design. Design and selection of common process equipment such as heat exchangers, pumps, piping, staged separations. Incorporation of pollution prevention and inherently safer design principles. Equipment and project cost estimation. [Offered: F, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "4A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE480",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010016",
+            "subject": "CHE",
+            "catalog_number": "482",
+            "title": "Chemical Engineering Design Workshop",
+            "units": 0.5,
+            "description": "In this course, students study the design process including: problem definition and needs analysis; process synthesis, process debottlenecking and troubleshooting; safety and environmental protection in design; written and oral communication for design reports. A significant portion of the term work will be devoted to a group design project, culminating in a design proposal that will be presented to the department. [Offered: F, S]",
+            "instructions": [
+                "LEC",
+                "PRJ"
+            ],
+            "prerequisites": "4A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE482",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003969",
+            "subject": "CHE",
+            "catalog_number": "483",
+            "title": "Group Design Project",
+            "units": 0.5,
+            "description": "Student design teams of two to four members work on design projects of industrial scope and importance under the supervision of a faculty member. The projects are a continuation of those initiated in CHE 482. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "PRJ"
+            ],
+            "prerequisites": "CHE 482; 4B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE483",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012000",
+            "subject": "CHE",
+            "catalog_number": "490",
+            "title": "Chemical Engineering Lab 5",
+            "units": 0.25,
+            "description": "A selection of computer and laboratory exercises refreshing and reinforcing material covered in the previous term. Topics may include: reaction kinetics and reactor engineering, heat and mass transfer unit operations, numerical methods, principles of design and safety. [Offered: F, S]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "4A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE490",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003966",
+            "subject": "CHE",
+            "catalog_number": "498",
+            "title": "Directed Research Project",
+            "units": 0.25,
+            "description": "Directed research project under the supervision of faculty members. Participation will give students experience in advanced research techniques, with valuable training for those potentially interested in graduate school or industrial research careers. Taken over and above normal course load. Good standing and permission of department required for registration.",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": "[Note: This course graded as CR/NCR. Offered: F, S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE498",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003970",
+            "subject": "CHE",
+            "catalog_number": "499",
+            "title": "Elective Research Project",
+            "units": 0.5,
+            "description": "A major undergraduate research project carried out as a technical elective (TE) under the supervision of a faculty member. An oral presentation of results and a written report are the minimum requirements. Other requirements may be set by the faculty supervisor or department. [Offered: F,W,S]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "One of CHE 398 or 399 or 498",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE499",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012726",
+            "subject": "CHE",
+            "catalog_number": "500",
+            "title": "Special Topics in Chemical Engineering",
+            "units": 0.5,
+            "description": "Special courses on advanced topics may be offered from time to time, when resources are available. For current offerings, inquire at the CHE undergraduate office.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 4A Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE500",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003997",
+            "subject": "CHE",
+            "catalog_number": "514",
+            "title": "Fundamentals of Petroleum Production",
+            "units": 0.5,
+            "description": "Fundamentals of surface chemistry, capillary pressure and wettability. Petrophysics, measurement and interpretation of electrical, capillary and flow properties of reservoir rock. Hydrostatic pressure regimes and estimation of oil and gas reserves. Darcy's law and modelling of steady-state and transient incompressible and compressible single-phase flow through porous media. Thermodynamics of petroleum fluids. Material balance for oil and gas reservoirs: subsurface withdrawal and primary production mechanisms. Oil well testing. Two-phase flow in oil reservoirs, relative permeability, Buckley-Leverett theory of linear water flooding and sweep efficiency. Introduction to enhanced oil recovery. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Chemical, Environmental or Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE514",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014525",
+            "subject": "CHE",
+            "catalog_number": "516",
+            "title": "Energy Systems Engineering",
+            "units": 0.5,
+            "description": "Energy systems in society. Review of fossil fuel reserves, production and consumption trends, including unconventional sources such as shale gas, and oil sands. Transportation fuels and alternative fuels; the design of hybrid power trains, fuel cells and batteries. Design considerations of carbon-free energy generation and carbon-neutral technologies, including nuclear, wind, solar and bio-energy. Design of energy storage on a 'utility scale' and portable power sources. Applications of thermodynamics in the design of energy systems, including the Rankin and Brayton cycles. Other energy system topics as appropriate. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Chemical or Environmental Engineering.",
+            "antirequisites": "ME 459",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE516",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004002",
+            "subject": "CHE",
+            "catalog_number": "522",
+            "title": "Advanced Process Dynamics and Control",
+            "units": 0.5,
+            "description": "State space methods. Sampled-data systems. Discrete systems. Transform methods. Multivariable control. Computer control. Closed-loop analysis. Design of controllers. Control of complex chemical systems. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "4B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE522",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004004",
+            "subject": "CHE",
+            "catalog_number": "524",
+            "title": "Process Control Laboratory",
+            "units": 0.5,
+            "description": "Experiments on process dynamics, control and simulation of processes. Time constant; step and frequency response; controller tuning; multivariable control strategies. Implementation using simulation systems, mainframe computer control, microcomputers. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "4B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE524",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012001",
+            "subject": "CHE",
+            "catalog_number": "541",
+            "title": "Introduction to Polymer Science and Properties",
+            "units": 0.5,
+            "description": "An introduction to principles governing polymerization reactions and the resultant physical properties of polymers. Molecular weight distribution. Crystallinity. Step-growth and chain-growth polymerization and copolymerization. Selected additional topics in polymer characterization/ properties. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE541",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012002",
+            "subject": "CHE",
+            "catalog_number": "543",
+            "title": "Polymer Production: Polymer Reaction Engineering",
+            "units": 0.5,
+            "description": "Overview of polymer production technology and polymer reaction engineering analysis tools. Examples from chain growth polymerization processes (free radical, ionic, living/controlled radical variants, metal co-ordination catalysis, etc.), different modes of polymer reactor operation (batch, semi-batch, continuous flow stirred-tank reactor (CSTR), tubular, trains of CSTRs), homogeneous (bulk/solution/suspension) and heterogeneous (emulsion/dispersion/co-ordinated/etc.), linear and branched/cross-linked chains. Calculations and mathematical models for rate, copolymer composition, molecular weight and sequence length characteristics, for polymer reactor design/optimization of polymer productivity and quality variables. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE543",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004016",
+            "subject": "CHE",
+            "catalog_number": "562",
+            "title": "Advanced Bioprocess Engineering",
+            "units": 0.5,
+            "description": "Application of process engineering principles to the design and operation of fermentation reactors which are widely used in the pharmaceutical, food, brewing and waste treatment industries. Aspects of mass transfer, heat transfer, mixing and rheology with biochemical and biological constraints. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 4B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE562",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004018",
+            "subject": "CHE",
+            "catalog_number": "564",
+            "title": "Food Process Engineering",
+            "units": 0.5,
+            "description": "Applications of unsteady and steady state heat and/or mass transfer operations to processing natural and texturized foods. Design and analysis of sterilization, low temperature preservation, concentration, separation and purification processes. Effects of formulation, additives and processing on organoleptic and nutritional quality. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 4B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE564",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012003",
+            "subject": "CHE",
+            "catalog_number": "571",
+            "title": "Industrial Ecology",
+            "units": 0.5,
+            "description": "Industrial Ecology is a rapidly growing field that systematically examines local, regional, and global uses and flows of materials and energy in products, processes, industrial sectors, and economies. It focuses on the potential role of industry in reducing environmental burdens throughout the product life cycle from the extraction of raw materials to the production of goods, to the use of those goods and to the management of the resulting wastes. This course will review the environmental issues associated with chemical industries and the roles of engineers to manage these issues. The principles and philosophy of green chemistry will be addressed including pollution prevention in unit operations. The concepts and practices of environmental life cycle analysis and accounting will be addressed in detail, together with the basics of risk assessment, management and communication. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Chemical or Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE571",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004021",
+            "subject": "CHE",
+            "catalog_number": "572",
+            "title": "Air Pollution Control",
+            "units": 0.5,
+            "description": "Nature and sources of air pollutants. Transport of pollutants and dispersion modeling for regulatory purposes. Design of industrial particulate capture systems using cyclones, electrostatic precipitators, filters, scrubbers. Design of organic compound emissions control using incineration, biofiltration, adsorption and absorption. Overview of NOx and SOx control. Indoor air quality assessment techniques. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Chemical or Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE572",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004023",
+            "subject": "CHE",
+            "catalog_number": "574",
+            "title": "Industrial Wastewater Pollution Control",
+            "units": 0.5,
+            "description": "Primary focus is on the control and treatment of inorganic aqueous waste from chemical process industries. Waste minimization methods with specific examples such as rinsewater circuit design. Principles and design of treatment methods: chemical treatment, precipitation, coagulation and flocculation, ion exchange and membrane separation. Treatment of organic aqueous waste. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3B Chemical or Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE574",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "000333",
+            "subject": "CHE",
+            "catalog_number": "610",
+            "title": "Theory and Application of Transport Phenomena",
+            "units": 0.5,
+            "description": "Mathematical analysis of momentum, heat and mass transport in systems of chemical engineering interest:  development of the differential equations of change (continuity, motion and energy) for forced convection in isothermal, non-isothermal and multi-component systems; description of velocity, temperature and concentration profiles and computation of momentum, energy and mass fluxes at surfaces under conditions of laminar flow; description of transport in turbulent flow by time-smoothing of the equations of change; turbulent velocity, temperature and concentration profiles.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Th. & App. of Trnsprt Phenom."
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE610",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012789",
+            "subject": "CHE",
+            "catalog_number": "612",
+            "title": "Interfacial Phenomena",
+            "units": 0.5,
+            "description": "An overview of interfacial phenomena, surface physical chemistry, importance of surfaces for small particles, and relevance to other subjects such as biology, nanotechnology and biomedicine.  The fundamental concepts fo surface thermodynamics and intermolecular forces will be discussed.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE612",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010402",
+            "subject": "CHE",
+            "catalog_number": "614",
+            "title": "Capillary and Transport Phenomena in Porous Media",
+            "units": 0.5,
+            "description": "This course covers fundamental and advanced topics on 1) capillary phenomena in porous media, 2) characterization of pore structure and fluid flow in porous media (single phase and multiphase flow in porous media), 3) percolation theory concepts and application to modelling capillary and transport phenomena in porous media, 4) hydrodynamic dispersion, oil spill migration in porous media and remediation techniques.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "Antirequisite: CHE 514.",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE614",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014409",
+            "subject": "CHE",
+            "catalog_number": "620",
+            "title": "Applied Engineering Mathematics",
+            "units": 0.5,
+            "description": "Advanced engineering mathematics for the solution of linear differential equations arising from physiochemical models.  Topics include scaling analysis of differential equations, series solutions for ordinary differential equations (ODEs), numerical solutions for initial/boundary value problems, Laplace transforms, characterization of partial differential equations (PDEs), and solution methods for PDEs (Sturm-Liouville transform, numerical methods).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE620",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000337",
+            "subject": "CHE",
+            "catalog_number": "622",
+            "title": "Statistics in Engineering",
+            "units": 0.5,
+            "description": "A course in practical statistics at a level one step beyond an elementary course.  Material includes regression analysis for linear and nonlinear models, analysis of variance, statistical interference, single and multiple comparisons, and an introduction to the design of experiments including single factor designs, multifactor designs, response surface methods, d-optimality (with empirical and mechanistic models), and the analysis of undersigned data.  Applications to process improvement, product development and research problems will be explored.  Use of statistical analysis software to apply these techniques.",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department,",
+            "antirequisites": "CHE 425",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE622",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010415",
+            "subject": "CHE",
+            "catalog_number": "624",
+            "title": "Advanced Process Dynamics and Control",
+            "units": 0.5,
+            "description": "Sampled-data systems. Discrete-time control (discrete PID/IMC versions and tuning). Multivariable control (RGA, decouplers). Other advanced control designs may be included such as constrained minimum variance, linear quadratic gaussian, adaptive and nonlinear and introduction to state estimation/Kalman filtering. Held with CH E 522. Additional requirements beyond CH E 522 requirements.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CHE 522",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE624",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000338",
+            "subject": "CHE",
+            "catalog_number": "630",
+            "title": "Chemical Reactor Analysis",
+            "units": 0.5,
+            "description": "Mixing effects (segregation and micromixing) on reactor performance analysis of reactor stability, 1- and 2- D models for packed bed reactors, heterogeneous non-catalytic reactions, heat and mass transfer effects in porous catalyst particles, reduction of data for catalytic reactions and scale-up concepts.  Examples will be drawn from packed, fluidized bed and transport reactors, polymer reactors and 3-phase reactors.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE630",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010445",
+            "subject": "CHE",
+            "catalog_number": "632",
+            "title": "Introduction to Catalysis",
+            "units": 0.5,
+            "description": "Principles and applications of heterogeneous and homogeneous catalysis. Adsorption, reaction kinetics and mass transfer effects. Catalyst synthesis and characterization. Industrial catalytic processes. The fundamentals of catalytic phenomena will focus on catalytic technology, catalyst materials, properties and preparation as well as catalyst characterization and selection.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE632",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000340",
+            "subject": "CHE",
+            "catalog_number": "640",
+            "title": "Principles of Polymer Science",
+            "units": 0.5,
+            "description": "Introduction to the physical chemistry of high polymers, principles of polymer synthesis, mechanisms and kinetics of polymerization reactions, copolymerization theory, polymerization in homogeneous and heterogeneous systems, chemical reactions of polymers. Theory and experimental methods for the molecular characterization of polymers.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "CHEM 770",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE640",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000341",
+            "subject": "CHE",
+            "catalog_number": "641",
+            "title": "Physical Properties of Polymers",
+            "units": 0.5,
+            "description": "The physical properties of polymers are considered in depth from a molecular viewpoint. Rubber elasticity, mechanical properties, rheology and solution behaviour are quantitatively treated.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE 640 or consent of Instructor.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "CHEM 771",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE641",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000345",
+            "subject": "CHE",
+            "catalog_number": "660",
+            "title": "Principles of Biochemical Engineering",
+            "units": 0.5,
+            "description": "Aspects of mass-transfer, heat-transfer, fluid flow, cell growth, metabolic engineering and enzyme kinetics related to the design of biological processes and process equipment. Sterilization techniques, fermentation, bioreactor design and operation, including immobilized cell or enzyme systems and aspects of bioseparations engineering.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE660",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000346",
+            "subject": "CHE",
+            "catalog_number": "661",
+            "title": "Advances in Biochemical Engineering",
+            "units": 0.5,
+            "description": "Design and control of bioprocesses with application to advanced or novel systems including enzymes, mixed cultures, genetically engineered cells, plant cells and animal cells.  Exploration of new methods of producing materials, food, pharmaceuticals and providing services such as biological waste treatment.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE661",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010447",
+            "subject": "CHE",
+            "catalog_number": "672",
+            "title": "Air Pollution Control",
+            "units": 0.5,
+            "description": "Treatment of gaseous waste products from representative Canadian industries. Characterization and toxicity of filtration, scrubbing, cycloning, electrostatic precipitation and other chemical treatments. Legal, sociopolitical, economic and engineering aspects. Held with CH E 572. A special project or topic required in addition to CH E 572 requirements.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CHE 572",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE672",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010448",
+            "subject": "CHE",
+            "catalog_number": "674",
+            "title": "Industrial Waste Treatment",
+            "units": 0.5,
+            "description": "Characterization of industrial wastewater. Physical/chemical methods or pre- and primary treatment. Principles, mechanisms and kinetics of biological degradation of industrial compounds. Design and operation of biological treatment systems, including aerobic, anaerobic and tertiary treatment. Sludge and solids disposal. Other physical/chemical treatments, possibly including adsorption, advanced oxidation and incineration.  Additional course material and/or requirements beyond ChE 574 may be required.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CHE 574",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE674",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000352",
+            "subject": "CHE",
+            "catalog_number": "710",
+            "title": "Special Topics in Transport Phenomena",
+            "units": 0.5,
+            "description": "Various courses dealing with particle-fluid dynamics, non-Newtonian flows, flow through porous media, heat and mass transfer in two-phase systems, and the use of transient and frequency response to measure physical quantities.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "2   Membrane Separations",
+                "3   Advanced Fluid Mechanics",
+                "4   Biomolecular Self-Assembly",
+                "5   Advanced Interfacial Phenomena",
+                "6   Nanostructured Materials",
+                "7   Cont Theory Nem Liq Crystl App",
+                "8   Fund. Oil/Gas Production"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE710",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000355",
+            "subject": "CHE",
+            "catalog_number": "715",
+            "title": "Research Topics in Transport Phenomena",
+            "units": 0.5,
+            "description": "Various special research topics will be offered in the area of transport phenomena to support independent and individual research by instructor consent.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Advanced Fluid Mechanics",
+                "2   New - Microfluidic Devices"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE715",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000360",
+            "subject": "CHE",
+            "catalog_number": "720",
+            "title": "Special Topics in Analysis of Chemical Processes",
+            "units": 0.5,
+            "description": "Various courses dealing with selected special topics such as advanced statistics, mathematical analysis, modelling, optimization and/or control of chemical processes.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE720",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000366",
+            "subject": "CHE",
+            "catalog_number": "725",
+            "title": "Research Topics in Analysis of Chemical Processes",
+            "units": 0.5,
+            "description": "Various special research topics will be offered in the area of analysis of chemical processes to support independent and individual research by instructor consent.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Advanced Process Systems Eng'g",
+                "2   Visual Basic in Chemical Eng'g",
+                "3   Catalytic Reactor Design",
+                "4   Process Optimization",
+                "5   Catalyst Degradation",
+                "6   Process Optimization",
+                "7   Adv. Num. Methods for ChE Eng",
+                "8   Parameter Est.Approach.Bio.Sys",
+                "9   Systems Engineering",
+                "10  Response Surface Methodology",
+                "11  Analysis-Optical Sensor Data",
+                "12  Process Systems Identification"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE725",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000371",
+            "subject": "CHE",
+            "catalog_number": "730",
+            "title": "Special Topics in Chemical Kinetics,Catalysis and Advanced Reactor Engineering",
+            "units": 0.5,
+            "description": "Various courses dealing with selected topics such as kinetics of chemical and biological systems, theories of catalysis, catalyst manufacture, residence time distribution, reactor flow models and reactor stability and optimization.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE730",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000376",
+            "subject": "CHE",
+            "catalog_number": "735",
+            "title": "Research Topics in Chemical Kinetics, Catalysis and Advanced Reactor Engineering",
+            "units": 0.5,
+            "description": "Various special research topics will be offered in the area of advanced reactor engineering including topics such as chemical kinetics and catalysis to support independent and individual research by instructor consent.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Refining Processes",
+                "2   Engine Exhaust Catalysis",
+                "3   Photoreactor Eng",
+                "4   Catalytic processes",
+                "5   Desulfurization Catalyst Tech",
+                "6   Combustion",
+                "7   Energy Analy Mgmt in Proc.Ind."
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE735",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000381",
+            "subject": "CHE",
+            "catalog_number": "740",
+            "title": "Special Topics in Polymer Science and Engineering",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE740",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000384",
+            "subject": "CHE",
+            "catalog_number": "745",
+            "title": "Research Topics in Polymer Science and Engineering",
+            "units": 0.5,
+            "description": "Various special research topics will be offered in the area of polymer science and engineering to suport independent and individual research by instructor consent.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Properties Polymeric material",
+                "2   Mech. prop. of solid polymers",
+                "3   Characterization of Polymers",
+                "4   Polyolefin Reactn Engineering",
+                "5   Polymer Additives",
+                "6   Polymer Fibres",
+                "7   Polymer Reaction Engineering",
+                "8   Func N.crys C.lose with Cyclod",
+                "9   Ppptide block copoly del.app.",
+                "10  Synthesis Func.Mag. Nanopart.",
+                "11  Dsgn/dvlp.Biocmp/rspsv Nonogls",
+                "12  Polymer Nanocmposites",
+                "13  Bioplastics",
+                "14  Synthetic Meth pi-conjug Poly",
+                "15  Liposome-Cellulose Nanocrys.Sy",
+                "16  Water Pur. Using Sust Nano Mat"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE745",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000389",
+            "subject": "CHE",
+            "catalog_number": "750",
+            "title": "Special Topics in Electrochemical Engineering, Interfacial Engineering & Materials Science",
+            "units": 0.5,
+            "description": "Various courses dealing with selected special topics such as extractive metallurgy, hydrometallurgy, electrochemistry,  electrochemical engineering, corrosion, materials science and engineering and interfacial phenomena.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE750",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000392",
+            "subject": "CHE",
+            "catalog_number": "755",
+            "title": "Res Topics in Electrochemical Engineering, Interfacial Eng &  Material Science",
+            "units": 0.5,
+            "description": "Various special research topics will be offered in the areas of electrochemical engineering, interfacial engineering and materials science to support independent and individual research by instructor consent.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Fuel Cell Technology",
+                "2   Nanoscale Biomaterials",
+                "3   Surface Materials",
+                "4   PEM Fuel cell Drblty & Failure",
+                "5   Non-precious Fuel Cell Catalys",
+                "6   Battery Technology",
+                "7   Func.Comp.Mat:Fab.Charac.App",
+                "8   E.chem.Supercap.Tech",
+                "9   Intro Liq.Crystalline Mat",
+                "10  Interfacial Eng & Mat Sci",
+                "11  Ceramic Mat & Eng",
+                "12  Supercapacitor Technology",
+                "13  Carbohydrate Materials",
+                "14  E.chem Power Sources Tech",
+                "15  Intro to Liquid Crystal Matl",
+                "16  Pmeric Nanocomposite Materials",
+                "17  Elec.Mat.for Egy.Con.&Eng.Stor",
+                "18  Electrochem.Methods & Apps",
+                "19  Applications - Water Treatment"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE755",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000393",
+            "subject": "CHE",
+            "catalog_number": "760",
+            "title": "Special Topics in Biochemical Engineering",
+            "units": 0.5,
+            "description": "Various courses dealing with selected topics in biochemical engineering, biotechnology, tissue engineering, food engineering, waste treatment technology and microbial engineering.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE760",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012159",
+            "subject": "CHE",
+            "catalog_number": "765",
+            "title": "Research Topics in Biochemical Engineering",
+            "units": 0.5,
+            "description": "Various special research topics will be offered in the area of biochemical engineering to support independent and individual research by instructor consent.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Proteins: Charact. & Recovery",
+                "2   Advancd Bioprocess Engineering",
+                "3   Genetic/Protein Engineering",
+                "4   Eng.Prin. of Biomass/Bioconver",
+                "5   Robotics & Tissue Bio-Assembly",
+                "6   Peptide Characteriz & Purifctn",
+                "7   Recombinant Protein Production",
+                "8   Bioplastics Composites",
+                "9   Membrane Filtration Processes",
+                "10  Biogas Prodctn & Anrobic Dgstn",
+                "11  Cell culture for virus prodctn",
+                "12  Biofiltration",
+                "13  Bacterial Community Analysis",
+                "14  Microbial Contaminatn Control",
+                "15  Protein/lipid Interactions",
+                "16  Thin Film Processing by PECVD",
+                "17  Val.add.Products fr Fatty Acid",
+                "18  Polymer Sci & Engineering",
+                "19  Bioprocessing Strategies",
+                "20  Adv.Topics Nano Engineering",
+                "21  Nanomedicine&Nanobiotechnology",
+                "22  Food"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE765",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "009372",
+            "subject": "CHE",
+            "catalog_number": "770",
+            "title": "Special Topics in Environmental Engineering and Pollution Control",
+            "units": 0.5,
+            "description": "Various courses dealing with advanced methods of controlling air, water and solid waste pollution. Systems analysis and applications.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE Grad Students Only - All others require permission of department.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE770",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000404",
+            "subject": "CHE",
+            "catalog_number": "775",
+            "title": "Research Topics in Environmental Engineering and Pollution Control",
+            "units": 0.5,
+            "description": "Various special research topics will be offered in the area of environmental engineering and pollution control to support independent and individual research by instructor consent.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Wetland Engineering",
+                "2   Environmental Modelling",
+                "3   H2 Production & Economy",
+                "4   Adv. CO2 Mgmt & System Design",
+                "5   Industrial Waste Treatment",
+                "6   Sustainable Energy",
+                "7   Advanced Carbon Dioxide Mngmnt",
+                "8   Energy and the Environment",
+                "9   Det & Control Emerg Pollutants",
+                "10  Wtr/WwtrBio trtmt t.mod mod&ap",
+                "11  Env Eng. & Pollution Control"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE775",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000341",
+            "subject": "CHE",
+            "catalog_number": "641",
+            "title": "Physical Properties of Polymers",
+            "units": 0.5,
+            "description": "The physical properties of polymers are considered in depth from a molecular viewpoint. Rubber elasticity, mechanical properties, rheology and solution behaviour are quantitatively treated.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CHE 640 or consent of Instructor.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "CHEM 771",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-CHE.html#CHE641",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "003960",
+            "subject": "CHE",
+            "catalog_number": "311",
+            "title": "Chemical Reaction Engineering",
+            "units": 0.5,
+            "description": "Review of stoichiometry and chemical kinetics. Homogeneous reactors: isothermal operation; batch; semi-batch; continuous tank; plug flow reactor design. CSTRs in series; plug flow reactor with recycle. Multiple reactions in reactor networks. Temperature effects in adiabatic and non-isothermal reactors. Yield, selectivity and optimal operation of reactors. Heterogeneous catalysis and effectiveness factors in two-phase reactors. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-CHE.html#CHE311",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003956",
+            "subject": "CHE",
+            "catalog_number": "360",
+            "title": "Bioprocess Engineering",
+            "units": 0.5,
+            "description": "Review of elementary aspects of molecular biology, genetic engineering, biochemistry, microbiology. Biological systems for the production of commercial goods and services: foods, pharmaceuticals, chemicals, fuels, equipment, diagnostics, waste treatment, and biomaterials. Properties of microbial, plant and animal cells, and of enzymes used in bioprocess applications. Classification and characterization of biological agents and materials; quantification of metabolism, biokinetics, bioenergetics. Introduction to design of bioprocess systems, including biosafety and good manufacturing practices. [Offered: W, S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "3A Chemical or Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-CHE.html#CHE360",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011994",
+            "subject": "CHE",
+            "catalog_number": "325",
+            "title": "Strategies for Process Improvement and Product Development",
+            "units": 0.5,
+            "description": "Examines the role of the statistical design of experiments and data analysis in continuous process improvement and product development. The application of screening designs, single and multifactor including two-level factorial designs, response surface designs such as central composite and Box-Behnken, and designs for the study of mixture variables for recipe optimization. Use of statistical analysis software to apply these techniques. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-CHE.html#CHE325",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015397",
+            "subject": "CHE",
+            "catalog_number": "341",
+            "title": "Introduction to Process Control",
+            "units": 0.5,
+            "description": "Laplace transform techniques. Proportional-integral-derivative control. Frequency response methods. Stability analysis. Controller tuning. Process control simulation and computer control systems. Process identification. [Offered: F, W; first offered Fall 2020]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Chemical Engineering or Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W; first offered Fall 2020"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE341",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015399",
+            "subject": "CHE",
+            "catalog_number": "383",
+            "title": "Chemical Engineering Design Workshop",
+            "units": 0.25,
+            "description": "An introduction to the engineering design process, including problem definition and needs analysis, critical analysis of problems, alternative solutions, process synthesis, design constraints, and safety and environmental protection in design. This course also develops and enhances team work, project management and technical communication (written and oral). Students in teams work on open-ended problems and apply the formal methods of engineering design. At the conclusion of this course, each student team presents a pre-proposal of the design project that will become the subject of CHE 482 and CHE 483. [Offered: F, W; first offered Fall 2020]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "3B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W; first offered Fall 2020"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE383",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015398",
+            "subject": "CHE",
+            "catalog_number": "491",
+            "title": "Chemical Engineering Lab 5",
+            "units": 0.5,
+            "description": "Project-based experimental investigation of complex systems in main areas of application of chemical engineering. Topics selected from reaction engineering, separation processes, bioprocess engineering, electrochemical engineering, materials engineering and process control. [Offered: W; first offered Winter 2022]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "4B Chemical Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W; first offered Winter 2022"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CHE.html#CHE491",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

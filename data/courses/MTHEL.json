@@ -1,0 +1,283 @@
+{
+    "data": [
+        {
+            "course_id": "012764",
+            "subject": "MTHEL",
+            "catalog_number": "131",
+            "title": "Introduction to Actuarial Practice",
+            "units": 0.5,
+            "description": "Individual life insurance products. Introduction to property and casualty insurance. Introductory risk management, insurance pricing and valuation. Pension plan design. [Offered: F,W,S]",
+            "instructions": [
+                "LEC",
+                "TST"
+            ],
+            "prerequisites": "4U Calculus and Vectors",
+            "antirequisites": "MTHEL 305A, 305B",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MTHEL.html#MTHEL131",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010168",
+            "subject": "MTHEL",
+            "catalog_number": "198",
+            "title": "Mathematics Elective Topics 1",
+            "units": 0.5,
+            "description": "Special Topics course as announced by the department.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MTHEL.html#MTHEL198",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006940",
+            "subject": "MTHEL",
+            "catalog_number": "206A",
+            "title": "Introduction to Mathematics Education",
+            "units": 0.5,
+            "description": "Current trends in education, professional practices and administration, the role of the department head, lesson planning, techniques of teaching, evaluation of students, special students, extracurricular activities, the relationship between elementary and secondary school mathematics, audio-visual materials. [Offered: S]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Mathematics Teaching students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MTHEL.html#MTHEL206A",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010169",
+            "subject": "MTHEL",
+            "catalog_number": "298",
+            "title": "Mathematics Elective Topics 2",
+            "units": 0.5,
+            "description": "Special Topics course as announced by the department.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MTHEL.html#MTHEL298",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010170",
+            "subject": "MTHEL",
+            "catalog_number": "398",
+            "title": "Mathematics Elective Topics 3",
+            "units": 0.5,
+            "description": "Special Topics course as announced by the department.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MTHEL.html#MTHEL398",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "010171",
+            "subject": "MTHEL",
+            "catalog_number": "498",
+            "title": "Mathematics Elective Topics 4",
+            "units": 0.5,
+            "description": "Special Topics course as announced by the department.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MTHEL.html#MTHEL498",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014969",
+            "subject": "MTHEL",
+            "catalog_number": "300",
+            "title": "Professional Communications in Statistics and Actuarial Science",
+            "units": 0.5,
+            "description": "This course introduces students to oral and written communication in the fields of Statistics and Actuarial Science. With emphasis on the public presentation of technical knowledge, the ability to give and receive constructive feedback, and communication in a collaborative environment, this course helps students develop proficiencies in critical workplace skills. This course is writing intensive and includes extensive collaborative assignments.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "At least 70% in one of EMLS 101R, 102R, EMLS/ENGL 129R, ENGL 109, SPCOM 100, 223; (STAT 331, 371 or ACTSC 331); Actuarial Science or Statistics major students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "ENGL 378",
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": "[Note: Students are encouraged to complete this course by their 4A term. Offered: F,W,S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": true,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MTHEL.html#MTHEL300",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014969",
+            "subject": "MTHEL",
+            "catalog_number": "300",
+            "title": "Professional Communications in Statistics and Actuarial Science",
+            "units": 0.5,
+            "description": "This course introduces students to oral and written communication in the fields of Statistics and Actuarial Science. With emphasis on the public presentation of technical knowledge, the ability to give and receive constructive feedback, and communication in a collaborative environment, this course helps students develop proficiencies in critical workplace skills. This course is writing intensive and includes extensive collaborative assignments.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "At least 70% in one of EMLS 101R, 102R, EMLS/ENGL 129R, ENGL 109, SPCOM 100, 223; (STAT 331, 371 or ACTSC 331); Actuarial Science or Statistics major students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "ENGL 378",
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": "[Note: Students are encouraged to complete this course by their 4A term. Offered: F,W,S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": true,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MTHEL.html#MTHEL300",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

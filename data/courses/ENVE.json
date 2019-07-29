@@ -1,0 +1,1247 @@
+{
+    "data": [
+        {
+            "course_id": "005226",
+            "subject": "ENVE",
+            "catalog_number": "100",
+            "title": "Environmental and Geological Engineering Concepts",
+            "units": 0.8,
+            "description": "An introduction to the fundamental methods, principles and skills of environmental and geological engineering. Fundamentals of technical communication, the engineering design process and problem solving. Completion of a pre-design study and report for an environmental engineering project. Independent and team work. Fundamentals of engineering computation: units, data collection, measurement, and error analysis. Field surveying (automatic level, engineer's transit, differential Global Positioning System (GPS), total station). Laboratory on engineering graphics auto-computer assisted diagnosis (AutoCAD) and computational software (Excel, Matlab). Aspects of the engineering profession (code of ethics, negligence, misconduct, role of the Professional Engineers Ontario (PEO), etc.), diversity in the workplace, and professional development. Preparation for the University of Waterloo co-operative education program (Co-operative Education and Career Action (CECA), r\u00e9sum\u00e9 writing, job search and interview skills). [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "1A Environmental or Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE100",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005230",
+            "subject": "ENVE",
+            "catalog_number": "127",
+            "title": "Statics and Solid Mechanics",
+            "units": 0.5,
+            "description": "Review of statics of particles and rigid bodies. Concepts of force systems. Moment of inertia. Friction. Method of virtual work. Introduction to mechanical response of materials and stress-strain temperature relationships. Behaviour of prismatic members in tension, compression, shear, bending and torsion. Shear force and bending moment diagrams. Work and energy methods. [Offered: S]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Environmental or Geological Engineering students only.",
+            "antirequisites": "CIVE 127",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-ENVE.html#ENVE127",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005232",
+            "subject": "ENVE",
+            "catalog_number": "214",
+            "title": "Fluid Mechanics and Thermal Sciences",
+            "units": 0.75,
+            "description": "An introduction to fluid mechanics and thermal sciences. Fluid properties. Fluid statics. Thermodynamic principles. Bernoulli equation. The momentum equation of applications. Laminar and turbulent flow. Dimensionless numbers. Closed conduit flow. Pipe network analysis. Steady flow in pipes. Heat transfer. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "ENVE 127/207; 2A Environmental or Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-ENVE.html#ENVE214",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005234",
+            "subject": "ENVE",
+            "catalog_number": "221",
+            "title": "Advanced Calculus",
+            "units": 0.5,
+            "description": "A review of Year One Calculus. Optimization problems including the method of Lagrange Multipliers. Multiple Integration with applications. Vector calculus: Green, Gauss, and Stokes' theorems, line integrals. Elements of Fourier Series. Applications to the analysis of Environmental Engineering problems. [Offered: F, W]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "MATH 118; Level at least 2A Environmental or Geological Engineering.",
+            "antirequisites": "CIVE 221, MATH 217",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1516",
+            "url": "http://www.ucalendar.uwaterloo.ca/1516/COURSE/course-ENVE.html#ENVE221",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005236",
+            "subject": "ENVE",
+            "catalog_number": "223",
+            "title": "Differential Equations and Balance Laws",
+            "units": 0.5,
+            "description": "An introduction to ordinary differential equations with applications to mass and energy balance problems in engineering. Standard methods of solution of first and second order linear equations with constant coefficients. Numerical methods for solving ordinary differential equations. Partial differential equations. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "2A Environmental Engineering.",
+            "antirequisites": "CIVE 222, MATH 218",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE223",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005237",
+            "subject": "ENVE",
+            "catalog_number": "224",
+            "title": "Probability and Statistics",
+            "units": 0.5,
+            "description": "Role of probability in Environmental Engineering and decision making under uncertainty. Basic probability concepts. Probability distributions. Functions of random variables. Data analysis. Confidence intervals and hypothesis testing. Introduction to regression analysis. Introduction to design of experiments and statistical quality control. [Offered: W, S]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "MATH 115, 117; Level at least 2B Environmental or Geological Engineering.",
+            "antirequisites": "CHE 220, CIVE 224",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE224",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005239",
+            "subject": "ENVE",
+            "catalog_number": "275",
+            "title": "Environmental Chemistry",
+            "units": 0.5,
+            "description": "Overview of risk, biosphere compartments and contaminant fate. Composition of water. Electroneutrality and activity. Reactions and speciation including reaction kinetics, mass transfer, vapor pressure, equilibrium, and chemical thermodynamics. Equilibrium chemistry including Log-concentration diagrams, titration and buffering intensity, dissolution/precipitation, carbonate system, hardness, and complex formation. Classification, nomenclature, physical/chemical parameters and partitioning of organic compounds. Basic redox chemistry including: half cell reactions, Faraday and Nernst equations, and pE-pH diagrams. Four labs. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "CHE 102; 2A Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE275",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011506",
+            "subject": "ENVE",
+            "catalog_number": "276",
+            "title": "Environmental Biology and Biotechnology",
+            "units": 0.5,
+            "description": "Basic environmental microbiology and biology with a focus on understanding the principles governing microbial growth and activity and the function of natural, perturbed and engineered systems. Topics include basic microbial functions, microbial population growth and limiting factors, microbial community structure, and the interactions between microbes and their chemical environment. Brief introduction to the application of biological processes to remove contaminants in natural and engineered systems. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "2B Environmental Engineering students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-ENVE.html#ENVE276",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005242",
+            "subject": "ENVE",
+            "catalog_number": "292",
+            "title": "Economics for Environmental Engineering",
+            "units": 0.5,
+            "description": "An introductory course on the principles of engineering economics. Basic concepts, capital, interest, present worth, taxes and depreciation, profitability, return on investment. Evaluating alternative investments, evaluation of environmental risk, and a study of the linkages between economics, systems and the environment. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "MATH 117; 2A Environmental or Geological Engineering students only.",
+            "antirequisites": "MSCI 261, CIVE 292/392, SYDE 262.",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-ENVE.html#ENVE292",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009251",
+            "subject": "ENVE",
+            "catalog_number": "298",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "2A Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE298",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009252",
+            "subject": "ENVE",
+            "catalog_number": "299",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "2B Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE299",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005240",
+            "subject": "ENVE",
+            "catalog_number": "320",
+            "title": "Environmental Resource Management",
+            "units": 0.5,
+            "description": "Environmental systems, resource utilization and allocation. Economic analysis of public projects, maximization of net benefits. Decision-making methods in environmental engineering including matrix methods, linear programming, network models, lagrange multipliers and dynamic programming. The concept of risk, risk probability, dose response models, decision analysis and risk-cost-benefit analysis. Evaluating environmental systems: probability and predicting failure. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3A Environmental Engineering.",
+            "antirequisites": "CIVE 332, MSCI 331, SYDE 311",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-ENVE.html#ENVE320",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005241",
+            "subject": "ENVE",
+            "catalog_number": "321",
+            "title": "Advanced Mathematics",
+            "units": 0.5,
+            "description": "Ordinary and partial differential equations with application in the modelling of environmental engineering processes. Classical solution techniques involving transforms, separation of variables and weighted residual methods. Introduction to numerical techniques. [Offered: W, S]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "ENVE 223, MATH 115; 3A Environmental or Geological Engineering.",
+            "antirequisites": "CHE 37",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-ENVE.html#ENVE321",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005244",
+            "subject": "ENVE",
+            "catalog_number": "330",
+            "title": "Lab Analysis and Field Sampling Techniques",
+            "units": 0.5,
+            "description": "An introduction to the fundamental concepts of physical and chemical measurement of the environment. Review of basic statistics, quality assurance and control, sources of error, seasonal effects, sample preservation. Practical and essential elements of water, soil and air sampling. Introduction to measurement techniques including: colorimetry, chromatography, spectroscopy, electrochemical probes, remote sensing. Design of monitoring strategies, and use of methods to assess validity of laboratory data. [Offered: S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "3A Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE330",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014965",
+            "subject": "ENVE",
+            "catalog_number": "335",
+            "title": "Decision Making for Environmental Engineers",
+            "units": 0.5,
+            "description": "Decision-making, optimization, and assessment of environmental and water resource systems and the design process in environmental engineering. Multi-criteria decision-making methods for concept and embodiment engineering design phases. Risk-based system performance metrics and trend tests. Uncertainty estimation via First-Order Uncertainty Analysis and Monte Carlo Simulation. Formulation and solution of linear, integer and nonlinear optimization models. Multi-objective optimization methods. Sensitivity analysis for decision-making and descriptive (numerical) models. [Offered: W, first offered Winter 2019]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Environmental Engineering.",
+            "antirequisites": "CIVE 332, MSCI 331",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "first offered Winter 2019"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE335",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005248",
+            "subject": "ENVE",
+            "catalog_number": "375",
+            "title": "Physico-Chemical Processes",
+            "units": 0.5,
+            "description": "Fundamentals of coagulation, flocculation, clarification, sedimentation, filtration, adsorption, air stripping, membrane technologies, chemical reduction/oxidation, and disinfection processes with applications to natural and various engineered systems. Quantitative analysis and design of processes and applications to the treatment of drinking water, wastewater, stormwater, groundwater and soils. [Offered: S]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "CHE 102, ENVE 280; 3A Environmental Engineering.",
+            "antirequisites": "CIVE 375",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE375",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005249",
+            "subject": "ENVE",
+            "catalog_number": "391",
+            "title": "Law and Ethics for Environmental Engineers",
+            "units": 0.5,
+            "description": "Philosophy of environmental controls; introduction to national and international regulatory structures relevant to industrial planning, emissions control, environmental impact assessment, occupational health; stance of government, industry and community pressure groups. Contract law. Professional ethics, including the social responsibility of engineers, conflicts of interest. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "3B Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE391",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009253",
+            "subject": "ENVE",
+            "catalog_number": "398",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "3A Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE398",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009254",
+            "subject": "ENVE",
+            "catalog_number": "399",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "3B Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE399",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005253",
+            "subject": "ENVE",
+            "catalog_number": "430",
+            "title": "Environmental Engineering Project 1",
+            "units": 0.5,
+            "description": "Students must undertake an independent Environmental Engineering design project during the last two terms of their program. The purpose of the project is to demonstrate students' abilities to practise in an Environmental Engineering capacity in their chosen area of expertise, using knowledge gained from their academic and employment experiences. The first part of the project (ENVE 430) will include problem identification, generation and selection of solutions and time management. Incorporation of technical, ecological, social, political and economic issues in the solution for the project will be required. A basic requirement of the proposed solution is that it must be compatible with the principles of sustainability. Requirements include: proposal, progress report, and a final report containing recommendations for part two of the project, ENVE 431. [Offered: F]",
+            "instructions": [
+                "PRJ",
+                "TUT"
+            ],
+            "prerequisites": "4A Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-ENVE.html#ENVE430",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005254",
+            "subject": "ENVE",
+            "catalog_number": "431",
+            "title": "Environmental Engineering Project 2",
+            "units": 0.5,
+            "description": "A continuation of ENVE 430. The final design of the major Environmental Engineering project proposed in ENVE 430 will be undertaken. The purpose of this phase of the project is to carry out a detailed technical design of the solution proposed in ENVE 430. Requirements of this part of the two-term project include a final report. [Offered: W]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "4B Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-ENVE.html#ENVE431",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005255",
+            "subject": "ENVE",
+            "catalog_number": "472",
+            "title": "Wastewater Treatment",
+            "units": 0.5,
+            "description": "Wastewater quantity and characteristics. Primary treatment and secondary treatment. Reverse osmosis, ultra filtration, adsorption, air stripping, air flotation, chemical precipitation. Sludge treatment and disposal. Groundwater and leachate treatment. Industrial wastewater management. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "ENVE 375; 4A Civil, Geological or Environmental Engineering.",
+            "antirequisites": "CIVE 572",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE472",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009255",
+            "subject": "ENVE",
+            "catalog_number": "498",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "4A Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE498",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "009256",
+            "subject": "ENVE",
+            "catalog_number": "499",
+            "title": "Seminar",
+            "units": 0,
+            "description": "General Seminar",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "4B Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE499",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005256",
+            "subject": "ENVE",
+            "catalog_number": "573",
+            "title": "Contaminant Transport",
+            "units": 0.5,
+            "description": "Importance and complications associated with environmental modelling, the model building process, limitations, and measures of success. Types of contaminants; transport phenomena with a focus on advection-dispersive transport; development of governing equations; types and utility of boundary and initial conditions; and mass balance considerations. Review of completely mixed systems including lakes, streams, source functions, feedback systems, and toxic substance models. Model calibration, sensitivity, and uncertainty: methods and approaches. Solute transport models and solution techniques including random walk, method of characteristics, finite difference method and finite volume method. Aspects of multiphase flow (gas/water and NAPL/water systems) with an emphasis on groundwater problems. Introduction to mass removal technologies for remediation of soil and groundwater systems. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "ENVE 321, 375; Level at least 3B Civil, Geological or Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE573",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005257",
+            "subject": "ENVE",
+            "catalog_number": "577",
+            "title": "Engineering for Solid Waste Management",
+            "units": 0.5,
+            "description": "The engineering aspects of solid waste management are examined. Attention is given to the engineering design and operational aspects of the control of generation, storage, collection, transfer and transport, processing and disposal of solid wastes in landfill site. Design of natural attenuation sites and system reliability features for landfill designs. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 3B Environmental, Civil or Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE577",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014963",
+            "subject": "ENVE",
+            "catalog_number": "225",
+            "title": "Environmental Modelling",
+            "units": 0.75,
+            "description": "Modelling of environmental engineering processes via the solution of differential equations. Mass transfer processes in continuum and discrete systems, with applications to natural and engineered systems. Reactor theory. Understanding initial and boundary conditions. Classical and numerical solution techniques for solving differential equations. Volume and surface integration. Reynolds transport theorem. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "ENVE 223, CIVE 115; 2B Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE225",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014956",
+            "subject": "ENVE",
+            "catalog_number": "277",
+            "title": "Air Quality Engineering",
+            "units": 0.5,
+            "description": "Quantitative introduction to indoor and outdoor air pollution sources, and major processes including emission rates, atmospheric dispersion, chemistry, and deposition. Air quality standards and regulations. Basic atmospheric science and meteorology to support the fate and transport of air pollutants. Overview of control and treatment methods. Indoor air exposure estimates and the function of the HVAC components. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 2B Civil, Environmental or Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE277",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014957",
+            "subject": "ENVE",
+            "catalog_number": "279",
+            "title": "Energy and the Environment",
+            "units": 0.5,
+            "description": "Conservation of energy, energy balances on closed systems. Steady-state and transient heat transfer via convection, radiation, and conduction. Mechanical and electrical work. Internal energy, enthalpy, and specific heats of solids, liquids and gases. Phase change in natural environmental systems; The basics of heat engines, refrigerators, and heat pumps. Function, evaluation, and design of energy resource technology: wind and hydroelectric turbines, photovoltaics, geothermal energy, biomass and biofuel, natural gas and petroleum extraction, and tidal energy. Renewable energy policy and implications. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 2B Civil, Environmental, or Geological Engineering.",
+            "antirequisites": "CHE 330, ECE 309, ME 250, SYDE 381",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE279",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014964",
+            "subject": "ENVE",
+            "catalog_number": "280",
+            "title": "Fluid Mechanics",
+            "units": 0.5,
+            "description": "An introduction to fluid mechanics. Fluid properties. Review of fluid statics. Buoyancy. Bernoulli equation. The momentum equation and applications. Laminar and turbulent flow. Dimensionless numbers. Closed conduit flow including friction losses. Pipe network analysis including energy losses and efficiencies. Four lab sessions. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "CIVE 105; 2A Environmental or Geological Engineering.",
+            "antirequisites": "CIVE 280",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE280",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014966",
+            "subject": "ENVE",
+            "catalog_number": "376",
+            "title": "Biological Processes",
+            "units": 0.5,
+            "description": "Common microbial substrates and metabolisms in engineered and natural systems, kinetics of microbial growth, stoichiometry of nutrient uptake, continuous flow stirred tanks with/without recycle, aeration system design, applications to wastewater treatment, solid waste management, groundwater and soil remediation. [Offered: W, first offered Winter 2019]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "ENVE 375; 3B Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "first offered Winter 2019"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE376",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014958",
+            "subject": "ENVE",
+            "catalog_number": "383",
+            "title": "Advanced Hydrology and Hydraulics",
+            "units": 0.5,
+            "description": "Physical and mathematical models of hydrological processes at the landscape scale and hydraulic phenomena in channels. Advanced models of evapotranspiration and snow energy balances. Hydrologic modelling: parameterization, boundary conditions, calibration. Simulation of energy losses, backwater effects, and gradually varying flow profiles in open channels. Sediment transport, scour, and erosion. [Offered: W, first offered Winter 2019]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TST",
+                "TUT"
+            ],
+            "prerequisites": "CIVE 382; Level at least 3B Civil, Environmental, or Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "first offered Winter 2019"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ENVE.html#ENVE383",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005253",
+            "subject": "ENVE",
+            "catalog_number": "430",
+            "title": "Environmental Engineering Project 1",
+            "units": 0.5,
+            "description": "Students must undertake an independent Environmental Engineering design project during the last two terms of their program. The purpose of the project is to demonstrate students' abilities to practise in an Environmental Engineering capacity in their chosen area of expertise, using knowledge gained from their academic and employment experiences. The first part of the project (ENVE 430) will include problem identification, generation and selection of solutions and time management. Incorporation of technical, ecological, social, political and economic issues in the solution for the project will be required. A basic requirement of the proposed solution is that it must be compatible with the principles of sustainability. Requirements include: proposal, progress report, and a final report containing recommendations for part two of the project, ENVE 431. [Offered: F]",
+            "instructions": [
+                "PRJ",
+                "TUT"
+            ],
+            "prerequisites": "4A Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-ENVE.html#ENVE430",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "005254",
+            "subject": "ENVE",
+            "catalog_number": "431",
+            "title": "Environmental Engineering Project 2",
+            "units": 0.5,
+            "description": "A continuation of ENVE 430. The final design of the major Environmental Engineering project proposed in ENVE 430 will be undertaken. The purpose of this phase of the project is to carry out a detailed technical design of the solution proposed in ENVE 430. Requirements of this part of the two-term project include a final report. [Offered: W]",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "4B Environmental Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-ENVE.html#ENVE431",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

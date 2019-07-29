@@ -1,0 +1,448 @@
+{
+    "data": [
+        {
+            "course_id": "014671",
+            "subject": "BE",
+            "catalog_number": "600",
+            "title": "Management and Leadership",
+            "units": 0.5,
+            "description": "This course provides students with the opportunity to develop a range of soft skills and the business acumen necessary to maximize the likelihood of business success. Topics include communication and interpersonal skills, leadership and negotiation skills. A range of applied approaches are used, including integrated cases, simulations and interactions with the local business community.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE600",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013226",
+            "subject": "BE",
+            "catalog_number": "602",
+            "title": "Data Analysis and Management",
+            "units": 0.5,
+            "description": "Introduces students to the basic tools in using data to make informed management  decisions.  Coverage includes introductory probability, decision analysis, basic statistics, regression, simulation and linear optimization.  Computer spreadsheet exercises, cases and examples will be drawn from marketing, finance, operations manangement and other management functions.  MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE602",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013225",
+            "subject": "BE",
+            "catalog_number": "603",
+            "title": "Operations and Supply Chain Management",
+            "units": 0.5,
+            "description": "Introduces students to supply chain and operations management.  Covers systems integration, scheduling, forecasting, inventory management, quality management, lean thinking, supply chain management, supply chain collaboration and people and operations.  The course uses case studies, a simulation, class discussions, exercises and lectures covering a broad range of operations environments.  MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE603",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013224",
+            "subject": "BE",
+            "catalog_number": "604",
+            "title": "Marketing Management",
+            "units": 0.5,
+            "description": "This course looks at how organizations develop a market orientation and examines the development of marketing strategy in relation to target markets selected, competitive advantages created and exploited and market positioning.  The marketing mix of product, price promotion and distribution and the new product development process are also covered. MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng & MMSc Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE604",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013223",
+            "subject": "BE",
+            "catalog_number": "605",
+            "title": "Project Management",
+            "units": 0.5,
+            "description": "This course introduces students to the key areas of Project Management.  Specifically, the course objectives are to: 1) assist managers in identifying and scheduling project resources, 2) assist managers to conceptualize, plan, schedule, control and execute projects, 3) assist managers to be conversant in project risk management and 4) enable managers to gain a better understanding of the comprehensive nature of project management, including subjects such as best practices, leadership skills and operations.  MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE605",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013222",
+            "subject": "BE",
+            "catalog_number": "606",
+            "title": "Entrepreneurship and Innovation",
+            "units": 0.5,
+            "description": "This course introduces students to the theory underlying entrepreneurship, venture creation and innovation management, as well as its practical implications.  Topics covered include introduction to entrepreneurship and innovation, the dynamics of innovation, corporate entrepreneurship and commercializaiton, venture creation and the management of high-performance innovative teams. MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng & MMSc Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE606",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014672",
+            "subject": "BE",
+            "catalog_number": "610",
+            "title": "Special Topics in Business and Entrepreneurship",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng & MMSc Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE610",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013226",
+            "subject": "BE",
+            "catalog_number": "602",
+            "title": "Data Analysis and Management",
+            "units": 0.5,
+            "description": "Introduces students to the basic tools in using data to make informed management  decisions.  Coverage includes introductory probability, decision analysis, basic statistics, regression, simulation and linear optimization.  Computer spreadsheet exercises, cases and examples will be drawn from marketing, finance, operations manangement and other management functions.  MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE602",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013225",
+            "subject": "BE",
+            "catalog_number": "603",
+            "title": "Operations and Supply Chain Management",
+            "units": 0.5,
+            "description": "Introduces students to supply chain and operations management.  Covers systems integration, scheduling, forecasting, inventory management, quality management, lean thinking, supply chain management, supply chain collaboration and people and operations.  The course uses case studies, a simulation, class discussions, exercises and lectures covering a broad range of operations environments.  MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE603",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013224",
+            "subject": "BE",
+            "catalog_number": "604",
+            "title": "Marketing Management",
+            "units": 0.5,
+            "description": "This course looks at how organizations develop a market orientation and examines the development of marketing strategy in relation to target markets selected, competitive advantages created and exploited and market positioning.  The marketing mix of product, price promotion and distribution and the new product development process are also covered. MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng & MMSc Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE604",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013223",
+            "subject": "BE",
+            "catalog_number": "605",
+            "title": "Project Management",
+            "units": 0.5,
+            "description": "This course introduces students to the key areas of Project Management.  Specifically, the course objectives are to: 1) assist managers in identifying and scheduling project resources, 2) assist managers to conceptualize, plan, schedule, control and execute projects, 3) assist managers to be conversant in project risk management and 4) enable managers to gain a better understanding of the comprehensive nature of project management, including subjects such as best practices, leadership skills and operations.  MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE605",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013222",
+            "subject": "BE",
+            "catalog_number": "606",
+            "title": "Entrepreneurship and Innovation",
+            "units": 0.5,
+            "description": "This course introduces students to the theory underlying entrepreneurship, venture creation and innovation management, as well as its practical implications.  Topics covered include introduction to entrepreneurship and innovation, the dynamics of innovation, corporate entrepreneurship and commercializaiton, venture creation and the management of high-performance innovative teams. MEng and GDip students only.",
+            "instructions": [
+                "LEC",
+                "RDG",
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "GDip, MEng & MMSc Students Only"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BE.html#BE606",
+            "academic_level": "graduate"
+        }
+    ]
+}
