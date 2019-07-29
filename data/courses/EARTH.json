@@ -1,0 +1,3028 @@
+{
+    "data": [
+        {
+            "course_id": "009240",
+            "subject": "EARTH",
+            "catalog_number": "10",
+            "title": "Enhancing Communications Skills for Earth Sciences Students",
+            "units": 0,
+            "description": "The course develops communication skills to prepare Earth students for assignments, group work, oral presentations, and eventual thesis writing. The course combines Earth Science content and approaches to problem solving with specific learning objectives for written and spoken communication. Activities include a field trip and a tour of department laboratories.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "All Earth plans including Environmental Science/Geoscience; Not open to fourth year students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-EARTH.html#EARTH10",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004819",
+            "subject": "EARTH",
+            "catalog_number": "121",
+            "title": "Introductory Earth Sciences",
+            "units": 0.5,
+            "description": "This course explores the geological processes of the Earth's interior and surface. These include volcanism, earthquakes, mountain building, glaciation and weathering. Students will gain an appreciation of how these processes have controlled the evolution of our planet and the role of geology in meeting society's current and future demand for sustainable energy and mineral resources.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "CIVE 153, EARTH 153, ENVE 153, GEOE 153",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: EARTH 121L is recommended. Offered: F]",
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH121",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004820",
+            "subject": "EARTH",
+            "catalog_number": "121L",
+            "title": "Introductory Earth Sciences Laboratory",
+            "units": 0.25,
+            "description": "For students taking EARTH 121. Laboratory exercises on selected topics from EARTH 121 lectures. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH121L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004821",
+            "subject": "EARTH",
+            "catalog_number": "122",
+            "title": "Introductory Environmental Sciences",
+            "units": 0.5,
+            "description": "This course presents a broad overview of earth system processes and their influence on humans. Course emphasis is placed on anthropogenic impacts on natural systems, the impacts of geologic, biologic, and atmospheric processes on humans, and the effects of human activities on the environment. Course topics include sustainable development and the availability and use of natural resources, principles of ecology and environmental science, biogeochemical cycles, climate and climate change, soils and food supply, energy systems, surface water and groundwater, waste generation and management, pollution, and catastrophic natural processes.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "ENVS 195",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: EARTH 122L is recommended. Offered: W]",
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH122",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004822",
+            "subject": "EARTH",
+            "catalog_number": "122L",
+            "title": "Introductory Environmental Sciences Laboratory",
+            "units": 0.25,
+            "description": "For students taking EARTH 122. Laboratory exercises on selected topics from EARTH 122 lectures. [Offered: W]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH122L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004823",
+            "subject": "EARTH",
+            "catalog_number": "123",
+            "title": "Introductory Hydrology",
+            "units": 0.5,
+            "description": "Introduction to the main components of the hydrologic cycle including precipitation processes, evapotranspiration, soil water and groundwater flow, and surface water features. Emphasis will be placed on the atmospheric and geologic processes controlling water movement in the cycle at the global and local scales. Examples related to environmental impacts of urbanization and land-use management will be stressed. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": "EARTH 223",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH123",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004824",
+            "subject": "EARTH",
+            "catalog_number": "123L",
+            "title": "Field Methods in Hydrology",
+            "units": 0.25,
+            "description": "This course consists of outdoor field exercises designed to provide students with hands-on experience with a variety of hydrological monitoring techniques. Emphasis will be on the practical aspects of collecting, interpreting, and reporting of groundwater, surface water, meterological, and water quality data within a watershed. Tutorials will be used to evaluate and interpret the data collected and discuss the accuracy and limitations of the different techniques.",
+            "instructions": [
+                "LAB",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": "EARTH 123",
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: This course is meant to complement EARTH 123 but enrolment in EARTH 123L is optional. Additional field trip fees will apply. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1718",
+            "url": "http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-EARTH.html#EARTH123L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004826",
+            "subject": "EARTH",
+            "catalog_number": "221",
+            "title": "Geochemistry 1",
+            "units": 0.5,
+            "description": "Origin, abundance and geochemistry of elements. Introduction to stable isotope geology and radiometric dating. Basic aqueous geochemistry. [Offered: W,S]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "CHEM 123 or 2A or higher Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH221",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004827",
+            "subject": "EARTH",
+            "catalog_number": "223",
+            "title": "Field Methods in Hydrology",
+            "units": 0.5,
+            "description": "This course consists of field exercises, lectures and laboratory experiments designed to provide students with hands-on experience with a variety of hydrological monitoring techniques. Emphasis will be on the practical aspects of collecting, interpreting, and reporting of groundwater, surface water, meteorological, and water quality data.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "EARTH 123L",
+            "corequisites": "EARTH 123;",
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: Additional field trip fees will apply; Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH223",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004828",
+            "subject": "EARTH",
+            "catalog_number": "231",
+            "title": "Mineralogy",
+            "units": 0.5,
+            "description": "This course provides a systematic study of the physical and chemical properties of the major rock-forming silicate minerals. Study of mineral chemistry, the internal geometry of crystalline solids and the interrelationship of crystal structure to the physical and chemical properties of minerals. Laboratory work focuses on observing and evaluating the physical properties of minerals and rocks in hand sample in order to identity them. This course includes a weekend field trip to Bancroft, Ontario.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 121, 121L or EARTH 153 or CIVE 153 or GEOE 153 or ENVE 153",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: Additional field trip fees will apply; Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH231",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004829",
+            "subject": "EARTH",
+            "catalog_number": "232",
+            "title": "Petrography",
+            "units": 0.5,
+            "description": "An introduction to optical mineralogy. Basic theory of the behaviour of light through minerals; concept of indicatrices; understanding relief, retardation, birefringence, interference figures and other optical properties of minerals. Microscopic examination of important rock forming minerals and the identification of igneous, metamorphic, and sedimentary rocks. Introduction to silicate phase equilibria; use of mineral stability diagrams to understand igneous and metamorphic petrogenesis. [Offered: W,S]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 231",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH232",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004830",
+            "subject": "EARTH",
+            "catalog_number": "235",
+            "title": "Stratigraphic Approaches to Understanding Earth's History",
+            "units": 0.5,
+            "description": "An introduction to stratigraphic principles and methods used in deciphering geological history. The development of stratigraphic sequences as controlled by global and regional tectonics and sea level fluctuations. Interrelating aspects of Earth's physical, chemical and biological history. Examples are drawn primarily from Canadian geology. Laboratory work will include construction and interpretation of various types of maps and cross sections. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 121, 121L or EARTH 153 or CIVE 153 or GEOE 153 or ENVE 153",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH235",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004831",
+            "subject": "EARTH",
+            "catalog_number": "236",
+            "title": "Principles of Paleontology",
+            "units": 0.5,
+            "description": "The principles of paleontology with particular stress on the paleontological concepts; examples will be drawn primarily from the fossil record of invertebrates. Laboratory work will include projects related to lecture topics. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 121, 121L or 122, 122L or 153 or CIVE 153 or CIVE 253 or GEOE 153 or ENVE 153",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1415",
+            "url": "http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-EARTH.html#EARTH236",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004832",
+            "subject": "EARTH",
+            "catalog_number": "238",
+            "title": "Introductory Structural Geology",
+            "units": 0.5,
+            "description": "Concepts of stress and strain; elementary rock mechanics; description and classification of folds, faults, foliations, lineations and joints; use of primary structures; introduction to geometrical analysis. Labs will emphasize geometrical problems, including geological maps and cross sections, and stereographic projection. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "EARTH 121, 121L or 122, 122L or 153 or CIVE 153 or GEOE 153 or ENVE 153",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH238",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004833",
+            "subject": "EARTH",
+            "catalog_number": "260",
+            "title": "Applied Geophysics 1",
+            "units": 0.5,
+            "description": "An introduction to seismic, gravity, electric, electromagnetic and magnetic methods of exploration geophysics. [Offered: F]",
+            "instructions": [
+                "FLD",
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "PHYS 112 or 122 or 125",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH260",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012741",
+            "subject": "EARTH",
+            "catalog_number": "270",
+            "title": "Disasters and Natural Hazards",
+            "units": 0.5,
+            "description": "The course will examine the physical causes and affects of natural disasters including landslides, snow avalanches, earthquakes, tsunamis, hurricanes, tornadoes, flooding, subsidence, volcanic eruptions and asteroid impacts. Illustrated by case histories, the course will analyse the factors that lead to disasters. The effect of climate change, human activity, and population growth on the magnitude and frequency of disasters will be explored. The course will introduce the basic principles of Geo-Risk management and its applications in natural hazards engineering, in the development of mitigation strategies and in the re-insurance industry. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH270",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "011909",
+            "subject": "EARTH",
+            "catalog_number": "281",
+            "title": "Geological Impacts on Human Health",
+            "units": 0.5,
+            "description": "The importance of geology to health. This includes examining the effects of volcanic gases and dust and other aerosols; tracing the sources and impacts of metals and other naturally occurring geological materials in the Earth's hydrosphere and crust; geology and the bioaccumulation of metals; and distinguishing natural versus anthropogenic processes on the geochemical distribution of toxic material in the near-surface environment. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH281",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004835",
+            "subject": "EARTH",
+            "catalog_number": "331",
+            "title": "Volcanology and Igneous Petrology",
+            "units": 0.5,
+            "description": "The principles and theories of the origins of volcanic and plutonic igneous rocks. Physics and chemistry of magma; controls of volcanic eruptions, magmatic differentiation and the distribution and occurrence of magma types. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 231 and EARTH 232",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH331",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004836",
+            "subject": "EARTH",
+            "catalog_number": "332",
+            "title": "Metamorphic Petrology",
+            "units": 0.5,
+            "description": "Principles and theories of metamorphic rock genesis. Static, dynamic and polyphasal crystalloblastic growth. Processes of solid-state crystallization in metamorphic environments. Zonal and facies classifications; facies series and the place of metamorphism in global tectonics. Introduction to metasomatism. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 231 and EARTH 232",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH332",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004837",
+            "subject": "EARTH",
+            "catalog_number": "333",
+            "title": "Introductory Sedimentology",
+            "units": 0.5,
+            "description": "The origin and physical properties of sediments. Fluid flow, glacier motion and sediment transport processes. Mechanical and chemical erosion rates, sediment fluxes and budget. Facies models of the major depositional environments. Diagenetic processes. Laboratories focussed on the description and interpretation of sediments and sedimentary rocks. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 231, 232, 235",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH333",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004839",
+            "subject": "EARTH",
+            "catalog_number": "342",
+            "title": "Geomorphology and GIS Applications",
+            "units": 0.5,
+            "description": "An introduction of geomorphology with emphasis on landscape-forming processes. Characteristics and development of various landforms (e.g. mountain belts, volcanoes, impact craters, and those created by erosion/deposition of rivers/glaciers) are introduced. Skills for interpreting landforms in air photos or satellite images (in Google Earth or ArcGIS) are practised in the lab work. Application of Geographic Information Systems (GIS) to Earth Sciences. Basic concepts of GIS and GIS applications in mineral exploration industry and in fieldwork are introduced. Laboratory work of GIS involves map construction and spatial analysis (e.g. landslide hazard assessment). [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 121 or 122 or 153 or CIVE 153 or ENVE 153 or GEOE 153 or SCI 250",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH342",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004842",
+            "subject": "EARTH",
+            "catalog_number": "358",
+            "title": "Earth System Science",
+            "units": 0.5,
+            "description": "Study of the Earth as a system, with a focus on global climate history and dynamics, biogeochemical cycling, and the impacts of human activity. Critical analysis and synthesis are emphasized in the context of group presentations and discussions. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "One of (EARTH 121, 121L, or 122, 122L or EARTH 126 or 153 or GEOE 126 or CIVE 153 or CIVE 253 or GEOE 153 or ENVE 153) and (CHEM 123 or 125) and (EARTH 221 or EARTH 231).",
+            "antirequisites": "SCI 201",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH358",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004843",
+            "subject": "EARTH",
+            "catalog_number": "359",
+            "title": "Flow Through Porous Media",
+            "units": 0.5,
+            "description": "Quantitative introduction to the physical principles that govern the flow of fluids through porous and fractured geologic materials. Physical properties of fluids and porous media will be presented and conservation, flux and state equations will be developed. Physics of flow of immiscible fluids, including air-water and oil-water combinations will be included. [ Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "One of MATH 116, 117, 127, 137, 147; One of MATH 118, 119, 128, 138, 148; (EARTH 121, 121L or 122, 122L or CIVE 153 or 253 or GEOE 153 or ENVE 153)",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1718",
+            "url": "http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-EARTH.html#EARTH359",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004848",
+            "subject": "EARTH",
+            "catalog_number": "390",
+            "title": "Methods in Geological Mapping",
+            "units": 0.5,
+            "description": "Field study in Sudbury and Whitefish Falls areas. Held for at least 9 days at end of the Winter term. Geological and geotechnical field techniques, map construction, report writing.",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "EARTH 235;",
+            "antirequisites": null,
+            "corequisites": "EARTH 238",
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: Additional field trip fees will apply to all students. Depending on availability of space, EARTH 390 is also open to students who do not require this course in their plan. There will be an additional fee for such students. Offered: W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH390",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004849",
+            "subject": "EARTH",
+            "catalog_number": "421",
+            "title": "Geochemistry 2",
+            "units": 0.5,
+            "description": "The application of chemical thermodynamics to geochemical problems. Development of the three laws of Thermodynamics; Gibbs free energy and equilibria constants. Introduction to various topics in aqueous geochemistry such as mineral equilibria, ion exchange and redox equilibria. Laboratory session will involve various experiments related to mineral solubility, chemical kinetics, acid-base equilibria and chemical modelling. [Offered: F]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 221 and CHEM 123",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH421",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004854",
+            "subject": "EARTH",
+            "catalog_number": "435",
+            "title": "Advanced Structural Geology",
+            "units": 0.5,
+            "description": "Stress and strain; deformational behaviour of rocks; origin of folds, foliations, lineations, joints and faults; geometrical and kinematic analysis; relationships of structures from the microscopic to the megascopic scale. Labs will include simple experiments, advanced geometrical problems and observation and measurement of microstructure and fabric.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 238",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: EARTH 332 is recommended as a prerequisite. Offered: W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH435",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004855",
+            "subject": "EARTH",
+            "catalog_number": "436A",
+            "title": "Honours Thesis",
+            "units": 0.5,
+            "description": "The first term of a two-term supervised research project in which students plan and conduct research. Students learn to gather and interpret data and present their findings in a formal seminar and written thesis.",
+            "instructions": [
+                "PRJ",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 4A; Honours Earth Sciences, Environmental Science (Geoscience Specialization) and Geochemistry students.",
+            "antirequisites": "EARTH 499",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Students outside the Honours Earth Sciences, Environmental Science (Geoscience Specialization) and Geoscience programs, require department consent and program advisor permission to enroll]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH436A",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004856",
+            "subject": "EARTH",
+            "catalog_number": "436B",
+            "title": "Honours Thesis",
+            "units": 0.5,
+            "description": "The second term of a two-term supervised research project in which students plan and conduct research. Students learn to gather and interpret data, and present their findings in a formal seminar and written thesis.",
+            "instructions": [
+                "PRJ",
+                "TUT"
+            ],
+            "prerequisites": "EARTH 436A",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Students outside the Honours Earth Sciences, Environmental Science (Geoscience Specialization) and Geoscience programs, require department consent and program advisor permission to enroll]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH436B",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004857",
+            "subject": "EARTH",
+            "catalog_number": "437",
+            "title": "Rock Mechanics",
+            "units": 0.5,
+            "description": "Stress, strain and strength in geomaterials. Origins of stress and stress measurement methods, including hydraulic fracture and strain relief. Rock Mechanics principles and design procedures in areas of mining, civil engineering and petroleum engineering. Monitoring methods, including introduction to microseismic surveillance. Course includes laboratory and project work.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 3A",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: Prerequisites are not listed for this course which is highly suitable for interested Engineering and Science students. However, some background in engineering, materials science, mechanics or structural geology is recommended; Offered: W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH437",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004858",
+            "subject": "EARTH",
+            "catalog_number": "438",
+            "title": "Engineering Geology",
+            "units": 0.5,
+            "description": "Review of basic concepts in engineering geology as applied to rock and soil, including material properties, variability in properties, external factors such as stress, and evaluation of design adequacy. Site investigation and characterisation techniques used to define and characterise the properties of geological materials and their use in selected engineering geologic design and construction problems. Laboratory assignments will focus on the determination of physical properties and site assessment problems. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "One of EARTH 121, 153, GEOE 153, CIVE 153, ENVE 153",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH438",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004860",
+            "subject": "EARTH",
+            "catalog_number": "440",
+            "title": "Quaternary Geology",
+            "units": 0.5,
+            "description": "Glacial-interglacial cycles and sub-Milankovitch oscillations from ocean sediments and ice cores. Quaternary geochronology. Glacial sediment-land systems. Mineral exploration techniques pertaining to glaciated terrains and hydrostratigraphic analyses of Quaternary basins. Local field trips. Laboratory studies on glacial sediments.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 333 or 342",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: Additional field trip fees will apply. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH440",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004862",
+            "subject": "EARTH",
+            "catalog_number": "456",
+            "title": "Numerical Methods in Hydrogeology",
+            "units": 0.5,
+            "description": "An introduction to the theory and practice of groundwater flow and contaminant transport modeling. Topics related to variably-saturated flow will focus on: derivation of Richard's equation, a control volume finite difference discretization, assembly and solution of the flow equation, material balance error, truncation error analysis, stability and monotonicity. Topics related to contaminant transport will focus on: derivation of the contaminant transport equation, a control volume finite difference discretization along with various spatial and temporal weighting schemes and their associated accuracy, monotonicity, and material balance error. Hands on experience is provided using software applied to industry-standard variably-saturated flow and transport problems, with an emphasis on visualization and interpretation of results.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Not open to students in the Faculty of Mathematics",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: EARTH 458, a first year linear algebra and a second year calculus course are recommended. Offered: W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH456",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004863",
+            "subject": "EARTH",
+            "catalog_number": "458",
+            "title": "Physical Hydrogeology",
+            "units": 0.5,
+            "description": "An introduction to physical hydrogeology, including Darcy's law, the groundwater flow equations for steady-state and transient conditions, applications to flow nets, aquifer testing, groundwater resources, and groundwater protection. The role of groundwater in the hydrologic cycle is explored with emphasis on natural groundwater flow systems and their influence on stream flow. Physical processes controlling groundwater contamination are introduced.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 121, 121L or 122, 122L or CIVE 153 or ENVE 153 or GEOE 153",
+            "antirequisites": null,
+            "corequisites": "EARTH 458L",
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": "[Note: EARTH 123 is recommended as a prerequisite. Offered: F,S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH458",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013108",
+            "subject": "EARTH",
+            "catalog_number": "458L",
+            "title": "Field Methods in Hydrogeology",
+            "units": 0.25,
+            "description": "This course exposes students to a wide variety of field and laboratory techniques for collecting hydrogeologic data and to gain experience in interpreting the data. Advantages and limitations of various measurement and data reduction techniques for evaluating groundwater flow systems are demonstrated in a set of field exercises carried out at the groundwater demonstration facility located on the university North Campus. These exercises illustrate the complexity of natural systems and the need for good data collection and interpretation skills when characterizing such systems . [Offered: F,S]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": "EARTH 458",
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH458L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004864",
+            "subject": "EARTH",
+            "catalog_number": "459",
+            "title": "Chemical Hydrogeology",
+            "units": 0.5,
+            "description": "An introduction to the chemical side of hydrogeology with emphasis on groundwater quality and contaminants in the groundwater zone, the geochemical origin of major ions in natural groundwater, causes of hardness, groundwater age determination using isotopes, common causes of groundwater contamination; processes governing contaminant behaviour including dispersion, diffusion and adsorption, hydrogeologic aspects of site selection for waste disposal. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "EARTH 221, CIVE 375 or ENVE 375; and EARTH 458",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH459",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004865",
+            "subject": "EARTH",
+            "catalog_number": "460",
+            "title": "Applied Geophysics 2",
+            "units": 0.5,
+            "description": "A detailed examination of selected topics in exploration geophysics, with an emphasis on data processing, time series analysis and computer modelling of geophysical responses.",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "EARTH 260",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: A full credit in first year Calculus is recommended as a prerequisite. Offered: W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH460",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004866",
+            "subject": "EARTH",
+            "catalog_number": "461",
+            "title": "Applied Geophysics 3",
+            "units": 0.5,
+            "description": "An application-oriented course emphasizing current methodology in near-surface geophysics, including electrical, electromagnetic, ground penetrating radar, seismic refraction and magnetic methods. The basic theory for geophysical data acquisition and interpretation is studied and applied to field data. The application of geophysical techniques to archeological, forensics, geotechnical and hydrogeological problems is discussed. [Offered: F]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "EARTH 260",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH461",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013109",
+            "subject": "EARTH",
+            "catalog_number": "461L",
+            "title": "Field Methods in Applied Geophysics",
+            "units": 0.25,
+            "description": "Field exercises involving the use of standard near-surface geophysical methods. The practical aspects of performing geophysical surveys are a central theme of this course. [Offered: F]",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": "EARTH 461",
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1516",
+            "url": "http://www.ucalendar.uwaterloo.ca/1516/COURSE/course-EARTH.html#EARTH461L",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004868",
+            "subject": "EARTH",
+            "catalog_number": "471",
+            "title": "Mineral Deposits",
+            "units": 0.5,
+            "description": "The principles of metal concentration and deposition in magmatic and hydrothermal environments. Classic ore deposits are examined using these principles, including applications of fluid inclusion, stable isotope and mineral stability to ore-forming processes. Basic aspects of mineral exploration are also covered. Laboratories involve hand sample and ore petrology of suites from diverse deposits. [Offered: W]",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "EARTH 221, 232",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH471",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004869",
+            "subject": "EARTH",
+            "catalog_number": "490",
+            "title": "Field Course",
+            "units": 0,
+            "description": "One or more trips that emphasize field observations. Specific trips may be organized to examine field aspects of any of the disciplines within Earth Sciences or Geological Engineering. Field exercises and reports may be part of the requirements. Additional field trip fees will apply.",
+            "instructions": [
+                "LAB"
+            ],
+            "prerequisites": "Level at least 3A; Honours Earth Sciences or Environmental Science (Geoscience Specialization) or Geological Engineering",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH490",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014141",
+            "subject": "EARTH",
+            "catalog_number": "491",
+            "title": "Special Topics in Earth and Environmental Sciences",
+            "units": 0.5,
+            "description": "A lecture course offered in a particular area of Earth and Environmental Sciences, subject to availablity of instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Earth and Environmental Sciences and Geological Engineering students.",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH491",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013756",
+            "subject": "EARTH",
+            "catalog_number": "499",
+            "title": "Research Project",
+            "units": 0.5,
+            "description": "A one-term supervised research project in which students plan and conduct research. Students learn to gather and interpret data and present their findings in a formal seminar and written report.",
+            "instructions": [
+                "PRJ",
+                "TUT"
+            ],
+            "prerequisites": "Level at least 4A; Honours Earth Sciences or Environmental Science (Geoscience Specialization).",
+            "antirequisites": "EARTH 436A, 436B",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Students outside the Honours Earth Sciences, Environmental Science (Geoscience Specialization) and Geoscience programs, require department consent and program advisor permission to enroll]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH499",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "000876",
+            "subject": "EARTH",
+            "catalog_number": "601",
+            "title": "Stratigraphic Paleontology",
+            "units": 0.5,
+            "description": "Analysis of the factors controlling the distribution of organisms and fossils. Important zone fossils of invertebrates, vertebrates, and plants will be studied with reference to their vertical and lateral distribution. Problems of migration, dispersal, and provincialism will be considered in detail.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH601",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000877",
+            "subject": "EARTH",
+            "catalog_number": "602",
+            "title": "Paleontology",
+            "units": 0.5,
+            "description": "Selected topics in paleontology will be studied in depth with emphasis on evolution and paleoecology.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH602",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010449",
+            "subject": "EARTH",
+            "catalog_number": "603",
+            "title": "Micropaleontology",
+            "units": 0.5,
+            "description": "A systematic examination of major groups of microfossils, particularly palynomorphs, and insects, with emphasis on their classification, evolution, paleoecology and stratigraphic application.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH603",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000879",
+            "subject": "EARTH",
+            "catalog_number": "606",
+            "title": "Principles of Palynology",
+            "units": 0.5,
+            "description": "The morphology, taxonomy, biostratigraphy and paleoecology of marine and non-marine palynomorphs from Paleozoic to Recent time are examined. Palynomorph morphology and taxonomic principles and methods of pollen analysis, pollen dispersal, deposition and preservation are explored and related to the geological record and their use in environmental reconstructions. The role of pollen analysis in Quaternary paleoecology is presented.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 236 or consent of Instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH606",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000880",
+            "subject": "EARTH",
+            "catalog_number": "610",
+            "title": "Sedimentology - Recent Sediments",
+            "units": 0.5,
+            "description": "The origin of recent clastic and non-clastic sediments, the study of composition, structures, relationships, and environments towards an interpretation of ancient sedimentary rocks. The origin and significance of sedimentary structures, environmental associations, sedimentological models, hydrodynamics.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH610",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000881",
+            "subject": "EARTH",
+            "catalog_number": "611",
+            "title": "Sedimentology - Ancient Sediments",
+            "units": 0.5,
+            "description": "Interpretation of ancient sedimentary rocks. Sedimentation and tectonics, basin evolution, continental margins. Ancient clastic and chemical suites, diagenetic indicators, evolution of sedimentary suites through time.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH611",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000882",
+            "subject": "EARTH",
+            "catalog_number": "612",
+            "title": "Carbonate Sedimentology",
+            "units": 0.5,
+            "description": "Weekly seminars will introduce current concepts in a variety of subject areas in the deposition and diagenesis of carbonate sediments. Laboratory exercises will involve study of Pleistocene and older carbonate rock suites from a selection of geologic settings. Several laboratories will be devoted to introduction of common analytical techniques such as cathodoluminescence and SEM.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 333 or 433",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH612",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000883",
+            "subject": "EARTH",
+            "catalog_number": "620",
+            "title": "Metamorphic Tectonites",
+            "units": 0.5,
+            "description": "The study of textural and structural features of deformed metamorphic rocks. A synthesis of micro- and mega-scopic techniques directed at elucidating sequences of deformation and crystallization. Quantitative methods in the study of deformed rocks. Elements of style and symmetry in tectonites.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH620",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000884",
+            "subject": "EARTH",
+            "catalog_number": "621",
+            "title": "Aqueous Geochemistry",
+            "units": 0.5,
+            "description": "a) Basic thermodynamics and activity-fugacity relationships. Chemical equilibria, ion association and complexing, oxidation-reduction reactions. Models for aqueous equilibria in high concentration solutions. b) Interaction of groundwater with porous media; mineral dissolution/precipitation reaction kinetics, ion exchange, surface ionization of oxides. c) Use of computer codes such as PHREEQE and GEOCHEM to simulate mass transfer in geochemical systems. Examining and modelling chemical evolution in groundwater flow systems.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 421",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH621",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000885",
+            "subject": "EARTH",
+            "catalog_number": "622",
+            "title": "Environmental Isotope Hydrology and Geochemistry",
+            "units": 0.5,
+            "description": "This course explores the application of environmental isotopes (principally 2H, 13C, 15N, 18O,34S) as tracers of inorganic and organic processes and cycles in nature, with an emphasis on the use of isotope tracers in water and climate studies, including runoff generation analysis, isotope-mass balance studies, climatology and paleoclimatology, and in studies of biogeochemical cycling.  Other topics are tailored to student interest and research focus across the broad spectrum of geological, hydrological and biological questions that can be addressed using isotope techniques.  Note: Open to graduate students in physical and biological sciences, physical geography and engineering.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH622",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000886",
+            "subject": "EARTH",
+            "catalog_number": "623",
+            "title": "Geochemistry of Hydrothermal Ore Deposits",
+            "units": 0.5,
+            "description": "Application of light and heavy stable isotope systems as process tracers and exploration tools for a wide variety of low-temperature and high-temperature ore deposits.  The use of stable isotopes for oil-oil and oil-source rock correlations and for reconstruction of local and global redox conditions during deposition of petroleum source rocks.  Offered in alternate years.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH623",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000888",
+            "subject": "EARTH",
+            "catalog_number": "625",
+            "title": "Advanced Petrology",
+            "units": 0.5,
+            "description": "Advanced numerical techniques and theory in quantifying the behavior of rocks and fluids at high temperatures and pressues.  Application of experimental and natural data to the study of tectonic, metamorphic and igneous processes.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH625",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014365",
+            "subject": "EARTH",
+            "catalog_number": "626",
+            "title": "Global Biogeochemical Cycles",
+            "units": 0.5,
+            "description": "The global cycles of carbon, oxygen, nitrogen, phosphorus , sulfur, silicon and iron, are intimately linked to the chemical composition of the atmosphere and ocean, earth's climate, global biological productivity and diversity, and the evolution of sedimentary rocks.  This course focuses on the quantitative representation of the processes and mechanisms driving the global biogeochemical cycles of carbon and nutrient elements on both short (100-104 years) and long (>104 years) time scales.  Attention will also be given to the perturbation of biogeochemical cycles by human activity.  To explore the interactions between the processes, as well as between the elemental cycles themselves, we will use mass balance models.  Each student will carry out an independent project based on an elemental cycle of his/her choice.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH626",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000889",
+            "subject": "EARTH",
+            "catalog_number": "630",
+            "title": "Genesis of Metalliferous Ore Deposits",
+            "units": 0.5,
+            "description": "Selected topics will be studied in depth with emphasis on deposits associated with volcanic activity.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH630",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000890",
+            "subject": "EARTH",
+            "catalog_number": "631",
+            "title": "Field Methods in Soil and Rock Mechanics",
+            "units": 0.5,
+            "description": "Site investigation techniques for strength and deformation properties, load tests, bore hole tests, rock classification, monitoring methods and instrumentation, borehole geophysics for geomechanical properties, correlation to case histories.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH631",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010450",
+            "subject": "EARTH",
+            "catalog_number": "632",
+            "title": "Geology of Industrial Minerals",
+            "units": 0.5,
+            "description": "Geological aspects of locating, working and utilizing industrial minerals and constructional materials. Problems of quantity, quality and value of such deposits will be evaluated and will be specifically related to those deposits in Southern Ontario. Mineral economics and urban geology will be considered. Field trips will be an important part of the practical work of the course.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH632",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000891",
+            "subject": "EARTH",
+            "catalog_number": "634",
+            "title": "Geomechanics of In Situ Processes",
+            "units": 0.5,
+            "description": "Geomechanics of in situ methods of energy recovery for heavy oil and minerals. Thermoelasticity, hydraulic fracture geomechanics, multi-phase system compressibility, remote and direct monitoring methods.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH634",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000892",
+            "subject": "EARTH",
+            "catalog_number": "635",
+            "title": "Clay Mineralogy",
+            "units": 0.5,
+            "description": "Structure, classification, properties, and nomenclature of clay materials. Genesis and environmental and engineering significance of clay minerals. Identification of clay minerals by X-ray diffractometry and other techniques. Clay minerals in diagenesis and sedimentary basin analysis.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH635",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000893",
+            "subject": "EARTH",
+            "catalog_number": "638",
+            "title": "Advanced Engineering Geology",
+            "units": 0.5,
+            "description": "Time dependent behaviour of rocks, Griffiths crack theory, failure criteria for rocks, in situ stresses and their origins, behaviour of discontinuous rock masses, introductions to analytic and numerical methods for rock mechanics. Case studies, term project.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 437",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH638",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000894",
+            "subject": "EARTH",
+            "catalog_number": "640",
+            "title": "Quaternary Geology of North America",
+            "units": 0.5,
+            "description": "Selected topics in the North American Quaternary such as Great Lakes history, Canadian organic deposits and fossil record, glacial and non-glacial stratigraphy, and the history of the last continental ice-sheet.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 440 or consent of Instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH640",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000895",
+            "subject": "EARTH",
+            "catalog_number": "641",
+            "title": "Advanced Quaternary Ecology",
+            "units": 0.5,
+            "description": "Discussion of current topics in Quaternary ecology at the advanced level. Emphasis will be on application and significance of Quaternary ecological techniques to paleoenvironmental reconstructions, climatic change, land-use history, anthropogenic disturbance, and environmental modelling.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 441 or consent of Instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH641",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000896",
+            "subject": "EARTH",
+            "catalog_number": "642",
+            "title": "Geoliminology",
+            "units": 0.5,
+            "description": "An introduction to basic concepts on the morphology, geology, geochemistry, sediment-related processes, and paleoecology of lakes. The focus is on the lake/watershed system and processes of the water column and associated terrestrial processes.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH642",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014638",
+            "subject": "EARTH",
+            "catalog_number": "643",
+            "title": "Nutrients in Watersheds",
+            "units": 0.5,
+            "description": "Nutrients such as nitrogen (N), phosphorus (P), silica (Si) and carbon (C) are vital to organisms, and play an essential role in our everyday life.  Used in excess, they can also become a nuisance with unwanted effects on the environment.  This course focuses on nutrients from a hydrological perspective, using a river basin based viewpoint.  The course covers general nutrient cycles, then nutrient budgets in watersheds, and how to model nutrient fluxes in catchments, using different approaches.  We will also discuss pollution history, using nutrients and metal pollution in river basins over the last centuries.  This will enable students to understand challengers that might arise from a variety of issues, from pollution history to current practices.  Individual student projects will be based on either a particular element or a particular model.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH643",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000897",
+            "subject": "EARTH",
+            "catalog_number": "644",
+            "title": "Global Problems of Quaternary Geology",
+            "units": 0.5,
+            "description": "Selected topics with global perspective, such as the deep sea record, long terrestrial records, Quaternary time boundaries, dating methods, paleotemperature analyses, isostasy, and sea level changes.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH644",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000898",
+            "subject": "EARTH",
+            "catalog_number": "645",
+            "title": "Geology of the Great Lakes Region",
+            "units": 0.5,
+            "description": "Selected topics dealing with the stratigraphy, paleontology, tectonic development, and economic geology of the Great Lakes Basin. Approximately one third of the course will be devoted to each of Precambrian, Paleozoic, and Quaternary geology.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH645",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000899",
+            "subject": "EARTH",
+            "catalog_number": "650",
+            "title": "Physical Processes in Groundwater Systems",
+            "units": 0.5,
+            "description": "This course aims to deepen the student's understanding of physical processes occurring in natural groundwater systems. Flow and transport processes and their interrelationships with the characteristics of the porous medium are studied and the governing equations developed. Topics covered include the fundamental concepts of physical hydrogeology, flow in the saturated and unsaturated zones, flownet analysis, immiscible flow of non-aqueous phase liquids (NAPLs), contaminant transport in porous and fractured media, stochastic principles of transport in heterogeneous media, coupled nonlinear processes, and applications in groundwater contamination/remediation. Recommended: EARTH 456 (can be taken concurrently with EARTH 650).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MATH 213A and EARTH 359 or 458",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH650",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000900",
+            "subject": "EARTH",
+            "catalog_number": "651",
+            "title": "Advanced Groundwater Modelling",
+            "units": 0.5,
+            "description": "This course covers advanced numerical modelling topics in groundwater flow and contaminant transport in the subsurface. Topics to be explored include two- and three-dimensional transport in groundwater systems, density/ heat-dependent flow/transport, flow in the vadose zone, immiscible flow of non-aqueous phase liquids, multiphase dissolution and mass transfer processes, transport of biodegrading or chemically interacting contaminants, transport in fractured systems, transport in the vapour phase. The focus is on the use of models to obtain insight into the complex coupled processes that control groundwater contamination and remediation problems. Students will work with their own as well as existing models.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 456 or 650 and 656",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH651",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000901",
+            "subject": "EARTH",
+            "catalog_number": "653",
+            "title": "Contaminant Hydrogeology",
+            "units": 0.5,
+            "description": "Physical and chemical processes influencing contaminant behaviour in groundwater with emphasis on field approaches. Interpretation of process effects in the context of various causes of groundwater contamination such as those related to landfills, chemical spills, mining and agriculture. Field experiments and case studies. (EARTH 621 and EARTH 657 or equivalent are recommended).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH653",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000902",
+            "subject": "EARTH",
+            "catalog_number": "654",
+            "title": "Groundwater Research Management",
+            "units": 0.5,
+            "description": "Advanced topics in the design and analysis of aquifer tests, behaviour of aquifer-aquitard systems, aquifer exploration, groundwater resource evaluation in undeveloped areas, artificial recharge, induced recharge, conjunctive use of surface water and groundwater, effects of excessive groundwater withdrawals, role of analog and digital models in groundwater management.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 458 and 650 or consent of Instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH654",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000903",
+            "subject": "EARTH",
+            "catalog_number": "656",
+            "title": "Groundwater Modelling",
+            "units": 0.5,
+            "description": "This course is an enriched version of EARTH 456 for graduate students. It introduces the student to numerical modelling techniques in groundwater science, with an emphasis on a sound understanding of the fundamental principles as a basis for developing and using models in a research environment. Numerical techniques including finite difference, finite element, and particle tracking methods are studied and applied to the solution of problems in groundwater flow, aquifer mechanics, flownet generation, and advective-dispersive transport. Proper modelling approaches, error analysis, stability, discretization constraints, pitfalls, and model misuse are discussed. Students will be developing some of their own groundwater models, and will be obtaining hands-on experience with state-of-the-art interactive groundwater models in the PC laboratory. Prior experience with FORTRAN is essential. Recommended: MATH 111B or equivalent. Students without the required prerequisite may seek consent of the instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "CS 102 and EARTH 359 and EARTH 650 or consent of Instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH656",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000904",
+            "subject": "EARTH",
+            "catalog_number": "657",
+            "title": "Organic Contaminants in the Subsurface",
+            "units": 0.5,
+            "description": "Fundamental processes governing the fate of organic contaminants in soil and aquifer systems. Emphasis on partitioning between phases (dissolution, sorption and volatilization) with applications. Students without the required prerequisite may seek consent of the instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 459 and 650 or consent of Instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH657",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000905",
+            "subject": "EARTH",
+            "catalog_number": "658",
+            "title": "Flow and Transport in Fractured Rock",
+            "units": 0.5,
+            "description": "An introduction to the physical hydrogeology of fractured rock. Topics will include a review of the structural geology of fractured rocks, development and validity of the cubic law, groundwater flow and contaminant transport in discrete fractures and fracture networks, hydraulic testing methods and the hydrogeology of low-permeability environments. Recommended: Differential Calculus.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 458 and 459",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH658",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000906",
+            "subject": "EARTH",
+            "catalog_number": "659",
+            "title": "Chemical Hydrogeology",
+            "units": 0.5,
+            "description": "This course builds on the fundamental principles of aqueous chemistry and water-rock interactions with emphasis on groundwater environments. Topics include the evolution of natural groundwater chemistry, chemical aspects of contaminant hydrogeology such as hydrocarbons, radioactive wastes, acid mine drainage and industrial and municipal waste disposal. Geochemical models are introduced and applied by students in a course project. Students without the required prerequisite may seek consent of the instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 458 and 221 or, EARTH 231 and CIV E 375 or consent of Instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH659",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000907",
+            "subject": "EARTH",
+            "catalog_number": "661",
+            "title": "Analytical Methods in Mathematical Geology",
+            "units": 0.5,
+            "description": "A course intended to provide MSc and PhD students with a working knowledge of analytical techniques for solution of differential equations governing flow and mass transfer in hydrogeologic systems. Use of various transform methods such as Fourier and Laplace will be covered and applied to a variety of problems of hydrogeological interest. The course will consist of lectures, selected problem assignments and/or individual projects. Recommended: Second Year Calculus.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 458",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH661",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000908",
+            "subject": "EARTH",
+            "catalog_number": "668",
+            "title": "Advanced Applied Geophysics",
+            "units": 0.5,
+            "description": "A field-oriented course on current methodology in the general area of geotechnical or engineering geophysics as applied to environmental problems. Typical topics covered: well logging and time domain electromagnetic surveys for groundwater supply; magnetic and terrain conductivity surveys for waste materials; ground penetrating radar applications to stratigraphy and contamination; streaming potential surveys of dam leakage. Usually taught with EARTH 461.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH668",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000909",
+            "subject": "EARTH",
+            "catalog_number": "671",
+            "title": "Field Methods in Hydrogeology",
+            "units": 0.5,
+            "description": "A course dealing with the theory and applications of field techniques in hydrology. Physical, chemical, and isotopic methods are included with applications to groundwater and surface water hydrology. The course will consist of lectures, field activities, projects and assignments. All will be conducted over a 3-week time period at the end of the Winter term in April. Students without the required prerequisite may seek consent of the instructor.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 458 or 650 and consent of Instructor",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH671",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000911",
+            "subject": "EARTH",
+            "catalog_number": "690",
+            "title": "Current Problems in Geology",
+            "units": 0.5,
+            "description": "Seminars will be held to cover major topics excluded from other available courses. Graduate students will be required to present for discussion short colloquia based on their reading of assigned topics. Participation in the discussions, as well as the actual presentation of papers, will be an integral part of the course.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH690",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000912",
+            "subject": "EARTH",
+            "catalog_number": "691",
+            "title": "Special Studies for MSc Students",
+            "units": 0.5,
+            "description": "Course credit may be given for special studies related to the research interest of a student and a member of the faculty by special arrangement.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH691",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "000918",
+            "subject": "EARTH",
+            "catalog_number": "692",
+            "title": "Special Studies for PhD Students",
+            "units": 0.5,
+            "description": "Course credit may be given for special studies related to the research interest of a student and a member of the faculty by special arrangement.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "41  Carbon Sqstratn Sdmntry Basins"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH692",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "012365",
+            "subject": "EARTH",
+            "catalog_number": "205",
+            "title": "Introduction to Atmospheric Science",
+            "units": 0.5,
+            "description": "This course is a basic introduction to the important physical and chemical processes that occur in the terrestrial atmosphere. The course includes physical aspects of the atmosphere, such as the altitude dependence of temperature and pressure; radiative transfer; physics of weather; the greenhouse effect and basic climate science. It also introduces the atmospheric chemistry responsible for acid rain, photochemical smog and ozone depletion.",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "CHEM 120, 123; one of PHYS 111, 121; and one of PHYS 112, 122",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": "[Note: A first year course in calculus, physics and chemistry are recommended. Offered: F]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1314",
+            "url": "http://www.ucalendar.uwaterloo.ca/1314/COURSE/course-EARTH.html#EARTH205",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012418",
+            "subject": "EARTH",
+            "catalog_number": "361",
+            "title": "Atmospheric Motions and Physics",
+            "units": 0.5,
+            "description": "This course aims to provide an intuitive and physical understanding of the atmosphere. Topics will include the atmospheric distribution of temperature/pressure, stability, phase changes of water, fluid dynamical phenomena at various scales. The basic conservation equations of momentum, mass, and energy are introduced as a framework to understand the above topics. The physical foundation laid in this class will be linked to current research topics such as climate change, weather forecasting, and severe weather phenomena. [Offered: W]",
+            "instructions": [
+                "LEC",
+                "TUT"
+            ],
+            "prerequisites": "EARTH 205; One of MATH 127, 137, 147; One of MATH 128, 138, 148; One of PHYS 111, 121; and one of PHYS 112, 122",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": "[Note: EARTH 205 is recommended. Offered: W]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1314",
+            "url": "http://www.ucalendar.uwaterloo.ca/1314/COURSE/course-EARTH.html#EARTH361",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004859",
+            "subject": "EARTH",
+            "catalog_number": "439",
+            "title": "Flow and Transport Through Fractured Rocks",
+            "units": 0.5,
+            "description": "Fractures are ubiquitous in geologic media and important in disciplines such as physical and contaminant hydrogeology, geotechnical engineering, civil and environmental engineering, petroleum engineering among other areas. Despite the importance of fractures, its characterization and predictions of groundwater flow and contaminant transport are fraught with significant difficulties. Students are taught to deal with fractures in hydrogeology, to conceptualize them, and to build reliable models for predicting groundwater flow and contaminant transport. Offered [W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 359 or 458",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH439",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014777",
+            "subject": "EARTH",
+            "catalog_number": "695",
+            "title": "Earth MSc Seminar Proposal",
+            "units": 0.5,
+            "description": "A written research proposal, and a seminar and defence of the proposal to be given by all MSc students (thesis option) within two terms of entering this program.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH695",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014937",
+            "subject": "EARTH",
+            "catalog_number": "321",
+            "title": "Introduction to Geomicrobiology",
+            "units": 0.5,
+            "description": "This course will provide an overview of how microbial life has affected Earth's environment through time. Emphasis will be on geomicrobial processes in the lithosphere and hydrosphere. Geomicrobial interactions with key elements will be discussed. [Instructor consent required for students lacking EARTH 221 prerequisite; Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 221",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH321",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015224",
+            "subject": "EARTH",
+            "catalog_number": "627",
+            "title": "Radioactive Isotope Systems",
+            "units": 0.5,
+            "description": "Principles of radioactive decay and geochronology.  Applications of geochronology and isotopic tracing using the U-Th-Pb, Re-OS, Lu-Hf, Sm-Nd, Rb-Sr, and Ar-Ar Isotope systems, U-series disequilibrum, cosmogenic nuclides, and extinct radionuclides.  Offered in alternate years.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EARTH.html#EARTH627",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015804",
+            "subject": "EARTH",
+            "catalog_number": "322",
+            "title": "Ecohydrology",
+            "units": 0.5,
+            "description": "This course examines the global fluxes and transformations of nutrient elements (C, N, P and Si) and metals along the aquatic continuum. Students explore both natural and anthropogenically-driven changes to the chemical composition of water that occur in the atmosphere, rivers, reservoirs, lakes, groundwater, estuaries and oceans. The content will be interdisciplinary and quantitative, with a strong focus on biogeochemical processes that influence the chemical composition and quality of water at different stages of the global water cycle; the content will also include aspects of microbiology, ecology, hydrology and geology. Students will be introduced to geochemical modelling tools used to interpret changes to water quality through the application of equilibrium thermodynamics. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "EARTH 121, 221",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EARTH.html#EARTH322",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

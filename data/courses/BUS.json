@@ -1,0 +1,72 @@
+{
+    "data": [
+        {
+            "course_id": "003779",
+            "subject": "BUS",
+            "catalog_number": "121W",
+            "title": "Functional Areas of the Organization (WLU)",
+            "units": 0.5,
+            "description": "Taught at Wilfrid Laurier University. Refer to WLU Undergraduate Calendar for course description.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "Enrolment in an undergraduate degree program or MATH/ELAS students only.",
+            "antirequisites": "COMM 102",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-BUS.html#BUS121W",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "003776",
+            "subject": "BUS",
+            "catalog_number": "111W",
+            "title": "Introduction to Business Organization (WLU)",
+            "units": 0.5,
+            "description": "Taught at Wilfrid Laurier University. Refer to WLU Undergraduate Calendar for course description.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "Enrolment in an undergraduate degree program or MATH/ELAS students only.",
+            "antirequisites": "AFM 131/ARBUS 101, COMM 101",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-BUS.html#BUS111W",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

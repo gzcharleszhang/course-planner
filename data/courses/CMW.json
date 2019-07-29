@@ -1,0 +1,301 @@
+{
+    "data": [
+        {
+            "course_id": "012289",
+            "subject": "CMW",
+            "catalog_number": "201",
+            "title": "Worship Practicum 1",
+            "units": 0.25,
+            "description": "Skills development and practice in planning and leading Christian worship, including such activities as choosing and accompanying hymns, song-leading, teaching new music, the use of instrumental music, reading scripture, leading prayer, movement, and gesture.",
+            "instructions": [
+                "PRA"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Course will be graded on a CR/NCR basis]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CMW.html#CMW201",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "012290",
+            "subject": "CMW",
+            "catalog_number": "202",
+            "title": "Worship Practicum 2",
+            "units": 0.25,
+            "description": "A continuation of CMW 201. Skills development and practice in planning and leading Christian worship, including such activities as choosing and accompanying hymns, song-leading, teaching new music, the use of instrumental music, reading scripture, leading prayer, movement, and gesture.",
+            "instructions": [
+                "PRA"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Course will be graded on a CR/NCR basis]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CMW.html#CMW202",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007051",
+            "subject": "CMW",
+            "catalog_number": "363",
+            "title": "The Christian Hymn",
+            "units": 0.5,
+            "description": "The origins of the Christian hymn and its development up to the present. The course considers the hymn as theological, poetic, musical, cultural, and spiritual expression, and the use of hymns in a variety of worship settings.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "RS 384 taken prior to Fall 2008",
+            "corequisites": null,
+            "crosslistings": "MUSIC 363, RS 357",
+            "terms_offered": [],
+            "notes": "[Note: This course fulfils an Area 2C requirement for Religious Studies majors.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CMW.html#CMW363",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007052",
+            "subject": "CMW",
+            "catalog_number": "364",
+            "title": "Worship and its Music",
+            "units": 0.5,
+            "description": "The nature of worship and the role of music within worship in historical, theological, and cultural perspectives. Field trips to services of various traditions.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "RS 385 taken prior to Fall 2008",
+            "corequisites": null,
+            "crosslistings": "MUSIC 364, RS 358",
+            "terms_offered": [],
+            "notes": "[Note: This course fulfils an Area 2C requirement for Religious Studies majors.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CMW.html#CMW364",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013525",
+            "subject": "CMW",
+            "catalog_number": "390",
+            "title": "Special Topics in Church Music and Worship",
+            "units": 0.5,
+            "description": "Term courses will be offered from time to time as announced. Topics will be dependent on research and/or instructional interests of faculty.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CMW.html#CMW390",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007051",
+            "subject": "CMW",
+            "catalog_number": "363",
+            "title": "The Christian Hymn",
+            "units": 0.5,
+            "description": "The origins of the Christian hymn and its development up to the present. The course considers the hymn as theological, poetic, musical, cultural, and spiritual expression, and the use of hymns in a variety of worship settings.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "RS 384 taken prior to Fall 2008",
+            "corequisites": null,
+            "crosslistings": "MUSIC 363, RS 357",
+            "terms_offered": [],
+            "notes": "[Note: This course fulfils an Area 2C requirement for Religious Studies majors.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CMW.html#CMW363",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007052",
+            "subject": "CMW",
+            "catalog_number": "364",
+            "title": "Worship and its Music",
+            "units": 0.5,
+            "description": "The nature of worship and the role of music within worship in historical, theological, and cultural perspectives. Field trips to services of various traditions.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "RS 385 taken prior to Fall 2008",
+            "corequisites": null,
+            "crosslistings": "MUSIC 364, RS 358",
+            "terms_offered": [],
+            "notes": "[Note: This course fulfils an Area 2C requirement for Religious Studies majors.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CMW.html#CMW364",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007051",
+            "subject": "CMW",
+            "catalog_number": "363",
+            "title": "The Christian Hymn",
+            "units": 0.5,
+            "description": "The origins of the Christian hymn and its development up to the present. The course considers the hymn as theological, poetic, musical, cultural, and spiritual expression, and the use of hymns in a variety of worship settings.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "RS 384 taken prior to Fall 2008",
+            "corequisites": null,
+            "crosslistings": "MUSIC 363, RS 357",
+            "terms_offered": [],
+            "notes": "[Note: This course fulfils an Area 2C requirement for Religious Studies majors.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CMW.html#CMW363",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007052",
+            "subject": "CMW",
+            "catalog_number": "364",
+            "title": "Worship and its Music",
+            "units": 0.5,
+            "description": "The nature of worship and the role of music within worship in historical, theological, and cultural perspectives. Field trips to services of various traditions.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "RS 385 taken prior to Fall 2008",
+            "corequisites": null,
+            "crosslistings": "MUSIC 364, RS 358",
+            "terms_offered": [],
+            "notes": "[Note: This course fulfils an Area 2C requirement for Religious Studies majors.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CMW.html#CMW364",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

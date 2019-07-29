@@ -1,0 +1,271 @@
+{
+    "data": [
+        {
+            "course_id": "013720",
+            "subject": "ARBUS",
+            "catalog_number": "100",
+            "title": "Introduction to Arts and Business",
+            "units": 0,
+            "description": "The objective of this non-credit course is to expose students to the nature and scope of Arts and Business and prepare them in selecting their major.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Arts and Business students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1718",
+            "url": "http://www.ucalendar.uwaterloo.ca/1718/COURSE/course-ARBUS.html#ARBUS100",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014241",
+            "subject": "ARBUS",
+            "catalog_number": "200",
+            "title": "Entrepreneurship Principles and Practices",
+            "units": 0.5,
+            "description": "The role of the entrepreneur, the entrepreneurial firm, and the creative society are examined. Students are exposed to the practices that enable workplace creativity and innovation with exposure to leadership theory and project management.",
+            "instructions": [
+                "LEC",
+                "PRA"
+            ],
+            "prerequisites": "ECON 101; Level at least 2A Honours Arts & Business, Management Studies.",
+            "antirequisites": "ECON 220/ARBUS 201, ARBUS 200 taken prior to Fall 2013, ENBUS 203",
+            "corequisites": "ECON 101 (for Global Business & Digital Arts students).",
+            "crosslistings": "ECON 220",
+            "terms_offered": [],
+            "notes": "[Note: Additional fee may be required.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ARBUS.html#ARBUS200",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007266",
+            "subject": "ARBUS",
+            "catalog_number": "202",
+            "title": "Professional and Business Ethics",
+            "units": 0.5,
+            "description": "Study of ethical and moral issues that typically arise in professional and business activity. What responsibilities to society at large do people in such business and professional activities as teaching, engineering, planning, architecture, and accounting have? How far should professional autonomy extend?",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Arts and Business students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "PHIL 215",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": true,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ARBUS.html#ARBUS202",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013722",
+            "subject": "ARBUS",
+            "catalog_number": "300",
+            "title": "Practical Business Skills",
+            "units": 0.5,
+            "description": "This course will introduce students to important and relevant business skills that will assist them as they prepare for successful careers. The course will supplement contemporary theories with appropriate case studies.",
+            "instructions": [
+                "LEC",
+                "PRA"
+            ],
+            "prerequisites": "ARBUS 200; Level at least 2A Global Business and Digital Arts students or Level at least 3A Arts and Business, Management Studies students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ARBUS.html#ARBUS300",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004936",
+            "subject": "ARBUS",
+            "catalog_number": "302",
+            "title": "Marketing 1: Principles of Marketing and Consumer Economics",
+            "units": 0.5,
+            "description": "Economic principles for marketing, exchange theory and consumer analysis, product or service introductions, public and private policies for advertising, differentiation, and quality assurance.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "ECON 101; Level at least 2B Arts and Business students.",
+            "antirequisites": "ENBUS 211/311, GBDA 304, BUS 352W",
+            "corequisites": null,
+            "crosslistings": "ECON 344",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ARBUS.html#ARBUS302",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013721",
+            "subject": "ARBUS",
+            "catalog_number": "400",
+            "title": "Strategy and Program Integration",
+            "units": 0.5,
+            "description": "A capstone course designed to integrate the arts and business components of the program that incorporate the principles of strategy for the purpose of enabling students to effectively position themselves for opportunities after graduation.",
+            "instructions": [
+                "LEC",
+                "PRA"
+            ],
+            "prerequisites": "ARBUS 300",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Additional fee required.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ARBUS.html#ARBUS400",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004936",
+            "subject": "ARBUS",
+            "catalog_number": "302",
+            "title": "Marketing 1: Principles of Marketing and Consumer Economics",
+            "units": 0.5,
+            "description": "Economic principles for marketing, exchange theory and consumer analysis, product or service introductions, public and private policies for advertising, differentiation, and quality assurance.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "ECON 101; Level at least 2B Arts and Business students.",
+            "antirequisites": "ENBUS 211/311, GBDA 304, BUS 352W",
+            "corequisites": null,
+            "crosslistings": "ECON 344",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ARBUS.html#ARBUS302",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007266",
+            "subject": "ARBUS",
+            "catalog_number": "202",
+            "title": "Professional and Business Ethics",
+            "units": 0.5,
+            "description": "Study of ethical and moral issues that typically arise in professional and business activity. What responsibilities to society at large do people in such business and professional activities as teaching, engineering, planning, architecture, and accounting have? How far should professional autonomy extend?",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Arts and Business students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "PHIL 215",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": true,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-ARBUS.html#ARBUS202",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

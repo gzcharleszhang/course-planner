@@ -1,0 +1,139 @@
+{
+    "data": [
+        {
+            "course_id": "013623",
+            "subject": "VCULT",
+            "catalog_number": "200",
+            "title": "Visual Studies Across the Discipline",
+            "units": 0.5,
+            "description": "Weekly lectures by visiting faculty introduce students to how visual studies are conducted across and between the disciplines. Recognizing the vastness of the global study of visual culture, this course reinforces how, despite the diversity of media analyzed, various disciplines share related approaches and theories.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 2A",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-VCULT.html#VCULT200",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013624",
+            "subject": "VCULT",
+            "catalog_number": "300",
+            "title": "Visual Culture in Theory",
+            "units": 0.5,
+            "description": "An advanced introduction to theorizing in art and media, highlighting the distinctive role of visual representation in cultural experience and the varied modes of thinking about images that visual representation has engendered. Readings will be drawn from several disciplines including art history, film and literary studies, media studies, and philosophy.",
+            "instructions": [
+                "LEC",
+                "SEM"
+            ],
+            "prerequisites": "VCULT 200; Level at least 3A",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-VCULT.html#VCULT300",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015177",
+            "subject": "VCULT",
+            "catalog_number": "400",
+            "title": "Visual Culture Seminar",
+            "units": 0.5,
+            "description": "This fourth-year honours seminar leads students through a variety of topics in the theory and history of visual culture. Through class discussions, readings, and presentations, students will engage in an interdisciplinary dialogue around what constitutes visual culture today and how to analyze it.",
+            "instructions": [
+                "LAB",
+                "SEM"
+            ],
+            "prerequisites": "VCULT 300; Level at least 3B Visual Culture Honours students.",
+            "antirequisites": "FINE 490, 496",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-VCULT.html#VCULT400",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015178",
+            "subject": "VCULT",
+            "catalog_number": "401",
+            "title": "Advanced Visual Culture Seminar",
+            "units": 0.5,
+            "description": "This fourth-year level advanced visual culture seminar is designed to focus student research skills toward the development of a thesis project.",
+            "instructions": [
+                "LAB",
+                "SEM"
+            ],
+            "prerequisites": "VCULT 400.",
+            "antirequisites": "FINE 491, 497",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-VCULT.html#VCULT401",
+            "academic_level": "undergraduate"
+        }
+    ]
+}
