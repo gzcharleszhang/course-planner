@@ -75,4 +75,20 @@ func TestHandler(t *testing.T) {
 	} else {
 		t.Error("Expected error")
 	}
+
+	// try getting another user's information, expects unauthorized error
+	rctx = chi.NewRouteContext()
+	rctx.URLParams.Add("user_id", "abc123")
+	ctx = context.WithValue(ctx, contextKeys.UserIdKey, res.UserId)
+	ctx = context.WithValue(ctx, contextKeys.UserRoleKey, roles.NewConrad())
+	ctx = context.WithValue(ctx, chi.RouteCtxKey, rctx)
+	rr, err = testUtils.NewRequest(ctx, "GET", RouteURL, []byte{}, Handler)
+	if err == nil {
+		if status := rr.Code; status != http.StatusUnauthorized {
+			t.Errorf("handler returned wrong status code: got %v want %v",
+				status, http.StatusUnauthorized)
+		}
+	} else {
+		t.Error("Expected error")
+	}
 }
