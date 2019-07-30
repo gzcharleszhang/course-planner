@@ -21,7 +21,7 @@ func Init() (context.Context, error) {
 	if err != nil {
 		return ctx, err
 	}
-	return ctx, db.PrimarySession.Client.Database(os.Getenv("MONGO_DB_NAME")).Drop(ctx)
+	return ctx, db.PrimarySession.Client.Database(os.Getenv(env.MongoDBNameEnvKey)).Drop(ctx)
 }
 
 func CleanUp() {

@@ -4,6 +4,7 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/go-chi/jwtauth"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
+	"github.com/gzcharleszhang/course-planner/internal/app/env"
 	"net/http"
 	"os"
 	"time"
@@ -18,7 +19,7 @@ const ExpirationClaimKey = "exp"
 const RefreshTokenTime = 3 * 24 * time.Hour
 
 func init() {
-	TokenAuth = jwtauth.New("HS256", []byte(os.Getenv("JWT_SECRET")), nil)
+	TokenAuth = jwtauth.New("HS256", []byte(os.Getenv(env.JWTSecretEnvKey)), nil)
 }
 
 func GenerateTokenForUser(id users.UserId) (*jwt.Token, string, error) {

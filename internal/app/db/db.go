@@ -2,6 +2,7 @@ package db
 
 import (
 	"context"
+	"github.com/gzcharleszhang/course-planner/internal/app/env"
 	"github.com/pkg/errors"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -34,6 +35,6 @@ func CleanPrimarySession() {
 }
 
 func getMongoURI() string {
-	mongoURI := os.Getenv("MONGO_URI")
+	mongoURI := os.Getenv(env.MongoURIEnvKey)
 	return mongoURI
 }
