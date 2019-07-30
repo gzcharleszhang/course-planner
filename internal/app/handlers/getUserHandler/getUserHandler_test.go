@@ -71,9 +71,9 @@ func TestHandler(t *testing.T) {
 		if status := rr.Code; status != http.StatusInternalServerError {
 			t.Errorf("handler returned wrong status code: got %v want %v",
 				status, http.StatusInternalServerError)
+		} else {
+			t.Error("Expected error")
 		}
-	} else {
-		t.Error("Expected error")
 	}
 
 	// try getting another user's information, expects unauthorized error
@@ -87,8 +87,8 @@ func TestHandler(t *testing.T) {
 		if status := rr.Code; status != http.StatusUnauthorized {
 			t.Errorf("handler returned wrong status code: got %v want %v",
 				status, http.StatusUnauthorized)
+		} else {
+			t.Error("Expected error")
 		}
-	} else {
-		t.Error("Expected error")
 	}
 }
