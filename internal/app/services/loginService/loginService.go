@@ -17,11 +17,11 @@ type Response struct {
 }
 
 func Execute(ctx context.Context, req Request) (*Response, error) {
-	err := userModel.VerifyPassword(ctx, req.Email, req.Password)
+	user, err := userModel.GetUserByEmail(ctx, req.Email)
 	if err != nil {
 		return nil, err
 	}
-	user, err := userModel.GetUserByEmail(ctx, req.Email)
+	err = users.VerifyPassword(user.Password, req.Password)
 	if err != nil {
 		return nil, err
 	}

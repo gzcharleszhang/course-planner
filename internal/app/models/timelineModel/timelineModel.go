@@ -20,3 +20,8 @@ func GetTimelinesByUserId(ctx context.Context, userId users.UserId) ([]*timeline
 	// TODO: implement
 	return nil, nil
 }
+
+func GetTimelineById(ctx context.Context, timelineId timelines.TimelineId) (*timelines.Timeline, error) {
+	// TODO: implement
+	return nil, nil
+}

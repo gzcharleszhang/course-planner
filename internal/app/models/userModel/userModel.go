@@ -11,7 +11,6 @@ import (
 	"github.com/gzcharleszhang/course-planner/internal/app/models/timelineModel"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
-	"golang.org/x/crypto/bcrypt"
 )
 
 type UserModel struct {
@@ -123,14 +122,6 @@ func GetUserByEmail(ctx context.Context, email users.Email) (*users.User, error)
 		return nil, err
 	}
 	return user, nil
-}
-
-func VerifyPassword(ctx context.Context, email users.Email, password string) error {
-	user, err := GetUserByEmail(ctx, email)
-	if err != nil {
-		return err
-	}
-	return bcrypt.CompareHashAndPassword([]byte(user.Password), []byte(password))
 }
 
 func GetUserRole(ctx context.Context, id users.UserId) (*roles.Role, error) {

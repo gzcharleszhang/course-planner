@@ -42,7 +42,7 @@ func TestHandler(t *testing.T) {
 	// check if we can find the new user in the database
 	sess, err := db.NewSession(ctx)
 	if err != nil {
-		t.Errorf("%v\n", err)
+		t.Error(err)
 	}
 	defer sess.Close(ctx)
 	var userData userModel.UserModel
@@ -68,7 +68,7 @@ func TestHandler(t *testing.T) {
 	jsonStr = utils.ToRawJson(req)
 	rr, err = testUtils.NewRequest(ctx, "POST", RouteURL, jsonStr, Handler)
 	if err != nil {
-		t.Errorf("%v", err)
+		t.Error(err)
 	}
 	if status := rr.Code; status != http.StatusInternalServerError {
 		t.Errorf("handler returned wrong status code: got %v want %v",

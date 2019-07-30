@@ -14,9 +14,19 @@ const RouteURL string = "/user/{user_id}"
 func Handler(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
 	userId := users.UserId(chi.URLParam(r, "user_id"))
+	ctxRole, err := roles.GetRoleFromContext(ctx)
+	if err != nil {
+		http.Error(w, err.Error(), 500)
+		return
+	}
+	ctxUserId, err := users.GetUserIdFromContext(ctx)
+	if err != nil {
+		http.Error(w, err.Error(), 500)
+		return
+	}
 	// for regular users, they can only access their own user data
-	if roles.GetRoleFromContext(ctx).GetRoleId() == roles.ConradId &&
-		users.GetUserIdFromContext(ctx) != userId {
+	if ctxRole.GetRoleId() == roles.ConradId &&
+		ctxUserId != userId {
 		http.Error(w, http.StatusText(401), 401)
 		return
 	}

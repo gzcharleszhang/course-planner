@@ -2,6 +2,8 @@ package users
 
 import (
 	"context"
+	"errors"
+	"fmt"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/contextKeys"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/terms"
@@ -36,11 +38,19 @@ func HashPassword(password string) (PasswordHash, error) {
 	return PasswordHash(bytes), err
 }
 
-// Creates a new timemline with the courses added to the course CourseHistory
+// Creates a new timeline with the courses added to the course CourseHistory
 func (usr User) NewTimeline(name timelines.TimelineName) {
 	usr.Timelines = append(usr.Timelines, timelines.NewTimeline(name, usr.CourseHistory))
 }
 
-func GetUserIdFromContext(ctx context.Context) UserId {
-	return ctx.Value(contextKeys.UserIdKey).(UserId)
+func GetUserIdFromContext(ctx context.Context) (UserId, error) {
+	userId, ok := ctx.Value(contextKeys.UserIdKey).(UserId)
+	if !ok {
+		return "", errors.New(fmt.Sprintf("cannot convert %v to user id", ctx.Value(contextKeys.UserRoleKey)))
+	}
+	return userId, nil
+}
+
+func VerifyPassword(hash PasswordHash, password string) error {
+	return bcrypt.CompareHashAndPassword([]byte(hash), []byte(password))
 }
