@@ -1,0 +1,106 @@
+{
+    "data": [
+        {
+            "course_id": "013755",
+            "subject": "MATBUS",
+            "catalog_number": "470",
+            "title": "Derivatives",
+            "units": 0.5,
+            "description": "Overview of the derivatives markets. Pricing of derivatives, including futures, forwards, swaps, and options. Hedging vs. speculating. Option Greeks. Trading strategies. Case studies.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "(One of AFM 372/ACTSC 391, ACTSC 371, BUS 393W), (STAT 334 or (STAT 330 and 333)).",
+            "antirequisites": "AFM 322/474, ACTSC/STAT 446, BUS 423W, ECON 372",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MATBUS.html#MATBUS470",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013865",
+            "subject": "MATBUS",
+            "catalog_number": "471",
+            "title": "Fixed Income Securities",
+            "units": 0.5,
+            "description": "Analysis of fixed income securities. Duration, convexity. Structured products. Market characteristics. Valuation of bonds with embedded options. Accounting and taxation issues.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "ACTSC 231 and (ACTSC 372 or BUS 393W) or AFM 372/ACTSC 391; Business/Math double degree, Math/Accounting, or Math/Financial Analysis and Risk Management students only.",
+            "antirequisites": "AFM 425/475, BUS 449W",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MATBUS.html#MATBUS471",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013866",
+            "subject": "MATBUS",
+            "catalog_number": "472",
+            "title": "Risk Management",
+            "units": 0.5,
+            "description": "Principles of Risk Management. Market, credit and operational risk management. Risk measures. Hedging strategies and risks in hedging. Credit migration. Global financial market regulation. Case studies.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "One of ACTSC 372, AFM 372/ACTSC 391, BUS 393W; Business/Math double degree, Math/CPA, or Math/Financial Analysis and Risk Management students only.",
+            "antirequisites": "ACTSC 445, AFM 422, BUS 433W",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MATBUS.html#MATBUS472",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

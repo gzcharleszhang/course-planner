@@ -1,0 +1,145 @@
+{
+    "data": [
+        {
+            "course_id": "010723",
+            "subject": "TOUR",
+            "catalog_number": "602",
+            "title": "Seminar on Tourism Research",
+            "units": 0.5,
+            "description": "Participants will prepare research proposals and present their proposals for discussion in a seminar situation.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-TOUR.html#TOUR602",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010725",
+            "subject": "TOUR",
+            "catalog_number": "604",
+            "title": "Social Planning for Tourism",
+            "units": 0.5,
+            "description": "The course will examine the social categorizations of tourism through an exploration of the interaction between the tourist and the host communities by investigating the socio-cultural impacts of tourism; host and guest attitudes, behaviours and responses to tourism; gender in tourism; indigenous tourism; tourism and morality; tourist promotional images; and authenticity and cultural commodification.  The course will have an international focus through the presentation of case studies from both developed and developing countries.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-TOUR.html#TOUR604",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010726",
+            "subject": "TOUR",
+            "catalog_number": "609",
+            "title": "Practicum in Tourism",
+            "units": 0.5,
+            "description": "This practicum course provides students with the opportunity to apply concepts and theories from other courses and their own reading to a better understanding of the functioning of some aspect of the tourism sector.  The practicum will be administered under the supervision of a faculty member and will also involve the production of an appropriate academic report.",
+            "instructions": [
+                "PRA"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-TOUR.html#TOUR609",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "010727",
+            "subject": "TOUR",
+            "catalog_number": "675",
+            "title": "Selected Topics in Tourism",
+            "units": 0.5,
+            "description": "Topic(s) to be negotiated on an individual basis with faculty member.  An outline for this course, approved by the professor in charge, must be submitted to the Program Director, within three weeks of registration.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Waterfront Rehabilitation",
+                "2   Lit Rev Bird Watching Tourism",
+                "3   Medical Tour & Sustainability",
+                "4   Heritage Tourism",
+                "5   Climate Change & Sust. Tourism",
+                "6   Concession Guides/Parks Canada",
+                "7   Tour, Mobility & Identity",
+                "8   Consequences of Tourism"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-TOUR.html#TOUR675",
+            "academic_level": "graduate"
+        }
+    ]
+}

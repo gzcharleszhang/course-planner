@@ -1,0 +1,70 @@
+{
+    "data": [
+        {
+            "course_id": "014967",
+            "subject": "EMLS",
+            "catalog_number": "104R",
+            "title": "Reading and Listening for Academic Purposes",
+            "units": 0.5,
+            "description": "Designed specifically for students for whom English is not the first language, this course offers instruction in reading and listening strategies. Students learn macro and micro reading and listening strategies to improve their reading comprehension and speed and their listening and note-taking skills. Students also build their academic vocabulary.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Not open to fluent speakers or writers of English.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-EMLS.html#EMLS104R",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015349",
+            "subject": "EMLS",
+            "catalog_number": "622R",
+            "title": "Thesis Writing in English",
+            "units": 0.5,
+            "description": "This course develops the skills and knowledge required to write theses and journal articles. A guided analysis of academic texts clarifies disciplinary conventions. Written assignments are directly related to the student's research work, and feedback is customized. \n\n[Notes: This course is not open to fluent writers of English. It is recommended, but not required, that students take EMLS 602R: Scholarly Writing in English before they take EMLS 622R. It is recommended that students take EMLS 622R close to the time they write their theses. Graded on a CR/NCR basis.]",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-EMLS.html#EMLS622R",
+            "academic_level": "graduate"
+        }
+    ]
+}

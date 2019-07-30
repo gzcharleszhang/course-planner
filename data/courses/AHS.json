@@ -1,0 +1,139 @@
+{
+    "data": [
+        {
+            "course_id": "013580",
+            "subject": "AHS",
+            "catalog_number": "150",
+            "title": "Foundations of Human Anatomy and Physiology",
+            "units": 0.5,
+            "description": "This course covers the anatomy and physiology of the human body systems, with an emphasis on the relationship between a body organ's structure and its function. Topics include organization of the human body, basic chemistry, the cell, tissues, bones and muscles, the nervous system, the blood, cardiovascular system and the urinary system. It is designed for students who have little formal knowledge of the human body but who wish to learn about the human body, or train for a career in Therapeutic Recreation or other social and community services.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Not open to Health Studies, Kinesiology or Science students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-AHS.html#AHS150",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013715",
+            "subject": "AHS",
+            "catalog_number": "782",
+            "title": "Selected Topics in Applied Health Sciences",
+            "units": 0.5,
+            "description": "Doctoral students will complete an analysis of specific topics of interest in AHS under the (co)-supervison of faculty member(s) with the appropriate expertise from another department of faculty.  The form of study may involve a review of literature or the planning and execution of an independent study resulting in a paper for possible publications.",
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   Vascular Nanomedicine",
+                "2   Cardiovascular Engineering"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-AHS.html#AHS782",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "015106",
+            "subject": "AHS",
+            "catalog_number": "100",
+            "title": "Foundations of a Healthy Lifestyle",
+            "units": 0.5,
+            "description": "This course will introduce the student to the basics of health, wellness and disease, with an emphasis on assessing and evaluating the student's own lifestyle and health risk, and committing to a plan to begin or maintain a healthy lifestyle across the life course.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Not open to Applied Health Sciences students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-AHS.html#AHS100",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015041",
+            "subject": "AHS",
+            "catalog_number": "600",
+            "title": "Foundations of Qualitative Research Methodologies",
+            "units": 0.5,
+            "description": "This workshop oriented course provides a foundational overview of various qualitative research processes beginning with philosophical underpinnings, and continuing through theoretical perspectives, methodologies, methods, analysis, and write-up. Specifically, ontological and epistemological approaches of prediction, understanding, emancipation, and deconstruction will be introduced and discussed as students immerse themselves in rigorous fieldwork in relation to current qualitative trends in health and well-being.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-AHS.html#AHS600",
+            "academic_level": "graduate"
+        }
+    ]
+}

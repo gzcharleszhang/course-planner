@@ -1,0 +1,109 @@
+{
+    "data": [
+        {
+            "course_id": "015692",
+            "subject": "CDNST",
+            "catalog_number": "201",
+            "title": "The Indigenous Experience in Canada",
+            "units": 0.5,
+            "description": "An introduction to the Indigenous experience in Canada with a broad overview of history, culture, and contemporary issues. This course highlights the holism of Indigenous perspectives through assigned readings, discussions, projects, and sharing of personal experiences.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "INDG 201",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "Offered at St. Paul's College"
+            ],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CDNST.html#CDNST201",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015693",
+            "subject": "CDNST",
+            "catalog_number": "211",
+            "title": "Canada: Analysis of a Country",
+            "units": 0.5,
+            "description": "An examination of the fundamental dynamics and tensions in Canadian nationhood, including the following oppositions: Indigenous-Settler; French-English; Center-Periphery; Federal-Provincial. Students will also examine the political and institutional strategies that have been used to mediate these oppositions.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "Offered at St. Paul's College"
+            ],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CDNST.html#CDNST211",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015694",
+            "subject": "CDNST",
+            "catalog_number": "212",
+            "title": "Narratives of Canadian Identity",
+            "units": 0.5,
+            "description": "A multidisciplinary examination of alternative narratives of Canadian identity. Drawing on essays, literature, film, and art, students will explore the perennial question of what it means to be Canadian and examine the factors that have driven different answers to that question over time.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "Offered at St. Paul's College"
+            ],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-CDNST.html#CDNST212",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

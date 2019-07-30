@@ -1,0 +1,70 @@
+{
+    "data": [
+        {
+            "course_id": "015711",
+            "subject": "FILM",
+            "catalog_number": "246W",
+            "title": "German Film (WLU)",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-FILM.html#FILM246W",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015710",
+            "subject": "FILM",
+            "catalog_number": "257W",
+            "title": "The Western (WLU)",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": true,
+            "needs_instructor_consent": true,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-FILM.html#FILM257W",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "course_id": "008544",
+            "subject": "SPD",
+            "catalog_number": "302",
+            "title": "Selected Topics in Psychology and Religion",
+            "units": 0.5,
+            "description": "A seminar for senior students in the SPD Minor who have taken the other core courses. The subject for study will be determined by the common interest of the students registered in the course.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1112",
+            "url": "http://www.ucalendar.uwaterloo.ca/1112/COURSE/course-SPD.html#SPD302",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

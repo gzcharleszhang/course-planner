@@ -1,0 +1,870 @@
+{
+    "data": [
+        {
+            "course_id": "011692",
+            "subject": "BET",
+            "catalog_number": "606",
+            "title": "Entrepreneurial Applications of Digital Media",
+            "units": 0.5,
+            "description": "Digital media is becoming a critical component of business success.  This is especially true for new, entrepreneurial ventures who, by their nature, seek to change the competitive landscape.  This course provides an overview of the strategic, operational and development issues associated with integrating digital media into business operations.  Topics include the impact of digital media on business models, and examination of associated strategic, marketing and regulatory issues. Practical aspects related to the management of implementation projects will also be examined.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Prerequisite: MBET students only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "910",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/0910/GRDcourse-BET.html#BET606",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014055",
+            "subject": "BET",
+            "catalog_number": "300",
+            "title": "Foundations of Venture Creation",
+            "units": 0.5,
+            "description": "This course provides students with an introduction to the processes involved in moving an idea for a new venture from concept through to launch. The theoretical knowledge and practical skills needed to create a successful small entrepreneurial enterprise are developed. Topics include definition and evaluation of entrepreneurial opportunities, business planning, funding strategies and early-stage revenue models, legal issues and intellectual property protection. [Offered: F, W, S]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET300",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014056",
+            "subject": "BET",
+            "catalog_number": "400",
+            "title": "Marketing Foundations for Early-stage Ventures",
+            "units": 0.5,
+            "description": "This course develops the theoretical knowledge and practical skills needed to develop a marketing strategy for early-stage ventures. Topics include managing product development, marketing and brand development, segmentation and targeting, competitor analysis, and positioning. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "BET 300 or 320",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET400",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "013080",
+            "subject": "BET",
+            "catalog_number": "600",
+            "title": "Applied Business Leadership Skills for Entrepreneurs",
+            "units": 0.5,
+            "description": "The course provides students with the opportunity to develop a range of soft skills and the business acumen necessary to maximize the likelihood of success in an entrepreneurial environment.  Topics include communication and interpersonal skills, leadership, and negotiation skills.  A range of applied approaches are used, including integrated cases, simulations, and interaction with the local business community.  Most activities are team based.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MBET Students Only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET600",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "011687",
+            "subject": "BET",
+            "catalog_number": "601",
+            "title": "Strategically Managing the Entrepreneurial Organization",
+            "units": 0.5,
+            "description": "Strategy development and implementation are examined as a means to guide decisions at each stage of the innovation and commercialization process. Insight is gained into the strategic issues faced by new ventures as they progress from seed/concept through market execution stages.  Strategic analysis techniques are used to identify and analyse issues and as input into the design of the business concept and business model.  The organizational structures, processes and policies used to build and maintain an entrepreneurial culture are key topics for the market execution stage.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MBET Students Only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET601",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "011688",
+            "subject": "BET",
+            "catalog_number": "602",
+            "title": "Marketing Strategies for New Technology-based Ventures",
+            "units": 0.5,
+            "description": "Market-based management practices and the key relationships that enable businesses to attract, satisfy and retain customers, and grow their profits are examined.  The contribution of marketing strategy to the creation of value for both customers and shareholders is emphasized.  Particular attention is paid to the unique contexts of marketing knowledge-intensive products and services, new and rapidly growing markets and business markets.  Familiarity is developed with the marketing activities typical for each of the seed/concept, product development and market execution stages of a new venture.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MBET Students Only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET602",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "011689",
+            "subject": "BET",
+            "catalog_number": "603",
+            "title": "Entrepreneurial Finance for the Technology-based Enterprise",
+            "units": 0.5,
+            "description": "This course will provide entrepreneurs and enterprise intrapreneurs with an understanding of financing practices and principles relevant to entrepreneurial opportunities. Classes will feature a combination of theory and \"real world\" practices drawing from the instructor's experiences.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MBET Students Only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET603",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "011690",
+            "subject": "BET",
+            "catalog_number": "604",
+            "title": "New Technology-based Venture Creation",
+            "units": 0.5,
+            "description": "The creation of new ventures is a defining attribute of entrepreneurs.  While the specific focus will be on creating new independent ventures, the theory and principles discussed in this course can be applied to creating new ventures within existing corporation and to new social ventures. \n\nThe MBET program is an experiential program that combines knowing and doing.  BET 604 provides the framework for doing.  If affords the opportunity to apply what is learned in other BET courses to a new venture of each student's choosing.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MBET Students Only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET604",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "011691",
+            "subject": "BET",
+            "catalog_number": "605",
+            "title": "Essential Accounting for Entrepreneurs",
+            "units": 0.5,
+            "description": "The purpose of this course is to introduce students to how accounting information can be used by entrepreneurs and enterprise intrapreneurs to manage an enterprise, improve decision making, and implement organizational strategy as the venture proceeds from start-up to SME to maturity.  The course is split into two parts: Financial accounting (external use of financial information) and Management Accounting (the internal use of financial information).",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MBET Students Only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET605",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "011693",
+            "subject": "BET",
+            "catalog_number": "607",
+            "title": "Managing Technological Innovation",
+            "units": 0.5,
+            "description": "Management of technological innovation requires an understanding of the interaction of technology with all aspects of the organization to build and maintain a sustainable competitive advantage.  The focus of this course is the creation of new products and services from concept through to launch.  Evaluating new technologies, product development and deployment strategies are key topics.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MBET Students Only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET607",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "011694",
+            "subject": "BET",
+            "catalog_number": "608",
+            "title": "Entrepreneurial Application of Technology",
+            "units": 0.5,
+            "description": "This course is designed to leverage the high-potential complementarities between MBET entrepreneurship students and University of Waterloo and Waterloo Region technology developers.  The objectives are high-potential business models and licensing plans to facilitate the launch of technology-based commercial or social ventures and technology commercialization, enriched linkages between MBET and University of Waterloo researchers and technology developers, and experience in networking, opportunity assessment, partnership development, and working in and managing diverse teams.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MBET Students Only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET608",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013081",
+            "subject": "BET",
+            "catalog_number": "620",
+            "title": "Social Entrepreneurship and Corporate Social Responsibility",
+            "units": 0.5,
+            "description": "Introduces students to the concept of social entrepreneurship from a multidisciplinary perspective.  Participants are challenged to rethink the historical focus on the single bottom line by showcasing emerging trends in how to make money and social impact as mutually reinforcing concepts.  The course provides access to the latest thinking on social enterprises; emerging legal structures and new approaches to financing social purpose work.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "MBET Students Only",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET620",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "013082",
+            "subject": "BET",
+            "catalog_number": "700",
+            "title": "Topics in Business, Entrepreneurship and Technology",
+            "units": 0.5,
+            "description": null,
+            "instructions": [
+                "RDG"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [
+                "1   International Entrepreneurship"
+            ],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-BET.html#BET700",
+            "academic_level": "graduate"
+        },
+        {
+            "course_id": "014844",
+            "subject": "BET",
+            "catalog_number": "100",
+            "title": "Foundations of Entrepreneurial Practice",
+            "units": 0.5,
+            "description": "Successful entrepreneurs combine intellectual rigour with innovation to create solutions that have impact. It is a process that starts with a search for \"big ideas\" using tools such as research, observation, and appreciative inquiry. Next, entrepreneurs analyze situations and apply creativity techniques to develop solutions. Finally, solutions are tested against business drivers including customer value propositions, customer identification, channel selection, and resource needs. This course covers the three steps that form the foundation of all entrepreneurial success: big ideas, solutions, and testing. Because of its broad scope, the course is valuable to students from different academic backgrounds, entrepreneurship interests, and program level.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": "[Note: Offered: F,W,S]",
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET100",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014679",
+            "subject": "BET",
+            "catalog_number": "310",
+            "title": "Enterprise Co-op Entrepreneurship Planning and Execution",
+            "units": 0.5,
+            "description": "This course is taken concurrently with a student's first E Co-op term. This is a requirement for the venture creation theme consolidating current E Co-op workshops and seminars with the addition of online content. Topics include: Business planning and execution; Understanding customers and your value proposition; Refining your business model; Corporate legal issues; Hiring employees; Understanding your competitors; The local entrepreneurial ecosystem; Grants and funding. Requires a post-mortem/root cause analysis report to be submitted at the end of the term. (Note: This is a requirement for the venture creation theme consolidating current E Co-op workshops and seminars with the addition of online content. Students will be given permission if enrolled in an E Co-op term. Offered: F,W,S)",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-BET.html#BET310",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014678",
+            "subject": "BET",
+            "catalog_number": "320",
+            "title": "Entrepreneurial Strategy",
+            "units": 0.5,
+            "description": "Once your \"big idea\" has been formulated, what is the best way to realize its potential? With whom should you partner? How do you protect your intellectual property? What is the optimal business model? The objective of this course is to provide an understanding of the commercialization process, with a specific focus on assessment of opportunities and development of an entrepreneurial business plan. Course content includes the importance of strategic partnerships, understanding the bases of competition, conducting industry and market level analyses, evaluating innovative ideas for commercial potential, business planning in a corporate context, intellectual property strategy, and strategic tools needed for launching new ideas.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": "[Note: It is recommended that students should take BET 100 prior to this course. Offered: F,W,S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET320",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014680",
+            "subject": "BET",
+            "catalog_number": "410A",
+            "title": "Capstone Entrepreneurship Planning and Execution Part 1",
+            "units": 0.25,
+            "description": "Goal setting and project planning; team building; understanding your competitive landscape; understanding your customers; patents and patent searches taken concurrently with capstone projects.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "BET 320.",
+            "antirequisites": null,
+            "corequisites": "CHE 482 or CIVE 400 or ECE 498A or ENVE 400/430 or GENE 403 or GEOE 400 or MSCI 401 or ME 481 or MTE 481 or NE 408 or SE 490 or SYDE 461",
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "S"
+            ],
+            "notes": "[Note: This is a requirement for the corporate entrepreneurship theme, supporting the efforts of capstone project teams to develop a commercialization strategy. This will consist of workshops, seminars, and online content. Offered: F,S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET410A",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014681",
+            "subject": "BET",
+            "catalog_number": "410B",
+            "title": "Capstone Entrepreneurship Planning and Execution Part 2",
+            "units": 0.25,
+            "description": "Commercialization options and developing a business model; Legal issues; Creating a business case for the capstone project; presentation skills and \"pitching\"; post-mortem and root cause analysis taken concurrently with capstone projects. Includes the post-mortem/root cause analysis report to be submitted at the end of the term (Note: This is a requirement for the Corporate Entrepreneurship theme, supporting the efforts of capstone project teams to develop a commercialization strategy. This will consist of workshops, seminars and online content. Offered: W)",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "BET 410A.",
+            "antirequisites": null,
+            "corequisites": "CHE 483 or CIVE 401 or ECE 498B or ENVE 401/431 or GENE 404 or GEOE 401 or MSCI 402 or ME 482 or MTE 482 or NE 409 or SE 491 or SYDE 462",
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET410B",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015007",
+            "subject": "BET",
+            "catalog_number": "411",
+            "title": "Capstone Entrepreneurship Planning and Execution",
+            "units": 0.5,
+            "description": "This course taken concurrently with a non-engineering capstone project, consists of workshops, seminars, and online content. Topics include goal setting and project planning, team building, understanding your competitive landscape and customers, patents and patent searches, commercialization options and developing a business model, legal issues, creating a business case for the capstone project, presentation skills and \"pitching\", post-mortem and root cause analysis.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "BET 320; Enrolled in Minor in Entrepreneurship",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: This is a requirement for the corporate entrepreneurship track of the Entrepreneurship Minor, supporting the efforts of capstone project teams to develop a commercialization strategy. Not open to engineering students. Offered F,W,S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET411",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015008",
+            "subject": "BET",
+            "catalog_number": "412",
+            "title": "Advanced Topics in Entrepreneurship",
+            "units": 0.5,
+            "description": "This course will be taken by students in the Corporate Entrepreneurship track of the Minor in Entrepreneurship, and approved by the program co-ordinator in order to meet the experiential component requirements in the minor with special projects as assigned.",
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": "Enrolled in Minor in Entrepreneurship",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": "[Note: Not open to engineering students. Offered: F,W,S]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET412",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015009",
+            "subject": "BET",
+            "catalog_number": "420",
+            "title": "Entrepreneurship for Social Impact",
+            "units": 0.5,
+            "description": "This course explores how innovative approaches can address social problems, create organizations that make positive change, have significant social impact, and be sustainable and economically viable. Topics include the principles of social entrepreneurship, design thinking applied to identifying significant problems, innovative solutions for social impact, and identifying opportunities for social change. Students develop skills and tools for refining and implementing their ideas as well as measuring the success and value of mission-driven organizations. Through case studies, lectures, and workshops, students also develop skills in strategic thinking with a socially conscious business mindset to create high-impact ventures. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Minor in Entrepreneurship",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET420",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015530",
+            "subject": "BET",
+            "catalog_number": "430",
+            "title": "Sales Fundamentals",
+            "units": 0.5,
+            "description": "The one thing every new venture needs whether small or large, not-for-profit or for-profit, startup or part of an already mature business, is sales. This course is designed to help you create and grow a successful business venture through your personal marketing and sales efforts. Coursework examines key sales technologies, networking techniques, the use of marketing in sales, the sales process, and assessing the value of a particular sale from both the perspective of customer impact and the financial/strategic impact on the organization. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET430",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "014679",
+            "subject": "BET",
+            "catalog_number": "310",
+            "title": "Enterprise Co-op Entrepreneurship Planning and Execution",
+            "units": 0.5,
+            "description": "This course is taken concurrently with a student's first E Co-op term. This is a requirement for the venture creation theme consolidating current E Co-op workshops and seminars with the addition of online content. Topics include: Business planning and execution; Understanding customers and your value proposition; Refining your business model; Corporate legal issues; Hiring employees; Understanding your competitors; The local entrepreneurial ecosystem; Grants and funding. Requires a post-mortem/root cause analysis report to be submitted at the end of the term. (Note: This is a requirement for the venture creation theme consolidating current E Co-op workshops and seminars with the addition of online content. Students will be given permission if enrolled in an E Co-op term. Offered: F,W,S)",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F",
+                "W",
+                "S"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-BET.html#BET310",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015528",
+            "subject": "BET",
+            "catalog_number": "350",
+            "title": "Customer Experience Design",
+            "units": 0.5,
+            "description": "In this course, entrepreneurial students will learn the principles and tools of customer experience (CX) design and how developing an exceptional experience for the customer fits into an overall business strategy. Not only will students develop a conceptual understanding of user experience and user-centered design, they will also learn how to deeply understand the needs of the customer and develop engaging and innovative products and services. Topics include: visual design principles, design thinking, user experience research, experience mapping, sketching and storyboards, interactive prototypes, and usability testing. [Offered: F]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "F"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET350",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015529",
+            "subject": "BET",
+            "catalog_number": "450",
+            "title": "Leadership",
+            "units": 0.5,
+            "description": "Leaders make things happen. Leaders make things possible. This course explores the relevant concepts, theories and skills needed to lead successfully in any environment, from new ventures to change management in large corporations, government, and not-for-profits. Course topics include: leadership and followership, group and team dynamics, change management, interpersonal dynamics, and supporting leadership skills such as self-awareness, conflict management, and communications. Course topics will be enriched through a critical study of leadership exemplars in popular media. [Offered: W]",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": "GBDA 204, MSCI 411, SPCOM 204, 227",
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [
+                "W"
+            ],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-BET.html#BET450",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

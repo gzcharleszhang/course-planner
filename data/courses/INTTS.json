@@ -1,0 +1,103 @@
+{
+    "data": [
+        {
+            "course_id": "004929",
+            "subject": "INTTS",
+            "catalog_number": "301",
+            "title": "Institutions of International Trade and Finance",
+            "units": 0.5,
+            "description": "A political economy analysis of multilateral institutions of international trade and finance. Topics will include discussion of Free Trade Areas and Customs Unions, (NAFTA and EU), the WTO (formerly GATT), the International Monetary System and the IMF, the World Bank and the Bank for International Settlements.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "ECON 101, 102, 231",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "ECON 334",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-INTTS.html#INTTS301",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006477",
+            "subject": "INTTS",
+            "catalog_number": "400",
+            "title": "International Trade Seminar",
+            "units": 0,
+            "description": "A non-credit field study milestone experience directed at senior students in the International Trade Specialization. Exposure to experts in areas related to international trade will act as a culminating activity. This milestone will offer the experience on campus as a seminar and take students to locations as a workshop experience.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": "International Trade students",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: Formerly INTTS 400A.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-INTTS.html#INTTS400",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "004929",
+            "subject": "INTTS",
+            "catalog_number": "301",
+            "title": "Institutions of International Trade and Finance",
+            "units": 0.5,
+            "description": "A political economy analysis of multilateral institutions of international trade and finance. Topics will include discussion of Free Trade Areas and Customs Unions, (NAFTA and EU), the WTO (formerly GATT), the International Monetary System and the IMF, the World Bank and the Bank for International Settlements.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "ECON 101, 102, 231",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "ECON 334",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-INTTS.html#INTTS301",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

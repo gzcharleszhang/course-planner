@@ -1,0 +1,169 @@
+{
+    "data": [
+        {
+            "course_id": "006505",
+            "subject": "ISS",
+            "catalog_number": "250A",
+            "title": "Social Statistics",
+            "units": 0.25,
+            "description": null,
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Min 1.0 units from ANTH,ISS,PSYCH,SOC,SOCWK; Level at least 2A; Not open to Math",
+            "antirequisites": "Antireq:(ART & ENV )ARTS 280, BIOL 460,ECON 221,ENVS 271,277,278, ISS 250R,KIN 222,PSCI 214,PSYCH 292,REC 371,371A,SOC 280,STAT 202,204,206,211,221\r\n231,241",
+            "corequisites": null,
+            "crosslistings": "SWREN 250A",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-ISS.html#ISS250A",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006506",
+            "subject": "ISS",
+            "catalog_number": "250B",
+            "title": "Social Statistics",
+            "units": 0.25,
+            "description": null,
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "ISS 250A",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "SWREN 250B",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-ISS.html#ISS250B",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006511",
+            "subject": "ISS",
+            "catalog_number": "350E",
+            "title": "Family Law and Public Policy",
+            "units": 0.5,
+            "description": "Consideration of the court system; investigation of divorce mediation, court mandated custody, access and juvenile predispositional assessment, child welfare, psychiatric advocacy, corrections, and highlighting of professional, ethical, confidentiality, civil and criminal liability issues for social workers.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Level at least 2A",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1213",
+            "url": "http://www.ucalendar.uwaterloo.ca/1213/COURSE/course-ISS.html#ISS350E",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006505",
+            "subject": "ISS",
+            "catalog_number": "250A",
+            "title": "Social Statistics",
+            "units": 0.25,
+            "description": null,
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "Min 1.0 units from ANTH,ISS,PSYCH,SOC,SOCWK; Level at least 2A; Not open to Math",
+            "antirequisites": "Antireq:(ART & ENV )ARTS 280, BIOL 460,ECON 221,ENVS 271,277,278, ISS 250R,KIN 222,PSCI 214,PSYCH 292,REC 371,371A,SOC 280,STAT 202,204,206,211,221\r\n231,241",
+            "corequisites": null,
+            "crosslistings": "SWREN 250A",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-ISS.html#ISS250A",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "006506",
+            "subject": "ISS",
+            "catalog_number": "250B",
+            "title": "Social Statistics",
+            "units": 0.25,
+            "description": null,
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": "ISS 250A",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "SWREN 250B",
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": true,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1011",
+            "url": "http://www.ucalendar.uwaterloo.ca/1011/COURSE/course-ISS.html#ISS250B",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

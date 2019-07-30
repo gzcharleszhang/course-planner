@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "course_id": "014940",
+            "subject": "Graduate",
+            "catalog_number": "Studie",
+            "title": "Research",
+            "units": 0,
+            "description": null,
+            "instructions": [
+                "PRJ"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-GS.html#GS.",
+            "academic_level": "graduate"
+        }
+    ]
+}

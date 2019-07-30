@@ -1,0 +1,136 @@
+{
+    "data": [
+        {
+            "course_id": "015148",
+            "subject": "MEDVL",
+            "catalog_number": "251R",
+            "title": "The History of Islamic Civilization from 1300-1800: The Islamic Gunpowder Empires",
+            "units": 0.5,
+            "description": "This course studies in comparative fashion the rise, consolidation, and decline of the three major Islamic empires of the early modern period (c. 1300-1800): the Ottomans in Anatolia, the Balkans, and the Middle East; the Safavids in Iran, and the Mughals in India.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "SI 251R",
+            "terms_offered": [],
+            "notes": "[Note: SI 121R recommended.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MEDVL.html#MEDVL251R",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015147",
+            "subject": "MEDVL",
+            "catalog_number": "250R",
+            "title": "The History of Islamic Civilization from Late Antiquity to 1300",
+            "units": 0.5,
+            "description": "This course surveys the diverse history of Islamic societies from the seventh to the thirteenth century. The primary focus is on the central Islamic lands from Egypt to Iran. In addition to the standard narrative, the course also examines salient aspects of Islamic civilization on a thematic basis.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "SI 250R",
+            "terms_offered": [],
+            "notes": "[Note: SI 121R recommended.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MEDVL.html#MEDVL250R",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015147",
+            "subject": "MEDVL",
+            "catalog_number": "250R",
+            "title": "The History of Islamic Civilization from Late Antiquity to 1300",
+            "units": 0.5,
+            "description": "This course surveys the diverse history of Islamic societies from the seventh to the thirteenth century. The primary focus is on the central Islamic lands from Egypt to Iran. In addition to the standard narrative, the course also examines salient aspects of Islamic civilization on a thematic basis.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "SI 250R",
+            "terms_offered": [],
+            "notes": "[Note: SI 121R recommended.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MEDVL.html#MEDVL250R",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "015148",
+            "subject": "MEDVL",
+            "catalog_number": "251R",
+            "title": "The History of Islamic Civilization from 1300-1800: The Islamic Gunpowder Empires",
+            "units": 0.5,
+            "description": "This course studies in comparative fashion the rise, consolidation, and decline of the three major Islamic empires of the early modern period (c. 1300-1800): the Ottomans in Anatolia, the Balkans, and the Middle East; the Safavids in Iran, and the Mughals in India.",
+            "instructions": [
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": "SI 251R",
+            "terms_offered": [],
+            "notes": "[Note: SI 121R recommended.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-MEDVL.html#MEDVL251R",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

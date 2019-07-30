@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "course_id": "013355",
+            "subject": "TN",
+            "catalog_number": "700",
+            "title": "Theoretical Neuroscience Research Seminar",
+            "units": 0.5,
+            "description": "Satisfaction of the requirements of this course consists of attendance at a prescribed number (10-12) of colloquia and seminars presented by the Centre.  These will include presentations by students, faculty and visiting researchers.",
+            "instructions": [
+                "SEM"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/SA/GRAD/1617/GRDcourse-TN.html#TN700",
+            "academic_level": "graduate"
+        }
+    ]
+}

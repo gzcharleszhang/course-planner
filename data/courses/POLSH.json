@@ -1,0 +1,140 @@
+{
+    "data": [
+        {
+            "course_id": "007712",
+            "subject": "POLSH",
+            "catalog_number": "101",
+            "title": "Elementary Polish I",
+            "units": 0.5,
+            "description": "The fundamentals of Polish grammar are taught with emphasis on oral practice and pronunciation. An introduction to Polish culture is given as well.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: POLSH 101 is not open to students with native, near-native or similar advanced ability.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-POLSH.html#POLSH101",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007713",
+            "subject": "POLSH",
+            "catalog_number": "102",
+            "title": "Elementary Polish II",
+            "units": 0.5,
+            "description": "A continuation of POLSH 101.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "POLSH 101",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: POLSH 102 is not open to students with native, near-native or similar advanced ability.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-POLSH.html#POLSH102",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007714",
+            "subject": "POLSH",
+            "catalog_number": "201",
+            "title": "Intermediate Polish I",
+            "units": 0.5,
+            "description": "This course is conducted largely in Polish and provides intensive practice in grammar, composition, and conversation.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "POLSH 102",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: POLSH 201 is not open to students with native, near-native or similar advanced ability.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-POLSH.html#POLSH201",
+            "academic_level": "undergraduate"
+        },
+        {
+            "course_id": "007715",
+            "subject": "POLSH",
+            "catalog_number": "202",
+            "title": "Intermediate Polish II",
+            "units": 0.5,
+            "description": "A continuation of POLSH 201.",
+            "instructions": [
+                "LAB",
+                "LEC"
+            ],
+            "prerequisites": "POLSH 201",
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": "[Note: POLSH 202 is not open to students with native, near-native or similar advanced ability.]",
+            "offerings": {
+                "online": false,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1617",
+            "url": "http://www.ucalendar.uwaterloo.ca/1617/COURSE/course-POLSH.html#POLSH202",
+            "academic_level": "undergraduate"
+        }
+    ]
+}

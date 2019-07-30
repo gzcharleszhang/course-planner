@@ -1,0 +1,38 @@
+{
+    "data": [
+        {
+            "course_id": "012277",
+            "subject": "INTST",
+            "catalog_number": "101",
+            "title": "Introduction to International Studies",
+            "units": 0.5,
+            "description": "Conflict and cooperation have been the central problems of international politics throughout history, and remain so today. This course introduces aspects of these problems and attempted solutions. Specific topics and approaches vary by instructor.",
+            "instructions": [
+                "DIS",
+                "LEC"
+            ],
+            "prerequisites": null,
+            "antirequisites": null,
+            "corequisites": null,
+            "crosslistings": null,
+            "terms_offered": [],
+            "notes": null,
+            "offerings": {
+                "online": true,
+                "online_only": false,
+                "st_jerome": false,
+                "st_jerome_only": false,
+                "renison": false,
+                "renison_only": false,
+                "conrad_grebel": false,
+                "conrad_grebel_only": false
+            },
+            "needs_department_consent": false,
+            "needs_instructor_consent": false,
+            "extra": [],
+            "calendar_year": "1819",
+            "url": "http://www.ucalendar.uwaterloo.ca/1819/COURSE/course-INTST.html#INTST101",
+            "academic_level": "undergraduate"
+        }
+    ]
+}
