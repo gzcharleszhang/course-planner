@@ -26,11 +26,7 @@ type UserModel struct {
 
 func CreateUser(ctx context.Context, firstName users.FirstName, lastName users.LastName,
 	email users.Email, password users.PasswordHash) (users.UserId, error) {
-	sess, err := db.NewSession(ctx)
-	if err != nil {
-		return "", err
-	}
-	defer sess.Close(ctx)
+	sess := db.PrimarySession
 	// check for duplicate emails
 	userExists, err := checkDuplicateEmail(ctx, email)
 	if err != nil {
@@ -68,12 +64,9 @@ func checkDuplicateEmail(ctx context.Context, email users.Email) (bool, error) {
 }
 
 func GetUserById(ctx context.Context, userId users.UserId) (*users.User, error) {
-	sess, err := db.NewSession(ctx)
-	if err != nil {
-		return nil, err
-	}
+	sess := db.PrimarySession
 	var result UserModel
-	err = sess.Users().FindOne(ctx, bson.M{"_id": userId}).Decode(&result)
+	err := sess.Users().FindOne(ctx, bson.M{"_id": userId}).Decode(&result)
 	if err != nil {
 		return nil, err
 	}
@@ -107,13 +100,9 @@ func (u UserModel) ToUser(ctx context.Context) (*users.User, error) {
 }
 
 func GetUserByEmail(ctx context.Context, email users.Email) (*users.User, error) {
-	sess, err := db.NewSession(ctx)
-	if err != nil {
-		return nil, err
-	}
-	defer sess.Close(ctx)
+	sess := db.PrimarySession
 	var result UserModel
-	err = sess.Users().FindOne(ctx, bson.M{"email": email}).Decode(&result)
+	err := sess.Users().FindOne(ctx, bson.M{"email": email}).Decode(&result)
 	if err != nil {
 		return nil, err
 	}

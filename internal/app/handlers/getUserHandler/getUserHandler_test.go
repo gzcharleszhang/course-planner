@@ -21,6 +21,7 @@ func TestHandler(t *testing.T) {
 	if err != nil {
 		t.Errorf("Failed to initialize test: %v\n", err)
 	}
+	defer testUtils.CleanUp()
 	req := newUserService.Request{
 		FirstName: "Steven",
 		LastName:  "Xu",

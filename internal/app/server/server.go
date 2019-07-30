@@ -6,6 +6,7 @@ import (
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/jwtauth"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/auth"
+	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/gzcharleszhang/course-planner/internal/app/env"
 	"github.com/gzcharleszhang/course-planner/internal/app/middlewares"
 	"github.com/gzcharleszhang/course-planner/internal/app/routes/userRoutes"
@@ -24,6 +25,12 @@ func StartServer(port int) {
 	if err != nil {
 		errLogger.Printf("Error: failed to load environment variables %v", err)
 		log.Printf("Error: failed to load environment variables %v", err)
+	}
+	err = db.InitPrimarySession()
+	defer db.CleanPrimarySession()
+	if err != nil {
+		errLogger.Printf("Erorr initializaing db session: %v", err)
+		log.Printf("Erorr initializaing db session: %v", err)
 	}
 	r := SetupRouter()
 	fmt.Printf("Listening on port %v\n", port)
