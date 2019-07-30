@@ -44,9 +44,10 @@ func (usr User) NewTimeline(name timelines.TimelineName) {
 }
 
 func GetUserIdFromContext(ctx context.Context) (UserId, error) {
-	userId, ok := ctx.Value(contextKeys.UserIdKey).(UserId)
+	ctxUserId := ctx.Value(contextKeys.UserIdKey)
+	userId, ok := ctxUserId.(UserId)
 	if !ok {
-		return "", errors.New(fmt.Sprintf("cannot convert %v to user id", ctx.Value(contextKeys.UserRoleKey)))
+		return "", errors.New(fmt.Sprintf("cannot convert %v to user id", ctxUserId))
 	}
 	return userId, nil
 }

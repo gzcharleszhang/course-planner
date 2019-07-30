@@ -30,9 +30,10 @@ func GetRoleFromId(id RoleId) Role {
 }
 
 func GetRoleFromContext(ctx context.Context) (Role, error) {
-	role, ok := ctx.Value(contextKeys.UserRoleKey).(Role)
+	ctxRole := ctx.Value(contextKeys.UserRoleKey)
+	role, ok := ctxRole.(Role)
 	if !ok {
-		return nil, errors.New(fmt.Sprintf("cannot convert %v to a role", ctx.Value(contextKeys.UserRoleKey)))
+		return nil, errors.New(fmt.Sprintf("cannot convert %v to a role", ctxRole))
 	}
 	return role, nil
 }
