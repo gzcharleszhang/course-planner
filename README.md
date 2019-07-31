@@ -27,8 +27,8 @@ dependencies.
 ### Running tests
 - make sure you're in the project root directory
 - run `go test -v -tags=unit ./...` for unit tests
-- run `go test -v -tags=integration ./...` for integration tests
-- run `go test -v -tags=all ./...` for both unit and integration
+- run `go test -v -p 1 -tags=integration ./...` for integration tests
+- run `go test -v -p 1 -tags=all ./...` for both unit and integration
 tests.
 
 ## Contributing

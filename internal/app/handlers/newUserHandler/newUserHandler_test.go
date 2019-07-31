@@ -4,9 +4,10 @@ package newUserHandler
 
 import (
 	"encoding/json"
-	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/utils/testUtils"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
+	"github.com/gzcharleszhang/course-planner/internal/app/models/userModel"
 	"github.com/gzcharleszhang/course-planner/internal/app/services/newUserService"
 	"go.mongodb.org/mongo-driver/bson"
 	"net/http"
@@ -14,7 +15,7 @@ import (
 )
 
 func TestHandler(t *testing.T) {
-	ctx, err := utils.InitTest()
+	ctx, err := testUtils.Init()
 	if err != nil {
 		t.Errorf("Failed to initialize test: %v\n", err)
 	}
@@ -25,9 +26,9 @@ func TestHandler(t *testing.T) {
 		"email":      "hello@stevenxu.me",
 	}
 	jsonStr := utils.ToRawJson(req)
-	rr, err := utils.NewTestRequest("POST", RouteURL, jsonStr, Handler)
+	rr, err := testUtils.NewRequest(ctx, "POST", RouteURL, jsonStr, Handler)
 	if err != nil {
-		t.Errorf("%v", err)
+		t.Error(err)
 	}
 	if status := rr.Code; status != http.StatusOK {
 		t.Errorf("handler returned wrong status code: got %v want %v",
@@ -41,10 +42,10 @@ func TestHandler(t *testing.T) {
 	// check if we can find the new user in the database
 	sess, err := db.NewSession(ctx)
 	if err != nil {
-		t.Errorf("%v\n", err)
+		t.Error(err)
 	}
 	defer sess.Close(ctx)
-	var userData users.UserData
+	var userData userModel.UserModel
 	err = sess.Users().FindOne(ctx, bson.M{"_id": userId}).Decode(&userData)
 	if err != nil {
 		t.Errorf("Cannot find the newly created user: %v", err)
@@ -65,9 +66,9 @@ func TestHandler(t *testing.T) {
 		"email":      "hello@stevenxu.me",
 	}
 	jsonStr = utils.ToRawJson(req)
-	rr, err = utils.NewTestRequest("POST", RouteURL, jsonStr, Handler)
+	rr, err = testUtils.NewRequest(ctx, "POST", RouteURL, jsonStr, Handler)
 	if err != nil {
-		t.Errorf("%v", err)
+		t.Error(err)
 	}
 	if status := rr.Code; status != http.StatusInternalServerError {
 		t.Errorf("handler returned wrong status code: got %v want %v",

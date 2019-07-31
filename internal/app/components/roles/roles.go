@@ -1,7 +1,11 @@
 package roles
 
 import (
+	"context"
+	"fmt"
+	"github.com/gzcharleszhang/course-planner/internal/app/components/contextKeys"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/permissions"
+	"github.com/pkg/errors"
 )
 
 type RoleDisplayName string
@@ -23,4 +27,13 @@ func GetRoleFromId(id RoleId) Role {
 		return Role(NewSnew())
 	}
 	return Role(NewConrad())
+}
+
+func GetRoleFromContext(ctx context.Context) (Role, error) {
+	ctxRole := ctx.Value(contextKeys.UserRoleKey)
+	role, ok := ctxRole.(Role)
+	if !ok {
+		return nil, errors.New(fmt.Sprintf("cannot convert %v to a role", ctxRole))
+	}
+	return role, nil
 }

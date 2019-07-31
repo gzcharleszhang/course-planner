@@ -2,6 +2,7 @@ package userRoutes
 
 import (
 	"github.com/go-chi/chi"
+	"github.com/gzcharleszhang/course-planner/internal/app/handlers/getUserHandler"
 	"github.com/gzcharleszhang/course-planner/internal/app/handlers/loginHandler"
 	"github.com/gzcharleszhang/course-planner/internal/app/handlers/logoutHandler"
 	"github.com/gzcharleszhang/course-planner/internal/app/handlers/newUserHandler"
@@ -20,6 +21,7 @@ func InitUserRoutes(r chi.Router) {
 		r.Group(func(r chi.Router) {
 			r.Use(middlewares.VerifyAuthenticatedMiddleware)
 			r.Post(logoutHandler.RouteURL, logoutHandler.Handler)
+			r.Get(getUserHandler.RouteURL, getUserHandler.Handler)
 		})
 
 		// admin routes

@@ -72,7 +72,7 @@ func TestDegree_GetName(t *testing.T) {
 func initDegree() *Degree {
 	return &Degree{
 		Name: "Easy BCS",
-		Requirements: DegreeRequirements{
+		Requirements: PlanRequirements{
 			courses.CourseRequirementSet{
 				NumCoursesToSatisfy: 2,
 				Requirements: courses.CourseRequirementRules{
