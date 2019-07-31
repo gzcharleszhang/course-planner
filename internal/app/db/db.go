@@ -30,7 +30,7 @@ func InitPrimarySession() error {
 	return nil
 }
 
-func CleanPrimarySession() {
+func ClosePrimarySession() {
 	PrimarySession.Close(context.Background())
 }
 

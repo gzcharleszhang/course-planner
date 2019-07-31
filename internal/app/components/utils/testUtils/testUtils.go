@@ -25,7 +25,7 @@ func Init() (context.Context, error) {
 }
 
 func CleanUp() {
-	db.CleanPrimarySession()
+	db.ClosePrimarySession()
 }
 
 func InitWithUser() (context.Context, *users.User, error) {

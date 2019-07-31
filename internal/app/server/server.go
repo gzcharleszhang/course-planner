@@ -27,7 +27,7 @@ func StartServer(port int) {
 		log.Printf("Error: failed to load environment variables %v", err)
 	}
 	err = db.InitPrimarySession()
-	defer db.CleanPrimarySession()
+	defer db.ClosePrimarySession()
 	if err != nil {
 		errLogger.Printf("Erorr initializaing db session: %v", err)
 		log.Printf("Erorr initializaing db session: %v", err)
