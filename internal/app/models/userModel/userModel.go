@@ -42,7 +42,7 @@ func CreateUser(ctx context.Context, firstName users.FirstName, lastName users.L
 		LastName:  lastName,
 		Password:  password,
 		Email:     email,
-		RoleId:    roles.ConradId, // default to conrad
+		RoleId:    roles.GetDefaultRole().GetRoleId(),
 	}
 	if _, err := sess.Users().InsertOne(ctx, user); err != nil {
 		return "", err
