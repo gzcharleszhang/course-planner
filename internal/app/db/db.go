@@ -2,11 +2,14 @@ package db
 
 import (
 	"context"
+	"github.com/gzcharleszhang/course-planner/internal/app/env"
 	"github.com/pkg/errors"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"os"
 )
+
+var PrimarySession Session
 
 func NewSession(ctx context.Context) (*Session, error) {
 	// connect to mongo server
@@ -14,11 +17,24 @@ func NewSession(ctx context.Context) (*Session, error) {
 	if client == nil || err != nil {
 		return nil, errors.Wrap(err, "Error connecting to mongo server")
 	}
-	session := Session{Client: client}
-	return &session, nil
+	sess := Session{Client: client}
+	return &sess, nil
+}
+
+func InitPrimarySession() error {
+	client, err := mongo.Connect(context.Background(), options.Client().ApplyURI(getMongoURI()))
+	if client == nil || err != nil {
+		return errors.Wrap(err, "Error connecting to mongo server")
+	}
+	PrimarySession = Session{Client: client}
+	return nil
+}
+
+func ClosePrimarySession() {
+	PrimarySession.Close(context.Background())
 }
 
 func getMongoURI() string {
-	mongoURI := os.Getenv("MONGO_URI")
+	mongoURI := os.Getenv(env.MongoURIEnvKey)
 	return mongoURI
 }

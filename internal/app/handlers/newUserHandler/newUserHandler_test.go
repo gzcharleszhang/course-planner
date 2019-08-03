@@ -19,6 +19,7 @@ func TestHandler(t *testing.T) {
 	if err != nil {
 		t.Errorf("Failed to initialize test: %v\n", err)
 	}
+	defer testUtils.CleanUp()
 	req := utils.M{
 		"first_name": "Steven",
 		"last_name":  "Xu",
@@ -40,11 +41,7 @@ func TestHandler(t *testing.T) {
 	userId := res.UserId
 
 	// check if we can find the new user in the database
-	sess, err := db.NewSession(ctx)
-	if err != nil {
-		t.Error(err)
-	}
-	defer sess.Close(ctx)
+	sess := db.PrimarySession
 	var userData userModel.UserModel
 	err = sess.Users().FindOne(ctx, bson.M{"_id": userId}).Decode(&userData)
 	if err != nil {

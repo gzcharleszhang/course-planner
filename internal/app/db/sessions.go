@@ -2,6 +2,7 @@ package db
 
 import (
 	"context"
+	"github.com/gzcharleszhang/course-planner/internal/app/env"
 	"go.mongodb.org/mongo-driver/mongo"
 	"os"
 )
@@ -15,25 +16,25 @@ func (sess Session) Close(ctx context.Context) {
 }
 
 func (sess Session) Users() *mongo.Collection {
-	return sess.Client.Database(os.Getenv("MONGO_DB_NAME")).Collection("users")
+	return sess.Client.Database(os.Getenv(env.MongoDBNameEnvKey)).Collection("users")
 }
 
 func (sess Session) Timelines() *mongo.Collection {
-	return sess.Client.Database(os.Getenv("MONGO_DB_NAME")).Collection("timelines")
+	return sess.Client.Database(os.Getenv(env.MongoDBNameEnvKey)).Collection("timelines")
 }
 
 func (sess Session) Courses() *mongo.Collection {
-	return sess.Client.Database(os.Getenv("MONGO_DB_NAME")).Collection("courses")
+	return sess.Client.Database(os.Getenv(env.MongoDBNameEnvKey)).Collection("courses")
 }
 
 func (sess Session) CourseRecords() *mongo.Collection {
-	return sess.Client.Database(os.Getenv("MONGO_DB_NAME")).Collection("course-records")
+	return sess.Client.Database(os.Getenv(env.MongoDBNameEnvKey)).Collection("course-records")
 }
 
 func (sess Session) TermRecords() *mongo.Collection {
-	return sess.Client.Database(os.Getenv("MONGO_DB_NAME")).Collection("term-records")
+	return sess.Client.Database(os.Getenv(env.MongoDBNameEnvKey)).Collection("term-records")
 }
 
 func (sess Session) Plans() *mongo.Collection {
-	return sess.Client.Database(os.Getenv("MONGO_DB_NAME")).Collection("plans")
+	return sess.Client.Database(os.Getenv(env.MongoDBNameEnvKey)).Collection("plans")
 }

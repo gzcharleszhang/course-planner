@@ -37,3 +37,8 @@ func GetRoleFromContext(ctx context.Context) (Role, error) {
 	}
 	return role, nil
 }
+
+// default new roles to Conrad
+func GetDefaultRole() Role {
+	return NewConrad()
+}
