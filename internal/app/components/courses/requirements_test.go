@@ -204,7 +204,9 @@ func initRecords() *CourseRecords {
 		Id:      CourseId(123),
 		Name:    "Test 1",
 		Subject: "Test",
-		Catalog: 1,
+		Catalog: CourseCatalog{
+			Number: 1,
+		},
 	}
 	record1 := CourseRecord{
 		Course:         course1,
@@ -215,7 +217,9 @@ func initRecords() *CourseRecords {
 		Id:      CourseId(456),
 		Name:    "Test 2",
 		Subject: "Test",
-		Catalog: 2,
+		Catalog: CourseCatalog{
+			Number: 2,
+		},
 	}
 	record2 := CourseRecord{
 		Course:         course2,
@@ -226,7 +230,9 @@ func initRecords() *CourseRecords {
 		Id:      CourseId(789),
 		Name:    "Test 3",
 		Subject: "Test",
-		Catalog: 3,
+		Catalog: CourseCatalog{
+			Number: 3,
+		},
 	}
 	record3 := CourseRecord{
 		Course: course3,
