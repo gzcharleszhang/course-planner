@@ -15,16 +15,16 @@ func TestDegree_IsCompleted(t *testing.T) {
 
 	// completed
 	courseRecords := courses.CourseRecords{
-		courses.CourseId(0): &courses.CourseRecord{
+		&courses.CourseRecord{
 			Course: courses.Course{
-				Id: 0,
+				Id: "0",
 			},
 			Grade:          50,
 			CompletionDate: &currTime,
 		},
-		courses.CourseId(1): &courses.CourseRecord{
+		&courses.CourseRecord{
 			Course: courses.Course{
-				Id: 1,
+				Id: "1",
 			},
 			Grade:          60,
 			CompletionDate: &currTime,
@@ -34,9 +34,9 @@ func TestDegree_IsCompleted(t *testing.T) {
 
 	// incomplete, one course missing
 	courseRecords = courses.CourseRecords{
-		courses.CourseId(0): &courses.CourseRecord{
+		&courses.CourseRecord{
 			Course: courses.Course{
-				Id: 0,
+				Id: "0",
 			},
 			Grade:          50,
 			CompletionDate: &currTime,
@@ -46,16 +46,16 @@ func TestDegree_IsCompleted(t *testing.T) {
 
 	// incomplete, one course did not meet grade requirement
 	courseRecords = courses.CourseRecords{
-		courses.CourseId(0): &courses.CourseRecord{
+		&courses.CourseRecord{
 			Course: courses.Course{
-				Id: 0,
+				Id: "0",
 			},
 			Grade:          50,
 			CompletionDate: &currTime,
 		},
-		courses.CourseId(1): &courses.CourseRecord{
+		&courses.CourseRecord{
 			Course: courses.Course{
-				Id: 1,
+				Id: "1",
 			},
 			Grade:          59,
 			CompletionDate: &currTime,
@@ -78,11 +78,11 @@ func initDegree() *Degree {
 				Requirements: courses.CourseRequirementRules{
 					courses.CourseRequirement{
 						MinGrade: 50,
-						CourseId: 0,
+						CourseId: "0",
 					},
 					courses.CourseRequirement{
 						MinGrade: 60,
-						CourseId: 1,
+						CourseId: "1",
 					},
 				},
 			},
