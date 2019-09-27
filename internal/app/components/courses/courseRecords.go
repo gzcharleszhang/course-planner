@@ -43,7 +43,6 @@ func (cr CourseRecord) Copy() CourseRecord {
 	return newRecord
 }
 
-
 func GetCourseRecordById(ctx context.Context, recordId CourseRecordId) (*CourseRecord, error) {
 	// TODO: implement
 	return nil, nil
