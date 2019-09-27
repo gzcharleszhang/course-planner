@@ -23,19 +23,19 @@ func TestCourseRecords_ToCourseIdMap(t *testing.T) {
 			cr: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade:          50,
 					CompletionDate: &currTime,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 2,
+						Id: "2",
 					},
 					Grade:          70,
 					CompletionDate: &currTime,
@@ -44,19 +44,19 @@ func TestCourseRecords_ToCourseIdMap(t *testing.T) {
 			want: map[CourseId]*CourseRecord{
 				CourseId(0): {
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade:          50,
 					CompletionDate: &currTime,
 				},
 				CourseId(1): {
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 				},
 				CourseId(2): {
 					Course: Course{
-						Id: 2,
+						Id: "2",
 					},
 					Grade:          70,
 					CompletionDate: &currTime,
@@ -68,38 +68,38 @@ func TestCourseRecords_ToCourseIdMap(t *testing.T) {
 			cr: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade:          50,
 					CompletionDate: &currTime,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 2,
+						Id: "2",
 					},
 					Grade:          60,
 					CompletionDate: &currTime,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 2,
+						Id: "2",
 					},
 					Grade:          90,
 					CompletionDate: &currTime,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 2,
+						Id: "2",
 					},
 					Grade:          70,
 					CompletionDate: &currTime,
@@ -108,17 +108,17 @@ func TestCourseRecords_ToCourseIdMap(t *testing.T) {
 			want: map[CourseId]*CourseRecord{
 				CourseId(0): {
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 				},
 				CourseId(1): {
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 				},
 				CourseId(2): {
 					Course: Course{
-						Id: 2,
+						Id: "2",
 					},
 					Grade:          90,
 					CompletionDate: &currTime,
@@ -150,13 +150,13 @@ func TestCourseRecords_Merge(t *testing.T) {
 			cr: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade: 50,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 70,
 				},
@@ -165,13 +165,13 @@ func TestCourseRecords_Merge(t *testing.T) {
 				records: CourseRecords{
 					&CourseRecord{
 						Course: Course{
-							Id: 2,
+							Id: "2",
 						},
 						Grade: 90,
 					},
 					&CourseRecord{
 						Course: Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade: 60,
 					},
@@ -180,25 +180,25 @@ func TestCourseRecords_Merge(t *testing.T) {
 			want: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade: 50,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 70,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 2,
+						Id: "2",
 					},
 					Grade: 90,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 60,
 				},
@@ -211,13 +211,13 @@ func TestCourseRecords_Merge(t *testing.T) {
 				records: CourseRecords{
 					&CourseRecord{
 						Course: Course{
-							Id: 2,
+							Id: "2",
 						},
 						Grade: 90,
 					},
 					&CourseRecord{
 						Course: Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade: 60,
 					},
@@ -226,13 +226,13 @@ func TestCourseRecords_Merge(t *testing.T) {
 			want: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 2,
+						Id: "2",
 					},
 					Grade: 90,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 60,
 				},
@@ -243,13 +243,13 @@ func TestCourseRecords_Merge(t *testing.T) {
 			cr: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade: 50,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 70,
 				},
@@ -260,13 +260,13 @@ func TestCourseRecords_Merge(t *testing.T) {
 			want: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade: 50,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 70,
 				},
@@ -297,19 +297,19 @@ func TestCourseRecords_Exclude(t *testing.T) {
 			cr: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 100,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade: 50,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 70,
 				},
@@ -318,13 +318,13 @@ func TestCourseRecords_Exclude(t *testing.T) {
 				records: CourseRecords{
 					&CourseRecord{
 						Course: Course{
-							Id: 2,
+							Id: "2",
 						},
 						Grade: 90,
 					},
 					&CourseRecord{
 						Course: Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade: 60,
 					},
@@ -333,7 +333,7 @@ func TestCourseRecords_Exclude(t *testing.T) {
 			want: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade: 50,
 				},
@@ -346,13 +346,13 @@ func TestCourseRecords_Exclude(t *testing.T) {
 				records: CourseRecords{
 					&CourseRecord{
 						Course: Course{
-							Id: 2,
+							Id: "2",
 						},
 						Grade: 90,
 					},
 					&CourseRecord{
 						Course: Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade: 60,
 					},
@@ -365,13 +365,13 @@ func TestCourseRecords_Exclude(t *testing.T) {
 			cr: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade: 50,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 70,
 				},
@@ -382,13 +382,13 @@ func TestCourseRecords_Exclude(t *testing.T) {
 			want: CourseRecords{
 				&CourseRecord{
 					Course: Course{
-						Id: 0,
+						Id: "0",
 					},
 					Grade: 50,
 				},
 				&CourseRecord{
 					Course: Course{
-						Id: 1,
+						Id: "1",
 					},
 					Grade: 70,
 				},
@@ -426,10 +426,10 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 			name: "satisfied",
 			fields: fields{
 				Course: Course{
-					Id: 0,
+					Id: "0",
 					Prereqs: CourseRequirementRules{
 						CourseRequirement{
-							CourseId: 1,
+							CourseId: "1",
 							MinGrade: 60,
 						},
 					},
@@ -439,7 +439,7 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 				pastRecords: &CourseRecords{
 					&CourseRecord{
 						Course: Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade: 10, // should still be satisfied because it's a future record
 					},
@@ -451,10 +451,10 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 			name: "not satisfied",
 			fields: fields{
 				Course: Course{
-					Id: 0,
+					Id: "0",
 					Prereqs: CourseRequirementRules{
 						CourseRequirement{
-							CourseId: 1,
+							CourseId: "1",
 							MinGrade: 60,
 						},
 					},
@@ -464,7 +464,7 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 				pastRecords: &CourseRecords{
 					&CourseRecord{
 						Course: Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade:          10,
 						CompletionDate: &currTime,
@@ -477,10 +477,10 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 			name: "overridden",
 			fields: fields{
 				Course: Course{
-					Id: 0,
+					Id: "0",
 					Prereqs: CourseRequirementRules{
 						CourseRequirement{
-							CourseId: 1,
+							CourseId: "1",
 							MinGrade: 60,
 						},
 					},
@@ -491,7 +491,7 @@ func TestCourseRecord_IsPrereqSatisfied(t *testing.T) {
 				pastRecords: &CourseRecords{
 					&CourseRecord{
 						Course: Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade:          10,
 						CompletionDate: &currTime,
@@ -660,7 +660,7 @@ func TestCourseRecords_Copy(t *testing.T) {
 	currTime := time.Now()
 	courseRecord1 := CourseRecord{
 		Course: Course{
-			Id: 3,
+			Id: "3",
 		},
 		Id:             CourseRecordId("random"),
 		Grade:          50,
@@ -668,7 +668,7 @@ func TestCourseRecords_Copy(t *testing.T) {
 	}
 	courseRecord1Expect := CourseRecord{
 		Course: Course{
-			Id: 3,
+			Id: "3",
 		},
 		Id:             CourseRecordId("asdfghjkl"),
 		Grade:          50,
@@ -676,7 +676,7 @@ func TestCourseRecords_Copy(t *testing.T) {
 	}
 	courseRecord2 := CourseRecord{
 		Course: Course{
-			Id: 2,
+			Id: "2",
 		},
 		Id:             CourseRecordId("asdfghjkl"),
 		Grade:          50,
@@ -684,7 +684,7 @@ func TestCourseRecords_Copy(t *testing.T) {
 	}
 	courseRecord3 := CourseRecord{
 		Course: Course{
-			Id: 1,
+			Id: "1",
 		},
 		Id:             CourseRecordId("asdfghjkl"),
 		Grade:          70,
@@ -696,27 +696,27 @@ func TestCourseRecords_Copy(t *testing.T) {
 		want    CourseRecords
 	}{
 		{
-			name: 	 "empty",
+			name:    "empty",
 			records: CourseRecords{},
-			want:	 nil,
+			want:    nil,
 		},
 		{
-			name: 	"single",
+			name: "single",
 			records: CourseRecords{
 				&courseRecord1,
 			},
-			want:	CourseRecords{
+			want: CourseRecords{
 				&courseRecord1Expect,
 			},
 		},
 		{
-			name: 	"mutli",
+			name: "mutli",
 			records: CourseRecords{
 				&courseRecord1,
 				&courseRecord2,
 				&courseRecord3,
 			},
-			want:	CourseRecords{
+			want: CourseRecords{
 				&courseRecord1Expect,
 				&courseRecord2,
 				&courseRecord3,
@@ -743,7 +743,7 @@ func TestCourseRecord_Copy(t *testing.T) {
 	currTime := time.Now()
 	courseRecord1 := CourseRecord{
 		Course: Course{
-			Id: 3,
+			Id: "3",
 		},
 		Id:             CourseRecordId("random"),
 		Grade:          50,
@@ -751,7 +751,7 @@ func TestCourseRecord_Copy(t *testing.T) {
 	}
 	courseRecord1Expect := CourseRecord{
 		Course: Course{
-			Id: 3,
+			Id: "3",
 		},
 		Id:             CourseRecordId("asdfghjkl"),
 		Grade:          50,
@@ -759,7 +759,7 @@ func TestCourseRecord_Copy(t *testing.T) {
 	}
 	courseRecord2 := CourseRecord{
 		Course: Course{
-			Id: 2,
+			Id: "2",
 		},
 		Id:             CourseRecordId("asdfghjkl"),
 		Grade:          50,
@@ -778,19 +778,19 @@ func TestCourseRecord_Copy(t *testing.T) {
 		want   CourseRecord
 	}{
 		{
-			name: 	"empty",
+			name:   "empty",
 			fields: CourseRecord{},
-			want:	CourseRecord{
+			want: CourseRecord{
 				Id: CourseRecordId("asdfghjkl"),
 			},
 		},
 		{
-			name: 	"single1",
+			name:   "single1",
 			fields: courseRecord1,
 			want:   courseRecord1Expect,
 		},
 		{
-			name: 	"single2",
+			name:   "single2",
 			fields: courseRecord2,
 			want:   courseRecord2,
 		},
@@ -806,7 +806,7 @@ func TestCourseRecord_Copy(t *testing.T) {
 			}
 			got := cr.Copy()
 			if got.Id == cr.Id {
-				t.Errorf("Expected different id for recieved %v and expected %v", got.Id, cr.Id )
+				t.Errorf("Expected different id for recieved %v and expected %v", got.Id, cr.Id)
 			}
 			got.Id = CourseRecordId("asdfghjkl")
 			if !reflect.DeepEqual(got, tt.want) {
