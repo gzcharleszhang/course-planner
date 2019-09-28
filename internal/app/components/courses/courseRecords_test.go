@@ -42,19 +42,19 @@ func TestCourseRecords_ToCourseIdMap(t *testing.T) {
 				},
 			},
 			want: map[CourseId]*CourseRecord{
-				CourseId(0): {
+				CourseId("0"): {
 					Course: Course{
 						Id: "0",
 					},
 					Grade:          50,
 					CompletionDate: &currTime,
 				},
-				CourseId(1): {
+				CourseId("1"): {
 					Course: Course{
 						Id: "1",
 					},
 				},
-				CourseId(2): {
+				CourseId("2"): {
 					Course: Course{
 						Id: "2",
 					},
@@ -106,17 +106,17 @@ func TestCourseRecords_ToCourseIdMap(t *testing.T) {
 				},
 			},
 			want: map[CourseId]*CourseRecord{
-				CourseId(0): {
+				CourseId("0"): {
 					Course: Course{
 						Id: "0",
 					},
 				},
-				CourseId(1): {
+				CourseId("1"): {
 					Course: Course{
 						Id: "1",
 					},
 				},
-				CourseId(2): {
+				CourseId("2"): {
 					Course: Course{
 						Id: "2",
 					},
