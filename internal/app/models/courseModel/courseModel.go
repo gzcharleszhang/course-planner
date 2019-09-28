@@ -2,9 +2,9 @@ package courseModel
 
 import (
 	"context"
+	"fmt"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
-	"github.com/pkg/errors"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )
@@ -41,7 +41,7 @@ func CreateCourse(
 		return err
 	}
 	if exists {
-		return errors.New("Course already exists")
+		return db.DocumentExistsError{Message: fmt.Sprintf("course_id: %v", id)}
 	}
 	cm := CourseModel{
 		Id:          id,

@@ -3,12 +3,15 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"fmt"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
+	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/gzcharleszhang/course-planner/internal/app/models/courseModel"
 	"github.com/gzcharleszhang/course-planner/internal/app/scripts"
 	"io/ioutil"
 	"log"
 	"strconv"
+	"strings"
 )
 
 func main() {
@@ -16,10 +19,11 @@ func main() {
 	if err != nil {
 		log.Fatalf("Error starting script: %v", err)
 	}
+	subjectsToLoad := []string{"CS", "MATH", "AFM", "STAT", "CO", "ECON", "SPCOM", "ENGL"}
 	// loading cs for now
-	err = loadCSCourses(ctx)
+	err = loadCoursesBySubjects(ctx, subjectsToLoad)
 	if err != nil {
-		log.Fatalf("Error loading CS courses: %v", err)
+		log.Fatalf("Error loading courses: %v", err)
 	}
 }
 
@@ -37,6 +41,7 @@ func strToCourseCatalog(s string) (*courses.CourseCatalog, error) {
 		_, err := strconv.Atoi(string(c))
 		if err != nil {
 			firstNonInt = i
+			break
 		}
 	}
 
@@ -53,9 +58,20 @@ func strToCourseCatalog(s string) (*courses.CourseCatalog, error) {
 	return nil, nil
 }
 
-func loadCSCourses(ctx context.Context) error {
-	log.Print("Loading CS courses...")
-	rawData, _ := ioutil.ReadFile("data/courses/CS.json")
+func loadCoursesBySubjects(ctx context.Context, subjects []string) error {
+	for _, subject := range subjects {
+		err := loadCoursesBySubject(ctx, subject)
+		if err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func loadCoursesBySubject(ctx context.Context, subject string) error {
+	upperSubject := strings.ToUpper(subject)
+	log.Printf("Loading %v courses...", upperSubject)
+	rawData, _ := ioutil.ReadFile(fmt.Sprintf("data/courses/%v.json", upperSubject))
 	type courseRaw struct {
 		Id          string `json:"course_id"`
 		Title       string `json:"title"`
@@ -69,6 +85,7 @@ func loadCSCourses(ctx context.Context) error {
 	}
 	err := json.Unmarshal(rawData, &data)
 	count := 0
+	dupCount := 0
 	for _, cr := range data.Courses {
 		catalog, err := strToCourseCatalog(cr.CatalogStr)
 		if err != nil {
@@ -82,14 +99,23 @@ func loadCSCourses(ctx context.Context) error {
 			*catalog,
 			cr.Description,
 		)
-		count += 1
-		if count%100 == 0 {
-			log.Printf("Created %v courses", count)
+		if err != nil {
+			switch _ := err.(type) {
+			case db.DocumentExistsError:
+				dupCount += 1
+			default:
+				return err
+			}
+		} else {
+			count += 1
+		}
+		if count%25 == 0 && count != 0 {
+			log.Printf("Created %v courses, skipped %v duplicates", count, dupCount)
 		}
 	}
 	if err != nil {
 		return err
 	}
-	log.Printf("Created %v courses in total", count)
+	log.Printf("Created %v %v courses in total", count, upperSubject)
 	return nil
 }

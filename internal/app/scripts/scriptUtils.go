@@ -4,7 +4,6 @@ import (
 	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/gzcharleszhang/course-planner/internal/app/env"
-	"os"
 	"time"
 )
 
@@ -15,7 +14,7 @@ func InitScript() (context.Context, error) {
 	if err != nil {
 		return ctx, err
 	}
-	return ctx, db.PrimarySession.Client.Database(os.Getenv(env.MongoDBNameEnvKey)).Drop(ctx)
+	return ctx, nil
 }
 
 func CleanUpScript() {
