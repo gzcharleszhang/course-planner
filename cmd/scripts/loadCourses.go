@@ -100,7 +100,7 @@ func loadCoursesBySubject(ctx context.Context, subject string) error {
 			cr.Description,
 		)
 		if err != nil {
-			switch _ := err.(type) {
+			switch err.(type) {
 			case db.DocumentExistsError:
 				dupCount += 1
 			default:
