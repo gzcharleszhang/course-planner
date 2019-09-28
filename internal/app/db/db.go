@@ -2,12 +2,21 @@ package db
 
 import (
 	"context"
+	"fmt"
 	"github.com/gzcharleszhang/course-planner/internal/app/env"
 	"github.com/pkg/errors"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"os"
 )
+
+type DocumentExistsError struct {
+	Message string
+}
+
+func (e DocumentExistsError) Error() string {
+	return fmt.Sprintf("Document already exists: %v", e.Message)
+}
 
 var PrimarySession Session
 

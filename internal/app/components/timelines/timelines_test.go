@@ -21,7 +21,7 @@ func TestTimeline_Aggregate(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 0,
+							Id: "0",
 						},
 						Grade:          50,
 						CompletionDate: &currTime,
@@ -32,14 +32,14 @@ func TestTimeline_Aggregate(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
 					},
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 2,
+							Id: "2",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
@@ -50,7 +50,7 @@ func TestTimeline_Aggregate(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 3,
+							Id: "3",
 						},
 					},
 				},
@@ -60,28 +60,28 @@ func TestTimeline_Aggregate(t *testing.T) {
 	expectedRecords := courses.CourseRecords{
 		&courses.CourseRecord{
 			Course: courses.Course{
-				Id: 0,
+				Id: "0",
 			},
 			Grade:          50,
 			CompletionDate: &currTime,
 		},
 		&courses.CourseRecord{
 			Course: courses.Course{
-				Id: 1,
+				Id: "1",
 			},
 			Grade:          60,
 			CompletionDate: &currTime,
 		},
 		&courses.CourseRecord{
 			Course: courses.Course{
-				Id: 2,
+				Id: "2",
 			},
 			Grade:          60,
 			CompletionDate: &currTime,
 		},
 		&courses.CourseRecord{
 			Course: courses.Course{
-				Id: 3,
+				Id: "3",
 			},
 		},
 	}
@@ -98,11 +98,11 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				Requirements: courses.CourseRequirementRules{
 					courses.CourseRequirement{
 						MinGrade: 50,
-						CourseId: 0,
+						CourseId: "0",
 					},
 					courses.CourseRequirement{
 						MinGrade: 60,
-						CourseId: 1,
+						CourseId: "1",
 					},
 				},
 			},
@@ -117,11 +117,11 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				Requirements: courses.CourseRequirementRules{
 					courses.CourseRequirement{
 						MinGrade: 50,
-						CourseId: 0,
+						CourseId: "0",
 					},
 					courses.CourseRequirement{
 						MinGrade: 60,
-						CourseId: 2,
+						CourseId: "2",
 					},
 				},
 			},
@@ -135,11 +135,11 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				Requirements: courses.CourseRequirementRules{
 					courses.CourseRequirement{
 						MinGrade: 50,
-						CourseId: 3,
+						CourseId: "3",
 					},
 					courses.CourseRequirement{
 						MinGrade: 50,
-						CourseId: 4,
+						CourseId: "4",
 					},
 				},
 			},
@@ -161,7 +161,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 0,
+							Id: "0",
 						},
 						Grade:          50,
 						CompletionDate: &currTime,
@@ -172,14 +172,14 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
 					},
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 3,
+							Id: "3",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
@@ -198,7 +198,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 0,
+							Id: "0",
 						},
 						Grade:          50,
 						CompletionDate: &currTime,
@@ -209,14 +209,14 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
 					},
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 2,
+							Id: "2",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
@@ -235,7 +235,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 0,
+							Id: "0",
 						},
 						Grade:          50,
 						CompletionDate: &currTime,
@@ -246,7 +246,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 3,
+							Id: "3",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
@@ -267,7 +267,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 0,
+							Id: "0",
 						},
 						Grade:          50,
 						CompletionDate: &currTime,
@@ -278,14 +278,14 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 3,
+							Id: "3",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
 					},
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade:          59,
 						CompletionDate: &currTime,
@@ -306,7 +306,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 0,
+							Id: "0",
 						},
 						Grade:          50,
 						CompletionDate: &currTime,
@@ -317,14 +317,14 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 3,
+							Id: "3",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
 					},
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade:          59,
 						CompletionDate: &currTime,
@@ -335,7 +335,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 				CourseRecords: courses.CourseRecords{
 					&courses.CourseRecord{
 						Course: courses.Course{
-							Id: 1,
+							Id: "1",
 						},
 						Grade:          60,
 						CompletionDate: &currTime,
@@ -352,10 +352,10 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 func TestTimeline_InvalidCourses(t *testing.T) {
 	course2 := courses.CourseRecord{
 		Course: courses.Course{
-			Id: 1,
+			Id: "1",
 			Prereqs: courses.CourseRequirementRules{
 				courses.CourseRequirement{
-					CourseId: 0,
+					CourseId: "0",
 					MinGrade: 60,
 				},
 			},
@@ -363,10 +363,10 @@ func TestTimeline_InvalidCourses(t *testing.T) {
 	}
 	course3 := courses.CourseRecord{
 		Course: courses.Course{
-			Id: 2,
+			Id: "2",
 			Prereqs: courses.CourseRequirementRules{
 				courses.CourseRequirement{
-					CourseId: 1,
+					CourseId: "1",
 					MinGrade: 60,
 				},
 			},
@@ -392,7 +392,7 @@ func TestTimeline_InvalidCourses(t *testing.T) {
 						CourseRecords: courses.CourseRecords{
 							&courses.CourseRecord{
 								Course: courses.Course{
-									Id: 0,
+									Id: "0",
 								},
 							},
 						},
@@ -419,7 +419,7 @@ func TestTimeline_InvalidCourses(t *testing.T) {
 						CourseRecords: courses.CourseRecords{
 							&courses.CourseRecord{
 								Course: courses.Course{
-									Id: 0,
+									Id: "0",
 								},
 								Grade:          59,
 								CompletionDate: &currTime,
@@ -474,7 +474,7 @@ func TestNewTimeline(t *testing.T) {
 			CourseRecords: courses.CourseRecords{
 				&courses.CourseRecord{
 					Course: courses.Course{
-						Id: 0,
+						Id: "0",
 					},
 					Id:             courses.CourseRecordId("asdfghjkl"),
 					Grade:          85,
@@ -492,7 +492,7 @@ func TestNewTimeline(t *testing.T) {
 			CourseRecords: courses.CourseRecords{
 				&courses.CourseRecord{
 					Course: courses.Course{
-						Id: 1,
+						Id: "1",
 					},
 					Id:             courses.CourseRecordId("asdfghjkl"),
 					Grade:          70,
@@ -500,7 +500,7 @@ func TestNewTimeline(t *testing.T) {
 				},
 				&courses.CourseRecord{
 					Course: courses.Course{
-						Id: 2,
+						Id: "2",
 					},
 					Id:             courses.CourseRecordId("asdfghjkl"),
 					Grade:          50,
@@ -518,7 +518,7 @@ func TestNewTimeline(t *testing.T) {
 			CourseRecords: courses.CourseRecords{
 				&courses.CourseRecord{
 					Course: courses.Course{
-						Id: 3,
+						Id: "3",
 					},
 					Id:             courses.CourseRecordId("asdfghjkl"),
 					Grade:          50,
@@ -541,7 +541,7 @@ func TestNewTimeline(t *testing.T) {
 	assert.Equal(t, originTimeline.TermRecords[1].Term, newTimeline.TermRecords[1].Term)
 
 	originTimeline.TermRecords[1].Term.Season = terms.TermSeason(5)
-	originTimeline.TermRecords[1].CourseRecords[1].Course.Id = 10
+	originTimeline.TermRecords[1].CourseRecords[1].Course.Id = "10"
 	originTimeline.TermRecords[1].CourseRecords[1].Grade = 100
 	originTimeline.TermRecords[1].Term.Name = "3A"
 	originTimeline.TermRecords[1].Term.Year = 3019

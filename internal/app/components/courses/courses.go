@@ -1,9 +1,14 @@
 package courses
 
-type CourseId int
+type CourseId string
 type CourseName string
 type CourseSubject string
-type CourseCatalog int
+type CourseCatalog struct {
+	Number CatalogNumber
+	Suffix CatalogSuffix
+}
+type CatalogNumber int
+type CatalogSuffix string
 
 type Course struct {
 	Id                CourseId               `json:"id"`

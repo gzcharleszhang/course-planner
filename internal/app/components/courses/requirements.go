@@ -16,8 +16,8 @@ type CourseRequirement struct {
 // CourseRequirementRange is a concrete impl for one course within a range (e.g. CS 340-CS 398)
 type CourseRequirementRange struct {
 	Subject    CourseSubject `json:"subject"`
-	CatalogMin CourseCatalog `json:"catalog_min"`
-	CatalogMax CourseCatalog `json:"catalog_max"`
+	CatalogMin CatalogNumber `json:"catalog_min"`
+	CatalogMax CatalogNumber `json:"catalog_max"`
 	MinGrade   CourseGrade   `json:"min_grade"`
 }
 
@@ -41,7 +41,7 @@ func (req CourseRequirement) IsSatisfied(courseRecords *CourseRecords) bool {
 
 func (rang CourseRequirementRange) IsSatisfied(courseRecords *CourseRecords) bool {
 	for _, cr := range *courseRecords {
-		if cr.Subject == rang.Subject && cr.Catalog >= rang.CatalogMin && cr.Catalog <= rang.CatalogMax &&
+		if cr.Subject == rang.Subject && cr.Catalog.Number >= rang.CatalogMin && cr.Catalog.Number <= rang.CatalogMax &&
 			checkGradeRequirement(cr, rang.MinGrade) {
 			return true
 		}
