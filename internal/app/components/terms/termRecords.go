@@ -1,7 +1,6 @@
 package terms
 
 import (
-	"context"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/courses"
 	"github.com/rs/xid"
 )
@@ -54,14 +53,4 @@ func (tr TermRecord) InvalidCourses(pastRecords courses.CourseRecords) courses.C
 		}
 	}
 	return invalidRecords
-}
-
-// TODO: implement
-func GetTermRecordById(ctx context.Context, id TermRecordId) (*TermRecord, error) {
-	return nil, nil
-}
-
-// TODO: implement
-func GetTermRecordsByIds(ctx context.Context, recordIds []TermRecordId) ([]*TermRecord, error) {
-	return nil, nil
 }

@@ -146,7 +146,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 		},
 	}
 
-	csPlan, econMinorPlan, mathPlan := plans.Plan(csDegree), plans.Plan(econMinor), plans.Plan(mathDegree)
+	csPlan, econMinorPlan, mathPlan := &plans.Plan(csDegree), &plans.Plan(econMinor), &plans.Plan(mathDegree)
 	var csEconPlan plans.Plans
 	csEconPlan = append(csEconPlan, csPlan)
 	csEconPlan = append(csEconPlan, econMinorPlan)

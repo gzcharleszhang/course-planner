@@ -9,6 +9,7 @@ import (
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
 	"github.com/gzcharleszhang/course-planner/internal/app/env"
 	"github.com/gzcharleszhang/course-planner/internal/app/middlewares"
+	"github.com/gzcharleszhang/course-planner/internal/app/routes"
 	"github.com/gzcharleszhang/course-planner/internal/app/routes/userRoutes"
 	"log"
 	"net/http"
@@ -54,7 +55,7 @@ func SetupRouter() *chi.Mux {
 	r.Use(jwtauth.Verifier(auth.TokenAuth))
 	// give request default permissions
 	r.Use(middlewares.PermissionMiddleware)
-	userRoutes.InitUserRoutes(r)
+	routes.InitRoutes(r)
 	return r
 }
 
