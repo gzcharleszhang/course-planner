@@ -41,13 +41,17 @@ func (tlm TimelineModel) ToTimeline(ctx context.Context) (*timelines.Timeline, e
 
 func GetTimelinesByUserId(ctx context.Context, userId users.UserId) (timelines.Timelines, error) {
 	sess := db.PrimarySession
-	var tlms []TimelineModel
-	err := sess.Timelines().FindOne(ctx, bson.M{"user_id": userId}).Decode(&tlms)
+	iter, err := sess.Timelines().Find(ctx, bson.M{"user_id": userId})
 	if err != nil {
 		return nil, err
 	}
 	var tls timelines.Timelines
-	for _, tlm := range tlms {
+	for iter.Next(ctx) {
+		var tlm TimelineModel
+		err := iter.Decode(tlm)
+		if err != nil {
+			return nil, err
+		}
 		tl, err := tlm.ToTimeline(ctx)
 		if err != nil {
 			return nil, err

@@ -109,6 +109,7 @@ func GetUserByEmail(ctx context.Context, email users.Email) (*users.User, error)
 	}
 	user, err := result.ToUser(ctx)
 	if err != nil {
+		println(err.Error())
 		return nil, err
 	}
 	return user, nil

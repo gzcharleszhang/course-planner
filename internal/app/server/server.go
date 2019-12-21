@@ -10,7 +10,6 @@ import (
 	"github.com/gzcharleszhang/course-planner/internal/app/env"
 	"github.com/gzcharleszhang/course-planner/internal/app/middlewares"
 	"github.com/gzcharleszhang/course-planner/internal/app/routes"
-	"github.com/gzcharleszhang/course-planner/internal/app/routes/userRoutes"
 	"log"
 	"net/http"
 	"os"
