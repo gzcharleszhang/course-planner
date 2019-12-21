@@ -53,7 +53,7 @@ func InitWithUser() (context.Context, *users.User, error) {
 	if err != nil {
 		return ctx, nil, err
 	}
-	return ctx, &getRes.User, nil
+	return ctx, &(getRes.User), nil
 }
 
 func NewRequest(ctx context.Context, method, url string, requestBody []byte, handler http.HandlerFunc) (*httptest.ResponseRecorder, error) {

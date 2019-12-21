@@ -1,9 +1,10 @@
-package getTimelinesHandler
+package newTimelineHandler
 
 import (
+	"encoding/json"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/utils"
-	"github.com/gzcharleszhang/course-planner/internal/app/services/getTimelinesService"
+	"github.com/gzcharleszhang/course-planner/internal/app/services/newTimelineService"
 	"net/http"
 )
 
@@ -16,8 +17,15 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), 500)
 		return
 	}
-	req := getTimelinesService.Request{UserId: userId}
-	res, err := getTimelinesService.Execute(ctx, req)
+	var req newTimelineService.Request
+	decoder := json.NewDecoder(r.Body)
+	err = decoder.Decode(&req)
+	if err != nil {
+		http.Error(w, err.Error(), 500)
+		return
+	}
+	req.UserId = userId
+	res, err := newTimelineService.Execute(ctx, req)
 	if err != nil {
 		http.Error(w, err.Error(), 500)
 		return

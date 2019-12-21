@@ -48,7 +48,7 @@ func GetTimelinesByUserId(ctx context.Context, userId users.UserId) (timelines.T
 	var tls timelines.Timelines
 	for iter.Next(ctx) {
 		var tlm TimelineModel
-		err := iter.Decode(tlm)
+		err := iter.Decode(&tlm)
 		if err != nil {
 			return nil, err
 		}
@@ -72,7 +72,7 @@ func GetTimelineById(ctx context.Context, timelineId timelines.TimelineId) (*tim
 	return tl, err
 }
 
-func CreateTimeline(ctx context.Context, name timelines.TimelineName, userId users.UserId) (*timelines.Timeline, error) {
+func NewTimeline(ctx context.Context, name timelines.TimelineName, userId users.UserId) (*timelines.Timeline, error) {
 	tl := timelines.NewTimeline(name, nil)
 	tlm := TimelineModel{
 		Id:            tl.Id,
