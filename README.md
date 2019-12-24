@@ -1,5 +1,7 @@
 # UW Timeline
 
+[![CircleCI](https://circleci.com/gh/gzcharleszhang/course-planner.svg?style=svg)](https://circleci.com/gh/gzcharleszhang/course-planner)
+
 ## What's Course Planner?
 Course Planner was the initial project name before we chose
 a better name.
