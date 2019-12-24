@@ -148,11 +148,11 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 
 	csPlan, econMinorPlan, mathPlan := plans.Plan(csDegree), plans.Plan(econMinor), plans.Plan(mathDegree)
 	var csEconPlan plans.Plans
-	csEconPlan = append(csEconPlan, csPlan)
-	csEconPlan = append(csEconPlan, econMinorPlan)
+	csEconPlan = append(csEconPlan, &csPlan)
+	csEconPlan = append(csEconPlan, &econMinorPlan)
 	var csMathPlan plans.Plans
-	csMathPlan = append(csMathPlan, csPlan)
-	csMathPlan = append(csMathPlan, mathPlan)
+	csMathPlan = append(csMathPlan, &csPlan)
+	csMathPlan = append(csMathPlan, &mathPlan)
 
 	// satisfied
 	timeline := Timeline{
@@ -258,7 +258,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 	}
 	inCompletePlans := timeline.IncompletePlans()
 	assert.Equal(t, 1, len(inCompletePlans))
-	assert.Equal(t, string(csDegree.Name), inCompletePlans[0].GetName())
+	assert.Equal(t, string(csDegree.Name), (*inCompletePlans[0]).GetName())
 
 	// grade requirement not met
 	timeline = Timeline{
@@ -297,7 +297,7 @@ func TestTimeline_IncompletePlans(t *testing.T) {
 	}
 	inCompletePlans = timeline.IncompletePlans()
 	assert.Equal(t, 1, len(inCompletePlans))
-	assert.Equal(t, string(csDegree.Name), inCompletePlans[0].GetName())
+	assert.Equal(t, string(csDegree.Name), (*inCompletePlans[0]).GetName())
 
 	// grade requirement met after repeating course
 	timeline = Timeline{

@@ -68,7 +68,8 @@ func TestHandler(t *testing.T) {
 		t.Error(err)
 	}
 	if status := rr.Code; status != http.StatusInternalServerError {
-		t.Errorf("handler returned wrong status code: got %v want %v",
-			status, http.StatusInternalServerError)
+		errorRes := testUtils.GetErrorResponse(rr)
+		t.Errorf("handler returned wrong status code: got %v want %v\nerror: %v",
+			status, http.StatusInternalServerError, errorRes)
 	}
 }

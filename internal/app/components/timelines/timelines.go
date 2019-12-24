@@ -17,6 +17,8 @@ type Timeline struct {
 	Plans       plans.Plans
 }
 
+type Timelines []*Timeline
+
 func newTimelineId() TimelineId {
 	return TimelineId(xid.New().String())
 }
@@ -51,7 +53,7 @@ func (t Timeline) IncompletePlans() plans.Plans {
 	records := t.Aggregate()
 	var incompletePlans plans.Plans
 	for _, plan := range t.Plans {
-		if !plan.IsCompleted(records) {
+		if !(*plan).IsCompleted(records) {
 			incompletePlans = append(incompletePlans, plan)
 		}
 	}

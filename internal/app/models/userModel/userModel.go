@@ -8,6 +8,7 @@ import (
 	"github.com/gzcharleszhang/course-planner/internal/app/components/timelines"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/users"
 	"github.com/gzcharleszhang/course-planner/internal/app/db"
+	"github.com/gzcharleszhang/course-planner/internal/app/models/termRecordModel"
 	"github.com/gzcharleszhang/course-planner/internal/app/models/timelineModel"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
@@ -78,7 +79,7 @@ func GetUserById(ctx context.Context, userId users.UserId) (*users.User, error) 
 }
 
 func (u UserModel) ToUser(ctx context.Context) (*users.User, error) {
-	history, err := terms.GetTermRecordsByIds(ctx, u.CourseHistory)
+	history, err := termRecordModel.GetTermRecordsByIds(ctx, u.CourseHistory)
 	if err != nil {
 		return nil, err
 	}
@@ -108,6 +109,7 @@ func GetUserByEmail(ctx context.Context, email users.Email) (*users.User, error)
 	}
 	user, err := result.ToUser(ctx)
 	if err != nil {
+		println(err.Error())
 		return nil, err
 	}
 	return user, nil

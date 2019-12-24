@@ -4,7 +4,6 @@ package getUserHandler
 
 import (
 	"context"
-	"encoding/json"
 	"github.com/go-chi/chi"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/contextKeys"
 	"github.com/gzcharleszhang/course-planner/internal/app/components/roles"
@@ -43,12 +42,11 @@ func TestHandler(t *testing.T) {
 		t.Error(err)
 	}
 	if status := rr.Code; status != http.StatusOK {
-		t.Errorf("handler returned wrong status code: got %v want %v",
-			status, http.StatusOK)
+		errorRes := testUtils.GetErrorResponse(rr)
+		t.Errorf("handler returned wrong status code: got %v want %v\nerror: %v",
+			status, http.StatusOK, errorRes)
 	}
-	var getRes utils.M
-	decoder := json.NewDecoder(rr.Body)
-	err = decoder.Decode(&getRes)
+	getRes, err := testUtils.GetResponse(rr)
 	if err != nil {
 		t.Error(err)
 	}

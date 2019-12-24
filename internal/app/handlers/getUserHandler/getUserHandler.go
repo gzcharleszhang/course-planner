@@ -9,7 +9,7 @@ import (
 	"net/http"
 )
 
-const RouteURL string = "/user/{user_id}"
+const RouteURL string = "/{user_id}"
 
 func Handler(w http.ResponseWriter, r *http.Request) {
 	ctx := r.Context()
